@@ -78,9 +78,9 @@
     <Content Include="TextFile1.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CansaiUtils\ѤansaiUtils.csproj">
+    <ProjectReference Include="..\CansaiUtils\KansaiUtils.csproj">
       <Project>{121f81f8-b7e5-4b1a-ac94-88f77ddb353a}</Project>
-      <Name>ѤansaiUtils</Name>
+      <Name>KansaiUtils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
