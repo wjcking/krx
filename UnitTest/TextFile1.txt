@@ -1,0 +1,32 @@
+﻿[TestMethod]
+        public void WriteCategory()
+        {
+            var cate = PoweredSource.Category.GetList();
+            var o = ParentInfo.GetNodeJson(typeof(RoleCategory).Name);
+            WriteLine(o);
+            jsonCategory = o;
+         }
+        [TestMethod]
+        public void WriteRoleList()
+        {
+            var group = PoweredSource.Role.GetList();
+            var o = ParentInfo.GetNodeJson(typeof(RoleInfo).Name);
+            WriteLine(o);
+            jsonRole = o;
+        }
+        [TestMethod]
+        public void WriteRoleGroup()
+        {
+            var group = PoweredSource.Role.GetGroup();
+            var o = ParentInfo.GetNodeJson(typeof(RoleInfo).Name);
+            WriteLine(o);
+            jsonRoleGroup = o;
+        }
+        [TestMethod]
+        public void WriteIncident()
+        {
+            var cate = PoweredSource.Incident.GetList();
+            var o = ParentInfo.GetNodeJson(typeof(IncidentInfo).Name);
+            WriteLine(o);
+            jsonIncident = o;
+        }

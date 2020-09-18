@@ -1,0 +1,503 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="550" height="550">
+  <rect x="15" y="15" cx=20, cy=20 width="150" height="150" style="fill:red;stroke:black;stroke-width:1; " />
+	   <text x="135" y="50" font-family="Verdana" font-size="35" fill="blue"  >Hello</text>
+</svg>    <svg  version="1.1">
+        <g
+            inkscape:groupmode="layer"
+            id="layer1">
+            <path
+                inkscape:transform-center-x="-1.7784127e-06"
+                d="m 89.522836,81.045519 -34.44555,-4e-6 -34.445551,4e-6 17.222779,-29.83072 17.222772,-29.830724 17.222771,29.830723 z"
+                sodipodi:type="star"
+                style="fill: #ffffff; stroke: #000000; stroke-width: 1.83715; stroke-miterlimit: 4; stroke-dasharray: none"
+                id="path835-9"
+                sodipodi:sides="3"
+                sodipodi:cx="55.077286"
+                sodipodi:cy="61.158371"
+                sodipodi:r1="39.774296"
+                sodipodi:r2="19.887144"
+                sodipodi:arg1="0.52359878"
+                sodipodi:arg2="1.5707963"
+                inkscape:flatsided="false"
+                inkscape:rounded="0"
+                inkscape:randomized="0"
+                inkscape:transform-center-y="-5.9688762"
+                />
+            <circle
+                style="fill: #ffffff; stroke: #000000; stroke-width: 1.1433; stroke-miterlimit: 4; stroke-dasharray: none"
+                id="path837-7"
+                cx="55.077286"
+                cy="23.045652"
+                r="12.769685" />
+            <circle
+                r="12.769685"
+                cy="81.001961"
+                cx="22.500393"
+                id="path837-9-1"
+                style="fill: #ffffff; stroke: #000000; stroke-width: 1.1433; stroke-miterlimit: 4; stroke-dasharray: none" />
+            <circle
+                r="12.769685"
+                cy="81.001961"
+                cx="87.360207"
+                id="path837-3-4"
+                style="fill: #ffffff; stroke: #000000; stroke-width: 1.1433; stroke-miterlimit: 4; stroke-dasharray: none" />
+            <text
+                id="text836"
+                y="26.89295"
+                x="51.459946"
+                style="font-style: normal; font-weight: normal; font-size: 10.5833px; line-height: 1.25; font-family: sans-serif; fill: #000000; fill-opacity: 1; stroke: none; stroke-width: 0.264583"
+                xml:space="preserve">
+                <tspan
+                    style="stroke-width: 0.264583"
+                    y="26.89295"
+                    x="51.459946"
+                    id="tspan834"
+                    sodipodi:role="line">A</tspan>
+            </text>
+            <text
+                xml:space="preserve"
+                style="font-style: normal; font-weight: normal; font-size: 10.5833px; line-height: 1.25; font-family: sans-serif; fill: #000000; fill-opacity: 1; stroke: none; stroke-width: 0.264583"
+                x="83.706696"
+                y="84.849258"
+                id="text836-0">
+                <tspan
+                    sodipodi:role="line"
+                    id="tspan834-2"
+                    x="83.706696"
+                    y="84.849258"
+                    style="stroke-width: 0.264583">Z</tspan>
+            </text>
+            <text
+                xml:space="preserve"
+                style="font-style: normal; font-weight: normal; font-size: 10.5833px; line-height: 1.25; font-family: sans-serif; fill: #000000; fill-opacity: 1; stroke: none; stroke-width: 0.264583"
+                x="17.268171"
+                y="84.849258"
+                id="text836-2">
+                <tspan
+                    sodipodi:role="line"
+                    id="tspan834-3"
+                    x="17.268171"
+                    y="84.849258"
+                    style="stroke-width: 0.264583">W</tspan>
+            </text>
+        </g>
+
+        
+
+    </svg>
+    <select>
+        <option value="0">请选择分类（Category）</option>
+        <option value="0">亚特兰蒂斯</option>
+        <option value="0">共产党    </option>
+        <option value="0">佛教      </option>
+        <option value="0">日本人    </option>
+        <option value="0">仙家      </option>
+        <option value="0">天主教    </option>
+        <option value="0">伊斯兰教  </option>
+        <option value="0">宗教领袖  </option>
+        <option value="0">宗教人物  </option>
+        <option value="0">朋友      </option>
+        <option value="0">家长      </option>
+        <option value="0">邻居      </option>
+        <option value="0">神话人物  </option>
+        <option value="0">同事      </option>
+        <option value="0">同学      </option>
+        <option value="0">法师      </option>
+        <option value="0">偶像      </option>
+        <option value="0">民主人士  </option>
+        <option value="0">历史人物  </option>
+        <option value="0">老师      </option>
+        <option value="0">电影人物  </option>
+        <option value="0">外星人    </option>
+        <option value="0">动物      </option>
+    </select>
+    <select>
+        <option value="0">已选角色（Roles Chosen）</option>
+    </select>
+    <select id="role_priority" multiple="multiple" class="auto-style4">
+        <option value="-1">临时测试(Dummy)</option>
+        <option value="0">队列安排中(Stack Queue)</option>
+        <option value="0">张疹震癌爱</option>
+        <option value="0">王猛</option>
+        <option value="0">零星眼小鬼妮（upstairs)</option>
+        <option value="0">贾晕封</option>
+        <option value="0">气铅</option>
+        <option value="0">下体</option>
+        <option value="0">腰  </option>
+        <option value="0">头  </option>
+        <option value="0">幻象</option>
+        <option value="0">说话</option>
+        <option value="0">咒</option>
+    </select> this.info = {
+        "name": "role",
+        "type": this.type,
+        "info": {
+            "priority_id": -1,
+            "category_info": {
+                "id": 0,
+                "name": ""
+            },
+
+            "incident_info": {
+                "prioity_id": -1,
+                "desc": ""
+            },
+            "desc": "",
+            "parent_id": 1,
+            "parent_name": "",
+            "id": 0,
+            "name": ""
+        }
+    };
+  
+	
+--------------------------------------------	
+	
+	var Fun = (function ()
+        {
+            //把闭包体（外层函数）赋值给变量Fun，返回一个构造函数（内层函数）  
+            var _a = 1;
+            //闭包体的私有变量 
+            this.a = _a;
+            //闭包体内公共属性a  
+            this.get1 = function ()
+            {    //闭包体内公共方法get1()     
+                return _a;
+            };
+            this.set1 = function (x)
+            {
+                //闭包体内公共方法set1（） 
+                _a = x;
+                $("#info_out").append("get1");
+            };
+            return function ()
+            {
+                //返回的构造函数类    
+                this.get2 = function(){
+                    //返回的公共方法get2()，可以访问私有变量      
+                    return _a;
+                };
+                this.set2 = function(x){
+                    //返回的公共方法set2(x)，可以访问私有变量        
+                    _a = x;
+                };
+            }
+        })();
+        //执行闭包体，返回匿名构造函数结构 
+        //定义类的静态公共方法和属性
+        Fun.get3 = function ()
+        {    //静态公共方法 get3(),返回对公共方法get1()的调用  
+              $("#info_out").append("get3");
+            return get1();
+        };
+        Fun.set3 = function ()
+        {    //静态公共方法 set3(),返回对公共方法set1(x)的调用  
+            set1();
+        }
+        //F.a = a;    //静态公共私有属性 a
+        Fun.get3();s
+
+function Handler(jsonInfo) {
+
+    this.jsonInfo = jsonInfo || JSON.stringify(jsonInfo);
+    this.contentType = "application/json; charset=utf-8";
+   
+    this.success = function (data) {
+
+    }
+    this.error = function (xhr, state, errorThrown) {
+
+    }
+    //this.call = function
+    $.ajax({
+        type: type,
+        url: url,
+        data: jsonInfo,
+        contentType: contentType,
+        //  dataType: "json",
+        //beforeSend: function (data) {
+             
+        //},
+        error: function (xhr, state, errorThrown) {
+            //this.error + "status：" + xhr.status 
+            // //1-正在载入，2-已经载入，3-数据进行交互，4-完成。
+            //this.error +=  "readyState:" + xhr.readyState 
+            //this.error += "statusText:" + xhr.statusText;
+            ////这里是详细的信息
+            //this.error += "responseText：" + xhr.responseText ;
+            //this.error += "textStatus：" + textStatus ;
+            //this.error += errorThrown;
+            this.error(xhr, state, errorThrown);
+        },
+        success: function (data) {
+            this.success(data);
+        }
+    });
+}
+  var jsonInfo = {
+        "name": "role_category",
+        "type": "list",
+        "info": {
+            "priority_id": -1,
+            "category_info": {
+                "id": 0,
+                "name": ""
+            },
+
+            "incident_info": {
+                "prioity_id": -1,
+                "desc": ""
+            },
+            "desc": "",
+            "parent_id": 1,
+            "parent_name": "",
+            "id": 0,
+            "name": ""
+        }
+    };
+Handler.get = function (jsonInfo) {
+    this.url = RequestUrl + Method_Get + ".ashx";
+    this.type = Method_Post;
+    this.jsonInfo = jsonInfo;
+}
+
+Handler.set = function (jsonInfo) {
+    this.url = RequestUrl + Method_Set + ".ashx";
+    this.type = Method_Set;
+    this.jsonInfo = jsonInfo;
+}
+
+         // Handler.get(jsonInfo);
+        alert(jsonInfo.name)
+
+
+	------------------------------------------
+//   function User(){
+//    this.myname = 'fire子海';//公有属性
+//    this.age = 26;
+//    this.do = function(){//特权方法
+//        return this.myname+'学习js';
+//    }
+//}
+//User.eat = function(food){
+//  return '晚餐只有'+food;
+//}
+//User.prototype.alertAge = function(){
+//   alert(this.age);
+//}
+//User.prototype.alertDo = function(){
+//   alert(this.do());//调用特权方法
+//}
+//User.prototype.alertEat = function(food){
+//   alert(User.eat(food));//只能通过对象本身调用静态方法
+//   //alert(this.ear(food))这样调用将出错:this.eat is not a function
+//}
+//var user = new User();
+//user.alertAge();//alert:26
+//user.alertDo();//alert:fire子海学习js
+//user.alertEat('方便面')//alert:晚餐只有方便面       //Business.Role.AddRoleInfo(json);
+        //  var json = JsonConvert.SerializeObject(handler,Formatting.Indented);
+        //Handler jsonHandle = JsonConvert.DeserializeObject<Handler>(json);
+        //int result = -100;
+        //if (jsonHandle.Name.ToLower() == "role")
+        //    result = PoweredSource.Role.AddRoleInfo((RoleInfo)jsonHandle.Info);
+        //else if (jsonHandle.Name.ToLower() == "incident")
+        //    result = PoweredSource.Incidents.AddIncidentInfo((RoleInfo)jsonHandle.Info);
+		
+		<div class="navbar navbar-inverse navbar-fixed-top"  >
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button"
+                        data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand">附体事件拓展图（L2）</a>
+                    <span id="eventSpan" style="font-size: 14px;"></span>
+                </div>
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">THE FIVE</a></li>
+                        <li>
+                            <a href="#">THE TWO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+			//network.on("doubleClick", function (params) {
+	//	params.event = "[original event]";
+ //       document.getElementById('eventSpan').innerHTML = '<h2>doubleClick event:</h2>' + JSON.stringify(params, null, 4);
+ //          console.log('click event, getNodeAt returns: '  );
+	//});
+	//network.on("oncontext", function (params) {
+	//	params.event = "[original event]";
+	//	document.getElementById('eventSpan').innerHTML = '<h2>oncontext (right click) event:</h2>' + JSON.stringify(params, null, 4);
+	//});
+	//network.on("dragStart", function (params) {
+	//	// There's no point in displaying this event on screen, it gets immediately overwritten
+	//	params.event = "[original event]";
+	//	console.log('dragStart Event:', params);
+	//	console.log('dragStart event, getNodeAt returns: ' + this.getNodeAt(params.pointer.DOM));
+	//});
+	//network.on("dragging", function (params) {
+	//	params.event = "[original event]";
+	//	document.getElementById('eventSpan').innerHTML = '<h2>dragging event:</h2>' + JSON.stringify(params, null, 4);
+	//});
+	//network.on("dragEnd", function (params) {
+	//	params.event = "[original event]";
+	//	document.getElementById('eventSpan').innerHTML = '<h2>dragEnd event:</h2>' + JSON.stringify(params, null, 4);
+	//	console.log('dragEnd Event:', params);
+	//	console.log('dragEnd event, getNodeAt returns: ' + this.getNodeAt(params.pointer.DOM));
+	//});
+	//network.on("zoom", function (params) {
+	//	document.getElementById('eventSpan').innerHTML = '<h2>zoom event:</h2>' + JSON.stringify(params, null, 4);
+	//});
+	//network.on("showPopup", function (params) {
+	//	document.getElementById('eventSpan').innerHTML = 'ShowPopup event:' + JSON.stringify(params, null, 4);
+	//});
+	//network.on("hidePopup", function () {
+	//	console.log('hidePopup Event');
+	//});
+	//network.on("select", function (params) {
+	//	console.log('select Event:', params);
+	//});
+	//network.on("selectNode", function (params) {
+	//	console.log('selectNode Event:', params);
+	//});
+	//network.on("selectEdge", function (params) {
+	//	console.log('selectEdge Event:', params);
+	//});
+	//network.on("deselectNode", function (params) {
+	//	console.log('deselectNode Event:', params);
+	//});
+	//network.on("deselectEdge", function (params) {
+	//	console.log('deselectEdge Event:', params);
+	//});
+	//network.on("hoverNode", function (params) {
+	//	console.log('hoverNode Event:', params);
+	//});
+	//network.on("hoverEdge", function (params) {
+	//	console.log('hoverEdge Event:', params);
+	//});
+	//network.on("blurNode", function (params) {
+	//	console.log('blurNode Event:', params);
+	//});
+	//network.on("blurEdge", function (params) {
+	//	console.log('blurEdge Event:', params);
+	//});
+
+  Handlers = {
+            call: function () {
+                    $.ajax({
+                         type: Handler.type,
+                         url: Handler.url,
+                         data: jsonInfo,
+                         contentType: this.contentType,
+                         //  dataType: "json",
+                         //beforeSend: function (data) {
+
+                         //},
+                         error: function (xhr, state, errorThrown) {
+                             //this.error + "status：" + xhr.status 
+                             // //1-正在载入，2-已经载入，3-数据进行交互，4-完成。
+                             //this.error +=  "readyState:" + xhr.readyState 
+                             //this.error += "statusText:" + xhr.statusText;
+                             ////这里是详细的信息
+                             //this.error += "responseText：" + xhr.responseText ;
+                             //this.error += "textStatus：" + textStatus ;
+                             //this.error += errorThrown;
+                             this.error(xhr, state, errorThrown);
+                         },
+                         success: function (data) {
+                           //  this.success(data);
+                         }
+                      });
+            },
+            
+            get: function (json) {
+          //      alert(Handlers.temp);
+　　　　　　    //var cat = {};
+　　　　　　    //cat.name = "大毛";
+　　　　　　    //cat.makeSound = function(){ alert("喵喵喵"); };
+　　　　　　   // return cat;
+                 $("#info_out").append("called");
+            },
+            set: function (json) {
+
+            }
+        };
+	 ///<summary>    
+    /// JObject扩展  
+    /// </summary>  
+    public static class JObjectExtensions
+    {
+        /// <summary>   
+        /// 将JObject转化成字典   
+        /// </summary>    
+        /// <param name="json"></param>    
+
+        /// <returns></returns>  
+        public static IDictionary<string, object> ToDictionary(this JToken json)
+        {
+            var propertyValuePairs = json.ToObject<Dictionary<string, object>>();
+            ProcessJObjectProperties(propertyValuePairs);
+            ProcessJArrayProperties(propertyValuePairs);
+            return propertyValuePairs;
+        }
+        private static void ProcessJObjectProperties(IDictionary<string, object> propertyValuePairs)
+        {
+            var objectPropertyNames = (from property in propertyValuePairs
+                                       let propertyName = property.Key
+                                       let value = property.Value
+                                       where value is JObject
+                                       select propertyName).ToList();
+            objectPropertyNames.ForEach(propertyName => propertyValuePairs[propertyName] = ToDictionary((JObject)propertyValuePairs[propertyName]));
+        }
+        private static void ProcessJArrayProperties(IDictionary<string, object> propertyValuePairs)
+        {
+            var arrayPropertyNames = (from property in propertyValuePairs
+                                      let propertyName = property.Key
+                                      let value = property.Value
+                                      where value is JArray
+                                      select propertyName).ToList();
+            arrayPropertyNames.ForEach(propertyName => propertyValuePairs[propertyName] = ToArray((JArray)propertyValuePairs[propertyName]));
+        }
+        /// <summary>   
+        ///       
+        /// </summary>   
+        /// <param name="array"></param>   
+        /// <returns></returns>      
+        public static object[] ToArray(this JArray array)
+        {
+            return array.ToObject<object[]>().Select(ProcessArrayEntry).ToArray();
+        }
+        private static object ProcessArrayEntry(object value)
+        {
+            if (value is JObject)
+            {
+                return ToDictionary((JObject)value);
+            }
+            if (value is JArray)
+            {
+                return ToArray((JArray)value);
+            }
+            return value;
+        }
+    }
+
+<%@ Application Language="C#" %>
+<%@ Import Namespace="AngelNetwork" %>
+<%@ Import Namespace="System.Web.Optimization" %>
+<%@ Import Namespace="System.Web.Routing" %>
+
+<script runat="server">
+
+    void Application_Start(object sender, EventArgs e)
+    {
+        RouteConfig.RegisterRoutes(RouteTable.Routes);
+        BundleConfig.RegisterBundles(BundleTable.Bundles);
+    }
+
+</script>
