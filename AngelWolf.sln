@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoweredSource", "PoweredSou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{0CC61EF1-B334-431E-9312-697FF6A156D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ѤansaiUtils", "CansaiUtils\ѤansaiUtils.csproj", "{121F81F8-B7E5-4B1A-AC94-88F77DDB353A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KansaiUtils", "CansaiUtils\KansaiUtils.csproj", "{121F81F8-B7E5-4B1A-AC94-88F77DDB353A}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Rastera", "Rastera\", "{ADBD8999-D357-483B-9777-BC0A77E1798C}"
 	ProjectSection(WebsiteProperties) = preProject

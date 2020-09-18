@@ -67,9 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="GenericTest1.GenericTest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,9 +78,9 @@
       <Project>{c9640c0b-0a11-4670-9032-a747027d1272}</Project>
       <Name>Business</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CansaiUtils\ѤansaiUtils.csproj">
+    <ProjectReference Include="..\CansaiUtils\KansaiUtils.csproj">
       <Project>{121f81f8-b7e5-4b1a-ac94-88f77ddb353a}</Project>
-      <Name>ѤansaiUtils</Name>
+      <Name>KansaiUtils</Name>
     </ProjectReference>
     <ProjectReference Include="..\PoweredSource\PoweredSource.csproj">
       <Project>{e3652254-0ee4-4754-832d-532724423e90}</Project>
