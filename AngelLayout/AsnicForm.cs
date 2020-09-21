@@ -10,14 +10,15 @@ namespace AngelLayout
             InitializeComponent();
             Languages.Set("en-US");
             angelView.ObjectForScripting = this;
-            angelView.Navigate(@"F:\VSProjects\AngelWolf\AngelLayout\anti-docx.html"); 
+            angelView.Navigate(@"http://192.168.0.102:1000//asnic/template/anti-docx.html"); 
             angelView.DocumentCompleted += AngelView_DocumentCompleted;
        
         }
 
         private void AngelView_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-            //  System.IO.File.WriteAllText(@"C:\Users\Administrator\Desktop\hotkeys.html", angelView.DocumentText);            
+            //  System.IO.File.WriteAllText(@"C:\Users\Administrator\Desktop\hotkeys.html", angelView.DocumentText);      
+            
             var asnic = new Asnick(angelView.DocumentText);
         }
 

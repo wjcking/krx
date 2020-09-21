@@ -131,7 +131,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="anti-docx.html" />
     <Content Include="symboltics.html" />
     <Content Include="TextFile1.txt" />
   </ItemGroup>
