@@ -10,11 +10,18 @@ namespace UnitTest
     public class htmlAglity
     {
         [TestMethod]
+        public void loadstring()
+        {
+
+            var doc = new HtmlDocument();
+            //doc.LoadHtml()
+        }
+        [TestMethod]
         public void loadfile()
         {
             var doc = new HtmlDocument();
-            doc.Load(@"F:\VSProjects\AngelWolf\AngelLayout\anti-docx.html");
-
+         doc.Load(@"F:\VSProjects\AngelWolf\AngelLayout\anti-docx.html");
+            
             // With XPath 
             var id = "compiled";
             var xpath = "//div[@id='"+id+"']";

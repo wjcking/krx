@@ -36,13 +36,15 @@ namespace UnitTest
         /// </summary>
         public class Ket
         {
+            //Max length:left columns and RIGHT columns
             int Line;
             int End;
             //char[] 1 to N subscript
             int Pine;
-            int aup;
+            int Aup;
+
             int index;
-            ushort asc;
+            ushort Asc;
             char value;
         }
         [TestMethod]
@@ -58,9 +60,8 @@ namespace UnitTest
             //foreach (var line in lines)
             //    WriteLine(line.l);
             var sb = new StringBuilder();
-            sb.Append("<html>");
-            sb.Append("<body style=\"background-color: \">");
-            sb.Append("<table>");
+ 
+            sb.Append("<table style=\"background-color: \"> ");
 
             foreach (var line in lines)
             {
@@ -81,10 +82,10 @@ namespace UnitTest
             }
             sb.Append("</table>");
             File.WriteAllText(@"C:\Users\Administrator\Desktop\kets.html", sb.ToString());
-            // Console.Write(sb.ToString());
+            Console.Write(sb.ToString());
             //for (int i = 0; i < len; i++)
             //    Write("--");
-            sb.Append("</body></html>");
+    
         }
     }
 }
