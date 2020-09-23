@@ -29,29 +29,11 @@ namespace UnitTest
             string saf = (string)mf.Invoke(null, null);
 
             Console.WriteLine(saf);
-        }
-
-        /// <summary>
-        ///now is from the left, mind the reverse from bottom
-        /// </summary>
-        public class Ket
-        {
-            //Max length:left columns and RIGHT columns
-            int Line;
-            int End;
-            //char[] 1 to N subscript
-            int Pine;
-            int Aup;
-
-            int index;
-            ushort Asc;
-            char value;
-        }
-        [TestMethod]
+        }   [TestMethod]
         public void Testkets()
         {
-            var bytes = File.ReadAllBytes(@"F:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
-            var lines = File.ReadAllLines(@"F:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
+            var bytes = File.ReadAllBytes(@"e:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
+            var lines = File.ReadAllLines(@"e:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
             char[] kets;
 
             int index = 0;
@@ -87,5 +69,35 @@ namespace UnitTest
             //    Write("--");
     
         }
+        public class Preditor
+        {
+            int Columns { get; set; }
+            int Length { get; set; }
+
+            public Ket[,] kets;
+            public Preditor()
+            {
+                kets = new Ket[Columns, Length];
+            }
+        }
+        /// <summary>
+        ///now is from the left, mind the reverse from bottom
+        /// </summary>
+        public class Ket
+        {
+            //Max length:left columns and RIGHT columns
+            int Line;
+            int End;
+            //char[] 1 to N subscript
+            int Pine;
+            int Aup;
+
+            int index;
+            ushort Ascii;
+            char value;
+        }
+     
+
+
     }
 }

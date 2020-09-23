@@ -14,8 +14,6 @@ Biological::~Biological()
 //Biological
 Asnical & Biological::Generate(const Dynamic & para)
 {
-	 
-		
 	Physical::Generate(para);
 	cout << "	[Biological]Generating" << endl;
 	return outcome;
