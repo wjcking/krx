@@ -29,11 +29,13 @@ namespace UnitTest
             string saf = (string)mf.Invoke(null, null);
 
             Console.WriteLine(saf);
-        }   [TestMethod]
+        }
+        [TestMethod]
         public void Testkets()
         {
-            var bytes = File.ReadAllBytes(@"e:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
-            var lines = File.ReadAllLines(@"e:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
+            //var bytes = File.ReadAllBytes(@"e:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
+            var lines = File.ReadAllLines(@"f:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
+           var u= lines.GetUpperBound(0);
             char[] kets;
 
             int index = 0;
@@ -42,14 +44,14 @@ namespace UnitTest
             //foreach (var line in lines)
             //    WriteLine(line.l);
             var sb = new StringBuilder();
- 
+
             sb.Append("<table style=\"background-color: \"> ");
 
             foreach (var line in lines)
             {
                 sb.AppendLine("<tr>");
                 bool isLengthed = line.Length > len;
-                    len = line.Length;
+                len = line.Length;
                 ++index;
                 //   Write("[" + index + "]");
                 kets = line.ToCharArray();
@@ -67,8 +69,14 @@ namespace UnitTest
             Console.Write(sb.ToString());
             //for (int i = 0; i < len; i++)
             //    Write("--");
-    
+
         }
+        /// <summary>
+        /// Solid.flat.Odin(paper finger):
+        /// dot feeling click
+        /// Kolor&more
+        /// line like tinywhat
+        /// </summary>
         public class Preditor
         {
             int Columns { get; set; }
@@ -86,17 +94,17 @@ namespace UnitTest
         public class Ket
         {
             //Max length:left columns and RIGHT columns
-            int Line;
-            int End;
+            int Line { get; set; }
+            int End { get; set; }
             //char[] 1 to N subscript
-            int Pine;
-            int Aup;
+            int Pine { get; set; }
+            int Aup { get; set; }
 
-            int index;
-            ushort Ascii;
-            char value;
+            int index { get; set; }
+            ushort Ascii { get; set; }
+            char value { get; set; }
         }
-     
+
 
 
     }
