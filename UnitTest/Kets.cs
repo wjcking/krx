@@ -33,43 +33,49 @@ namespace UnitTest
         [TestMethod]
         public void Testkets()
         {
-            //var bytes = File.ReadAllBytes(@"e:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
-            var lines = File.ReadAllLines(@"f:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
-           var u= lines.GetUpperBound(0);
-            char[] kets;
-
+            var lines = File.ReadAllLines(@"C:\Users\Administrator\Desktop\hotkeys.txt");
+           // var lines = File.ReadAllLines(@"f:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
+            //Each of characters,0b hex 
             int index = 0;
-            //   var len = lines.GetUpperBound(1);
-            var len = 0;
-            //foreach (var line in lines)
-            //    WriteLine(line.l);
-            var sb = new StringBuilder();
-
-            sb.Append("<table style=\"background-color: \"> ");
-
-            foreach (var line in lines)
+            int columns = 0;
+            var length = 0;
+            char[] charArray;
+          
+            Ket[,] kets;
+            for (int i = 0; i < lines.Length; i++)
             {
-                sb.AppendLine("<tr>");
-                bool isLengthed = line.Length > len;
-                len = line.Length;
-                ++index;
-                //   Write("[" + index + "]");
-                kets = line.ToCharArray();
-                foreach (var k in kets)
+                if (lines[i].Length > length)
                 {
-                    //web.dot11 dash.5ㄱ
-                    sb.AppendLine("<td style='border:0.5px solid black'>");
-                    sb.Append(k);
-                    sb.AppendLine("</td>");
+                    length = lines[i].Length;
+                    columns = i;
                 }
-                sb.AppendLine("</tr>");
-            }
-            sb.Append("</table>");
-            File.WriteAllText(@"C:\Users\Administrator\Desktop\kets.html", sb.ToString());
-            Console.Write(sb.ToString());
-            //for (int i = 0; i < len; i++)
-            //    Write("--");
 
+            //    charArray = lines[i].ToCharArray();
+            }
+
+            kets = new Ket[columns, length];
+            //instead of charArray.Length,for the sake of tables
+            var sb = new StringBuilder();
+            for (int i = 0; i < columns; i++)
+            {         
+                 charArray = lines[i].ToCharArray();
+                for (int k = 0; k < length; k++)
+                {
+                    kets[i, k] = new Ket();
+                    kets[i, k].Line = k;
+                    kets[i, k].End = length - k;
+                    kets[i, k].Pine = i;
+                    kets[i, k].Aup = columns - k;
+                    kets[i, k].index = index++;
+                    kets[i, k].Ascii = 0;
+                    //length > charLength
+                    if (k < charArray.Length && !(k > charArray.Length))
+                        kets[i, k].value = charArray[k];
+                    else
+                        kets[i, k].value = Char.MinValue;
+                    sb.Append(kets[i, k].value);
+                }
+            }
         }
         /// <summary>
         /// Solid.flat.Odin(paper finger):
@@ -94,17 +100,16 @@ namespace UnitTest
         public class Ket
         {
             //Max length:left columns and RIGHT columns
-            int Line { get; set; }
-            int End { get; set; }
+            public int Line { get; set; }
+            public int End { get; set; }
             //char[] 1 to N subscript
-            int Pine { get; set; }
-            int Aup { get; set; }
+            public int Pine { get; set; }
+            public int Aup { get; set; }
 
-            int index { get; set; }
-            ushort Ascii { get; set; }
-            char value { get; set; }
+            public int index { get; set; }
+            public ushort Ascii { get; set; }
+            public char value { get; set; }
         }
-
 
 
     }
