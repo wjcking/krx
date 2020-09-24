@@ -12,6 +12,37 @@ namespace UnitTest
     [TestClass]
     public class UnitTest
     {
+        [TestMethod]
+        public void utf()
+        {
+            //string utf8String = "骞垮憡涓戦椈";
+
+            //// Create two different encodings.
+            //Encoding utf8 = Encoding.UTF8;
+            //Encoding defaultCode = Encoding.Default;
+
+            //// Convert the string into a byte[].
+            //byte[] utf8Bytes = default.GetBytes(utf8String);
+
+            //// Perform the conversion from one encoding to the other.
+            //byte[] defaultBytes = Encoding.Convert(utf8, defaultCode, utf8Bytes);
+
+            //// Convert the new byte[] into a char[] and then into a string.
+            //// This is a slightly different approach to converting to illustrate
+            //// the use of GetCharCount/GetChars.
+            //char[] defaultChars = new char[defaultCode.GetCharCount(defaultBytes, 0, defaultBytes.Length)];
+            //defaultCode.GetChars(defaultBytes, 0, defaultBytes.Length, defaultChars, 0);
+            //string defaultString = new string(defaultChars);
+
+            //// Display the strings created before and after the conversion.
+            //Console.WriteLine("Original string: {0}", utf8String);
+            //Console.WriteLine("Ascii converted string: {0}", defaultString);
+
+            ////或者如下：
+            //byte[] buffer1 = Encoding.Default.GetBytes(utf8String);
+            //byte[] buffer2 = Encoding.Convert(Encoding.UTF8, Encoding.Default, buffer1, 0, buffer1.Length);
+            //string strBuffer = Encoding.Default.GetString(buffer2, 0, buffer2.Length);
+        }
 
         [TestMethod]
         public void reflect()
@@ -33,7 +64,7 @@ namespace UnitTest
         [TestMethod]
         public void Testkets()
         {
-            var lines = File.ReadAllLines(@"C:\Users\Administrator\Desktop\hotkeys.txt");
+            var lines = File.ReadAllLines(@"C:\Users\Administrator\Desktop\keynote.txt");
            // var lines = File.ReadAllLines(@"f:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");
             //Each of characters,0b hex 
             int index = 0;
@@ -111,6 +142,7 @@ namespace UnitTest
             public char value { get; set; }
         }
 
+ 
 
     }
 }
