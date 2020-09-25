@@ -6,7 +6,11 @@ namespace Preditor
     [TestClass]
     public class Generic
     {
-
+        [TestMethod]
+        public void pad()
+        {
+         //   "ab".p
+        }
         //[TestMethod]
         //public void writejson()
         //{

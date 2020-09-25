@@ -15,22 +15,29 @@ namespace Preditor
     public class Preditor
     {
         protected static char[] Next = "\r\n".ToCharArray();
-        /*  P P P P P P
+        /*C P P P P P P   C
         * L 0 1 2 3 4 5
         * L 1 a b c d e e t
         * L 2 啊是的方的
         * L 4 % % @ @ ！R E
-        *   A A A A A A 
+        * C A A A A A A   C
+        * 
+        * Absoulute Solid.Metric.Matrix
+        * Dot circle
+        * Triangle Square 
+        * Diamond
         */
         [TestMethod]
         public void printkets()
         {
             var doc = new HtmlDocument();
             // doc.Load(@"F:\VSProjects\AngelWolf\Rastera\asnic\template\anti-docx.html");
-            doc.Load(@"C:\Users\Administrator\Desktop\keynote.txt");
+            doc.Load(@"C:\Users\Administrator\Desktop\keynote.txt",Encoding.GetEncoding("utf-8"));
 
             var xpath = "//head[@id='header']";
             var value = doc.DocumentNode.SelectNodes(xpath).First().InnerHtml;
+            if (null == value)
+                return;
             var lines = value.Split(Next, StringSplitOptions.RemoveEmptyEntries);
             int index = 0;
             char[] charLine;
@@ -50,20 +57,29 @@ namespace Preditor
                     kets[i].Ket.index = index++;
                     kets[i].Ket.value = charLine[k];
                     //index
-                    sb.Append(kets[i].ToString()).Append(kets[i].Ket.ToString());
-                    sb.Append("id:" + kets[i].Ket.value);
-                    //  sb.Append(" ");
+                    //sb.Append(kets[i].ToString()).Append(kets[i].Ket.ToString());
+                    sb.Append("[");
+                    sb.Append(kets[i].Ket.value.ToString());      sb.Append(":");
+                    sb.Append(kets[i].Ket.Ascii);
+                    sb.Append("]");
+                    sb.Append(" ");
                 }
                 sb.AppendLine();
 
                 Write(sb.ToString());
             }
         }
-        //public class Ket
-        //{
-        //    public int Lines { get; set; }
-        //    public int Columns { get; set; }
-        //}
+        public class Kets
+        {
+            int[] Corner { get; set; }
+            int Index { get; set; }
+        }
+        //columns
+        public class Pine
+        {
+            public int Top { get; set; }
+            public int Bottom { get; set; }
+        }
         /// <summary>
         ///now is from the left, mind the reverse from bottom
         /// </summary>
@@ -72,6 +88,7 @@ namespace Preditor
 
             public int Left { get; set; }
             public int Right { get; set; }
+
             public Ket Ket { get; set; } = new Ket();
             public override string ToString()
             {
@@ -84,16 +101,14 @@ namespace Preditor
         }
         public class Ket
         {
-            //char[] 1 to N subscript
-            //public int Top { get; set; }
-            //public int Bottom { get; set; }
-
+            //唯一index
             public int index { get; set; }
             public char value { get; set; }
+            //宽度 int index
             public int Ascii { get { return (int)value; } }
-            private byte Byte { get { return (byte)value; } }
-            private string Hex { get { return ((byte)Ascii).ToString("x"); } }
-            private string Binary { get { return Convert.ToString(((byte)Ascii), 2); } }
+            public byte Byte { get { return (byte)value; } }
+            public string Hex { get { return ((byte)Ascii).ToString("x"); } }
+            public string Binary { get { return Convert.ToString(((byte)Ascii), 2); } }
 
             public override string ToString()
             {
