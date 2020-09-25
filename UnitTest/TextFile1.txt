@@ -1,4 +1,52 @@
-﻿        [TestMethod]
+﻿ [TestMethod]
+        public void utf()
+        {
+            //string utf8String = "骞垮憡涓戦椈";
+
+            //// Create two different encodings.
+            //Encoding utf8 = Encoding.UTF8;
+            //Encoding defaultCode = Encoding.Default;
+
+            //// Convert the string into a byte[].
+            //byte[] utf8Bytes = default.GetBytes(utf8String);
+
+            //// Perform the conversion from one encoding to the other.
+            //byte[] defaultBytes = Encoding.Convert(utf8, defaultCode, utf8Bytes);
+
+            //// Convert the new byte[] into a char[] and then into a string.
+            //// This is a slightly different approach to converting to illustrate
+            //// the use of GetCharCount/GetChars.
+            //char[] defaultChars = new char[defaultCode.GetCharCount(defaultBytes, 0, defaultBytes.Length)];
+            //defaultCode.GetChars(defaultBytes, 0, defaultBytes.Length, defaultChars, 0);
+            //string defaultString = new string(defaultChars);
+
+            //// Display the strings created before and after the conversion.
+            //Console.WriteLine("Original string: {0}", utf8String);
+            //Console.WriteLine("Ascii converted string: {0}", defaultString);
+
+            ////或者如下：
+            //byte[] buffer1 = Encoding.Default.GetBytes(utf8String);
+            //byte[] buffer2 = Encoding.Convert(Encoding.UTF8, Encoding.Default, buffer1, 0, buffer1.Length);
+            //string strBuffer = Encoding.Default.GetString(buffer2, 0, buffer2.Length);
+        }
+
+        [TestMethod]
+        public void reflect()
+        {
+            //F:\VSProjects\AngelWolf\Business\Category.cs
+
+            Type t = typeof(Category);//类名
+                                      // t.GetMethod
+                                      //  MethodInfo mt = t.GetMethod(Event);//加载方法
+                                      //   string DoRet = mt.Invoke(this, new object[] { pra1, pra2, pra3 }).ToString();//执行
+
+            //通过反射来执行类的静态方法
+            Type tx = typeof(Business.Category);
+            MethodInfo mf = tx.GetMethod("GetJsonLis2t", BindingFlags.Public | BindingFlags.Static, null, new Type[] { }, null);
+            string saf = (string)mf.Invoke(null, null);
+
+            Console.WriteLine(saf);
+        }        [TestMethod]
         public void Testkets()
         {
             //var bytes = File.ReadAllBytes(@"e:\VSProjects\AngelWolf\Rastera\asnic\rastera\ketself.html");

@@ -64,6 +64,7 @@
     <Compile Include="Kets.cs" />
     <Compile Include="Generic.cs" />
     <Compile Include="htmlAglity.cs" />
+    <Compile Include="Hex.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

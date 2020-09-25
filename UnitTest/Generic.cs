@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Beautiful;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static System.Console;
-using Newtonsoft;
-using Newtonsoft.Json.Linq;
-using System.IO;
-using Newtonsoft.Json;
 
-namespace UnitTest
+namespace Preditor
 {
     [TestClass]
     public class Generic

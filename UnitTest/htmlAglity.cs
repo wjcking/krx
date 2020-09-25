@@ -4,7 +4,7 @@ using HtmlAgilityPack;
 using static System.Console;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTest
+namespace Preditor
 {
     [TestClass]
     public class htmlAglity
@@ -20,11 +20,12 @@ namespace UnitTest
         public void loadfile()
         {
             var doc = new HtmlDocument();
-         doc.Load(@"F:\VSProjects\AngelWolf\AngelLayout\anti-docx.html");
-            
+             // doc.Load(@"F:\VSProjects\AngelWolf\Rastera\asnic\template\anti-docx.html");
+          doc.Load(@"C:\Users\Administrator\Desktop\keynote.txt");
             // With XPath 
-            var id = "compiled";
-            var xpath = "//div[@id='"+id+"']";
+            //var id = "editor";
+            //var xpath = "//pre[@id='editor']";
+            var xpath = "//head[@id='header']";
             var value = doc.DocumentNode. SelectNodes(xpath).First().InnerHtml;
             Write(value);
 
