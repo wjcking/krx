@@ -8,9 +8,11 @@ using System;
 using System.Reflection;
 using HtmlAgilityPack;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace Preditor
 {
+
     [TestClass]
     public class Preditor
     {
@@ -28,72 +30,97 @@ namespace Preditor
         * Diamond
         */
         [TestMethod]
-        public void printkets()
+        public void ketstruct()
         {
             var doc = new HtmlDocument();
-            // doc.Load(@"F:\VSProjects\AngelWolf\Rastera\asnic\template\anti-docx.html");
-            doc.Load(@"C:\Users\Administrator\Desktop\keynote.txt",Encoding.GetEncoding("utf-8"));
+
+            doc.Load(@"C:\Users\Administrator\Desktop\keynote.txt", Encoding.GetEncoding("utf-8"));
 
             var xpath = "//head[@id='header']";
             var value = doc.DocumentNode.SelectNodes(xpath).First().InnerHtml;
             if (null == value)
                 return;
-            var lines = value.Split(Next, StringSplitOptions.RemoveEmptyEntries);
+            var htmlTexts = value.Split(Next, StringSplitOptions.RemoveEmptyEntries);
             int index = 0;
             char[] charLine;
-            Line[] kets;
-            for (int i = 0; i < lines.Length; i++)
+            Ketline[] linekets  = new Ketline[htmlTexts.Length];
+            for (int i = 0; i < htmlTexts.Length; i++)
             {
-                charLine = lines[i].ToCharArray();
-                kets = new Line[lines.Length];
-                kets[i] = new Line();
-                kets[i].Left = i;
-                var sb = new StringBuilder();
+                linekets[i] = new Ketline();
 
+                charLine = htmlTexts[i].ToCharArray();
+                linekets[i].Ket  = new   Ket[charLine.Length];
                 for (int k = 0; k < charLine.Length; k++)
                 {
-                    //kets[i].Pine.Top = k;
-                    //kets[i].Pine.Bottom = lines.Length - k;
-                    kets[i].Ket.index = index++;
-                    kets[i].Ket.value = charLine[k];
-                    //index
-                    //sb.Append(kets[i].ToString()).Append(kets[i].Ket.ToString());
-                    sb.Append("[");
-                    sb.Append(kets[i].Ket.value.ToString());      sb.Append(":");
-                    sb.Append(kets[i].Ket.Ascii);
-                    sb.Append("]");
-                    sb.Append(" ");
-                }
-                sb.AppendLine();
 
-                Write(sb.ToString());
+                    linekets[i].Ket[k] = new Ket();
+                    linekets[i].Ket[k].index = index++;
+                    linekets[i].Ket[k].value = charLine[k];
+                    linekets[i].SpaceLength = charLine[k];
+                }
+               // sb.AppendLine();
+
+             //   Write(sb.ToString());
             }
         }
-        public class Kets
+        /// <summary>
+        ///top 
+        //main
+        //bottom
+        //At the end of organised the ket array, it will add top and bottom
+        /// </summary>
+        public class KetStruct
         {
-            int[] Corner { get; set; }
-            int Index { get; set; }
+            
+            private static IDictionary<string,ushort> Indexes;
+            private Ketline[] Ketlines = null;
+            public KetStruct(int length)
+            {
+               
+               Ketlines =new Ketline[length + 2];
+             
+            }
+            public RectCorner Corner { get; set; }
+            //main
+            //int Index { get; set; } = 1;
+           // int Lines { get; set; }
+            int Columns { get; set; }
+            IList<short[][]> Function { get;set;}
+
+
         }
-        //columns
-        public class Pine
-        {
-            public int Top { get; set; }
-            public int Bottom { get; set; }
-        }
+
         /// <summary>
         ///now is from the left, mind the reverse from bottom
         /// </summary>
-        public class Line
+        public class Ketline
         {
+            private bool isSpaced = false;
+            private ushort spaceLength = 0;
 
-            public int Left { get; set; }
-            public int Right { get; set; }
+            public IList<Ket> Ket { get; set; }
+            public ushort SpaceLength
+            {
+                get
+                {
+                    return spaceLength;
+                }
+                set
+                {
+                    if (isSpaced)
+                        return;
 
-            public Ket Ket { get; set; } = new Ket();
+                    else if (value == 32)
+                        spaceLength++;
+                    else
+                        isSpaced = true;
+                }
+            }
+
             public override string ToString()
             {
                 var list = new StringBuilder();
-           //     list.Append("L:").Append(Left);
+                //     list.Append("L:").Append(Left);
                 //  list.Append("E:").Append(End);
 
                 return list.ToString();
@@ -104,12 +131,16 @@ namespace Preditor
             //唯一index
             public int index { get; set; }
             public char value { get; set; }
-            //宽度 int index
+            //宽度 length
             public int Ascii { get { return (int)value; } }
             public byte Byte { get { return (byte)value; } }
             public string Hex { get { return ((byte)Ascii).ToString("x"); } }
             public string Binary { get { return Convert.ToString(((byte)Ascii), 2); } }
 
+            public Ket this[int index]
+            {
+                get { return this.index == index ? this : new Ket() {index=-1 }; }
+            }
             public override string ToString()
             {
                 var list = new StringBuilder();
@@ -122,7 +153,7 @@ namespace Preditor
                 //ascii
                 // list.Append(kets[i].Ketpine.Ascii);
                 //byte
-                 list.Append((byte)Ascii);               
+                list.Append((byte)Ascii);
                 //hex
                 //  list.Append(((byte)kets[i].Ketpine.Ascii).ToString("x"));
                 //binary

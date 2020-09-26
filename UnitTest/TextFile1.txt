@@ -1,4 +1,28 @@
-﻿ [TestMethod]
+﻿
+
+                    //index
+                    //sb.Append(kets[i].ToString()).Append(kets[i].Ket.ToString());
+                    //sb.Append("[");
+                    //sb.Append(kets[i].Ket.value.ToString()); sb.Append(":");
+                    //sb.Append(kets[i].Ket.Ascii);
+                    //sb.Append("]");
+                    //sb.Append(" ");
+            //var words = seg.Cut(asdf, cutAll: true);
+            //seg.LoadUserDict("dict.txt");
+            //Console.WriteLine("【全模式】：{0}",words);
+
+            //words = seg.Cut(asdf);  // 默认为精确模式
+            //Console.WriteLine("【精确模式】：{0}", string.Join("/ ", words));
+
+            //words = seg.Cut(asdf);  // 默认为精确模式，同时也使用HMM模型
+            //Console.WriteLine("【新词识别】：{0}", string.Join("/ ", words));
+
+            //words = seg.CutForSearch(asdf); // 搜索引擎模式
+            //Console.WriteLine("【搜索引擎模式】：{0}", string.Join("/ ", words));
+
+            //words = seg.Cut("结过婚的和尚未结过婚的");
+            //Console.WriteLine("【歧义消除】：{0}", string.Join("/ ", words));
+ [TestMethod]
         public void utf()
         {
             //string utf8String = "骞垮憡涓戦椈";
