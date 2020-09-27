@@ -73,32 +73,33 @@ namespace Preditor
             }
             return kets;
         }
-        //public byte[] GetByteStringArray(string value)
-        //{
+        [TestMethod]
+        public void padtest()
+        {
 
-        //  //  byte[] b = encode.GetBytes(value);
-        //    //   WriteLine("string:" + value.Length + "byte:" + b.Length);
+            //WriteLine("asdf433".PadRight(5,' ')+ '|');
+            //WriteLine("a".PadRight(5, ' ') + '|');
+            //WriteLine("asf".PadRight(5, ' ') + "|");
+            //WriteLine("asdf".PadRight(5, ' ') + "|");
+            //WriteLine("asf".PadRight(5, ' ') + "|");
+            Console.Write(padRightEx("中asdf.adsfasdfs中文dfdsfsdfs", 112, '*') + "\r\n");
+            Console.Write(padRightEx("中文Easdfsdfa中文sdfdsfsdf", 112, '*') + "\r\n");
+        }
+        private string padRightEx(string str, int totalByteCount,char paddingChar)
+        {
+            Encoding coding = Encoding.GetEncoding("gb2312");
+            int dcount = 0;
+            foreach (char ch in str.ToCharArray())
+            {
+                if (coding.GetByteCount(ch.ToString()) == 2)
+                    dcount++;
+            }
+            string w = str.PadRight(totalByteCount - dcount,paddingChar);
+            return w;
+        }
 
-        //    //for (int i = 0; i < b.Length; i++)
-        //    //{
-        //    //    var binary = Convert.ToString(b[i], 2);
-        //    //    // Console.Write("{0}", binary);
-        //    //    Console.Write(b[i].ToString("x") + " ");
-        //    //}
-        //    //     WriteLine();
-        //    return b;
-        //}
-
-        //private string GetBinary(string str)
-        //{
-        //    System.Text.RegularExpressions.CaptureCollection cs = System.Text.RegularExpressions.Regex.Match(str, @"([01]{8})+").Groups[1].Captures;
-        //    byte[] data = new byte[cs.Count];
-        //    for (int i = 0; i < cs.Count; i++)
-        //    {
-        //        data[i] = Convert.ToByte(cs[i].Value, 2);
-        //    }
-        //    return Encoding.Unicode.GetString(data, 0, data.Length);
-        //}
-
-    }
+ 
+      
+        
+    } 
 }
