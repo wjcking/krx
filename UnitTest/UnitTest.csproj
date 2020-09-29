@@ -73,6 +73,7 @@
     <Compile Include="Kets.cs" />
     <Compile Include="Hex.cs" />
     <Compile Include="Compiler.cs" />
+    <Compile Include="WordSegement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

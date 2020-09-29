@@ -5,101 +5,83 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static System.Console;
 namespace Preditor
 {
+
     [TestClass]
     public class Hex
     {
-        [TestMethod]
-        public void  hex()
+        public enum SymbolType : ushort
         {
-            // hex("12321321"); 
-            //GetByte("\tasdf");
-            //GetByte("\t阿斯蒂芬");
-            //GetByte("اللغة العربية#اللغة العربية");
-            //GetByte("※卍卐Ψ♫♬♭♩♪♯♮⌒");
-            //GetByte("¶∮‖€ぁあぃいぅうぇえぉおか");
-            //GetByte("ぁあぃいぅうぇえぉおか");
-            //var b = hex("ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ");
-            WriteLine("-------------------");
-            //result; =  Binary("10011011000010100010110010111011100110110101110110011011011111010010");
-            //            ASCII byte[] 转string：
-            //string str = System.Text.Encoding.Default.GetString(b);
-            //WriteLine(str);
-            //           string转ASCII byte[]：
-
-            //byte[] byteArray = System.Text.Encoding.ASCII.GetBytes(str);
-            var value = "<!DOCTYPE html>";
-            //3c21444f43545950452068746d6c3e
-            //3c21444f43545950452068746d6c3e
-            var list = Hexget(value, HexType.Binary);
-
-            foreach (var ket in list)
-                Write(ket);
- 
-            //var ascii = System.Text.Encoding.ASCII.GetBytes(value);
-            //WriteLine(ascii);
-        }
-        public enum HexType
-        {
-            Binary = 0,
-            Octal,
-            Hexadecimal,
-            Decimal,
-            Ascii
-        }
-        public string GetAscii(string value)
-        {
-            var bytes = GetBytes(value);
-            return Encoding.ASCII.GetString(bytes);
-        }
-        public byte[] GetBytes(string value, Encoding encoding = null)
-        {
-            Encoding encode = encoding == null ? Encoding.Default : encoding;
-            return encode.GetBytes(value);
-        }
-        public IList<string> Hexget(string value, HexType hexType = HexType.Hexadecimal, Encoding encoding = null)
-        {
-            var bytes = GetBytes(value, encoding);
-            IList<string> kets = new List<string>();
-            foreach (byte b in bytes)
-            {
-                if (hexType == HexType.Binary)
-                    kets.Add(Convert.ToString(b, 2));
-                else if (hexType == HexType.Hexadecimal)
-                    kets.Add(Convert.ToString(b.ToString("x")));
-                else if (hexType == HexType.Octal)
-                    kets.Add(Convert.ToString(b.ToString("8")));
-                //else if (hexType == HexType.Octal)
-                //    Encoding.ASCII.GetString(bytes);
-            }
-            return kets;
+            Character = 1,
+            Separator = 2,
+            Link = 3,
+            Bracket =4
         }
         [TestMethod]
-        public void padtest()
+        public void hex()
         {
+            //老人 常用 筛选 到 规矩
+            //习惯
+            //自定义分隔符优先 链接符 括号
+            //IDictionary<int, char> KetSymbols = new Dictionary<int, char>();
 
-            //WriteLine("asdf433".PadRight(5,' ')+ '|');
-            //WriteLine("a".PadRight(5, ' ') + '|');
-            //WriteLine("asf".PadRight(5, ' ') + "|");
-            //WriteLine("asdf".PadRight(5, ' ') + "|");
-            //WriteLine("asf".PadRight(5, ' ') + "|");
-            Console.Write(padRightEx("中asdf.adsfasdfs中文dfdsfsdfs", 112, '*') + "\r\n");
-            Console.Write(padRightEx("中文Easdfsdfa中文sdfdsfsdf", 112, '*') + "\r\n");
-        }
-        private string padRightEx(string str, int totalByteCount,char paddingChar)
-        {
-            Encoding coding = Encoding.GetEncoding("gb2312");
-            int dcount = 0;
-            foreach (char ch in str.ToCharArray())
+
+            // IList<char[]> Dynamic;
+
+            var text = "劳拉：[直觉？这是我[们唯一]的线索。壁画上说还会有[更多的灾]难。要帮助他们，]最好的方法就是阻止它，阻止圣三一".ToCharArray();
+
+            int i = 0;
+            int e = text.Length - 1;
+         //   var symbols = new Symbols[text.Length];
+            while (i < text.Length)
             {
-                if (coding.GetByteCount(ch.ToString()) == 2)
-                    dcount++;
+                Write("Id:" + i);
+                Write("Start:" + text[i++]);
+                WriteLine(" End:" + text[e--]);
+                //Symbols[SymbolType.BracketLeft]
+             //   WriteLine[Symbols.GetSymbols(]
             }
-            string w = str.PadRight(totalByteCount - dcount,paddingChar);
-            return w;
-        }
 
+        }
+        public static IList<Symbol> Symbols
+        {
+            get
+            {
+//                40(左括号（left parenthesis）	left parenthesis
+//   41)   右括号（right parenthesis）	right parenthesis
+//91[左方括号（left square bracket）	left square bracket
+//92	\	反斜线（backslash）	backslash
+//93]   右方括号（right square bracket）	right square bracket
+
+                IList<Symbol> dict = new Symbol[6];
  
-      
-        
-    } 
+            //KetSymbols.Add(  
+            //dict.Add(new Symbol(',', SymbolType.Normal, 0));
+            //dict.Add(new Symbol(':', SymbolType.Normal, 0));
+            //dict.Add(new Symbol('，', SymbolType.Normal, 0));
+            //dict.Add(new Symbol('：', SymbolType.Normal, 0));
+            //dict.Add(new Symbol('|', SymbolType.Normal, 0));
+            //dict.Add(new Symbol('[', SymbolType.BracketLeft, 0));
+            //dict.Add(new Symbol(']', SymbolType.BracketRight, 0));
+            
+
+            return dict;
+            }
+        }
+        public class Symbol
+        {
+            //    public int Number = 0;
+            public char Value;
+            public SymbolType SymbolType;
+            public int Piroity;
+            public int Start;
+            public int End;
+            public Symbol(char value, SymbolType type, int piroity)
+            {
+                Value = value;
+                SymbolType = type;
+                Piroity = piroity;
+            }
+
+        }
+    }
 }

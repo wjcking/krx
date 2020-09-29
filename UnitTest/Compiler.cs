@@ -1,32 +1,87 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text;
-using JiebaNet.Segmenter;
-using JiebaNet.Analyser;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using JiebaNet.Segmenter.PosSeg;
-using System.Linq;
-using System.Collections.Generic;
+/* Ket-seo-F
+ * is duplicate
+ *   LeverStick
+ *   position
+ * 3.14 absolute diamond unparall diamond
+ *  Rotate,
+ *      roll,
+ *      spin,//cos
+ *  turn, //by whom
+ *      whirl,
+ *      Encircle
+ *      spiral
+ *
+*/
+/// <summary>
+///     1 2 3
+/// C 1 0 0 0 C
+///   2 0 0 0 1
+///   3 0 0 0
+/// C 4 0 0 0 C
+/// 类似于传真引线
+/// </summary>
+public enum Korner : ushort
+{
+    Top = 0,
+    Left = 1,
+    Right = 2,
+    Bottom = 3
+}
+/// <summary>
+/// 
+/// </summary>
+
+/// <summary>
+/// Hxwall 
+/// </summary>
+public enum Axis
+{
+    center = 0,
+    Angle = 1,
+}
+/// <summary>
+/// HxW Witch 添加了一个all、美化
+/// 接触一点金去就是Penetrate 点面 出 用
+/// Stick不接触好像贴着
+/// </summary>
+public enum WhichAction
+{
+    Drag = 0,
+    Push = 1,
+    //which how metric 
+    Stick = 2
+}
+/// <summary>
+/// Creal.Tetris not just Facial 
+/// kaetseolf
+/// Odin
+/// Kolor
+/// HxW
+/// </summary>
+public enum SolidMetric
+{
+    flat = 0,
+    metric =1
+}
+
+/// <summary>
+/// 
+/// </summary>
+public enum EarthMetrik
+{
+    dot = 0,//?.anti- anti~
+    line = 1,//atlair
+    //connector=2,
     /// <summary>
-    ///     1 2 3
-    /// C 1 0 0 0 C
-    ///   2 0 0 0 1
-    ///   3 0 0 0
-    /// C 4 0 0 0 C
-    /// 类似于传真引线
+    /// 三维立体 四维 atscup
     /// </summary>
-    public enum RectCorner
-    {
-        TopLeft = 0,
-        TopRight = 1,
-        BottomLeft = 2,
-        BottomRight = 3
-    }
+    dimension = 4
+}
+
 namespace Compiler
 {
-
-    /// <summary>
-    /// compiler
-    /// </summary>
     [TestClass]
     public class Compiler
     {
@@ -38,41 +93,6 @@ namespace Compiler
             char[] Spliter;
             char[] Bracket;
         }
-        [TestMethod]
-        public void Jieba()
-        {
-            //JiebaSegmenter seg = new JiebaSegmenter();
-            //var analyser = new JiebaNet.Analyser.TextRankExtractor();
-            ////   analyser.ExtractTags("adsf", 2);
-            var asdf = "今天 面削 ？。平不平税" + Environment.NewLine;
-            asdf += "什么时候才能阿跳跃斯蒂芬金康 232" + Environment.NewLine;
-            asdf += "This is a knaif but time will tall" + Environment.NewLine;
-            asdf += " 后在日攻击都大学深造" + Environment.NewLine;
-            var posSeg = new PosSegmenter();
-            asdf +=   "一团硕大无朋的高能离子云，在遥远而神秘的太空中迅疾地飘移";
-            
-            var tokens = posSeg.Cut(asdf);
-           
-            Console.WriteLine(string.Join(Environment.NewLine, tokens.Select(token => string.Format("{0}:{1}", token.Word, token.Flag))));
-
-            //var segmenter = new JiebaSegmenter(); 
-            // var token2  = segmenter.Tokenize(asdf, TokenizerMode.Default); 
-            //foreach (var t in token2)
-            //{
-            //    Console.WriteLine("{0}: {0,-12} start: {1,-3} end: {2,-3}", t.Word, t.StartIndex,t.EndIndex);
-            //}
-
-            //  var analyser = new JiebaNet.Analyser.TextRankExtractor();
-            var analyser = new JiebaNet.Analyser.TextRankExtractor();
-            var pos = new List<string>() {"n","v"};
-            var list = analyser.ExtractTagsWithWeight(asdf, 20, pos);
-            Console.WriteLine(Environment.NewLine);
-            foreach (var t in list)
-            {
-                Console.WriteLine(t.ToString());
-            }
-        }
+      
     }
-
-
 }

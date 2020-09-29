@@ -1,4 +1,38 @@
-﻿
+﻿  public enum HexType
+        {
+            Binary = 0,
+            Octal,
+            Hexadecimal,
+            Decimal,
+            Ascii
+        }
+        public string GetAscii(string value)
+        {
+            var bytes = GetBytes(value);
+            return Encoding.ASCII.GetString(bytes);
+        }
+        public byte[] GetBytes(string value, Encoding encoding = null)
+        {
+            Encoding encode = encoding == null ? Encoding.Default : encoding;
+            return encode.GetBytes(value);
+        }
+        public IList<string> Hexget(string value, HexType hexType = HexType.Hexadecimal, Encoding encoding = null)
+        {
+            var bytes = GetBytes(value, encoding);
+            IList<string> kets = new List<string>();
+            foreach (byte b in bytes)
+            {
+                if (hexType == HexType.Binary)
+                    kets.Add(Convert.ToString(b, 2));
+                else if (hexType == HexType.Hexadecimal)
+                    kets.Add(Convert.ToString(b.ToString("x")));
+                else if (hexType == HexType.Octal)
+                    kets.Add(Convert.ToString(b.ToString("8")));
+                //else if (hexType == HexType.Octal)
+                //    Encoding.ASCII.GetString(bytes);
+            }
+            return kets;
+        }
         //public byte[] GetByteStringArray(string value)
         //{
 

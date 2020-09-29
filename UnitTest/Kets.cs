@@ -17,7 +17,10 @@ namespace Preditor
     {
         public const ushort AsciiSpace = 32;
 
-        protected static char[] Next = "\r\n".ToCharArray();
+        /// <summary>
+        /// \r回车做一个函数区间空格
+        /// </summary>
+        protected static char[] Next = "\n".ToCharArray();
         /*  At the end of organised the ket array, it will add top and bottom
         *   Further discusstion:handle faimly kid metric
         * C P P P P P P   C
@@ -37,13 +40,14 @@ namespace Preditor
         {
             var doc = new HtmlDocument();
 
-            doc.Load(@"C:\Users\Administrator\Desktop\keynote.txt", Encoding.GetEncoding("utf-8"));
+            doc.Load(@"C:\Users\Administrator\Desktop\keynote.html", Encoding.Default);
             if (string.Empty == doc.Text)
                 return;
-            var xpath = "//head[@id='header']";
+            //var xpath = "//head[@id='']";
+             var xpath = "//body";
             var value = doc.DocumentNode.SelectNodes(xpath).First().InnerHtml;
-
-            var htmlTexts = value.Split(Next, StringSplitOptions.RemoveEmptyEntries);
+           var filestring = File.ReadAllLines(@"C:\Users\Administrator\Desktop\keynote.html");
+            var htmlTexts = value.Split(Next ,StringSplitOptions.None);
             int number = 0;
             char[] charLine;
             //遍历每一行 求出最大ket count 
@@ -66,6 +70,7 @@ namespace Preditor
                     ketlines[i].KetChars[k].Number = number++;
                     ketlines[i].KetChars[k].Value = charLine[k];
                     ketlines[i].SpaceLength = charLine[k];
+
                 }
             }
 
@@ -115,7 +120,7 @@ namespace Preditor
             {
                 Ketlines = new Ketline[length];
             }
-            public RectCorner Corner { get; set; }
+          //  public RectCorner Corner { get; set; }
             /// <summary>
             /// Lines length for html text
             /// "5" the maximum volume Chinese Ascii 5 byte
@@ -126,7 +131,11 @@ namespace Preditor
             //int Index { get; set; } = 1;
             // int Lines { get; set; }
             int Columns { get; set; }
-            IList<int[][]> Function { get; set; }
+
+            /// <summary>
+            /// 
+            /// </summary>
+            IList<Ketline> Function { get; set; }
 
 
         }
@@ -137,6 +146,10 @@ namespace Preditor
         public class Ketline
         {
             private bool isSpaced = false;
+            /// <summary>
+            ///一行一个\r就相当于一行空格 美观
+            /// </summary>
+            private bool isEmptyLine = false;
             private ushort spaceLength = 0;
 
             public IList<KetChar> KetChars { get; set; }
