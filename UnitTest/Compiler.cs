@@ -4,7 +4,8 @@ using System.Text;
  * is duplicate
  *   LeverStick
  *   position
- * 3.14 absolute diamond unparall diamond
+ * 3.14 absolute diamond
+ *      unparall diamond
  *  Rotate,
  *      roll,
  *      spin,//cos
@@ -12,8 +13,16 @@ using System.Text;
  *      whirl,
  *      Encircle
  *      spiral
- *
-*/
+ *Transcolor
+*//// <summary>
+/// Hxwall 
+/// </summary>
+public enum Axis
+{
+    center = 0,
+    Angle = 1,
+    StickSide = 2 //related to the WhichAction
+}
 /// <summary>
 ///     1 2 3
 /// C 1 0 0 0 C
@@ -22,7 +31,7 @@ using System.Text;
 /// C 4 0 0 0 C
 /// 类似于传真引线
 /// </summary>
-public enum Korner : ushort
+public enum SideKorner : ushort
 {
     Top = 0,
     Left = 1,
@@ -33,14 +42,7 @@ public enum Korner : ushort
 /// 
 /// </summary>
 
-/// <summary>
-/// Hxwall 
-/// </summary>
-public enum Axis
-{
-    center = 0,
-    Angle = 1,
-}
+
 /// <summary>
 /// HxW Witch 添加了一个all、美化
 /// 接触一点金去就是Penetrate 点面 出 用
