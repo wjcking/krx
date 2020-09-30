@@ -5,7 +5,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static System.Console;
 namespace Preditor
 {
-
     [TestClass]
     public class Hex
     {
