@@ -2,18 +2,23 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Text;
 namespace UnitTest
 {
-    /// <summary>
-    /// 筛选
-    /// </summary>
-    public static class WordSegement
-    { 
+    [TestClass]
+    public class WordSegement
+    {
+        [TestMethod]
+        public void Print()
+        {
+              Pick("9月30日，全国烈士纪念日，南京雨花台烈士陵园烈士群雕前，来自江苏南京各行各业的71对新婚夫妇，向雨花英烈敬献鲜花、诵读“雨花英烈家书”，借此表达对革命烈士的崇敬和缅怀，对未来美好生活的向往。你们的功勋，我们会永远铭记！");
+        }
         /// <summary>
         /// 根据词性
         /// </summary>
         /// <param name="text"></param>
-        public static void Pick(string text)
+        public  void Pick(string text)
         {
             //JiebaSegmenter seg = new JiebaSegmenter();
             //var analyser = new JiebaNet.Analyser.TextRankExtractor();
