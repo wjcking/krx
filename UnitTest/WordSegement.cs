@@ -12,7 +12,8 @@ namespace UnitTest
         [TestMethod]
         public void Print()
         {
-              Pick("9月30日，全国烈士纪念日，南京雨花台烈士陵园烈士群雕前，来自江苏南京各行各业的71对新婚夫妇，向雨花英烈敬献鲜花、诵读“雨花英烈家书”，借此表达对革命烈士的崇敬和缅怀，对未来美好生活的向往。你们的功勋，我们会永远铭记！");
+              //Pick("9月30日，全国烈士纪念日，南京雨花台烈士陵园烈士群雕前，来自江苏南京各行各业的71对新婚夫妇，向雨花英烈敬献鲜花、诵读“雨花英烈家书”，借此表达对革命烈士的崇敬和缅怀，对未来美好生活的向往。你们的功勋，我们会永远铭记！");
+            Pick("I had very busy weekend。$23.24 On Saturday morning， it was a sunny day。 54456 My father and I played badmintons。 $5665b Then I did homework in the afternoon。 In the evening， I went to have math class with my friends。 On Sunday， I read books and listened to English。 I watched TV with my father in the afternoon。 That was so happy！ In the afternoon， I visited my grandparents and help them cleaned their room。 That was so not happy！");
         }
         /// <summary>
         /// 根据词性
