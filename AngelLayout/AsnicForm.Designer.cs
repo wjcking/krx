@@ -37,13 +37,15 @@
             // 
             resources.ApplyResources(this.angelView, "angelView");
             this.angelView.Name = "angelView";
+            this.angelView.ScrollBarsEnabled = false;
             // 
-            // Main
+            // AsnicForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.angelView);
-            this.Name = "Main";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "AsnicForm";
             this.ShowIcon = false;
             this.ResumeLayout(false);
 
