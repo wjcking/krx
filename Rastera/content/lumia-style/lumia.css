@@ -1,6 +1,7 @@
 ﻿body
 {
     margin:0;
+    overflow-y:hidden;
 }
 
 pre
@@ -11,7 +12,7 @@ pre
 #editor 
 {
     margin: 0;
-    height:800px;
+    height:900px;/**/
  /*
   position: absolute;
     top: 0;     
