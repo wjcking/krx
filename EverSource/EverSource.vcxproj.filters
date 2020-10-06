@@ -36,13 +36,13 @@
     <ClCompile Include="Atmosphere.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Revive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Interweave.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LiveBeings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Revive.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

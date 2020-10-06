@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System.Collections.Generic;
 using static System.Console;
 namespace Preditor
 {
-    [TestClass]
     public class Hex
     {
         public enum SymbolType : ushort
@@ -16,7 +12,6 @@ namespace Preditor
             BracketLeft = 4,
             BracketRight = 4
         }
-        [TestMethod]
         public void hex()
         {
             //老人 常用 筛选 到 规矩

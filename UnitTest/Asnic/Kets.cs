@@ -1,18 +1,13 @@
-﻿using Beautiful;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using static System.Console;
-using Business;
-using System.Text;
-using System.IO;
+﻿using HtmlAgilityPack;
 using System;
-using System.Reflection;
-using HtmlAgilityPack;
-using System.Linq;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using static System.Console;
 
 namespace Preditor
 {
-    [TestClass]
     public class Preditor
     {
         public const ushort AsciiSpace = 32;
@@ -35,7 +30,6 @@ namespace Preditor
         * Triangle Square 
         * Diamond
         */
-        [TestMethod]
         public void PrintketStruct()
         {
             var doc = new HtmlDocument();

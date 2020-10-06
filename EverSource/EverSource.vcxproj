@@ -163,7 +163,7 @@
     <ClCompile Include="EverSource.cpp" />
     <ClCompile Include="Interweave.cpp" />
     <ClCompile Include="Physical.cpp" />
-    <ClCompile Include="Revive.cpp" />
+    <ClCompile Include="Revive.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Atmosphere.h" />

@@ -1,4 +1,39 @@
-﻿  public enum HexType
+﻿ [TestMethod]
+        public void Print()
+        {
+             
+        }
+        [TestMethod]
+        public void Execute()
+        {
+            try
+            {
+                Execute("N a");
+                Execute("M b/f,a/f");
+                Execute("N asdf/folder/folder/auto");
+                Execute("阿斯蒂芬斯蒂芬");
+                Execute("阿斯蒂芬斯蒂芬");
+
+                //  WriteLine(StartPath);
+            }
+            catch (Exception e)
+            {
+                WriteLine(e.Message);
+            }
+        }       [TestMethod]
+        public void Execute()
+        {
+            try
+            {
+            Evaluator.EvaluateToBool("1==1");
+            }
+            catch(Exception e)
+            {
+                WriteLine(e.Message);
+            }
+        }
+		
+		public enum HexType
         {
             Binary = 0,
             Octal,

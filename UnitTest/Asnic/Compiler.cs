@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿
 using System.Text;
 /* Ket-seo-F
  * is duplicate
@@ -84,7 +84,6 @@ public enum EarthMetrik
 
 namespace Compiler
 {
-    [TestClass]
     public class Compiler
     {
         public class Basic
