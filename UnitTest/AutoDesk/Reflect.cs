@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -28,12 +29,33 @@ namespace UnitTest.AutoDesk
             //var methods = types.GetMethods();
             //methods[0].IsStatic
           //  var bindingFlags =System.Reflection.BindingFlags.Static;
-            var staticMethod = typeDirectory.GetMethod("GetCreationTime");
+            var staticMethod = typeDirectory.GetMethod("GetCreationTimeUtc");
+            var delete = typeDirectory.GetMethod("GetFiles", new Type[2] { typeof(string), typeof(bool) });
             var staticParameters = staticMethod.GetParameters();
 
-            
+    //    [19]: {System.String[] GetFiles(System.String)}
+    //    [20]: {System.String[] GetFiles(System.String, System.String)}
+    //    [21]: {System.String[] GetFiles(System.String, System.String, System.IO.SearchOption)}
+    //    [22]: {System.String[] GetDirectories(System.String)}
+    //    [23]: {System.String[] GetDirectories(System.String, System.String)}
+    //    [24]: {System.String[] GetDirectories(System.String, System.String, System.IO.SearchOption)}
+    //    [25]: {System.String[] GetFileSystemEntries(System.String)}
+    //    [26]: {System.String[] GetFileSystemEntries(System.String, System.String)}
+    //    [27]: {System.String[] GetFileSystemEntries(System.String, System.String, System.IO.SearchOption)}
             var returned = staticMethod.Invoke(null, new object[1] { @"C:\Users\Administrator\Desktop\out.html" });
-
+        }
+        public class Predictor
+        {
+            public Type PredicType { get; set; }
+            public IList<MethodInfo> MethodList { get; set; }
+            //public object this[string command]
+            //{
+            //    get
+            //    {            //private static readonly IList<Type> list;
+            //        //  staticMethod.Invoke(null, new object[1] { @"C:\Users\Administrator\Desktop\out.html" });
+            //        return null;
+            //    }
+            //}
         }
         [TestMethod]
         public void Print()

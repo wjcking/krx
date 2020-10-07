@@ -143,7 +143,7 @@ namespace Preditor
             /// <summary>
             ///一行一个\r就相当于一行空格 美观
             /// </summary>
-            private bool isEmptyLine = false;
+           // private bool isEmptyLine = false;
             private ushort spaceLength = 0;
 
             public IList<KetChar> KetChars { get; set; }
@@ -180,6 +180,7 @@ namespace Preditor
             //唯一index
             public int Number { get; set; }
             public char Value { get; set; }
+            public string Desc { get; set; }
             //宽度 length
             public int Ascii { get { return (int)Value; } }
             public byte Byte { get { return (byte)Value; } }

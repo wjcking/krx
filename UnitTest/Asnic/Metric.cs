@@ -1,6 +1,6 @@
 ﻿
-using System.Text;
-/* Ket-seo-F
+/*career 
+ * Ket-seo-F
  * is duplicate
  *   LeverStick
  *   position
@@ -14,15 +14,26 @@ using System.Text;
  *      Encircle
  *      spiral
  *Transcolor
-*//// <summary>
+*
+*/
+/// <summary>
 /// Hxwall 
 /// </summary>
 public enum Axis
 {
-    center = 0,
+    Center = 0,
     Angle = 1,
     StickSide = 2 //related to the WhichAction
 }
+
+public enum SymbolType : ushort
+{
+    Character = 1,
+    Separator = 2,
+    Link = 3,
+    Bracket = 4,
+}
+
 /// <summary>
 ///     1 2 3
 /// C 1 0 0 0 C
@@ -38,17 +49,13 @@ public enum SideKorner : ushort
     Right = 2,
     Bottom = 3
 }
-/// <summary>
-/// 
-/// </summary>
-
 
 /// <summary>
 /// HxW Witch 添加了一个all、美化
 /// 接触一点金去就是Penetrate 点面 出 用
 /// Stick不接触好像贴着
 /// </summary>
-public enum WhichAction
+public enum ActionBehavior
 {
     Drag = 0,
     Push = 1,
@@ -79,21 +86,6 @@ public enum EarthMetrik
     /// <summary>
     /// 三维立体 四维 atscup
     /// </summary>
-    dimension = 4
+    dimension = 3
 }
 
-namespace Compiler
-{
-    public class Compiler
-    {
-        public class Basic
-        {
-            Encoding encoding = Encoding.Default;
-            ushort Language = 0;
-            string text;
-            char[] Spliter;
-            char[] Bracket;
-        }
-      
-    }
-}

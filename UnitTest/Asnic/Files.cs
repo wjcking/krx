@@ -1,14 +1,14 @@
 ﻿
 using System;
+using Asnic;
 using Asnic.FileCommand;
 using Asnic.ICommand;
+
 namespace Asnic
 {
     public class Files
     {
-        public const char Dashed = '\\';
-        public const char Space = ' ';
-        public const char Dot = '.';
+     
 
         /// <summary>
         /// 项目文件夹Rastea、以后用户可自定义
@@ -35,21 +35,27 @@ namespace Asnic
         {
             bool isVerified = false;
             //如果没有空格泽不执行命令
-            isVerified = !string.IsNullOrEmpty(commandLine) && commandLine.IndexOf(Space) > -1;
+            isVerified = !string.IsNullOrEmpty(commandLine) && commandLine.IndexOf(Constant.Space) > -1;
 
             if (!isVerified)
                 throw new Exception("No file command,should be: New Delete Move ListFiles ");
             var result = Get(commandLine);
             result.Action();
 
-            //是否有文件夹
             //html or other like:jpg mp4 
-            var dashed = commandLine.LastIndexOf(Dashed) > -1;
+            var dashed = commandLine.LastIndexOf(Constant.Dashed) > -1;
 
-            var splited = commandLine.Split(Space);
+            var splited = commandLine.Split(Constant.Space);
             var cmd = splited[0];
+            var dotted = commandLine.Split(Constant.Dot);
+         
 
         }
+
+        //public static string[] GetBrackets(this string value)
+        //{
+            
+        //}
 
         private static Command Get(string name)
         {
