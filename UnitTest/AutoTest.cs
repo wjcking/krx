@@ -13,7 +13,7 @@ namespace AutoTest
             try
             {
                 Files.Execute("N a");
-                Files.Execute("Move b\\f a\\f");
+                Files.Execute("Move b\\f.html a\\f.html");
                 Files.Execute("D d\\");
                 Files.Execute("l d\\ketself 'content'");
                 Files.Execute("阿斯蒂芬斯蒂芬");

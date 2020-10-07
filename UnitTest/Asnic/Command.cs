@@ -1,8 +1,11 @@
 ﻿using System;
 
 namespace Asnic.ICommand
-{  
-    // 命令抽象类
+{
+    
+    /// <summary>
+    ///命令抽象类 
+    /// </summary>
     public abstract class Command
     {
         // 命令应该知道接收者是谁，所以有Receiver这个成员变量
