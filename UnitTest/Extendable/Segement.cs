@@ -2,9 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-namespace UnitTest
+namespace AutoDesk
 {
-    public class WordSegement
+
+    public class Segement
     {
         public void Print()
         {

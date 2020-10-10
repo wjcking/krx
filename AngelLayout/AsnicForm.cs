@@ -10,7 +10,7 @@ namespace AngelLayout
             InitializeComponent();
             Languages.Set("en-US");
             angelView.ObjectForScripting = this;
-            angelView.Navigate(@"http://192.168.0.102:1000//asnic/template/anti-docx.html"); 
+            angelView.Navigate(@"http://192.168.0.102:1000/asnic/template/ketnew.html"); 
             angelView.DocumentCompleted += AngelView_DocumentCompleted;
        
         }
@@ -18,8 +18,15 @@ namespace AngelLayout
         private void AngelView_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
             //  System.IO.File.WriteAllText(@"C:\Users\Administrator\Desktop\hotkeys.html", angelView.DocumentText);      
-            
-            var asnic = new Asnick(angelView.DocumentText);
+            //angelView.Document.GetElementById("")
+            // var asnic = new Asnick(angelView.DocumentText);
+            //    angelView.Document.GetElementById("editor").InnerHtml += "fdas fdas";
+
+            var objArray = new object[1];
+
+             //   System.Threading.Thread.Sleep(100);
+                angelView.Document.InvokeScript("invoke");
+     
         }
 
         public static void Loading(Control control, System.ComponentModel.ComponentResourceManager resources)
@@ -42,6 +49,10 @@ namespace AngelLayout
                 Loading(c, resources);
 
             }
+        }
+
+        private void angelView_Navigated(object sender, WebBrowserNavigatedEventArgs e)
+        {
         }
     }
 }

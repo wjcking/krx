@@ -8,8 +8,6 @@ namespace Asnic
 {
     public class Files
     {
-     
-
         /// <summary>
         /// 项目文件夹Rastea、以后用户可自定义
         /// </summary>
@@ -48,8 +46,6 @@ namespace Asnic
             var splited = commandLine.Split(Constant.Space);
             var cmd = splited[0];
             var dotted = commandLine.Split(Constant.Dot);
-         
-
         }
 
         //public static string[] GetBrackets(this string value)

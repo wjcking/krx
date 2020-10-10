@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Busine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoweredSource", "PoweredSource\PoweredSource.csproj", "{E3652254-0EE4-4754-832D-532724423E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{0CC61EF1-B334-431E-9312-697FF6A156D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDesk", "UnitTest\AutoDesk.csproj", "{0CC61EF1-B334-431E-9312-697FF6A156D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KansaiUtils", "CansaiUtils\KansaiUtils.csproj", "{121F81F8-B7E5-4B1A-AC94-88F77DDB353A}"
 EndProject

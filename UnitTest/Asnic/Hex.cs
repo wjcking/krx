@@ -1,8 +1,11 @@
 ﻿using System.Collections.Generic;
 using static System.Console;
 
-namespace Asnic.Preditor
+namespace Asnic
 {
+    /// <summary>
+    /// 混编基础
+    /// </summary>
     public class Hex
     {
         public static IDictionary<ushort, Symbol> GetSymbols()
@@ -15,37 +18,34 @@ namespace Asnic.Preditor
 
             IDictionary<ushort, Symbol> dict = new Dictionary<ushort, Symbol>();
 
-            dict.Add(1, new Symbol(Constant.BracketLeft, SymbolType.Bracket,0));
-            dict.Add(2, new Symbol(Constant.BracketRight, SymbolType.Bracket, 0));
-            dict.Add(3, new Symbol(Constant.ParentLeft, SymbolType.Bracket,0));
-            dict.Add(4, new Symbol(Constant.ParentRight, SymbolType.Bracket, 0));
-            //dict.Add(new Symbol('，', SymbolType.Character, 0));
-            //dict.Add(new Symbol('：', SymbolType.Character, 0));
-            //dict.Add(new Symbol('|', SymbolType.Separator, 0));
-            //dict.Add(new Symbol('[', SymbolType.BracketLeft, 0));
-            //dict.Add(new Symbol(']', SymbolType.BracketRight, 0));
+            //dict.Add(1, new Symbol(Constant.BracketLeft, SymbolType.Bracket,0));
+            //dict.Add(2, new Symbol(Constant.BracketRight, SymbolType.Bracket, 0));
+            //dict.Add(3, new Symbol(Constant.ParentLeft, SymbolType.Bracket,0));
+            //dict.Add(4, new Symbol(Constant.ParentRight, SymbolType.Bracket, 0));
 
             return dict;
 
         }
-        public class Symbol
+        public static string Act(string text)
         {
-            public bool IsMatched = false;
-            //    public int Number = 0;
-            public char Value;
-            public SymbolType SymbolType;            
-            public SideKorner SideKorner;
-            
-            public int Piroity;
-            public int Start;
-            public int End;
-            public Symbol(char value, SymbolType type, int piroity)
-            {
-                Value = value;
-                SymbolType = type;
-                Piroity = piroity;
-            }
+            //Heller.Age:老人 常用 筛选 到 规矩
+            //习惯
+            //自定义分隔符优先 链接符 括号
+            var symbols = Hex.GetSymbols();
 
+            //k(end.On Saturda(y mor[ni(ng, I) played the pian]o and learned English.Saturday after
+            var clone = text.Clone().ToString();
+
+            int start = 0;
+            int end = 0;
+
+            //start = clone.IndexOf(symbols[3].Value) + 1;
+            //clone = clone.Substring(start);
+            //end = clone.LastIndexOf(symbols[4].Value);
+            //clone = clone.Substring(0, end);
+
+            return clone;
         }
+
     }
 }

@@ -1,8 +1,24 @@
-﻿ [TestMethod]
-        public void Print()
-        {
-             
-        }
+﻿
+            public override string ToString()
+            {
+                var list = new StringBuilder();
+                //list.Append("P:").Append(Top);
+                ////   list.Append("U:").Append(Aup);
+                //list.Append("Aup:").Append(Bottom);
+
+                //char
+                //list.Append(kets[i].Ketpine.value);
+                //ascii
+                // list.Append(kets[i].Ketpine.Ascii);
+                //byte
+                list.Append((byte)Ascii);
+                //hex
+                //  list.Append(((byte)kets[i].Ketpine.Ascii).ToString("x"));
+                //binary
+                //  list.Append(Convert.ToString(((byte)kets[i].Ketpine.Ascii),2));
+                return list.ToString();
+
+            }
         [TestMethod]
         public void Execute()
         {

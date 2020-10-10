@@ -15,7 +15,7 @@
     附体记录生命体 
    <span style="float:right;padding-right:20px;"> <b style="color:gainsboro">Φ</b> 编译</span>
 </div>-->
-<div id="contain" style="height:1000px;">
+<div id="contain" >
 <pre id="editor">
 </pre>
 <div id="compiler">
@@ -34,7 +34,18 @@
     <script src="../../content/ace-editor/ace.js"></script>
     <script src="../../content/ace-editor/ace-settings.js"></script>
     <script type="text/javascript">
-       // Asnical = 
+
+        editor.insert("asdf");
+            var counter = 1;
+        function refresh() {           
+
+          //  for (var i = 0; i < 800; i++)
+            editor.setValue(counter + "Something cool\r\n");
+            counter++
+        }
+        function invoke() {
+            setInterval("refresh()", 1);
+        }
     </script>
 </div>
 </body>

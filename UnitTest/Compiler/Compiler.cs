@@ -13,8 +13,6 @@ namespace Asnic.Compiler
             Encoding encoding = Encoding.Default;
             ushort Language = 0;
             string text;
-            char[] Spliter;
-            char[] Bracket;
         }
 
     }

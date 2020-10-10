@@ -38,6 +38,7 @@
             resources.ApplyResources(this.angelView, "angelView");
             this.angelView.Name = "angelView";
             this.angelView.ScrollBarsEnabled = false;
+            this.angelView.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.angelView_Navigated);
             // 
             // AsnicForm
             // 

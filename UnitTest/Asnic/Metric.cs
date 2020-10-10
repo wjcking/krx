@@ -1,5 +1,5 @@
-﻿
-/*career 
+﻿/*
+ * Keller 
  * Ket-seo-F
  * is duplicate
  *   LeverStick
@@ -14,53 +14,19 @@
  *      Encircle
  *      spiral
  *Transcolor
-*
+ *  Client：人 美 
 */
+
 /// <summary>
-/// Hxwall 
+/// Geo：Witch one 
+/// ActionBehavior
+/// Hirirtical
 /// </summary>
 public enum Axis
 {
     Center = 0,
     Angle = 1,
-    StickSide = 2 //related to the WhichAction
-}
-
-public enum SymbolType : ushort
-{
-    Character = 1,
-    Separator = 2,
-    Link = 3,
-    Bracket = 4,
-}
-
-/// <summary>
-///     1 2 3
-/// C 1 0 0 0 C
-///   2 0 0 0 1
-///   3 0 0 0
-/// C 4 0 0 0 C
-/// 类似于传真引线
-/// </summary>
-public enum SideKorner : ushort
-{
-    Top = 0,
-    Left = 1,
-    Right = 2,
-    Bottom = 3
-}
-
-/// <summary>
-/// HxW Witch 添加了一个all、美化
-/// 接触一点金去就是Penetrate 点面 出 用
-/// Stick不接触好像贴着
-/// </summary>
-public enum ActionBehavior
-{
-    Drag = 0,
-    Push = 1,
-    //which how metric 
-    Stick = 2
+    SideKick = 2 //related to the ActionBehavior
 }
 /// <summary>
 /// Creal.Tetris not just Facial 
@@ -69,23 +35,139 @@ public enum ActionBehavior
 /// Kolor
 /// HxW
 /// </summary>
-public enum SolidMetric
+public enum Metric
 {
-    flat = 0,
-    metric =1
+    Flat = 0,
+    Metric = 1
 }
 
 /// <summary>
-/// 
+/// OdinFirst Analytical.Fusion
 /// </summary>
-public enum EarthMetrik
+public enum EarthMatical
 {
-    dot = 0,//?.anti- anti~
-    line = 1,//atlair
+    Dot = 0,//?.anti- anti~
+    Line = 1,//atlair
     //connector=2,
     /// <summary>
     /// 三维立体 四维 atscup
     /// </summary>
-    dimension = 3
+    Dimension = 3
+}
+/// <summary>
+/// 注意Odin 01
+/// 立体 isduplicated
+/// </summary>
+public enum SolidMetrik : ushort
+{
+    Circle = 1,
+    //Leon?.Metricwhich.First?.Transcolor:Diamond 角度 看法 菱形
+    Square = 2,
+    Trangle = 4,
 }
 
+/// <summary>
+/// 起源  LeOriginal
+/// Time|snical
+/// 主要目前和圆形有关 如果其他Angle first arc美 其他 边?=变
+/// humanlize speaking:
+///     hiearchy
+///     centeraround
+/// </summary>
+public enum  Leon
+{
+    Source = 0x00,
+    Orgin,
+}
+/// <summary>
+///Keller 
+///     Character: letter font language
+///     Ket 26 letters 3000 chs and others
+///     Created Speak  Write
+///         Originated
+///         Formidable //行程中
+///         Evoluting       
+///         Recognizable
+///         Spontaneous
+///         Principle
+///     ket = (transcolor) =symbol
+///         SelfGet.TransColor.Religous|Party|Ideo
+///         Physcial Influence:Ketself
+///         Gravity Mag Velocity
+///     e.g:command lines
+/// </summary>
+public enum SymbolMetric : ushort
+{
+    Circle = 0,
+    Kross = 1,
+    Intersect = 2
+}
+/// <summary>
+/// 问题解决优先原则
+/// lez:keller.cmd
+/// </summary>
+public enum SymbolPrioity : ushort
+{
+    Each = 1,
+    Separator = 2,
+    Bracket = 4,
+    Link = 8
+}
+
+/// <summary>
+///     1 2 3
+/// C 1 0 0 0 C
+///   2 0 0 0 @
+/// C 3 0 0 0 C
+/// 类似于传真引线
+/// Angle dot line (Atlair wave)
+/// Nint.Rect  宫格酒
+/// Nint.Circle.StarFunk 启明星
+///     EarthMetric.Dotline
+///     SolidMetric.Fusion
+/// Dotline
+/// </summary>
+public enum SideKorner : ushort
+{
+    //参照Axis 点面边
+    AxisCenter,
+
+    Top,
+    Left,
+    Right,
+    Bottom,
+
+    TopLeft,
+    TopRight,
+    BottomLeft,
+    BottomRight,
+}
+
+/// <summary>
+/// Hxw Witch 添加了一个all、美化
+/// 类似于细胞分列与融合
+/// Metrik
+/// MetrikWitch
+/// 接触一点金去就是Penetrate 点面 出 用
+/// Stick不接触好像贴着
+/// </summary>
+public enum ActionBehavior
+{
+    Drag = 1,
+    Push = 2,
+    //which how metric, ikapa
+    StackOut = 3
+}
+/// <summary>
+/// 齿儿 起源 源起
+/// </summary>
+public enum ActionSphere
+{
+    Lever = 1,
+    Handle = 2,
+    //which how metric, ikapa
+    Center = 3,
+    Around,
+    //维在里面是否 SideKorner
+    Touched,
+}
