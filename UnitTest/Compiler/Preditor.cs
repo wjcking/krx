@@ -10,7 +10,6 @@ namespace Asnic.Compiler
 {
     public class Preditor
     {
-
         /*At the end of organised the ket array, it will add top and bottom
         * Further discusstion:handle faimly kid metric
         * C P P P P P P   C

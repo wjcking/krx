@@ -9,7 +9,6 @@ namespace Asnic
 
    /// <summary>
    /// Fusion-~-Anti
-   /// 
    /// </summary>
     public class Solid
     {
