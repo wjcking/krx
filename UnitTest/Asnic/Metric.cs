@@ -61,9 +61,9 @@ public enum EarthMatical
 public enum SolidMetrik : ushort
 {
     Circle = 1,
+    Trangle = 2,
+    Square = 3,
     //Leon?.Metricwhich.First?.Transcolor:Diamond 角度 看法 菱形
-    Square = 2,
-    Trangle = 4,
 }
 
 /// <summary>
@@ -80,7 +80,7 @@ public enum  Leon
     Orgin,
 }
 /// <summary>
-///Keller 
+/// 
 ///     Character: letter font language
 ///     Ket 26 letters 3000 chs and others
 ///     Created Speak  Write
