@@ -6,16 +6,16 @@
     <title></title>
 </head>
 <body>
-     
+    <div id="result"></div>
     <script type="text/javascript">
 
         if (localStorage.clickcount) {
-            localStorage.clickcount = Number(localStorage.clickcount) + 1;
+            localStorage.clickcount +=  "<br/><b>asdf</b>";
         } else {
             localStorage.clickcount = 1;
         }
         document.getElementById("result").innerHTML = "你在按钮上已经点击了 " +
-            localStorage.clickcount + "次。";
+            localStorage.clickcount +  + "次。";
     </script>
 </body>
 </html>

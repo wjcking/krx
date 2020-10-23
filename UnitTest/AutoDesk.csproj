@@ -120,10 +120,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Analytical\func.html" />
     <Content Include="AutoDesk\AutoEditor.html" />
-    <Content Include="Analytical\Analytical.html" />
-    <Content Include="Analytical\JavaScript.html" />
-    <Content Include="Analytical\Shapable.html" />
+    <Content Include="Analytical\analytical.html" />
+    <Content Include="Analytical\javascript.html" />
+    <Content Include="Analytical\shapable.html" />
     <Content Include="HTMLPage1.html" />
     <Content Include="jquery\jquery-3.5.1.min.js" />
     <Content Include="jquery\Json2.js" />
