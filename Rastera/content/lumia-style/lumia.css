@@ -29,3 +29,9 @@ pre
 {
    display:none;
 }
+textarea
+{
+    width:800px;
+    height:800px;
+    border-width:0px;
+}
