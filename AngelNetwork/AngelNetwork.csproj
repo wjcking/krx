@@ -67,6 +67,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="analytical\analytical.html" />
+    <Content Include="analytical\Asnic.html" />
+    <Content Include="analytical\copy.html" />
+    <Content Include="analytical\file.html" />
+    <Content Include="analytical\FileSaver.js" />
+    <Content Include="analytical\FileSaver.min.js" />
+    <Content Include="analytical\flex.html" />
+    <Content Include="analytical\Func.html" />
+    <Content Include="analytical\javascript.html" />
+    <Content Include="analytical\jquery.cookie.js" />
+    <Content Include="analytical\localstorage.html" />
+    <Content Include="analytical\revenez.html" />
+    <Content Include="analytical\shapable.html" />
+    <Content Include="analytical\storager.js" />
+    <Content Include="analytical\storager.min.js" />
+    <Content Include="analytical\t.txt" />
+    <Content Include="analytical\TextFile1.txt" />
     <Content Include="bin\Beautiful.dll" />
     <Content Include="bin\Beautiful.pdb" />
     <Content Include="bin\Business.dll" />
@@ -137,6 +154,8 @@
     <Content Include="handlers\get.ashx" />
     <Content Include="handlers\layout.ashx" />
     <Content Include="handlers\set.ashx" />
+    <Content Include="analytical\FileSaver.min.js.map" />
+    <Content Include="analytical\localstring.map" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+    <!--    <script type="text/javascript" src="jquery/jquery.cookie.js"></script>-->
+
+    <script type="text/javascript" src="localstring.map"></script>
+</head>
+<body>
+    <h2></h2>
+    <div id="result">
+    </div>
+    <input id="Button1" type="button" value="button" onclick="document.execCommand('saveAs')" />
+
+
+    <script type="text/javascript"> 
+        
+        /* Save函數和SaveAs函數 */
+        /* Save函數
+        * 使用：save(data).as(type) 或 save(data).name(name).as(type)
+        */
+        function Save(data) { this.data = data; this.fileName = "data" }
+
+        Save.prototype.as = function (type) {
+            var link = document.createElement("a")
+            var url = 'data:text/' + type + ';charset=utf-8,\uFEFF' + encodeURI(this.data);
+            link.href = url;
+            link.download = this.fileName + "." + type;
+            link.click();
+        }
+        Save.prototype.name = function (param) {
+            this.fileName = param;
+            return this;
+        }
+        var save = function (data) {
+            return new Save(data)
+        };
+
+        /* SaveAs函數 
+        使用：第一個參數是要保存的數據，第二個參數是要保存的類型
+        */
+        function SaveAs(data,type,name) {
+            var link = document.createElement("a");
+            var exportName=name?name:'data';
+            var url = 'data:text/'+type+';charset=utf-8,\uFEFF' + encodeURI(data);
+            link.href = url;
+            link.download = exportName+"."+type;
+            link.click();
+        }
+    </script>
+</body>
+</html>

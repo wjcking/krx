@@ -12,16 +12,20 @@ public:
 	Crystal();
 	//who is gonna neutualize,then what?.
 	~Crystal();
-	//parallel line,dots,circles,2d.3d e.g.
-	//cells, the where,environment 
+	/*parallel line,dots,circles, earth solid metric
+	*cells, the where,environment 
+	*/
 	virtual  Asnical& Generate(const Dynamic&);
+	//leon:anti altair fusional
 	//rotating while starting for the brain system(soul),remind of outside(qunatities,qi,mess)
 	// Trace back to,historically TOP refering to Complexity
 	//Adversely evilly
 	virtual  Asnical&  Rotate(const Dynamic&);
-	//the rate of diminishing,(YinYang,01,triangle and from other spaces)
-	//Anti- issues,Plants
-	//hited then rotate adversely
+	/*the rate of diminishing,(YinYang,01,triangle and from other spaces)
+	*Anti- issues,Plants
+	*hited then rotate adversely
+	*particle molicue powder
+	*/
 	virtual  Asnical&  Penetrate(const Dynamic&);
 	//Player,explosive which concerning about the balance ratio
 	//Attacking,hiding

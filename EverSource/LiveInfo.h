@@ -22,6 +22,7 @@
 typedef string Year;
 typedef string Monsday;
 typedef string Minseconds;
+
 struct RetrieveInfo : SphereInfo
 {
 	long whenAsnic;
