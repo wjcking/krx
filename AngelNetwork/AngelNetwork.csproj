@@ -67,18 +67,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="analytical\adverse.html" />
     <Content Include="analytical\analytical.html" />
     <Content Include="analytical\Asnic.html" />
     <Content Include="analytical\copy.html" />
     <Content Include="analytical\file.html" />
     <Content Include="analytical\FileSaver.js" />
     <Content Include="analytical\FileSaver.min.js" />
+    <Content Include="analytical\flex.css" />
     <Content Include="analytical\flex.html" />
     <Content Include="analytical\Func.html" />
     <Content Include="analytical\javascript.html" />
     <Content Include="analytical\jquery.cookie.js" />
+    <Content Include="analytical\landscape.html" />
     <Content Include="analytical\localstorage.html" />
     <Content Include="analytical\revenez.html" />
+    <Content Include="analytical\screenable.html" />
     <Content Include="analytical\shapable.html" />
     <Content Include="analytical\storager.js" />
     <Content Include="analytical\storager.min.js" />
