@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static System.Console;
 namespace UnitTest.AutoDesk
@@ -9,6 +10,62 @@ namespace UnitTest.AutoDesk
     [TestClass]
     public class Reflect
     {
+        public   string GenerateRandomLetter(int Length)
+        {
+            char[] Pattern = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+            string result = "";
+            int n = Pattern.Length;
+            Random random = new Random(~unchecked((int)DateTime.Now.Ticks));
+            for (int i = 0; i < Length; i++)
+            {
+                int rnd = random.Next(0, n);
+                result += Pattern[rnd];
+            }
+            return result;
+        }
+        [TestMethod]
+        public void PrintScreenable()
+        {
+            var x = 100;
+            var y = 0;
+
+
+            var width = 1920;
+            var height = 1080;
+            var row = 0;
+            var columns = 0;
+            var tableString = new StringBuilder();
+            //  rand = DateTime.Now.Millisecond;
+
+            tableString.Append("<table>");
+                tableString.Append("<tr>");
+
+            for (var i = 0; i < (width / 14); i++)
+            {
+                 
+                    tableString.AppendFormat("<td>{0}</td>",  i+1);
+                
+            }
+                tableString.Append("</tr>");
+
+            for (var i = 0; i < (width / 14); i++)
+            {
+                tableString.Append("<tr>");
+
+
+                for (var c = 0; c < (height / 18); c++)
+                {
+
+                    tableString.AppendFormat("<td>{0}</td>", GenerateRandomLetter(2).ToUpper());
+                }
+                tableString.Append("</tr>");
+            }
+
+            tableString.Append("</table>");
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+           File.WriteAllText(path + "\\screenable.html",tableString.ToString());
+            System.Diagnostics.Process.Start(path + "\\screenable.html");
+        }
         [TestMethod]
         public void PrintStatic()
         {

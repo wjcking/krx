@@ -21,12 +21,12 @@ namespace UnitTest
         public void AsnicFile(string commandLine)
         {
 
-            //var wk = new Formwork();
-            //wk.ShowDialog();
+            var wk = new Formwork();
+            wk.ShowDialog();
             //Directory.CreateDirectory();
             //File.Create;
             //Directory.Move
-           // File.Delete;
+            // File.Delete;
 
         }
 
