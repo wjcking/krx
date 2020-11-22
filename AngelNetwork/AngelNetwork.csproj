@@ -70,6 +70,7 @@
     <Content Include="analytical\adverse.html" />
     <Content Include="analytical\analytical.html" />
     <Content Include="analytical\Asnic.html" />
+    <Content Include="analytical\asnical.html" />
     <Content Include="analytical\copy.html" />
     <Content Include="analytical\file.html" />
     <Content Include="analytical\FileSaver.js" />

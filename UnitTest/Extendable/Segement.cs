@@ -19,7 +19,7 @@ namespace AutoDesk
         {
             //Pick("9月30日，全国烈士纪念日，南京雨花台烈士陵园烈士群雕前，来自江苏南京各行各业的71对新婚夫妇，向雨花英烈敬献鲜花、诵读“雨花英烈家书”，借此表达对革命烈士的崇敬和缅怀，对未来美好生活的向往。你们的功勋，我们会永远铭记！");
           // var text= System.IO.File.ReadAllText(@" F:\VSProjects\AngelWolf\UnitTest\Extendable\Analytical.html");
-            var text2 =System.IO.File.ReadAllText(@" C:\Users\Administrator\Desktop\revenez.txt",System.Text.Encoding.Default);
+            var text2 =System.IO.File.ReadAllText(@" C:\Users\Administrator\Desktop\revenez.html",System.Text.Encoding.Default);
             Pick(text2);
         }
         /// <summary>
