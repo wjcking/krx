@@ -82,7 +82,7 @@
     <Content Include="analytical\jquery.cookie.js" />
     <Content Include="analytical\landscape.html" />
     <Content Include="analytical\localstorage.html" />
-    <Content Include="analytical\revenez.html" />
+    <Content Include="analytical\basic.html" />
     <Content Include="analytical\screenable.html" />
     <Content Include="analytical\shapable.html" />
     <Content Include="analytical\storager.js" />

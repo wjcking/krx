@@ -1,6 +1,6 @@
 ﻿<html xmlns="http://www.w3.org/1999/xhtml">
 <head><title></title></head>
-
+<script src="../content/jquery/jquery-3.5.1.min.js"></script>
 <body id="b">
     <pre id="editor">
 
@@ -202,7 +202,14 @@ Vesaier
         Harress sexcully 鬼ly
 
 </pre>
-
+    <script type="text/javascript">
+        var p = $("#editor").html();
+        p = p + p;
+        //$("#editor").html(p.split(" "));
+        for (c in p) {
+            $("#editor").append(p[c].toLocaleUpperCase());
+        }
+    </script>
 
 </body>
 </html>
