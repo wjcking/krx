@@ -105,6 +105,7 @@ public enum SymbolMetric : ushort
 /// <summary>
 /// 问题解决优先原则
 /// lez:keller.cmd
+/// Bracket iscouple NintThink
 /// </summary>
 public enum SymbolPrioity : ushort
 {
