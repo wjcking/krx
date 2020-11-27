@@ -43,7 +43,7 @@ var EarthMatric = ["Dot", "Line", "Dimension"];
 
 // 正：圆 正方形 三角形等边60度
 // 不：椭 长方形 不等边三角形
-var SolidMetric =["Circle","Trangle","Rantangle"]
+var SolidMetric = ["Circle", "Trangle", "Rantangle"]
 //Leon?.Metricwhich.First?.Transcolor:Diamond 角度 看法 菱形
 // 起源  LeOriginal
 // Time|snical
@@ -71,7 +71,7 @@ var Leon = ["Source", "Orgin"];
 // renly.think.reglious?
 var SymbolMetric
 {
-    Circle = 0,  Kross = 1,  Intersect = 2
+    Circle = 0, Kross = 1, Intersect = 2
 }
 /*
  * single
@@ -84,16 +84,17 @@ var SymbolMetric
 // 翻字 likemost
 // witch one is the first?:language geographic habits
 
-var SymbolPrioity : ushort
-{
-    
-    // An.user.language
-    // An.dev.programing
-    
-    Separator = 2,// is multiple
-    Link = 8 // is equal - =
-    Bracket = 4,//  coupleSideKorner┌┬┐└┴┘┼
-}
+// An.user.language
+// An.dev.programing
+// is multiple
+// is equal - =
+//  coupleSideKorner┌┬┐└┴┘┼
+var SymbolPrioity =
+    [
+        "Separator",
+        "Link",
+        "Bracket"
+    ]
 
 
 //     1 2 3
@@ -108,20 +109,20 @@ var SymbolPrioity : ushort
 //     SolidMetric.Fusion
 // Dotline
 
-var SideKorner : ushort
+var SideKorner: ushort
 {
     //参照Axis 点面边
     AxisCenter,
 
-    Top,
-    Left,
-    Right,
-    Bottom,
+        Top,
+        Left,
+        Right,
+        Bottom,
 
-    TopLeft,
-    TopRight,
-    BottomLeft,
-    BottomRight,
+        TopLeft,
+        TopRight,
+        BottomLeft,
+        BottomRight,
 }
 
 
@@ -131,13 +132,12 @@ var SideKorner : ushort
 // MetrikWitch
 // 接触一点金去就是Penetrate 点面 出 用
 // Stick不接触好像贴着
-
 var ActionBehavior
 {
     Drag = 1,
-    Push = 2,
-    //which how metric, ikapa
-    StackOut = 3
+        Push = 2,
+        //which how metric, ikapa
+        StackOut = 3
 }
 
 // 齿儿 起源 源起
@@ -145,10 +145,10 @@ var ActionBehavior
 var ActionSphere
 {
     Lever = 1,
-    Handle = 2,
-    //which how metric, ikapa
-    Center = 3,
-    Around,
-    //维在里面是否 SideKorner
-    Touched,
+        Handle = 2,
+        //which how metric, ikapa
+        Center = 3,
+        Around,
+        //维在里面是否 SideKorner
+        Touched,
 }
