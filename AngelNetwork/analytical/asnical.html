@@ -21,14 +21,23 @@
 </pre>
     <input type="button" value="autoshow" onclick="f()" />
     <script type="text/javascript">
-
+        var Axis =
+        [
+            ["Center", "Angle", "SideKick"]
+        ];
         function f() {
             var str = $("#t").val();
             str = str.replace(/</g, "");
             str = str.replace(/>/g, "");
-            $("#t").val(str);
+            $("#t").val(Axis[0]);
         }
-
+        try {
+            $("#t").val(Axis[1][1]);
+        }
+        catch(error)
+        {
+            alert(error);
+        }
     </script>
 </body>
 </html>

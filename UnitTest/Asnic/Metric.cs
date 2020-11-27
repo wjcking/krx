@@ -32,7 +32,7 @@ public enum Axis
 /// Creal.Tetris not just Facial 
 /// kaetseolf
 /// Odin
-/// Kolor
+/// Transcolor
 /// HxW
 /// </summary>
 public enum Metric
@@ -42,7 +42,7 @@ public enum Metric
 }
 
 /// <summary>
-/// OdinFirst Analytical.Fusion
+/// OdinFirst Analytical.Fusion transcolor
 /// </summary>
 public enum EarthMatical
 {
@@ -102,17 +102,25 @@ public enum SymbolMetric : ushort
     Kross = 1,
     Intersect = 2
 }
+/*
+ * single
+ * mutiple
+ */
 /// <summary>
 /// 问题解决优先原则
 /// lez:keller.cmd
 /// Bracket iscouple NintThink
+/// 翻字 likemost
 /// </summary>
 public enum SymbolPrioity : ushort
 {
-    Each = 1,
-    Separator = 2,
-    Bracket = 4,
-    Link = 8
+    /// <summary>
+    /// An.user.language
+    /// An.dev.programing
+    /// </summary>
+    Separator = 2,// is multiple
+    Bracket = 4,//  coupleSideKorner┌┬┐└┴┘┼
+    Link = 8 // is equal - =
 }
 
 /// <summary>
