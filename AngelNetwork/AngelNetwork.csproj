@@ -80,6 +80,13 @@
     <Content Include="analytical\Func.html" />
     <Content Include="analytical\javascript.html" />
     <Content Include="analytical\jquery.cookie.js" />
+    <Content Include="analytical\kraft\kraft1.jpg" />
+    <Content Include="analytical\kraft\kraft2.jpg" />
+    <Content Include="analytical\kraft\kraft3.jpg" />
+    <Content Include="analytical\kraft\kraft4.jpg" />
+    <Content Include="analytical\kraft\kraft5.jpg" />
+    <Content Include="analytical\kraft\kraft6.jpg" />
+    <Content Include="analytical\kraft\kraft7.jpg" />
     <Content Include="analytical\landscape.html" />
     <Content Include="analytical\localstorage.html" />
     <Content Include="analytical\basic.html" />
