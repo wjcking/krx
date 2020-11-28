@@ -78,7 +78,8 @@
     <Content Include="analytical\flex.css" />
     <Content Include="analytical\flex.html" />
     <Content Include="analytical\Func.html" />
-    <Content Include="analytical\javascript.html" />
+    <Content Include="analytical\russia.html" />
+    <Content Include="analytical\turk.html" />
     <Content Include="analytical\jquery.cookie.js" />
     <Content Include="analytical\kraft\kraft1.jpg" />
     <Content Include="analytical\kraft\kraft2.jpg" />
