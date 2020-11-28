@@ -108,3 +108,19 @@ var ActionBehavior = ["Drag", "Push", "StackOut"];
 var ActionSphere = ["Lever", "Handle", "Center", "Around", "Touched"]
 //Frequent Count
 var Statistic = ["Unicode", "Language"]
+// Kandle:word type magnet 
+// Relate:metric - witch belong to
+// leon:空间OS
+var Dualistic =
+{
+    Flag: [
+        ["yes", "no"],
+        ["true", "false"]
+        ]
+}
+//分类学 taxonomy，systematics
+var Sym  = ["Kandle", "Relate", "Range"];
+//Kandle:WordType Substant
+var Kandle = ["verb"]
+
+var Renliy = [];
