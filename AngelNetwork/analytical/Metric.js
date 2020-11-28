@@ -30,16 +30,18 @@ var Axis =
 // Geometric?=达成一致后 或 被迫 或 疼 等 
 // HxW
 var Metric = ["Flat", "Metric"];
-// EarthThinking:x y z 
-// OdinFirst Analytical.Fusion transcolor
-//?.anti- anti~//atlair   // 三维立体 四维 atscup
-var EarthMatric = ["Dot", "Line", "Dimension"];
 
 // 注意Odin 01
 // 立体 isduplicated
 // 正：圆 正方形 三角形等边Earth:60度
 // 不：椭 长方形 不等边三角形
+//Rectangle.Rotated called diamond
 var SolidMetric = ["Circle", "Trangle", "Rectangle"]
+// EarthThinking:x y z
+// OdinFirst Analytical.Fusion transcolor
+//?.anti- anti~//atlair   // 三维立体 四维 atscup
+var EarthMatric = ["Dot", "Line", "Dimension"];
+
 //Leon?.Metricwhich.First?.Transcolor:Diamond 角度 看法 菱形
 // 起源  LeOriginal
 // Time|snical
@@ -47,9 +49,11 @@ var SolidMetric = ["Circle", "Trangle", "Rectangle"]
 // humanlize speaking:
 //     hiearchy
 //     centeraround
+//Transmetric transcolor transtick transever
+//anti altair fusion
+//
 var Leon = ["Source", "Orgin"];
-
-//Character: letter font language
+//Renliy.Think:reglious symbols,  character: letter font language
 //Ket 26 letters 3000 chs and others
 //Created Speak  Write WhenSnic is noticed Corruptted
 //Originated  Formidable  行程中  Evoluting Recognizable  Spontaneous Principle 
@@ -59,11 +63,10 @@ var Leon = ["Source", "Orgin"];
 //    Gravity Mag Velocity
 //e.g:command lines
 //Is Parallel
-//renly.think.reglious?
-//intersect.atowards 
-//Next levels: depict picture images
-//diagram graph chart
-var SymbolMetric = ["Circle", "Kross", "Intersect"];
+//first impression towards
+//Atowards:SolidMetric.Rectangle Triangle
+//Next levels: depict picture images diagram graph chart
+var SymbolMetric = ["Kross","Interface", "Intersect"];
 
 // 问题解决优先原则
 // lez:keller.cmd
@@ -104,8 +107,8 @@ var SideKorner =
 var ActionBehavior = ["Drag", "Push", "StackOut"];
 // 齿儿 起源 源起
 //center:which how metric, ikapa
-//touched:维在里面否 SideKorner是
-var ActionSphere = ["Lever", "Handle", "Center", "Around", "Touched"]
+//touched:维在里面否 SideKorner是, "Touched"
+var ActionSphere = ["Lever", "Handle", "Center", "Around"]
 //Frequent Count
 var Statistic = ["Unicode", "Language"]
 // Kandle:word type magnet 
@@ -118,8 +121,8 @@ var Dualistic =
         ["true", "false"]
         ]
 }
-//分类学 taxonomy，systematics
-var Sym  = ["Kandle", "Relate", "Range"];
+//分类学 taxonomy，systematics"Kandle",
+var Sym  = [ "Relate", "Range"];
 //Kandle:WordType Substant
 var Kandle = ["verb"]
 
