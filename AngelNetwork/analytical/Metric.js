@@ -60,6 +60,7 @@ var Leon = ["Source", "Orgin"];
 //ket = (transcolor) =symbol
 //    SelfGet.TransColor.Religous|Party|Ideo
 //    Physcial Influence:Ketself
+
 //    Gravity Mag Velocity
 //e.g:command lines
 //Is Parallel
@@ -109,21 +110,3 @@ var ActionBehavior = ["Drag", "Push", "StackOut"];
 //center:which how metric, ikapa
 //touched:维在里面否 SideKorner是, "Touched"
 var ActionSphere = ["Lever", "Handle", "Center", "Around"]
-//Frequent Count
-var Statistic = ["Unicode", "Language"]
-// Kandle:word type magnet 
-// Relate:metric - witch belong to
-// leon:空间OS
-var Dualistic =
-{
-    Flag: [
-        ["yes", "no"],
-        ["true", "false"]
-        ]
-}
-//分类学 taxonomy，systematics"Kandle",
-var Sym  = [ "Relate", "Range"];
-//Kandle:WordType Substant
-var Kandle = ["verb"]
-
-var Renliy = [];
