@@ -78,7 +78,9 @@
     <Content Include="analytical\flex.css" />
     <Content Include="analytical\flex.html" />
     <Content Include="analytical\Func.html" />
+    <Content Include="analytical\leon.html" />
     <Content Include="analytical\russia.html" />
+    <Content Include="analytical\symbols.svg" />
     <Content Include="analytical\turk.html" />
     <Content Include="analytical\jquery.cookie.js" />
     <Content Include="analytical\kraft\kraft1.jpg" />
