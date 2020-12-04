@@ -1,8 +1,9 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    /*margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;*/
     font-size:14px;
+    font-family:sans-serif;
 }
 
 /* Wrapping element */

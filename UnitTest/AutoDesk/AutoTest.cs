@@ -33,12 +33,12 @@ namespace AutoTest
         [TestMethod]
         public void PrintPrioity()
         {
-            var t = SymbolPrioity.Each | SymbolPrioity.Link | SymbolPrioity.Bracket;
-            Console.WriteLine(t);
-            Console.WriteLine((int)t);
-            var options = FileAttributes.ReadOnly | FileAttributes.System | FileAttributes.Hidden;
-            Console.WriteLine(options);
-            Console.WriteLine((int)options);
+            //var t = SymbolPrioity.Each | SymbolPrioity.Link | SymbolPrioity.Bracket;
+            //Console.WriteLine(t);
+            //Console.WriteLine((int)t);
+            //var options = FileAttributes.ReadOnly | FileAttributes.System | FileAttributes.Hidden;
+            //Console.WriteLine(options);
+            //Console.WriteLine((int)options);
         }
         /// <summary>
         /// Brandkets
