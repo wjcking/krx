@@ -131,6 +131,7 @@
     <Content Include="content\vis\vis-network.min.css" />
     <Content Include="content\vis\vis.js" />
     <Content Include="content\vis\vis.min.js" />
+    <Content Include="content\vue\vue.min.js" />
     <Content Include="controllers\handlers.js" />
     <Content Include="models\constant.js" />
     <Content Include="models\role\role.js" />

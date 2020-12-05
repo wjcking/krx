@@ -1,4 +1,17 @@
-﻿   <textarea id="text" cols="50" rows="20">
+﻿ var KetStruct = [
+       "split 分隔 ",
+       "slice 截取 ",
+       "indexOf 初始索引 ",
+       "lastIndexOf 最后索引 ",
+       "substring 索引之间",
+       "replace	替换 ",
+       "charAt 索引 ",
+       "toLowerCase	小写 ",
+       "toUpperCase	大写 ",
+       "concat 连接"
+        ];      
+
+   <textarea id="text" cols="50" rows="20">
         A China pediu aos Estados Unidos que parem de impor pressão máxima sobre o Irã e trabalhem para resolver a questão nuclear do Irã por meios políticos e diplomáticos, disse o porta-voz do Ministério das Relações Exteriores, Geng Shuang, nesta terça-feira (16)
 A manutenção do Acordo Nuclear com o Irã foi um tema importante na reunião dos chanceleres da União Europeia, realizada em Bruxelas na segunda-feira. Na coletiva de imprensa, a alta representante da UE para os Assuntos Exteriores e Política de Segurança, Federica Mogherini, disse que o acordo é viável sem planos alternativos e que a UE continuará trabalhando pela sua implementação, ao mesmo tempo, exige que o Irã volte a cumprir o acordo.
 Quando perguntado sobre as observações, Geng Shuang disse em uma coletiva de imprensa que os EUA devem enfrentar as preocupações da maioria da comunidade internacional, abandonar a conduta errada de exercer a pressão máxima sobre o Irã, evitar o impedimento da aplicação do acordo e criar condições para a solução diplomática e política da questão nuclear iraniana.
