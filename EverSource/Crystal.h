@@ -44,4 +44,13 @@ public:
 	virtual  Asnical&  GetComplexity(const Dynamic&);
 };
 
+//class N :P, I { };
+//class I :N { }
+//class P :I { };
 
+
+class A :C
+{
+};
+class B :A { };
+class C :A { };

@@ -32,17 +32,17 @@
     var row = 0;
     var columns = 0; 
     var tableString = "";
-    for (var i = 0; i < (width / 2); i++) {
-        var rand = parseInt(Math.random() * (98 - 0 + 1) + y);
-        tableString += "<tr>" 
+    //for (var i = 0; i < (width / 2); i++) {
+    //    var rand = parseInt(Math.random() * (98 - 0 + 1) + y);
+    //    tableString += "<tr>" 
     
-        for (var c = 0; c < (height / 2); c++) {
-            tableString += "<td>" + rand + "</td>" 
+    //    for (var c = 0; c < (height / 2); c++) {
+    //        tableString += "<td>" + rand + "</td>" 
 
-        }
-        tableString += "</tr>" 
-    }
-      $("#table_screen").html(tableString)
+    //    }
+    //    tableString += "</tr>" 
+    //}
+    //  $("#table_screen").html(tableString)
     //for (var i = 0; i < width / 16; i++) {
     //    $("#table_screen").append("<tr>")
     
@@ -52,5 +52,11 @@
     //    }
     //    $("#table_screen").append("</tr>")
     //}
+
+        //b();
+   
+    a();
+    function b() { alert("b") }
+    function a() {  b();  } 
 </script>
 </html>
