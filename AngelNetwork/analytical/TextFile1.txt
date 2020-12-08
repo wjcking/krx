@@ -1,4 +1,35 @@
-﻿//    KOF 整理 shift tab \r错落有致
+﻿
+    <script type="text/javascript">
+
+
+        //var year = ['2019', '2020'];
+        //var color = ['白色', '灰色', '蓝色'];
+        //var size = ['S', 'M', 'L'];
+        //var list = [year, color, size];
+        //$("#p").append(
+        //    list.join(' ')
+        //);
+        //function calcDescartes(array) {
+        //    if (array.length < 2) return array[0] || [];
+
+        //    return array.reduce((total, currentValue) => {
+        //        let res = [];
+
+        //        total.forEach(t => {
+        //            currentValue.forEach(cv => {
+        //                if (t instanceof Array) 	// 或者使用 Array.isArray(t)
+        //                    res.push([...t, cv]);
+        //                else
+        //                    res.push([t, cv]);
+        //            })
+        //        })
+        //        return res;
+        //    })
+        //}
+        //$("#p").html(
+        //    calcDescartes(list).join('\n')
+        //);
+    </script>//    KOF 整理 shift tab \r错落有致
   //  alert("ا اشىپ، جاقس")
    //alert(" ھ س د ا ق ك ل د
 

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../content/jquery/jquery-3.5.1.min.js"></script>
+    <style type="text/css">
+        body {
+            /*background-color: darkblue;
+            color: white;*/
+        }
+    </style>
+</head>
+<body>
+
+    <pre id="p">
+
+</pre>
+    //
+    <script type="text/javascript">
+
+        var Intelligent = [
+             [0,1],
+            [0,2],
+            ["Leon", "Rockmega"],
+            ["Leon", "Human"],
+
+            //["Rockmega", "Leon"],
+            //["Rockmega", "Human"],
+
+            //["Human", "Leon"],
+            //["Human", "Rockmega"],
+
+            //["Leon", "Rockmega", "Human"]
+        ]
+        //Recognition-Blance=Beautiful:
+        //Required|Not || Random(Round) Options
+        //动词  = ["IsEquals","Belong", "Relate", ];//"Close"
+        //名词 形容词 =  Limit Range Bound Span
+        var Leon = ["Source", "Orgin"]; //Source = Substance
+        var Maticals = ["Flat", "Tricycle", "Metric"];//Metric立体
+        var Solid = ["Circle", "Trangle", "Rectangle"]
+        function getPermutation(arr) {
+            if (arr.length == 1) {
+                return [arr];
+            }
+
+            var permutation = [];
+            for (var i = 0; i < arr.length; i++) {
+                var firstEle = arr[i];
+                var arrClone = arr.slice(0);
+                arrClone.splice(i, 1);
+                var childPermutation = getPermutation(arrClone);
+                for (var j = 0; j < childPermutation.length; j++) {
+                    childPermutation[j].unshift(firstEle);
+                }
+                permutation = permutation.concat(childPermutation);
+            }
+            return permutation;
+        }
+        Intelligent.forEach(function (item) {
+
+            var permutation = getPermutation(item);
+
+            $("#p").append(permutation.join('\n'));
+            $("#p").append('\n');
+            
+        });
+    </script>
+</body>
+</html>
+<!--     ["Leon Rockmega"],
+            //["Leon Human"],
+       
+            //["Rockmega Leon"],
+            //["Rockmega Human"]
+           
+            //["Human Leon"],
+            //["Human Rockmega"],
+        
+
+            //["Leon", "Rockmega", "Human"]-->

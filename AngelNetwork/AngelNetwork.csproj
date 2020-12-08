@@ -75,9 +75,9 @@
     <Content Include="analytical\file.html" />
     <Content Include="analytical\flex.css" />
     <Content Include="analytical\flex.html" />
-    <Content Include="analytical\Func.html" />
-    <Content Include="analytical\leon.html" />
-    <Content Include="analytical\leon\rt.html" />
+    <Content Include="analytical\permutation.html" />
+    <Content Include="analytical\Leonic\leon.html" />
+    <Content Include="analytical\Leonic\rt.html" />
     <Content Include="analytical\russia.html" />
     <Content Include="analytical\turk.html" />
     <Content Include="analytical\jquery.cookie.js" />
