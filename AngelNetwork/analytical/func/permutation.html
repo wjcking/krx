@@ -15,6 +15,23 @@
 <body>
 
     <pre id="p">
+Analytical.Permute.Directive.Left-Right.Each
+Count Self:Kolored,Merge,Despersed Include Required
+    L2 * P2=4
+    L6 * P2 = 12
+    L6 * P3 = 18
+    L24 * P4 = 96
+Triangle:Color
+    Count.KolorRint
+    Count.KolorCirclet
+    //Trikon Tricon
+Kolor:Triangle
+
+Leon.Source.Count:Dimention
+    Source
+    Origin
+    Tricylce.Comeout
+Leon.Loop
 
 </pre>
 
@@ -100,25 +117,44 @@
             }
             return permutation;
         }
-        var collect = [
+        var leonics =
+            [
 
+                ["Intelligent",
+                    "Axis",
+                    "Maticals",
+                    "Solid",
+                    "Route",
+                    "Directive",
+                  //  "Transact",
+                    "Kolor"
+                ]
+            ]
+
+        var collect = [
             Intelligent,
             Axis,
+            Maticals,
             Solid,
             Route,
-            Maticals,            
             Directive
         ]
-        collect.forEach(function (c) {
-            $("#p").append(collect[c]).append('\n');
+
+        collect.forEach(function (c, i) {
+            $("#p").append(leonics[0][i]).append('\n\n');
             c.forEach(function (item) {
 
                 var permutation = getPermutation(item);
-
                 $("#p").append(permutation.join('\n'));
                 $("#p").append('\n');
 
             });
+        });
+        leonics.forEach(function (item) {
+
+            var permutation = getPermutation(item);
+            $("#p").append(permutation.join('\n'));
+            $("#p").append('\n');
         });
     </script>
 </body>
