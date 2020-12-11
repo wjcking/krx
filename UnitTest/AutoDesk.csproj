@@ -78,7 +78,7 @@
     <Compile Include="Asnic\Nint.cs" />
     <Compile Include="Asnic\Solid.cs" />
     <Compile Include="Asnic\Symbol.cs" />
-    <Compile Include="AutoDesk\UnitTest1.cs" />
+    <Compile Include="AutoDesk\Leonic.cs" />
     <Compile Include="AutoDesk\UnitTest2.cs" />
     <Compile Include="Compiler\Preditor.cs" />
     <Compile Include="Analytical\Formwork.cs">

@@ -91,7 +91,7 @@
     <Content Include="analytical\interface\kraft\kraft7.jpg" />
     <Content Include="analytical\interface\landscape.html" />
     <Content Include="analytical\localstorage.html" />
-    <Content Include="analytical\basic.html" />
+    <Content Include="analytical\asnic\basic.html" />
     <Content Include="analytical\screenable.html" />
     <Content Include="analytical\asnic\shapable.html" />
     <Content Include="analytical\TextFile1.txt" />

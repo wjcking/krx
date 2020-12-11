@@ -122,8 +122,7 @@ Leon.Loop
         }
         var leonics =
             [
-
-                ["Intelligent",
+                [
                     "Axis",
                     "Maticals",
                     "Solid",
@@ -134,8 +133,8 @@ Leon.Loop
                 ]
             ]
 
+            //Intelligent,"Intelligent",
         var collect = [
-            Intelligent,
             Axis,
             Maticals,
             Solid,
@@ -154,7 +153,6 @@ Leon.Loop
             });
         });
         leonics.forEach(function (item) {
-
             var permutation = getPermutation(item);
             $("#p").append(permutation.join('\n'));
             $("#p").append('\n');
