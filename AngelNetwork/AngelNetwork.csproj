@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="analytical\asnic\trikon.html" />
     <Content Include="analytical\func\adverse.html" />
     <Content Include="analytical\analytical.html" />
     <Content Include="analytical\func\Asnic.html" />
@@ -75,6 +76,8 @@
     <Content Include="analytical\file.html" />
     <Content Include="analytical\interface\flex.css" />
     <Content Include="analytical\interface\flex.html" />
+    <Content Include="analytical\Leonic\c.html" />
+    <Content Include="analytical\Leonic\r.html" />
     <Content Include="analytical\Leonic\t.html" />
     <Content Include="analytical\func\permutation.html" />
     <Content Include="analytical\Leonic\leon.html" />
