@@ -108,24 +108,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Beautiful\Beautiful.csproj">
-      <Project>{7fa30be4-4736-4f8f-8b9c-d88f6b18fed1}</Project>
-      <Name>Beautiful</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Business\Business.csproj">
-      <Project>{c9640c0b-0a11-4670-9032-a747027d1272}</Project>
-      <Name>Business</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CansaiUtils\KansaiUtils.csproj">
-      <Project>{121f81f8-b7e5-4b1a-ac94-88f77ddb353a}</Project>
-      <Name>KansaiUtils</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PoweredSource\PoweredSource.csproj">
-      <Project>{e3652254-0ee4-4754-832d-532724423e90}</Project>
-      <Name>PoweredSource</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Analytical\content\jquery-3.5.1.min.js" />
     <Content Include="AutoDesk\AutoEditor.html" />
     <Content Include="HTMLPage1.html" />
