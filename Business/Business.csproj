@@ -56,10 +56,6 @@
     <Content Include="TextFile1.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Beautiful\Beautiful.csproj">
-      <Project>{7fa30be4-4736-4f8f-8b9c-d88f6b18fed1}</Project>
-      <Name>Beautiful</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CansaiUtils\KansaiUtils.csproj">
       <Project>{121f81f8-b7e5-4b1a-ac94-88f77ddb353a}</Project>
       <Name>KansaiUtils</Name>

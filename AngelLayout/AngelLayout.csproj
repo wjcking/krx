@@ -134,12 +134,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Beautiful\Beautiful.csproj">
-      <Project>{7fa30be4-4736-4f8f-8b9c-d88f6b18fed1}</Project>
-      <Name>Beautiful</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="symboltics.html" />
     <Content Include="TextFile1.txt" />
   </ItemGroup>
