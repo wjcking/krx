@@ -260,3 +260,5 @@ paket-files/
 __pycache__/
 *.pyc
 UnitTest/Asnic/Metric.cs
+Rastera/asnic/.DS_Store
+.DS_Store
