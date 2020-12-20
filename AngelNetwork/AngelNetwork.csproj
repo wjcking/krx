@@ -73,6 +73,7 @@
     <Content Include="analytical\asnical.html" />
     <Content Include="analytical\copy.html" />
     <Content Include="analytical\file.html" />
+    <Content Include="analytical\func\t-span.html" />
     <Content Include="analytical\interface\flex.css" />
     <Content Include="analytical\interface\flex.html" />
     <Content Include="analytical\Leonic\c.html" />
