@@ -2,7 +2,6 @@
 
 /*
  * handle server Buiness and Poweredsource
- * 
  */
 Handlers = {};
 

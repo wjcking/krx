@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="analytical\func\adverse.html" />
     <Content Include="analytical\analytical.html" />
-    <Content Include="analytical\func\Asnic.html" />
+    <Content Include="analytical\func\flex.html" />
     <Content Include="analytical\asnical.html" />
     <Content Include="analytical\copy.html" />
     <Content Include="analytical\file.html" />
@@ -95,6 +95,7 @@
     <Content Include="analytical\interface\landscape.html" />
     <Content Include="analytical\localstorage.html" />
     <Content Include="analytical\asnic\basic.html" />
+    <Content Include="analytical\plate\hypertext.html" />
     <Content Include="analytical\screenable.html" />
     <Content Include="analytical\asnic\shapable.html" />
     <Content Include="analytical\TextFile1.txt" />
