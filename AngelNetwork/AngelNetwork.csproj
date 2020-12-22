@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="analytical\asnic\Sabora.html" />
     <Content Include="analytical\func\adverse.html" />
     <Content Include="analytical\analytical.html" />
     <Content Include="analytical\func\flex.html" />
@@ -107,6 +108,7 @@
     <Content Include="content\dist\js\bootstrap.min.js" />
     <Content Include="content\jquery\jquery-3.5.1.min.js" />
     <Content Include="content\jquery\Json2.js" />
+    <Content Include="content\require.min.js" />
     <Content Include="content\site.css" />
     <Content Include="content\tmpl\jquery.tmpl.min.js" />
     <Content Include="content\tmpl\jquery.tmplPlus.min.js" />

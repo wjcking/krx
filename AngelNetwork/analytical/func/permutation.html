@@ -96,23 +96,29 @@ Leon.Loop
 
                 ["Top", "Left", "Right", "Bottom"]
             ];
+        var Cobra = [
+            ["Separator", "Link"],
+            ["Separator",  "Bracket"],
+            ["Link", "Bracket"],
+            ["Separator", "Link", "Bracket"]
+        ]
         //Recognition-Blance=Beautiful:
         //Required|Not || Random(Round) Options
         //动词  = ["IsEquals","Belong", "Relate", ];//"Close"
         //名词 形容词 =  Limit Range Bound Span
         var Leon = ["Source", "Orgin"]; //Source = Substance
 
-        function getPermutation(arr) {
-            if (arr.length == 1) {
-                return [arr];
+        function getPermutation(array) {
+            if (array.length == 1) {
+                return [array];
             }
 
             var permutation = [];
-            for (var i = 0; i < arr.length; i++) {
-                var firstEle = arr[i];
-                var arrClone = arr.slice(0);
-                arrClone.splice(i, 1);
-                var childPermutation = getPermutation(arrClone);
+            for (var i = 0; i < array.length; i++) {
+                var firstEle = array[i];
+                var arrayClone = array.slice(0);
+                arrayClone.splice(i, 1);
+                var childPermutation = getPermutation(arrayClone);
                 for (var j = 0; j < childPermutation.length; j++) {
                     childPermutation[j].unshift(firstEle);
                 }
@@ -123,6 +129,7 @@ Leon.Loop
         var leonics =
             [
                 [
+                    "Cobra",
                     "Axis",
                     "Maticals",
                     "Solid",
@@ -135,6 +142,7 @@ Leon.Loop
 
             //Intelligent,"Intelligent",
         var collect = [
+            Cobra,
             Axis,
             Maticals,
             Solid,
