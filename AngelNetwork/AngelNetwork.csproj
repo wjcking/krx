@@ -117,23 +117,7 @@
     <Content Include="content\vis\vis.js" />
     <Content Include="content\vis\vis.min.js" />
     <Content Include="content\vue\vue.min.js" />
-    <Content Include="controllers\handlers.js" />
-    <Content Include="models\constant.js" />
-    <Content Include="models\role\role.js" />
-    <Content Include="models\role\role_category.js" />
-    <Content Include="models\role\role_info.js" />
-    <Content Include="views\%24css_shapes.html" />
-    <Content Include="views\bootstraps.html" />
-    <Content Include="views\css_shapes.html" />
-    <Content Include="views\draw_canvas.html" />
-    <Content Include="views\html_test.html" />
-    <Content Include="views\role\%24addrole.html" />
-    <Content Include="views\role\index.html" />
-    <Content Include="views\role\role.html" />
-    <Content Include="views\role\role_category.html" />
-    <Content Include="views\role\view.html" />
-    <Content Include="views\symboltics.html" />
-    <Content Include="views\vis.html" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -163,8 +147,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="views\sites\" />
-    <Folder Include="views\timeline\" />
+    <Folder Include="controllers\" />
+    <Folder Include="models\" />
+    <Folder Include="views\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
