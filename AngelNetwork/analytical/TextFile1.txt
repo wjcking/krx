@@ -1,4 +1,17 @@
-﻿
+﻿Sabora = [
+'Separator Link',
+'Link Separator',
+'Separator Bracket',
+'Bracket Separator',
+'Link Bracket',
+'Bracket Link',
+'Separator Link Bracket',
+'Separator Bracket Link',
+'Link Separator Bracket',
+'Link Bracket Separator',
+'Bracket Separator Link',
+'Bracket Link Separator',
+]
 
     <div class="adverse">最早见于《尚书·周书·武成》</div>
     <div>最早见于《尚书·周书·武成》</div>

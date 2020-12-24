@@ -40,10 +40,11 @@ Programs = [
     'instanceof equals' 
 ]
 Funkes = [
-    'split slice first last  intercept replace charAt toUpperCase toLowerCase concat',
-    'disrepeat sum ',
+    'split slice indexOf lastIndexOf  fromCharCode replace charAt toUpperCase toLowerCase concat length',
+    'disrepeat sum firstUpper',
 ]
-Kites = [
+Kits = [
+    ' ,|，',//存在全角
     '()[]{}',
     '+-*/%',
     '.?~=$!'

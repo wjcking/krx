@@ -118,7 +118,10 @@
     <Content Include="content\vis\vis.js" />
     <Content Include="content\vis\vis.min.js" />
     <Content Include="content\vue\vue.min.js" />
+    <Content Include="dynamics\apisoda.js" />
     <Content Include="index.html" />
+    <Content Include="models\ket-struct.js" />
+    <Content Include="models\ket-utility.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -149,7 +152,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers\" />
-    <Folder Include="models\" />
     <Folder Include="views\" />
   </ItemGroup>
   <PropertyGroup>
