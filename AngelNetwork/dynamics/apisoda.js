@@ -42,7 +42,7 @@ index
 
 Frequent Count Used
 
-Function
+Function.Aolick.KansaiFirst.RoundRectangle.AnalyticalDraw
     a = 3 b = 4 = 12=e
     c = 4 d = a + b
     a = 8.3 9 =8.5
