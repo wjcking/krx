@@ -15,7 +15,7 @@ Prioities = [
     
 ]
 Declassiced Dura.Range Sealed
-Transtick.Distinguish.Material.Itself =? IsMarched 
+Transtick.Distinguish.Material.Itself =?IsMarched 
 Leon.Intelligent.Argue.Sealed() = Agreement
 
 is
@@ -64,7 +64,10 @@ Function.Aolick.KansaiFirst.RoundRectangle.AnalyticalDraw
 
     acquired = a and b tricon.bigger than b = mine
     
-     result = a  b recon.bigger than b
+result = a  b recon.bigger than b
+
+    tricon(a | b & c)
+    recon(a~c|de))
 
     recon 
     circlet
