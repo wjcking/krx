@@ -1,6 +1,7 @@
 ﻿//','As','a','basic','interpret','Kits
 Utilities = [
-    '获取每一个文字 each one 为什么要获取每一个文字 从基层开始学习',
+    '获取每一个文字 each one 为什么要获取每一个文字 从基层开始 并且统计',
+    '应为习惯',
     '用什么取',
     '用几个',
     '取得每个子以后自行找时间分析',
@@ -25,11 +26,14 @@ declassify
 kansaiF color
 
 struct
-komma
-space
+    basic.analytical
+        komma
+        space
+    Asnick.Aiological
+
+    Aiological.Asnick
 Json
     Objects Array Key:Array
-
 Utility
 each word
 letter char
@@ -41,6 +45,11 @@ Frequent Count Used
 Function
 a = 3 b = 4 = 12=e
 c = 4 d = a + b
+a = 8.3 9=8.5
+    calcute a9 + 8.3 
+link~'abc' '134'~324a~eww~12.54=RTCIceGatherer;
+link-'abc' '134'-324a-eww-12.54=RTCIceGatherer;
+link='abc' '134'_94a_eww~12.54-fsd~qwer=RTCIceGatherer;
 End
 //用，分割下面段落
 //打开“d: \auto.txt” 替换重复的“好” 为“怀” 并且 去掉空格
