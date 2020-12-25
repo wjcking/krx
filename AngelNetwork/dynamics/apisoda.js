@@ -43,13 +43,31 @@ index
 Frequent Count Used
 
 Function
-a = 3 b = 4 = 12=e
-c = 4 d = a + b
-a = 8.3 9=8.5
-    calcute a9 + 8.3 
-link~'abc' '134'~324a~eww~12.54=RTCIceGatherer;
-link-'abc' '134'-324a-eww-12.54=RTCIceGatherer;
-link='abc' '134'_94a_eww~12.54-fsd~qwer=RTCIceGatherer;
+    a = 3 b = 4 = 12=e
+    c = 4 d = a + b
+    a = 8.3 9 =8.5
+        calcute a9 + 8.3 
+    link~'abc' '134'~324a~eww~12.54 = object;
+    link-'abc' '134'-324a-eww-12.54 = line;
+    qrw='abc' '134'_94a_eww~12.54-fsd~qwer=ga;
+    啊~'abc' '134'~324a~eww~12.54 = object;
+    放大-'abc' '134'-324a-eww-12.54 = line;
+    yahexmo ='abc134' = aid~^94a
+    Sw~12.54-fsd~qwer=ga;
+    link~'abc' '134'~324a~eww~12.54 = object;
+    link-'abc' '134'-324a-eww-12.54 = line;
+    link='abc' '134'_94a_eww~12.54-fsd~qwer=ga;
+
+    计算 link + fsd~qwer
+    计算 ga - a
+    calculate 9 + a
+
+    acquired = a and b tricon.bigger than b = mine
+    
+     result = a  b recon.bigger than b
+
+    recon 
+    circlet
 End
 //用，分割下面段落
 //打开“d: \auto.txt” 替换重复的“好” 为“怀” 并且 去掉空格
