@@ -41,7 +41,6 @@ Frequent Count Used
 Function
 a = 3 b = 4 = 12=e
 c = 4 d = a + b
-
 End
 //用，分割下面段落
 //打开“d: \auto.txt” 替换重复的“好” 为“怀” 并且 去掉空格
