@@ -77,3 +77,4 @@ End
 
 //分割所有文字并且替换掉"税收 collect tax”等字眼
 //取出每一个 用
+//https://www.jb51.net/softs/702908.html
