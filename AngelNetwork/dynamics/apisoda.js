@@ -65,7 +65,10 @@ Function.Aolick.KansaiFirst.RoundRectangle.AnalyticalDraw
     acquired = a and b tricon.bigger than b = mine
     
 result = a  b recon.bigger than b
-
+三边
+四边
+三角
+四角
     tricon(a | b & c)
     recon(a~c|de))
 

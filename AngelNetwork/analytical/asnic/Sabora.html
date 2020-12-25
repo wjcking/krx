@@ -5,38 +5,30 @@
     <title></title>
 </head>
 <body>
-<pre>
+    <pre>
 Utility Priority Frequent:Compile
 Json variant name
 //?=Parameters
-ketstruct = [
-          Property  :["v1","v2",'repeat1"],
-            key:Value,
-            ['Separator','Link','Bracket']
-            
-    ]
-Dynamicals =
-     [
-           'function':["index[1]","",'repeat1"],
-            key:Value,
-            ['Separator','Link','Bracket']
-            
-    ]
-//Dynamical.Utility
 
-Separator,Link
-Link,Separator
-Separator,Bracket
-Bracket,Separator
-Link,Bracket
-Bracket,Link
-Separator,Link,Bracket
-Separator,Bracket,Link
-Link,Separator,Bracket
-Link,Bracket,Separator
-Bracket,Separator,Link
-Bracket,Link,Separator
 
 </pre>
+    <script type="text/javascript">
+        Stationary = {
+
+            insert: function () {
+            },
+
+            transfer: function (params) {
+                document.write(typeof (params));
+                document.write(params.length);
+            }
+        };
+        var params = [
+            ['adsf fdas'],
+            ['this', 'that']
+        ];
+        Stationary.transfer(params );
+
+    </script>
 </body>
 </html>
