@@ -6,10 +6,18 @@ Utilities = [
     '取得每个子以后自行找时间分析',
     '用的每一个字什么词性',
     '为什么要分析词性 因为要An.Dev.User.EasyFirstThink 好似翻译C++ 的点或者指向运算符',
-    '并且还要执行 哪个 函数 或 单条语句'
+    '并且还要执行 哪个 函数 或 单条语句',
+    'IsRecord Statistic.'
 ]
-//Utilities~Prioities~Frequent
+Prioities = [
+    'Paralogical'
+    
+]
+Declassiced Dura.Range Sealed
+Transtick.Distinguish.Material.Itself =? IsMarched
+Leon.Intelligent.Argue.Sealed() = Agreement
 
+Frequent
 //用，分割下面段落
 //打开“d: \auto.txt” 替换重复的“好” 为“怀” 并且 去掉空格
 ////建立一个窗口
