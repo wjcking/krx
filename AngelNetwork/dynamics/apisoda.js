@@ -14,10 +14,35 @@ Prioities = [
     
 ]
 Declassiced Dura.Range Sealed
-Transtick.Distinguish.Material.Itself =? IsMarched
+Transtick.Distinguish.Material.Itself =? IsMarched 
 Leon.Intelligent.Argue.Sealed() = Agreement
 
-Frequent
+is
+belong
+kategoriz
+classify
+declassify
+kansaiF color
+
+struct
+komma
+space
+Json
+    Objects Array Key:Array
+
+Utility
+each word
+letter char
+
+index
+
+Frequent Count Used
+
+Function
+a = 3 b = 4 = 12=e
+c = 4 d = a + b
+
+End
 //用，分割下面段落
 //打开“d: \auto.txt” 替换重复的“好” 为“怀” 并且 去掉空格
 ////建立一个窗口
