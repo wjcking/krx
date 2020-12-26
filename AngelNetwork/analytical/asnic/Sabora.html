@@ -12,11 +12,18 @@
       
 </pre>
     <script type="text/javascript">
-        Constant = [
-            empty:""
-        ]
         //document.writeln(String.format("as{0}df", "F"));
-        document.writeln(typeof(null))
+        Constant = {
+            empty: "a"
+        }
+        var types = { "number": "0", "string": "", "boolean": true, "object": [], "function": "", "undefined": "" };
+        document.write(Object.values(types));
+for(var p in types){//遍历json对象的每个key/value对,p为key
+
+    document.write(p + ": " + types[p]+"<br/>");
+ 
+}
+
         Checktype = {
 
             //随便给出一个值，返回它的类型而不是true false, null 是 object 类型           
@@ -27,13 +34,14 @@
                 types.forEach(function (each, index) {
 
                     if (each == typeof (value)) {
-                        currect = [each,i];
+                        currect = [each,index];
                         return;
                     }
                 });
                 return currect;
             },
-            defautValues: [0, Constant.empty, true, Constant.empty,Constant.empty,Constant.empty],
+            defautValues: [0, Constant.empty, true, Constant.empty, Constant.empty, Constant.empty],
+
             isUndefined: function (value, customValue) {
 
             }
