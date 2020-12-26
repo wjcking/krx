@@ -18,16 +18,20 @@ Json variant name
             insert: function () {
             },
 
-            transfer: function (params) {
-                document.write(typeof (params));
-                document.write(params.length);
+            transfer: function (asniks) {
+                asniks.forEach(function (rect) {
+
+                    rect.split(' ').forEach(function (item) {
+                        result += item + "\n";
+                    });
+                });
             }
         };
         var params = [
             ['adsf fdas'],
             ['this', 'that']
         ];
-        Stationary.transfer(params );
+        Stationary.transfer(params);
 
     </script>
 </body>
