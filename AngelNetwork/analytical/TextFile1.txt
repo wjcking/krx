@@ -1,4 +1,5 @@
-﻿Sabora = [
+﻿           var types = { "number": "0", "string": "", "boolean": true, "object": [], "function": "", "undefined": "" };
+		   Sabora = [
 'Separator Link',
 'Link Separator',
 'Separator Bracket',

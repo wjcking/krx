@@ -3,36 +3,83 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <script src="../../content/utils/utils.js"></script>
+    <script src="../../models/ket-struct.js"></script>
 </head>
 <body>
     <pre>
-Utility Priority Frequent:Compile
-Json variant name
-//?=Parameters
 
-
+      
 </pre>
     <script type="text/javascript">
-        Stationary = {
+        Constant = [
+            empty:""
+        ]
+        //document.writeln(String.format("as{0}df", "F"));
+        document.writeln(typeof(null))
+        Checktype = {
 
-            insert: function () {
+            //随便给出一个值，返回它的类型而不是true false, null 是 object 类型           
+            do: function (value) {
+                var types = ["number", "string", "boolean", "object", "function", "undefined"];
+
+                var currect = ["undefined", types.length - 1];
+                types.forEach(function (each, index) {
+
+                    if (each == typeof (value)) {
+                        currect = [each,i];
+                        return;
+                    }
+                });
+                return currect;
+            },
+            defautValues: [0, Constant.empty, true, Constant.empty,Constant.empty,Constant.empty],
+            isUndefined: function (value, customValue) {
+
+            }
+        }
+
+        Transket = {
+            do: function (asniks,func) {
+                asniks.forEach(function (line, index) {
+                    func(line, index);
+                    //line.split(separator).forEach(function (each, indexEach) {
+                    //    sabora(each, indexEach);
+                    //});
+                });
+            },
+            
+            print: function (value) {
+                document.writeln(value)
             },
 
-            transfer: function (asniks) {
-                asniks.forEach(function (rect) {
-
-                    rect.split(' ').forEach(function (item) {
-                        result += item + "\n";
-                    });
-                });
+            insert: function () {
+                this.print("insert");       //print this json static bughole IE
             }
         };
         var params = [
             ['adsf fdas'],
             ['this', 'that']
         ];
-        Stationary.transfer(params);
 
+        var typeKind = Checktype.do(3.14);
+        var eaches = Transket.do(Programs);
+        document.write(typeKind);
     </script>
 </body>
 </html>
+<!--Utility Priority Frequent:Compile
+Json variant name
+//?=Parameters
+    
+            
+            typeof (Infinity): number
+                typeof ("123"): string
+                typeof (true): boolean
+                typeof (window): object
+                typeof (document): object
+                typeof (null): object
+                typeof (eval): function
+                typeof (Date): function
+                typeof (sss): undefined
+    -->
