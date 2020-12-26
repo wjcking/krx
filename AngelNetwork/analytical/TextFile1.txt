@@ -1,4 +1,19 @@
-﻿           var types = { "number": "0", "string": "", "boolean": true, "object": [], "function": "", "undefined": "" };
+﻿         //随便给出一个值，返回它的类型而不是true false, null 是 object 类型           
+            do: function (value) {
+                var types = ["number", "string", "boolean", "object", "function", "undefined"];
+
+                var currect = ["undefined", types.length - 1];
+                types.forEach(function (each, index) {
+
+                    if (each == typeof (value)) {
+                        currect = [each, index];
+                        return;
+                    }
+                });
+                return currect;
+            },
+            defautValues: [0, Constant.empty, true, Constant.empty, Constant.empty, Constant.empty],
+			var types = { "number": "0", "string": "", "boolean": true, "object": [], "function": "", "undefined": "" };
 		   Sabora = [
 'Separator Link',
 'Link Separator',

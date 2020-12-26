@@ -12,43 +12,60 @@
       
 </pre>
     <script type="text/javascript">
-        //document.writeln(String.format("as{0}df", "F"));
-        Constant = {
-            empty: "a"
+        //"use strict";
+        Object.prototype.filter = function (predicate) {
+            var result = {};
+            for (key in this) {
+                if (this.hasOwnProperty(key) && !predicate(this[key])) 
+                    result[key] = this[key];
+            }
+            return result;
+        };
+        //Unicode.Language
+        //Transform.Solid.Kolor
+        //Axis Odimentional think
+        Leonic = {
+            key4: "value2",
+            key5: function () {
+                document.write("f5");
+            }, 
+            key1: [1, 2, 3, 'd'],
         }
-        var types = { "number": "0", "string": "", "boolean": true, "object": [], "function": "", "undefined": "" };
-        document.write(Object.values(types));
-for(var p in types){//遍历json对象的每个key/value对,p为key
+        //predict
+        Leonic.filter(function (property) {
+            //if (property[) 
+            document.write(property() + "<br/>");
+        //    return 
+        });
 
-    document.write(p + ": " + types[p]+"<br/>");
- 
-}
+        //document.write("<b>" + JSON.parse(Leonic) + "</b>");
 
-        Checktype = {
+        Constant = {
+            empty: ""
+        };
 
-            //随便给出一个值，返回它的类型而不是true false, null 是 object 类型           
-            do: function (value) {
-                var types = ["number", "string", "boolean", "object", "function", "undefined"];
+        Typekant = {
+            list: { "number": "0", "string": Constant.empty, "boolean": true, "object": null, "function": Constant.empty, "undefined": Constant.empty },
+            //getKey(value)
+            //getValue(key)
 
-                var currect = ["undefined", types.length - 1];
-                types.forEach(function (each, index) {
+            check: function (value) {
+                var keys = Object.keys(this.list);
+                var values = Object.values(this.list);
 
-                    if (each == typeof (value)) {
-                        currect = [each,index];
-                        return;
-                    }
-                });
-                return currect;
+                for (var i = 0; i < keys.length; i++) {
+                    if (typeof (value) == keys[i])
+                        return [i, keys[i], values[i]];
+                }
             },
-            defautValues: [0, Constant.empty, true, Constant.empty, Constant.empty, Constant.empty],
 
-            isUndefined: function (value, customValue) {
-
+            isUndefined: function (value) {
+                //   return this.check(value)  ==
             }
         }
 
         Transket = {
-            do: function (asniks,func) {
+            do: function (asniks, func) {
                 asniks.forEach(function (line, index) {
                     func(line, index);
                     //line.split(separator).forEach(function (each, indexEach) {
@@ -56,7 +73,7 @@ for(var p in types){//遍历json对象的每个key/value对,p为key
                     //});
                 });
             },
-            
+
             print: function (value) {
                 document.writeln(value)
             },
@@ -70,18 +87,47 @@ for(var p in types){//遍历json对象的每个key/value对,p为key
             ['this', 'that']
         ];
 
-        var typeKind = Checktype.do(3.14);
-        var eaches = Transket.do(Programs);
-        document.write(typeKind);
+        //var typeKind1 = Typekant.check(true);
+        //var typeKind2 = Typekant.check('3');
+        //var typeKind3 = Typekant.check([3, 4]);
+        ////     var eaches = Transket.do(Programs);
+
+        //document.write(typeKind1);
+        //document.write(typeKind2);
+     //   document.write(typeKind3);
     </script>
+    <script>
+        //Object.prototype.filter = function (predicate) {
+        //    var result = {};
+        //    for (key in this) {
+        //        if (this.hasOwnProperty(key) && !predicate(this[key])) {
+        //            console.log("copying");
+        //            result[key] = this[key];
+        //        }
+        //    }
+        //    return result;
+        //};
+
+        //var foo = {
+        //    bar: "Yes",
+        //    moo: undefined
+        //};
+
+        //foo = foo.filter(function (property) {
+        //    return typeof property === "undefined";
+        //});
+
+        //document.writeln(JSON.stringify(foo, undefined, '  '));
+        //document.writeln(foo);
+
+    </script>
+
 </body>
 </html>
 <!--Utility Priority Frequent:Compile
 Json variant name
 //?=Parameters
-    
-            
-            typeof (Infinity): number
+    typeof (Infinity): number
                 typeof ("123"): string
                 typeof (true): boolean
                 typeof (window): object

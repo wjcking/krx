@@ -1,5 +1,5 @@
 ﻿/* 郎咸平 href String.href.format //String.prototype.format = function (args) {*/
-String.format = function () {
+String.prototype.format = function () {
     if (arguments.length == 0)
         return null;
     var str = arguments[0];
