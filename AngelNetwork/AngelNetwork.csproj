@@ -67,12 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="analytical\asnic\ketstart.html" />
+    <Content Include="analytical\asnic\ketstruct.html" />
     <Content Include="analytical\func\adverse.html" />
     <Content Include="analytical\analytical.html" />
     <Content Include="analytical\func\flex.html" />
     <Content Include="analytical\asnical.html" />
-    <Content Include="analytical\copy.html" />
     <Content Include="analytical\file.html" />
     <Content Include="analytical\func\t-span.html" />
     <Content Include="analytical\interface\flex.css" />
