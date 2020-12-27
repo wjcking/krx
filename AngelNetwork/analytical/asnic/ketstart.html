@@ -13,26 +13,22 @@
 </pre>
     <script type="text/javascript">
         //"use strict";
-        Object.prototype.filter = function (predicate) {
-            //var result = {};
-            //for (key in this) {
-            //    if (this.hasOwnProperty(key) && !predicate(this[key])) 
-            //        result[key] = this[key];
-            //}
-            //return result;
-
+        Object.prototype.predicate = function (predicate) {
             var keys = Object.keys(this);
             var values = Object.values(this);
-            var result = {};
+            
+            var result =  {};
             for (var i = 0; i < keys.length; i++) {
-                if (this.hasOwnProperty(keys[i]) && !predicate(this[keys[i]]))
-                    result.push(i,)
+        //        if (this.hasOwnProperty(keys[i]) && !predicate([keys[i]]))
+                    predicate(i+keys[i]+ typeof(values[i]));
             }
         };
         //Unicode.Language
         //Transform.Solid.Kolor Random.ExtremEylex.Earthly^Rotate 
         //Axis Odimentional think Directive.Left?.Matrix?.Right
         Leonic = {
+            array:[' '],
+            a:'a b c d',
             key4: "value2",
             key5: function () {
                 document.write("f5");
@@ -47,13 +43,23 @@
                 ];
             }
         }
-        //predict
-        Leonic.filter(function (property) {
-            //if (property[) 
-            document.write(property + "<br/>");
-        //    return 
-        });
+ 
+        Leonic.predicate(function (each) {
 
+            document.write(each + "<br/>");
+
+        });
+          Leonic2 = {
+              bug: ['fdas asdfsd '],
+            bug2: function() {
+
+        }
+        }
+                Leonic2.predicate(function (each) {
+
+            document.write(each + "<br/>");
+
+        });
         //document.write("<b>" + JSON.parse(Leonic) + "</b>");
 
         Constant = {
