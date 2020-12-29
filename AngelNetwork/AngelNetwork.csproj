@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="analytical\asnic\ketstring.html" />
     <Content Include="analytical\asnic\ketstruct.html" />
     <Content Include="analytical\func\adverse.html" />
     <Content Include="analytical\analytical.html" />
@@ -118,6 +119,7 @@
     <Content Include="content\vis\vis.js" />
     <Content Include="content\vis\vis.min.js" />
     <Content Include="content\vue\vue.min.js" />
+    <Content Include="controllers\ket-string.js" />
     <Content Include="models\constant.js" />
     <Content Include="dynamics\apisoda.js" />
     <Content Include="index.html" />
@@ -152,7 +154,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="controllers\" />
     <Folder Include="views\" />
   </ItemGroup>
   <PropertyGroup>
