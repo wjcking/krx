@@ -1,4 +1,15 @@
-﻿         //随便给出一个值，返回它的类型而不是true false, null 是 object 类型           
+﻿  
+
+  <!--  <textarea id="t" cols="100" rows="50">
+         var Funkes = ["split slice indexOf lastIndexOf substring replace	charAt toLowerCase	toUpperCase	concat "]
+
+        var Languages = [
+            //---english--
+            ["splitslice  first  last  intercept replace	 at  lower	 upper	 connect "],
+            //----chinese----
+            ["分隔 截取 初始索引 最后索引 索引之间替换 索引 小写 大写 连接"]
+        ];
+ </textarea>-->       //随便给出一个值，返回它的类型而不是true false, null 是 object 类型           
             do: function (value) {
                 var types = ["number", "string", "boolean", "object", "function", "undefined"];
 

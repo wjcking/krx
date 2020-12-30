@@ -9,21 +9,20 @@
 <body>
     <pre id="p">
 
-      
 </pre>
     <script type="text/javascript">
- 
-     //   "use strict";
+        "use strict";
+
         Object.prototype.predicate = function (predicate) {
-
-            var keys = Object.keys(this);
-            var values = Object.values(this);            
-            var result = {};
-
-            for (var i = 0; i < keys.length; i++) {
-                    predicate(keys[i]+','+values[i]+ ','+ '<b>'+typeof(values[i])+'</b>');
-            }
-        };
+            predicate("pred");
+            alert(1);
+            //var keys = Object.keys(this);
+            //var values = Object.values(this);
+            //var result = {};
+            //for (var i = 0; i < keys.length; i++) {
+            //        predicate(keys[i]+','+values[i]+ ','+ '<b>'+typeof(values[i])+'</b>');
+            //}
+        }
         //Tri
         //Unicode.Language
         //Transform.Solid.Kolor Random.ExtremEylex.Earthly^Rotate 
@@ -37,29 +36,32 @@
         //bool:"true",Number:"3.334"
         //Unique.Combine 
         //  "truebool" "num3.14" AsciiLetter:"603424 3.14" NeedConnector
-        Leonic = {
+        let Leonic = {
             //不能再用等于号放花括号类型first:={ what: “'yourname'},
+            //predicate: function (predicate) {
+            //    document.write(this.string);
+            //},
             array: [1, 2, 3, 'd'],
             string: "value2",
-            stringEach:'a b c d',
+            stringEach: 'a b c d',
             boolean: true,
             number: 98746123,
-            func1:[ function () {
+            func1: [function () {
                 document.write("f5");
             }, function () { },
-                ],
+            ],
             Funcks: [
-                ["l124-l80P0-END","l124-l80:P0-END","l124-l80:P0-END"],
-                ["l124-l80P0-END","l124-l80:P0-END","l124-l80:P0-END"],
-                ["l124-l80P0-END","l124-l80:P3-END","l124-l80:P0-END"],
-                ["l124-l80P0-END","l124-l80:P0-END","l124-l80:P0-END"],
-                ["l124-l80P0-END","l124-l80:P0-END","l124-l80:P0-END"],
-                ["l124-l80P0-END","l124-l80:P0-END","l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P3-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
             ],
             //RectanetX Metric^k^X RectangeIndex
             //Subindex
             'Func-1-Index:Ketstart:?Each&Space&': function () {
-                return 
+                return
                 [
                     'a b c d',
                     'a b c d',
@@ -68,9 +70,9 @@
                     ['asasdf sad f'],
                     ['asdf asdf asdf sad ffdas'],
 
-                    ["first","sec","thrd"],
-                    ["first","sec","thrd"],
-                    ["first","sec","thrd"],
+                    ["first", "sec", "thrd"],
+                    ["first", "sec", "thrd"],
+                    ["first", "sec", "thrd"],
                 ];
                 //line: 4
                 //pine:5
@@ -78,17 +80,17 @@
                 [
                     's-ed-len,abbr3-4?.5'
                 ]
+            },
+            Instance: function () {
+
             }
-            //rectanetX: {
         }
- 
+                document.write("阿斯蒂芬");
+        document.write(typeof ("3.23"));
         Leonic.predicate(function (each) {
-            document.getElementById("p").innerHTML += each + "\r";
+            document.getElementById("p").innerHTML = each + "popo\r";
         });
 
-        Constant = {
-            empty: ""
-        };
 
         Typekant = {
             list: { "number": "0", "string": Constant.empty, "boolean": true, "object": null, "function": Constant.empty, "undefined": Constant.empty },
@@ -98,7 +100,7 @@
             },
 
             isUndefined: function (value) {
-                //   return this.check(value)  ==
+
             }
         }
 
@@ -120,73 +122,48 @@
                 this.print("insert");       //print this json static bughole IE
             }
         };
-        var params = [
-            ['adsf fdas'],
-            ['this', 'that']
-        ];
 
         //var typeKind1 = Typekant.check(true);
         //var typeKind2 = Typekant.check('3');
         //var typeKind3 = Typekant.check([3, 4]);
-        ////     var eaches = Transket.do(Programs);
+     //  var eaches = Transket.do(Programs);
 
         //document.write(typeKind1);
         //document.write(typeKind2);
      //   document.write(typeKind3);
 
 
-           let extacted = function (params) {
-            'use strict';
+        // var  extacted = function (params) {
+        //    'use strict';
 
-               if (null != params)
-                   document.write("new:" + params);
+        //       if (null != params)
+        //           document.write("new:" + params);
 
-            function _showName(name) {
-                document.writeln(name);
-            }
+        //    function _showName(name) {
+        //        document.writeln(name);
+        //    }
 
-            function mine(para) {
-                document.writeln(para);
-            }
+        //    function mine(para) {
+        //        document.writeln(para);
+        //    }
 
-            return {
-                mine: mine,
-                ketlina:"public properties",
-                say(words) {
-                    document.writeln(words);
-                },
-                showName(name) { //练习私有方法
-                    _showName(name);
-                }
-            }
-        }
-        //extected.mine("m");
-        var e = new extacted("hereby that is jaoasdf");
-        e.mine("mine");
-        e.showName("show" + e.ketlina);
+        //    return {
+        //        mine: mine,
+        //        ketlina: "public properties",
+
+        //        //showName(name) { //IE NOT 练习私有方法
+        //        //    _showName(name);
+        //        //}
+        //    }
+        //}
+
+        //var e = new extacted("hereby that is jaoasdf");
+        //e.mine("mine");
+        //e.showName("show" + e.ketlina);
+
+
     </script>
 
 
 </body>
 </html>
-<!--Utility Priority Frequent:Compile
-Json variant name
-//?=Parameters   
-               typeof (Infinity): number
-                typeof ("123"): string
-                typeof (true): boolean
-                typeof (window): object
-                typeof (document): object
-                typeof (null): object
-                typeof (eval): function
-                typeof (Date): function
-                typeof (sss): undefined
-
-const type_boolean   ="boolean";
-const type_number     ="number";
-const type_string         ="string";
-const type_object       ="object";
-const type_function     ="function";
-const type_undefined="undefined ";
-    -->
-

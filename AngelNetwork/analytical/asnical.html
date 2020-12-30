@@ -11,41 +11,52 @@
     <script src="../content/jquery/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <pre>
-<span>Abc<br />123</span> <span>Abc<br />123</span> <span>Abc<br />123</span> <span>Abc<br />123</span> <span>Abc<br />123</span> <span>Abc<br />123</span>
-    </pre>
 
-  <!--  <textarea id="t" cols="100" rows="50">
-         var Funkes = ["split slice indexOf lastIndexOf substring replace	charAt toLowerCase	toUpperCase	concat "]
-
-        var Languages = [
-            //---english--
-            ["splitslice  first  last  intercept replace	 at  lower	 upper	 connect "],
-            //----chinese----
-            ["分隔 截取 初始索引 最后索引 索引之间替换 索引 小写 大写 连接"]
-        ];
- </textarea>-->
     <pre id="p">
 
 </pre>
-    <input type="button" value="autoshow" onclick="f()" />
+
     <script type="text/javascript">
-        //var Axis =
-        //    [
-        //        ["CenterAngleSideKick"]
-        //    ];
-        //function f() {
-        //    var str = $("#t").val();
-        //    str = str.replace(/</g, "");
-        //    str = str.replace(/>/g, "");
-        //    $("#t").val(Axis[0]);
-        //}
-        //try {
-        //    $("#t").val(Axis[1][1]);
-        //}
-        //catch (error) {
-        //    alert(error);
-        //}
+
+        const function_default = undefined;
+
+        var outk = 'f';
+        var func = function () {
+            alert(1);
+        }
+        //系统唯一用
+        //typeof undefine any other types?
+        object = {
+            key: "value",
+            key2: "value", 
+            key3:['aa ','bb'],
+            outk: { key: "value" },
+            func: function () {
+                //还得翻译 目前不用键值对
+                //绝对唯一的时候
+            }
+          //必须是键值对 'as'
+        }
+        array = [
+             //键值对不能   key: "value",
+            //外来变量可以
+            's1', 's2', 's3', [outk, 'abc', func]
+        ]
+        document.write(object.outk.key);
+        //var jsonO = {};
+        //jsonO.P = 1;
+        //jsonO.P2 = 2
+        
+        //jsonO.A = { a: 1 };
+        //jsonO.pi = { cip: 3.14 };
+        //jsonO.C = [3.14];
+        //document.write(jsonO.P)
+        //document.write(jsonO.A.a)
+        //document.write(jsonO.pi)
+
+        //var bracket = [];
+        //bracket.push({ a: 3 });
+        //document.write(bracket[0].a)
     </script>
 </body>
 </html>
