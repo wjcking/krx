@@ -1,48 +1,40 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html id=" ">
+<html id="d">
 <head>
     <meta charset="utf-8" />
     <title></title>
     <script src="../../controllers/ket-string.js"></script>
 </head>
 <body>
-    <script>
+    <pre id="p">
+Z   Definting： Aolic.Orith //
+2    四则运算英语叫法 
+3    VOS 
+4        plus substract multiple divide
+5        加减乘除
+6    是否应该 SOV
+7       好似正方形的每个角
+8 12-5
+9    社会计
+10    红色砖tou
+12    成交价驾驶○司漏仇睡码捅tou
+A    铁眠涨潮
 
-         var str="选购AppleCare+,延保2dfffdsfsdffsd3232332423432年";
-        var engCount=0;
-        var numCount=0;
-        var chsCount=0;
-        var other=0;
-        document.write(str+"<br/><br/><br/>");
-        for(var i=0; i<str.length; i++){
-                document.write(str[i]+",")
-            var num=str.charCodeAt(i);   //转unicode码比较
-            if(num>=19968&&num<=40869){  //汉字
-                chsCount++;
-            }else if((num>=65&&num<=90)||(num>=97&&num<=122)){//字母
-                engCount++;
-            }else if(num>=48&&num<=57){  //数字
-                numCount++;
-            } else {
-                other++;   //其他字符
-            }
+    </pre>
+    <pre id="p2" style="color:red"></pre>
+    <script>
+        var d = document.getElementById("p").innerHTML;
+ 
+        for (var i = 0; i < d.length; i++) {
+             
+            document.getElementById("p2").innerHTML += i+":"+d[i];
+
+            //if (d[i] == '\n')
+            //    document.getElementById("p").innerHTML += i + '\n';
+            //else
+            //document.getElementById("p").innerHTML += i;
         }
-        document.write("<br/>");
-        document.write("<br/>");
-        document.write("<br/>");
-        document.write("汉字："+chsCount+"<br/>");
-        document.write("数字："+numCount+"<br/>");
-        document.write("英文字母"+engCount+"<br/>");
-        document.write("其他字符："+other+"<br/>");
-        document.write(str.length)
-   //     var s = ketstring("this is a string autotest for pingdang");
-        var s = "prototype string";
-        document.write(s.upperFirst());
-        document.write(s.toUpperCase());
-        var s1 = "{0}prototype string <br/>";
-        //document.write(s1.repeat(3));
-        //document.write(s1.replaceAll("o", "-asdf-"));
-        //  document.write(s1.format("FFF"));
+         
     </script>
 </body>
 </html>
