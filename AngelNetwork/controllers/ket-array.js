@@ -1,5 +1,7 @@
 
 String.prototype.array = function (s) {
-//    'use strict';
-
+  'use strict';
+    
+ var number = 0;
+ 
 }
