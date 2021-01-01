@@ -17,6 +17,14 @@ String.prototype.format = function () {
     }
     return s;
 };
+String.prototype.extent = {
+    index: 0,
+    start =0,
+    end =0,
+    color: function (param) {
+
+    }
+}
 String.prototype.kant = function () {
          // var str="选购AppleCare+,延保2dfffdsfsdffsd3232332423432年";
         //var engCount=0;
