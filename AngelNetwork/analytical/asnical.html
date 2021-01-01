@@ -12,12 +12,21 @@
 </head>
 <body>
 
-    <pre id="p">
-
+<pre id="p">
+ 科教（兴国(，以教育为本，教育规划以教师为主，在中学教育改革和发展的关键时期，普通高中师资建设已成为制约普通高中教育发展的瓶颈，必须充分重视教师资源配置，采取一系列变革和调整措施，尽快实现普通高中师资资源优化和重组，以应对可能出现的严峻挑战。首先，西部贫困(地区高中教师资源配置现状及存在的问题。教师资源分配问题不仅仅是一个教育问题。它与教育的内部和外部因素密切相关，呈现出复杂的特征。对于西部贫困地区而言，普通高中教师的问题已成为制约该地区高中教育发展的关键。教师学历（合格率不)高
 </pre>
 
     <script type="text/javascript">
-        
+        var str = document.getElementById("p").innerHTML;
+        var regex1 = /\((.+?)\)/g; // () 小括号
+        var regex1a = /\（(.+?)\）/g; // () 小括号
+var regex2 = /\[(.+?)\]/g; // [] 中括号
+var regex3 = /\{(.+?)\}/g; // {} 花括号，大括号
+// 输出是一个数组
+document.write(str.match(regex1)+"<br/>"); 
+document.write(str.match(regex1a)+"<br/>");
+document.write(str.match(regex2)+"<br/>");
+document.write(str.match(regex3)+"<br/>");
         const function_default = undefined;
 
         var outk = 'f';

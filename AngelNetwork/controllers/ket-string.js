@@ -55,7 +55,7 @@ String.prototype.kant = function () {
         //  document.write(s1.format("FFF"));
 };
 
-//let String.prototype.ketstring = function (s) {
+//let String.prototype.keta = function (s) {
 //    'use strict';
 
 //    if (undefined == s)
