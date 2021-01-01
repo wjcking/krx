@@ -119,7 +119,9 @@
     <Content Include="content\vis\vis.js" />
     <Content Include="content\vis\vis.min.js" />
     <Content Include="content\vue\vue.min.js" />
-    <Content Include="controllers\ket-string.js" />
+    <Content Include="controllers\handlers.js" />
+    <Content Include="controllers\ket-array.js" />
+    <Content Include="controllers\ket-each.js" />
     <Content Include="models\constant.js" />
     <Content Include="dynamics\apisoda.js" />
     <Content Include="index.html" />
