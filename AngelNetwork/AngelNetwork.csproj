@@ -127,6 +127,7 @@
     <Content Include="index.html" />
     <Content Include="models\ket-struct.js" />
     <Content Include="models\ket-utility.js" />
+    <Content Include="models\leonic.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
