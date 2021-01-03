@@ -12,9 +12,15 @@ const separator_pointer = "->";
 Kits = [
     [separator_space, separator_comma, separator_quest, separator_pointer]
 ]
-Kit Line Index
-    separator_space
-    [0,1,7,7],[1,9,16,7]
+//Kit Line Index
+//    separator_space
+//    [0,1,7,7],[1,9,16,7]
+//a = 3 b = 5 c = d d = x
+//a 3 b 5 c  d d x
+//a + b = c  //计算完毕后存到？= Line 
+//书桌3个 课本6个 房子1个 //单位
+//计算 书桌 课本 房子的总和 //关键字 计算 的介词 和数词
+//算出总和//行号每一行有数量，告诉用户行数 
 Cybers = [
     ['Separator'],
     ['Link'],
