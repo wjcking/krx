@@ -1,4 +1,49 @@
-﻿
+﻿ Sabora = [
+    ['Separator'],
+    ['Link'],
+    ['Bracket'],
+    ['Link', 'Separator'],
+    ['Separator', 'Bracket'],
+    ['Bracket', 'Separator'],
+    ['Link', 'Bracket'],
+    ['Bracket', 'Link'],
+    ['Separator', 'Link', 'Bracket'],
+    ['Separator', 'Bracket', 'Link'],
+    ['Link', 'Separator', 'Bracket'],
+    ['Link', 'Bracket', 'Separator'],
+    ['Bracket', 'Separator', 'Link'],
+    ['Bracket', 'Link', 'Separator']
+]
+
+********************************************
+var extent = function (params) {
+            'use strict';
+
+            if (null != params)
+                document.write("new:" + params);
+
+            function _showName(name) {
+                document.writeln(name);
+            }
+
+            function mine(para) {
+                document.writeln(para);
+            }
+
+            return {
+                mine: mine,
+                ketlina: "public properties",
+
+                //showName(name) { //IE NOT 练习私有方法
+                //    _showName(name);
+                //}
+            }
+        }
+
+        //var e = new extacted("hereby that is jaoasdf");
+        //e.mine("mine");
+        //e.showName("show" + e.ketlina);
+
 ******************************************************ketstruct************************************
 Language = [
     'english chinese trans-turk'

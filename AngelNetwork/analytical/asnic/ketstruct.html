@@ -8,22 +8,72 @@
 </head>
 <body>
     <pre id="p">
-
+  
 </pre>
     <script type="text/javascript">
-        "use strict";
+         "use strict";
 
-        Object.prototype.predicate = function (predicate) {
-            predicate("pred");
-            alert(1);
-            //var keys = Object.keys(this);
-            //var values = Object.values(this);
-            //var result = {};
-            //for (var i = 0; i < keys.length; i++) {
-            //        predicate(keys[i]+','+values[i]+ ','+ '<b>'+typeof(values[i])+'</b>');
-            //}
+        Object.prototype.predicate = function (object) {
+            object(this);
+        };
+
+        let Leonic = {
+           list: [1,2,3,4]
+        };
+
+        Leonic.predicate(function (object) {
+            document.getElementById("p").innerHTML = object.list[2];
+        });
+
+        Typekant = {
+            //list: { "number": "0", "string": Constant.empty, "boolean": true, "object": null, "function": Constant.empty, "undefined": Constant.empty },
+
+            check: function (value) {
+
+            },
+
+            isUndefined: function (value) {
+
+            }
         }
-        //Tri
+
+      let  Transket = {
+            do: function (asniks, func) {
+                asniks.forEach(function (line, index) {
+                    func(line, index);
+                    //line.split(separator).forEach(function (each, indexEach) {
+                    //    sabora(each, indexEach);
+                    //});
+                });
+            },
+
+            print: function (value) {
+                document.writeln(value)
+            },
+
+            insert: function () {
+                this.print("insert");       //print this json static bughole IE
+            }
+        };
+
+        //var typeKind1 = Typekant.check(true);
+        //var typeKind2 = Typekant.check('3');
+        //var typeKind3 = Typekant.check([3, 4]);
+        //  var eaches = Transket.do(Programs);
+
+        //document.write(typeKind1);
+        //document.write(typeKind2);
+        //   document.write(typeKind3);
+
+
+
+
+    </script>
+
+
+</body>
+</html>
+<!--     //Tri
         //Unicode.Language
         //Transform.Solid.Kolor Random.ExtremEylex.Earthly^Rotate 
         //Axis Odimentional think Directive.Left?.Matrix?.Right 转置
@@ -84,86 +134,4 @@
             Instance: function () {
 
             }
-        }
-                document.write("阿斯蒂芬");
-        document.write(typeof ("3.23"));
-        Leonic.predicate(function (each) {
-            document.getElementById("p").innerHTML = each + "popo\r";
-        });
-
-
-        Typekant = {
-            list: { "number": "0", "string": Constant.empty, "boolean": true, "object": null, "function": Constant.empty, "undefined": Constant.empty },
-
-            check: function (value) {
-
-            },
-
-            isUndefined: function (value) {
-
-            }
-        }
-
-        Transket = {
-            do: function (asniks, func) {
-                asniks.forEach(function (line, index) {
-                    func(line, index);
-                    //line.split(separator).forEach(function (each, indexEach) {
-                    //    sabora(each, indexEach);
-                    //});
-                });
-            },
-
-            print: function (value) {
-                document.writeln(value)
-            },
-
-            insert: function () {
-                this.print("insert");       //print this json static bughole IE
-            }
-        };
-
-        //var typeKind1 = Typekant.check(true);
-        //var typeKind2 = Typekant.check('3');
-        //var typeKind3 = Typekant.check([3, 4]);
-     //  var eaches = Transket.do(Programs);
-
-        //document.write(typeKind1);
-        //document.write(typeKind2);
-     //   document.write(typeKind3);
-
-
-         var  extent = function (params) {
-            'use strict';
-
-            if (null != params)
-                   document.write("new:" + params);
-
-            function _showName(name) {
-                document.writeln(name);
-            }
-
-            function mine(para) {
-                document.writeln(para);
-            }
-
-            return {
-                mine: mine,
-                ketlina: "public properties",
-
-                //showName(name) { //IE NOT 练习私有方法
-                //    _showName(name);
-                //}
-            }
-        }
-
-        //var e = new extacted("hereby that is jaoasdf");
-        //e.mine("mine");
-        //e.showName("show" + e.ketlina);
-
-
-    </script>
-
-
-</body>
-</html>
+        }-->

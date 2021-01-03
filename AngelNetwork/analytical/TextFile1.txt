@@ -1,4 +1,11 @@
 ﻿  
+            //ie not support, start from humble 
+            //var keys = Object.keys(this);
+            //var values = Object.values(this);
+            //var result = {};
+            //for (var i = 0; i < keys.length; i++) {
+            //        predicate(keys[i]+','+values[i]+ ','+ '<b>'+typeof(values[i])+'</b>');
+            //}
 
   <!--  <textarea id="t" cols="100" rows="50">
          var Funkes = ["split slice indexOf lastIndexOf substring replace	charAt toLowerCase	toUpperCase	concat "]

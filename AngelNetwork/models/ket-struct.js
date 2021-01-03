@@ -1,4 +1,11 @@
 ﻿Cyber = ["Separator", "Connector", "Bracket"]
+const separator_space = ' ';
+const separator_comma = ',';
+const separator_quest = "?.";
+const separator_pointer = "->";
+Kits = [
+    [separator_space, separator_comma, separator_quest, separator_pointer]
+]
 
 Language = [
     ['english', 'chinese', 'trans-turk']
@@ -41,12 +48,8 @@ Programs = [
     ['get', 'set', 'value', 'attribute',],
     ['instanceof', 'equals']
 ]
-Funkes = [
-    ['split', 'slice', 'indexOf', 'lastIndexOf',  'fromCharCode', 'replace', 'charAt', 'toUpperCase', 'toLowerCase', 'concat', 'length'],
-    ['disrepeat', 'sum', 'firstUpper']
-]
+//Funkes = [
+//    ['split', 'slice', 'indexOf', 'lastIndexOf',  'fromCharCode', 'replace', 'charAt', 'toUpperCase', 'toLowerCase', 'concat', 'length'],
+//    ['disrepeat', 'sum', 'firstUpper']
+//]
 
-const separator_space = ' ';
-const separator_comma = ',';
-const separator_quest = "?.";
-const separator_pointer = "->";
