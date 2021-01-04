@@ -148,6 +148,7 @@
     <Content Include="handlers\layout.ashx" />
     <Content Include="handlers\set.ashx" />
     <Content Include="analytical\localstring.map" />
+    <Content Include="analytical\cybers.html" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

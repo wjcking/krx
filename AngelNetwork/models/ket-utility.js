@@ -1,8 +1,23 @@
 ﻿"use strict";
-const separator_space = ' ';
-const separator_comma = ',';
-const separator_quest = "?.";
-const separator_pointer = "->";
+/*each space usual special customs*/
+//Separator
+const ace = ' '; const kma = ','; const spt = '|';
+//Connector
+//  usual special
+const act = '^'; const lnk = '-'; const dst = '.'
+const equ = '=';
+
+const qst = "?"; const qot = qst + dot;
+const ptr = "->";
+//Bracket
+const lpt = '('; const rpt = ')'; const lsb = '['; const rsb = ']';
+const lcb = '{'; const rcb = '}';
+
+
+
+
+
+
 //1 balance parallel to artlisense 平衡 美 图
 //2 Atowards:color.impluse.first
 //3 Ageing:infancy~endportal:1.3.8.16.25.30.35.45.50.55.60.70.80.100.110.120.?.220
@@ -11,6 +26,7 @@ const separator_pointer = "->";
 //6 武术：跆拳道、自由搏击艺术：涂鸦、插花、看展览、听相声游戏：桌游、网游、手游
 Kits = [
     [separator_space, separator_comma, separator_quest, separator_pointer]
+
 ]
 //Kit Line Index
 //    separator_space
@@ -21,52 +37,14 @@ Kits = [
 //书桌3个 课本6个 房子1个 //单位
 //计算 书桌 课本 房子的总和 //关键字 计算 的介词 和数词
 //算出总和//行号每一行有数量，告诉用户行数 
-Cybers = [
-    ['Separator'],
-    ['Link'],
-    ['Bracket'],
-    ['Link', 'Separator'],
-    ['Separator', 'Bracket'],
-    ['Bracket', 'Separator'],
-    ['Link', 'Bracket'],
-    ['Bracket', 'Link'],
-    ['Separator', 'Link', 'Bracket'],
-    ['Separator', 'Bracket', 'Link'],
-    ['Link', 'Separator', 'Bracket'],
-    ['Link', 'Bracket', 'Separator'],
-    ['Bracket', 'Separator', 'Link'],
-    ['Bracket', 'Link', 'Separator']
-]
+
+
 
 kondets = [
     Ketfuncs : [
-        ["split", "separate", "分隔",] split: function () {]
+
 
     ]
-    //    split: function (language, params) {
-
-    //},
-
+    ["split", "separate", "分隔",]
 ]
-let Ketutils = function (kondets) {
-    
-    kondets.forEach()
-
-    split
-    slice,
-        indexOf,
-        lastIndexOf,
-        fromCharCode,
-        replace,
-        charAt,
-        toUpperCase,
-        toLowerCase,
-        concat,
-        length
-
-        disrepeat,
-        sum,
-        upperFirst
-
-}
 
