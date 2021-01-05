@@ -121,7 +121,7 @@
     <Content Include="content\vue\vue.min.js" />
     <Content Include="controllers\handlers.js" />
     <Content Include="controllers\ket-array.js" />
-    <Content Include="controllers\ket-each.js" />
+    <Content Include="controllers\ket-extend.js" />
     <Content Include="models\constant.js" />
     <Content Include="dynamics\apisoda.js" />
     <Content Include="index.html" />

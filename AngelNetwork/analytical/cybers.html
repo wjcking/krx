@@ -1,8 +1,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <script src="../controllers/ket-extend.js"></script>
 </head>
 <body>
+    <pre id="p">
+Operating system	Character encoding	Abbreviation	hex value	dec value	Escape sequence
+Unix and Unix-like systems (Linux, macOS, FreeBSD, AIX, Xenix, etc.), Multics, BeOS, Amiga, RISC OS, and others[2]	ASCII	LF	0A	10	\n
+Microsoft Windows, DOS (MS-DOS, PC DOS, etc.), Atari TOS, DEC TOPS-10, RT-11, CP/M, MP/M, OS/2, Symbian OS, Palm OS, Amstrad CPC, and most other early non-Unix and non-IBM operating systems	CR LF	0D 0A	13 10	\r\n
+Commodore 8-bit machines (C64, C128), Acorn BBC, ZX Spectrum, TRS-80, Apple II series, Oberon, the classic Mac OS, MIT Lisp Machine and OS-9	CR	0D	13	\r
+QNX pre-POSIX implementation (version < 4)	RS	1E	30	\036
+Acorn BBC[3] and RISC OS spooled text output[4]	LF CR	0A 0D	10 13	\n\r
+Atari 8-bit machines	ATASCII		9B	155	
+IBM mainframe systems, including z/OS (OS/390) and i5/OS (OS/400)	EBCDIC	NL	15	21	\025
+ZX80 and ZX81 (Home computers from Sinclair Research Ltd)	used a specific non-ASCII character set	NEWLINE	76	118	
+     
+  </pre>
     <script>
         /*each space usual special customs*/
         //Separator
@@ -25,22 +38,25 @@
         //        [1],
         //        [2],
         //    ]
+        var p = document.getElementById("p").innerHTML;
+        p.lines().forEach(function (e,i) {            
+            document.write(i+":"+e);
+            document.write("<br/>");
+        });
 
-
-
-        var Cybers = [
-           [split], [null],[split],
-           [first], [null],indexOf],
-           //[last], [null],[ ['ket', 'start', 'end']],
-           //[slice], [null],[ ['ket', 'start', 'end']],
-           //[ketat], [null],[ ['ket', 'start', 'end']],
-           //[upper], [null],[ ['ket', 'start', 'end']],
-           //[lower], [null],[ ['ket', 'start', 'end']],
-           //[concat], [null],[ ['ket', 'start', 'end']],
-           //[length], [null],[ ['ket', 'start', 'end']],
-           //[sot], [null],[ ['ket', 'start', 'end']]
-            ];
-        Cybers[0][1] = ""
+        //var Cybers = [
+        //   [split], [null],[split],
+        //   [first], [null],[indexOf],
+        //   //[last], [null],[ ['ket', 'start', 'end']],
+        //   //[slice], [null],[ ['ket', 'start', 'end']],
+        //   //[ketat], [null],[ ['ket', 'start', 'end']],
+        //   //[upper], [null],[ ['ket', 'start', 'end']],
+        //   //[lower], [null],[ ['ket', 'start', 'end']],
+        //   //[concat], [null],[ ['ket', 'start', 'end']],
+        //   //[length], [null],[ ['ket', 'start', 'end']],
+        //   //[sot], [null],[ ['ket', 'start', 'end']]
+        //    ];
+        //Cybers[0][1] = ""
         //document.write(Cybers[0][0]);
         //document.write(Cybers[0][1]);
 

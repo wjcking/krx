@@ -17,13 +17,31 @@ String.prototype.format = function () {
     }
     return s;
 };
-String.prototype.extent = {
-    index: 0,
-    start =0,
-    end =0,
-    color: function (param) {
+String.prototype.lines = function () {
+    if (this.indexOf("\r\n") > -1)
+        return this.split('\r\n');
 
-    }
+    if (this.indexOf('\n') > -1)
+        return this.split('\n');
+
+    return this.split('\r');
 }
+//String.prototype.linens = function () {
+//    return this.lines("\n");
+//}
+//String.prototype.linerns = function () {
+//    return this.lines("\r\n");
+//}
+////String.prototype.linebrs = function (crlf) {
+////    return this.lines("<br/>");
+////}
+////String.prototype.extent = {
+////    index: 0,
+////    start =0,
+////    end =0,
+////    color: function (param) {
 
-};
+////    }
+////}
+
+//};
