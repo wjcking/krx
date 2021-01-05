@@ -1,35 +1,58 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <script src="../models/constant.js"></script>
     <script src="../controllers/ket-extend.js"></script>
 </head>
 <body>
     <pre id="p">
-Operating system	Character encoding	Abbreviation	hex value	dec value	Escape sequence
-Unix and Unix-like systems (Linux, macOS, FreeBSD, AIX, Xenix, etc.), Multics, BeOS, Amiga, RISC OS, and others[2]	ASCII	LF	0A	10	\n
-Microsoft Windows, DOS (MS-DOS, PC DOS, etc.), Atari TOS, DEC TOPS-10, RT-11, CP/M, MP/M, OS/2, Symbian OS, Palm OS, Amstrad CPC, and most other early non-Unix and non-IBM operating systems	CR LF	0D 0A	13 10	\r\n
-Commodore 8-bit machines (C64, C128), Acorn BBC, ZX Spectrum, TRS-80, Apple II series, Oberon, the classic Mac OS, MIT Lisp Machine and OS-9	CR	0D	13	\r
-QNX pre-POSIX implementation (version < 4)	RS	1E	30	\036
-Acorn BBC[3] and RISC OS spooled text output[4]	LF CR	0A 0D	10 13	\n\r
-Atari 8-bit machines	ATASCII		9B	155	
-IBM mainframe systems, including z/OS (OS/390) and i5/OS (OS/400)	EBCDIC	NL	15	21	\025
-ZX80 and ZX81 (Home computers from Sinclair Research Ltd)	used a specific non-ASCII character set	NEWLINE	76	118</pre>
-    <script>
-        /*each space usual special customs*/
-        //Separator
-        const ace = ' '; const kma = ','; const spt = '|';
-        //Connector
-        //  usual special
-        const act = '^'; const lnk = '-'; const dst = '.'
-        const equ = '=';
+  Axis.SideKick:
+        Attach
+            Span distance
+        IsWrapped
+    Feedback
+        KornerCollsionSnicTimes
+        KolorRint
+        SideRidge
+    Metricwhich Leon Rotate Feeling 
+        Earth-Thinking:SymbolMetricForming
+        
+    Fitrate
+    Size
+    Shapes
+        Ladder
+        EclipseLadder
+        Arcside
+    3d wall for buiding by using flexible material
+        kansai communication
+        sexcast
+        exhaust thinking
+        flexible
+        dynamic
+        transparent
+    Asnic Orith
 
-        const qst = "?"; const qot = qst + dst;
-        const ptr = "->";
-        //Bracket
-        const lsm = '('; const rsm = ')'; const lmd = '['; const rmd = ']';
-        const lbr = '{'; const rbr = '}'; const qta = '\"';
-        const sot = "sot"; const cot = "cot"; const bot = "bot";
-        const split = "split"; const first = "first"; const last = "last"; const upper = "upper";
+    //Allocate Aollic 
+    
+    Assgin Operation logical loop
+    Container
+孩纸古代朵长：11-16
+   Requires： 吊屏幕 anishow-dialog when write asnic
+全身工属美：11-17
+    空格 每个函数
+11-19
+    All searchable
+    Solid Program
+        asymmetric thinking
+    Is absolute solid
+       Triangle：ladder triangle diamond
+    Is transcolor dotline
+    Axis：套 堆 角 边
+    html beside character（eg:input img textarea) element border rectangle solid = 1
+    Kolor Covered joint
+    </pre>
+    <script>
+   
         //Lines =
         //    [
         //        [1],
@@ -37,23 +60,33 @@ ZX80 and ZX81 (Home computers from Sinclair Research Ltd)	used a specific non-AS
         //    ]
         var p = document.getElementById("p").innerHTML;
    
-
+        //编码 空格不一样 " " “　”" "
         var Cybers = [
-           [[split], [ace]],
-            [[split], [kma]],
-            [[split], [kma]],
-            [[split], [kma]],
-            [[split], [spt]],
-            [[split], [spt]],
-           [[upper], [null]],
+           [[split], [dot]],
+             [[split], [ace]],
+            //[[split], [qst]],
+            //[[split], [kma]],
+            //[[split], [kma]],
+            //[[split], [spt]],
+            //[[split], [spt]],
+    //   [[upper], [null]],
         ];
 
         p.lines().forEach(function (pe,pi) {
+             document.write(pi.toString().br());
             Cybers.forEach(function (item, c) {
-                var cmd = qta + pe + qta + item[0] + lsm + item[1] + rsm;
-                document.write(c + ":" + cmd);// eval());
-
+                
+                var cmd = qta + pe + qta + dst + item[0] +  lsm + qta + item[1] + qta + rsm;
+                var kets = eval(cmd);
+            //    if (kets.length > 1)
+                document.write("Func:" + item[0] + "Params:" + item[1] + "Count:" + kets.length + ":");
+                kets.forEach(function (ke, ki) {
+                    document.write( ke + "个");
+                });
+                 document.write("<br/>");
+           
             });
+            document.write("<br/>");
         });
  
 //        let Ketutils = function (params) {
