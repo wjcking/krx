@@ -13,9 +13,7 @@ QNX pre-POSIX implementation (version < 4)	RS	1E	30	\036
 Acorn BBC[3] and RISC OS spooled text output[4]	LF CR	0A 0D	10 13	\n\r
 Atari 8-bit machines	ATASCII		9B	155	
 IBM mainframe systems, including z/OS (OS/390) and i5/OS (OS/400)	EBCDIC	NL	15	21	\025
-ZX80 and ZX81 (Home computers from Sinclair Research Ltd)	used a specific non-ASCII character set	NEWLINE	76	118	
-     
-  </pre>
+ZX80 and ZX81 (Home computers from Sinclair Research Ltd)	used a specific non-ASCII character set	NEWLINE	76	118</pre>
     <script>
         /*each space usual special customs*/
         //Separator
@@ -29,41 +27,35 @@ ZX80 and ZX81 (Home computers from Sinclair Research Ltd)	used a specific non-AS
         const ptr = "->";
         //Bracket
         const lsm = '('; const rsm = ')'; const lmd = '['; const rmd = ']';
-        const lbr = '{'; const rbr = '}';
-
+        const lbr = '{'; const rbr = '}'; const qta = '\"';
         const sot = "sot"; const cot = "cot"; const bot = "bot";
-        const split = "split"; const first = "first"; const last = "last";
+        const split = "split"; const first = "first"; const last = "last"; const upper = "upper";
         //Lines =
         //    [
         //        [1],
         //        [2],
         //    ]
         var p = document.getElementById("p").innerHTML;
-        p.lines().forEach(function (e,i) {            
-            document.write(i+":"+e);
-            document.write("<br/>");
+   
+
+        var Cybers = [
+           [[split], [ace]],
+            [[split], [kma]],
+            [[split], [kma]],
+            [[split], [kma]],
+            [[split], [spt]],
+            [[split], [spt]],
+           [[upper], [null]],
+        ];
+
+        p.lines().forEach(function (pe,pi) {
+            Cybers.forEach(function (item, c) {
+                var cmd = qta + pe + qta + item[0] + lsm + item[1] + rsm;
+                document.write(c + ":" + cmd);// eval());
+
+            });
         });
-
-        //var Cybers = [
-        //   [split], [null],[split],
-        //   [first], [null],[indexOf],
-        //   //[last], [null],[ ['ket', 'start', 'end']],
-        //   //[slice], [null],[ ['ket', 'start', 'end']],
-        //   //[ketat], [null],[ ['ket', 'start', 'end']],
-        //   //[upper], [null],[ ['ket', 'start', 'end']],
-        //   //[lower], [null],[ ['ket', 'start', 'end']],
-        //   //[concat], [null],[ ['ket', 'start', 'end']],
-        //   //[length], [null],[ ['ket', 'start', 'end']],
-        //   //[sot], [null],[ ['ket', 'start', 'end']]
-        //    ];
-        //Cybers[0][1] = ""
-        //document.write(Cybers[0][0]);
-        //document.write(Cybers[0][1]);
-
-        //document.write("<br/>");
-        //document.write(Cybers[1][0]);
-        //document.write(Cybers[1][1]);
-
+ 
 //        let Ketutils = function (params) {
 // //params = [funks,string,params];
 //kets.split(ace)
@@ -93,6 +85,15 @@ ZX80 and ZX81 (Home computers from Sinclair Research Ltd)	used a specific non-AS
 //        document.write(b[0]);
 //         document.write("<br/>");
 //        document.write(b[1]);
+
+                   //[last], [null],[ ['ket', 'start', 'end']],
+           //[slice], [null],[ ['ket', 'start', 'end']],
+           //[ketat], [null],[ ['ket', 'start', 'end']],
+           //[upper], [null],[ ['ket', 'start', 'end']],
+           //[lower], [null],[ ['ket', 'start', 'end']],
+           //[concat], [null],[ ['ket', 'start', 'end']],
+           //[length], [null],[ ['ket', 'start', 'end']],
+           //[sot], [null],[ ['ket', 'start', 'end']]
     </script>
 
 </body>

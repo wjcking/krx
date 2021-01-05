@@ -26,9 +26,9 @@ String.prototype.lines = function () {
 
     return this.split('\r');
 }
-//String.prototype.linens = function () {
-//    return this.lines("\n");
-//}
+String.prototype.br = function () {
+    return this + "<br/>";
+}
 //String.prototype.linerns = function () {
 //    return this.lines("\r\n");
 //}
