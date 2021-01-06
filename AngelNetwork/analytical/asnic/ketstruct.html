@@ -12,12 +12,17 @@
   
 </pre>
     <script type="text/javascript">
-         "use strict";
+        "use strict";
+        let Typelect = {
+            assert: function (value) {
+                if (value == null) {
+                    const error = "[ERROR]Typelect.Assertion:value is null";
+                    document.write(error);
+                    throw error;
+                }
+            }
+        }
 
-        Object.prototype.predicate = function (object) {
-            object(this);
-        };
-     //  [[split], [dot]],
         /**
          * @param object  
          *  function name * 1 
@@ -25,21 +30,24 @@
          *  function returns []
          *  eval
          */
-        Object.prototype.eval = function (object) {
-            var cmd = string_empty;
+        Object.prototype.reveal = function (object) {
+            Typelect.assert(object);
+            var func = new Ketlecter();
             //string to be executed  in prototype string
-            cmd.append(qta).append("a b c d e f 1  2 3 4 8").append(qta);
-            cmd.append(dst);
-            //function name
-       //     cmd.append(        );
-            cmd.append( lsm);
-            cmd.append(qta);
+            ketfunc.add(qta);
+            ketfunc.add("abc eefb aaec d e f 1  234d2 334aar 4 8");
+            ketfunc.add(qta);
+            ketfunc.add(dst);
+           // function name
+                   ketfunc.add(     object[0]   );
+            ketfunc.add(lsm);
+            ketfunc.add(qta);
             //parameters
-         //   cmd.append(        );
-            cmd.append( qta );
-            cmd.append(rsm);
+            //   ketfunc.add(        );
+            ketfunc.add(qta);
+            ketfunc.add(rsm);
 
-            document.write(cmd)
+            document.write(ketfunc.toString())
             //[
             //    split
             //    [[dot], [sec]],
@@ -47,28 +55,22 @@
             //], 
         }
         let Leonic = {
-           list: [1,2,3,4]
+            list: [1, 2, 3, 4]
         };
         var o = {};
         o.eval(null);
 
-        Leonic.predicate(function (object) {
-            document.getElementById("p").innerHTML = object.list[2];
-        });
+        //Object.prototype.predicate = function (object) {
+        //    object(this);
+        //};
 
-   let     Typekant = {
-            //list: { "number": "0", "string": Constant.empty, "boolean": true, "object": null, "function": Constant.empty, "undefined": Constant.empty },
+        //Leonic.predicate(function (object) {
+        //    document.getElementById("p").innerHTML = object.list[2];
+        //});
 
-            check: function (value) {
 
-            },
 
-            isUndefined: function (value) {
-
-            }
-        }
-
-      let  Transket = {
+        let Transket = {
             do: function (asniks, func) {
                 asniks.forEach(function (line, index) {
                     func(line, index);

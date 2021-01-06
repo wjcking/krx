@@ -30,15 +30,15 @@ String.prototype.br = function () {
     return this + "<br/>";
 }
 
-function StringBuilder() {
+function Ketlecter() {
     var strings = [];
 
-    this.append = function (string) {
+    this.add = function (string) {
         string = verify(string);
         if (string.length > 0) strings[strings.length] = string;
     };
 
-    this.appendLine = function (string) {
+    this.addBreak = function (string) {
         string = verify(string);
         if (this.isEmpty()) {
             if (string.length > 0) strings[strings.length] = string;
