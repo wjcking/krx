@@ -1,23 +1,4 @@
-﻿"use strict";
-/*each space usual special customs*/
-//Separator
-const ace = ' '; const kma = ','; const spt = '|';
-//Connector
-//  usual special
-const act = '^'; const lnk = '-'; const dst = '.'
-const equ = '=';
-
-const qst = "?"; const qot = qst + dot;
-const ptr = "->";
-//Bracket
-const lpt = '('; const rpt = ')'; const lsb = '['; const rsb = ']';
-const lcb = '{'; const rcb = '}';
-
-
-
-
-
-
+﻿
 //1 balance parallel to artlisense 平衡 美 图
 //2 Atowards:color.impluse.first
 //3 Ageing:infancy~endportal:1.3.8.16.25.30.35.45.50.55.60.70.80.100.110.120.?.220
@@ -37,8 +18,6 @@ Kits = [
 //书桌3个 课本6个 房子1个 //单位
 //计算 书桌 课本 房子的总和 //关键字 计算 的介词 和数词
 //算出总和//行号每一行有数量，告诉用户行数 
-
-
 
 kondets = [
     Ketfuncs : [

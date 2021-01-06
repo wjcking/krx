@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <script src="../../content/utils/utils.js"></script>
+    <script src="../../models/constant.js"></script>
     <script src="../../models/ket-struct.js"></script>
+    <script src="../../controllers/ket-extend.js"></script>
 </head>
 <body>
     <pre id="p">
@@ -16,16 +17,46 @@
         Object.prototype.predicate = function (object) {
             object(this);
         };
+     //  [[split], [dot]],
+        /**
+         * @param object  
+         *  function name * 1 
+         *  function parameters  * N
+         *  function returns []
+         *  eval
+         */
+        Object.prototype.eval = function (object) {
+            var cmd = string_empty;
+            //string to be executed  in prototype string
+            cmd.append(qta).append("a b c d e f 1  2 3 4 8").append(qta);
+            cmd.append(dst);
+            //function name
+       //     cmd.append(        );
+            cmd.append( lsm);
+            cmd.append(qta);
+            //parameters
+         //   cmd.append(        );
+            cmd.append( qta );
+            cmd.append(rsm);
 
+            document.write(cmd)
+            //[
+            //    split
+            //    [[dot], [sec]],
+            //    [" ", ""]
+            //], 
+        }
         let Leonic = {
            list: [1,2,3,4]
         };
+        var o = {};
+        o.eval(null);
 
         Leonic.predicate(function (object) {
             document.getElementById("p").innerHTML = object.list[2];
         });
 
-        Typekant = {
+   let     Typekant = {
             //list: { "number": "0", "string": Constant.empty, "boolean": true, "object": null, "function": Constant.empty, "undefined": Constant.empty },
 
             check: function (value) {

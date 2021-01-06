@@ -7,7 +7,7 @@ const type_undefined = "undefined ";
 
 const boolean_default = true;
 const number_default = 0;
-const string_default = "";
+const string_empty = "";
 const object_default = null;
 const function_default = undefined;
 
@@ -16,6 +16,7 @@ const function_default = undefined;
 const ace = ' '; const kma = ','; const spt = '|'; const tab = '\t'
 //Connector
 //  usual special
+
 const act = '^'; const lnk = '-'; const dst = '.'; const dot = dst;
 const equ = '=';
 
@@ -26,3 +27,5 @@ const lsm = '('; const rsm = ')'; const lmd = '['; const rmd = ']';
 const lbr = '{'; const rbr = '}'; const qta = '\"';
 const sot = "sot"; const cot = "cot"; const bot = "bot";
 const split = "split"; const first = "first"; const last = "last"; const upper = "toUpperCase";
+//logical kount number svg sum max min
+const count= "count"
