@@ -6,7 +6,7 @@
     <script src="../controllers/string-extend.js"></script>
 </head>
 <body>
-    <pre id="p">
+    <pre id="p" style="display:none;">
   Axis.SideKick:
         Attach
             Span distance
@@ -63,25 +63,24 @@
 
         //编码 空格不一样 " " “　”" "
         var Funkes = [
-            [[split], [dot]],
-            [[rep], [ace, '空格']],
-            [[split], [qst]],
-            [[split], [kma]],
-            [[split], [kma]],
-            [[split], [spt]],
-            [[split], [spt]],
+            [[split], ['i']],
+            [[rep], ['o', '']],
+            [[split], [qst]], 
                 [[upper], [null]],
         ];
 
         p.lines().forEach(function (pl, pi) {
             Funkes.forEach(function (item, c) {
                 var triples = pl.execute(item);
-                logger.write("Func_name: ");
+                logger.write("name: ");
                 triples[func_name].logout();
-                logger.write("Func_params: ");
+                
+                logger.write(" params: ");
                 triples[func_params].logout();
-                logger.write("Func_returns: ");
-                triples[func_returns].logout();
+        //        logger.write(" length" + triples[func_params].length);
+                logger.write(" returns: ");
+
+                logger.write(" " +triples[func_returns]);
                 document.write("<br/>");
             });
         });

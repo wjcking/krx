@@ -102,15 +102,16 @@ String.prototype.execute = function (item) {
     });
     
     funk.add(rsm);
+    
+    var result = Except.track(eval(funk.toString()));
 
-    var result =  Except.track(eval(funk.toString()));
     var tripleKant = [
         //a function name
         [item[func_name]],
         //parameters names more than 2 parameters like: "abc".replace("a","1")
         [item[func_params]],
         //returns
-        [result]
+        result
     ];
    // console.table(tripleKant);
     return tripleKant;

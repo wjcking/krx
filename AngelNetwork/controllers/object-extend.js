@@ -35,9 +35,9 @@ let Except = {
 /*
  * print each array by using document. write
   */
-Object.prototype.logout = function (prefix, suffix) {
+Object.prototype.logout = function () {
     this.forEach(function (e, i) {
-        document.write(Typelect.default(prefix) + e + Typelect.default(suffix));
+        document.write(e);
     });
 
 }
