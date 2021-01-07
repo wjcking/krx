@@ -2,7 +2,8 @@
 <head>
     <title></title>
     <script src="../models/constant.js"></script>
-    <script src="../controllers/ket-extend.js"></script>
+    <script src="../controllers/object-extend.js"></script>
+    <script src="../controllers/string-extend.js"></script>
 </head>
 <body>
     <pre id="p">
@@ -52,81 +53,79 @@
     Kolor Covered joint
     </pre>
     <script>
-   
+
         //Lines =
         //    [
         //        [1],
         //        [2],
         //    ]
         var p = document.getElementById("p").innerHTML;
-   
+
         //编码 空格不一样 " " “　”" "
-        var Cybers = [
-           [[split], [dot]],
-             [[split], [ace]],
-            //[[split], [qst]],
-            //[[split], [kma]],
-            //[[split], [kma]],
-            //[[split], [spt]],
-            //[[split], [spt]],
-    //   [[upper], [null]],
+        var Funkes = [
+            [[split], [dot]],
+            [[rep], [ace, '空格']],
+            [[split], [qst]],
+            [[split], [kma]],
+            [[split], [kma]],
+            [[split], [spt]],
+            [[split], [spt]],
+                [[upper], [null]],
         ];
 
-        p.lines().forEach(function (pe,pi) {
-             document.write(pi.toString().br());
-            Cybers.forEach(function (item, c) {
-                
-                var cmd = qta + pe + qta + dst + item[0] +  lsm + qta + item[1] + qta + rsm;
-                var kets = eval(cmd);
-            //    if (kets.length > 1)
-                document.write("Func:" + item[0] + "Params:" + item[1] + "Count:" + kets.length + ":");
-                kets.forEach(function (ke, ki) {
-                    document.write( ke + "个");
-                });
-                 document.write("<br/>");
-           
+        p.lines().forEach(function (pl, pi) {
+            Funkes.forEach(function (item, c) {
+                var triples = pl.execute(item);
+                logger.write("Func_name: ");
+                triples[func_name].logout();
+                logger.write("Func_params: ");
+                triples[func_params].logout();
+                logger.write("Func_returns: ");
+                triples[func_returns].logout();
+                document.write("<br/>");
             });
-            document.write("<br/>");
         });
- 
-//        let Ketutils = function (params) {
-// //params = [funks,string,params];
-//kets.split(ace)
-//kets.slice,
-//kets.indexOf,
-//kets.lastIndexOf,
-//kets.fromCharCode,
-//kets.replace,
-//kets.charAt,
-//kets.toUpperCase,
-//kets.toLowerCase,
-//kets.concat,
-//kets.length
 
-// kets.disrepeat,
-// kets.sum,
-//kets.upperFirst
-//}
+        //        let Ketutils = function (params) {
+        // //params = [funks,string,params];
+        //kets.split(ace)
+        //kets.slice,
+        //kets.indexOf,
+        //kets.lastIndexOf,
+        //kets.fromCharCode,
+        //kets.replace,
+        //kets.charAt,
+        //kets.toUpperCase,
+        //kets.toLowerCase,
+        //kets.concat,
+        //kets.length
+
+        // kets.disrepeat,
+        // kets.sum,
+        //kets.upperFirst
+        //}
 
 
-//        //document.write(Cybers[2][1]);
-//        var b = Cybers[0];
-        
-//        document.write(b[0][0]);
-//         document.write("<br/>");
-//        document.write(b[1][0]);
-//        document.write(b[0]);
-//         document.write("<br/>");
-//        document.write(b[1]);
+        //        //document.write(Cybers[2][1]);
+        //        var b = Cybers[0];
 
-                   //[last], [null],[ ['ket', 'start', 'end']],
-           //[slice], [null],[ ['ket', 'start', 'end']],
-           //[ketat], [null],[ ['ket', 'start', 'end']],
-           //[upper], [null],[ ['ket', 'start', 'end']],
-           //[lower], [null],[ ['ket', 'start', 'end']],
-           //[concat], [null],[ ['ket', 'start', 'end']],
-           //[length], [null],[ ['ket', 'start', 'end']],
-           //[sot], [null],[ ['ket', 'start', 'end']]
+        //        document.write(b[0][0]);
+        //         document.write("<br/>");
+        //        document.write(b[1][0]);
+        //        document.write(b[0]);
+        //         document.write("<br/>");
+        //        document.write(b[1]);
+
+        //[last], [null],[ ['ket', 'start', 'end']],
+        //[slice], [null],[ ['ket', 'start', 'end']],
+        //[ketat], [null],[ ['ket', 'start', 'end']],
+        //[upper], [null],[ ['ket', 'start', 'end']],
+        //[lower], [null],[ ['ket', 'start', 'end']],
+        //[concat], [null],[ ['ket', 'start', 'end']],
+        //[length], [null],[ ['ket', 'start', 'end']],
+        //[sot], [null],[ ['ket', 'start', 'end']]
+
+        document.write(typeof (0.3));
     </script>
 
 </body>

@@ -1,4 +1,14 @@
-﻿  
+﻿////String.prototype.extent = {
+////    index: 0,
+////    start =0,
+////    end =0,
+////    color: function (param) {
+
+////    }
+////}
+
+//};
+  
             //ie not support, start from humble 
             //var keys = Object.keys(this);
             //var values = Object.values(this);

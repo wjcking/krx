@@ -137,6 +137,69 @@ tring.prototype.leonic = function () {
         //document.write(s1.replaceAll("o", "-asdf-"));
         //  document.write(s1.format("FFF"));
 *************************************************************each ***************************************
+<!--     //Tri
+        //Unicode.Language
+        //Transform.Solid.Kolor Random.ExtremEylex.Earthly^Rotate 
+        //Axis Odimentional think Directive.Left?.Matrix?.Right 转置
+        //IsOverride.Leonic
+        //Easy.JsonDev.ChangeDirective(Default=Direction.Left|Direction.Right)
+        //  bool:true, true:bool
+        //  Pi:3.14,3.14:PI
+        //Stringly^Converderation ketstart.word.letter(IncludeSBL) Glanced.Without \r   \n 
+        //  "bool", "不是 好锂"
+        //bool:"true",Number:"3.334"
+        //Unique.Combine 
+        //  "truebool" "num3.14" AsciiLetter:"603424 3.14" NeedConnector
+        let Leonic = {
+            //不能再用等于号放花括号类型first:={ what: “'yourname'},
+            //predicate: function (predicate) {
+            //    document.write(this.string);
+            //},
+            array: [1, 2, 3, 'd'],
+            string: "value2",
+            stringEach: 'a b c d',
+            boolean: true,
+            number: 98746123,
+            func1: [function () {
+                document.write("f5");
+            }, function () { },
+            ],
+            Funcks: [
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P3-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
+                ["l124-l80P0-END", "l124-l80:P0-END", "l124-l80:P0-END"],
+            ],
+            //RectanetX Metric^k^X RectangeIndex
+            //Subindex
+            'Func-1-Index:Ketstart:?Each&Space&': function () {
+                return
+                [
+                    'a b c d',
+                    'a b c d',
+                    'a b c d',
+                    ['asdf asdf  sad fa'],
+                    ['asasdf sad f'],
+                    ['asdf asdf asdf sad ffdas'],
+
+                    ["first", "sec", "thrd"],
+                    ["first", "sec", "thrd"],
+                    ["first", "sec", "thrd"],
+                ];
+                //line: 4
+                //pine:5
+                substyle:
+                [
+                    's-ed-len,abbr3-4?.5'
+                ]
+            },
+            Instance: function () {
+
+            }
+        }-->
+*************************************************************each ***************************************
 //    if (undefined == s)
 //        return;
     

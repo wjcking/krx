@@ -6,7 +6,7 @@
 //5 1 运动类：篮球、羽毛球、兵乓球、足球、滑板、滑旱冰、跑步、跳绳、举重……（兴趣/爱好）
 //6 武术：跆拳道、自由搏击艺术：涂鸦、插花、看展览、听相声游戏：桌游、网游、手游
 Kits = [
-    [separator_space, separator_comma, separator_quest, separator_pointer]
+
 
 ]
 //Kit Line Index
@@ -20,10 +20,6 @@ Kits = [
 //算出总和//行号每一行有数量，告诉用户行数 
 
 kondets = [
-    Ketfuncs : [
 
-
-    ]
-    ["split", "separate", "分隔",]
 ]
 

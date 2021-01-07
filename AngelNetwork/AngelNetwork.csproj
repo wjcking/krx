@@ -121,7 +121,8 @@
     <Content Include="content\vue\vue.min.js" />
     <Content Include="controllers\handlers.js" />
     <Content Include="controllers\ket-array.js" />
-    <Content Include="controllers\ket-extend.js" />
+    <Content Include="controllers\string-extend.js" />
+    <Content Include="controllers\object-extend.js" />
     <Content Include="models\constant.js" />
     <Content Include="dynamics\apisoda.js" />
     <Content Include="index.html" />
@@ -144,9 +145,6 @@
     <Content Include="content\dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="content\dist\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="content\jquery\jquery-3.5.1.min.map" />
-    <Content Include="handlers\get.ashx" />
-    <Content Include="handlers\layout.ashx" />
-    <Content Include="handlers\set.ashx" />
     <Content Include="analytical\localstring.map" />
     <Content Include="analytical\cybers.html" />
     <None Include="packages.config" />
