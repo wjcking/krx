@@ -6,7 +6,8 @@ const type_object = "object";const object_default = null;
 const type_function = "function"; const function_default = undefined;
 
 const type_undefined = "undefined ";
-
+//好似编译器的基础 Cyber Separator Connector Bracket
+const sot = "sot"; const cot = "cot"; const bot = "bot";
 /*each space usual special customs*/
 //Separator
 const ace = ' '; const kma = ','; const spt = '|'; const tab = '\t';
@@ -21,7 +22,6 @@ const ptr = "->";
 const lsm = '('; const rsm = ')'; const lmd = '['; const rmd = ']';
 const lbr = '{'; const rbr = '}'; const qta = '\"';
 
-const sot = "sot"; const cot = "cot"; const bot = "bot";
 
 const func_name = 0; const func_params = 1; const func_returns = 2;
 const split = "split"; const first = "first"; const last = "last"; const upper = "toUpperCase";

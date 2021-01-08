@@ -54,21 +54,19 @@
     </pre>
     <script>
 
-        //Lines =
-        //    [
-        //        [1],
-        //        [2],
-        //    ]
         var p = document.getElementById("p").innerHTML;
 
         //编码 空格不一样 " " “　”" "
-        var Funkes = [
+       // 可以访问 Funkes[1][1][0]
+        //*参数类型 不夹杂 第二算法  for switch
+        //[function],[line:string as extracted parameter String.prototype],[parameter1,parameter2]
+        var Kandine = [
             [[split], ['i']],
-            [[rep], ['o', '']],
+            [[rep], ['o', 'b']],
             [[split], [qst]], 
                 [[upper], [null]],
         ];
-
+        //var Bandy
         p.lines().forEach(function (pl, pi) {
             Funkes.forEach(function (item, c) {
                 var triples = pl.execute(item);
@@ -76,11 +74,10 @@
                 triples[func_name].logout();
                 
                 logger.write(" params: ");
-                triples[func_params].logout();
+                document.write((triples[func_params]).length);
         //        logger.write(" length" + triples[func_params].length);
-                logger.write(" returns: ");
-
-                logger.write(" " +triples[func_returns]);
+                //logger.write(" returns: ");
+                //logger.write(" " +triples[func_returns]);
                 document.write("<br/>");
             });
         });

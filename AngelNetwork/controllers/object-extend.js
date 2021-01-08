@@ -2,13 +2,25 @@
 let Typelect = {
     assert: function (value) {
         if (value == null) {
-            const error = "[ERROR]Typelect.Assertion:value is null";
-            document.write(error);
+            const error = "[Error]Typelect.Assertion:value is null"; 
+            throw error;
+        }
+        if (value == undefined) {
+            const error = "[Undefined]Typelect.Assertion:value is undefined";
             throw error;
         }
     },
     default: function (value, defaultValue) {
-        return null == value ? (defaultValue == null ? string_empty : defaultValue) : string_empty;
+
+        value == undefined ? null : value;
+
+        if (null != value)
+            return value;
+
+        if (defaultValue == null)
+            value = string_empty
+        else
+            value = defaultValue;
     },
 
     isString: function (value) {
@@ -32,6 +44,20 @@ let Except = {
         }
     }
 }
+let Cryteck = {
+    /*
+     *[yingG!=^/\]可丁可卯每一个   sok
+     * isAdverse = Direct.Left|Direct.Right
+     */
+    kaiter: function (condets) {
+
+        //Typelect.assert(value);
+
+        //step = Typelect.default(step, 1);
+        //isAdverse = Typelect.default(isAdverse, false);
+ 
+}
+
 /*
  * print each array by using document. write
   */

@@ -61,6 +61,8 @@ String.prototype.format = function () {
     }
     return s;
 };
+
+
 String.prototype.lines = function () {
     if (this.indexOf("\r\n") > -1)
         return this.split('\r\n');
@@ -102,7 +104,7 @@ String.prototype.execute = function (item) {
     });
     
     funk.add(rsm);
-    
+    //currently debuged returned as ["single string in a quota"]    
     var result = Except.track(eval(funk.toString()));
 
     var tripleKant = [

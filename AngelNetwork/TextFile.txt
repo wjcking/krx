@@ -1,4 +1,20 @@
-﻿ Sabora = [
+﻿ let Cryteck = {
+    /*
+     *[yingG!=^/\]可丁可卯每一个   sok
+     * isAdverse = Direct.Left|Direct.Right
+     */
+    kaiter: function (value, step) {
+
+        Typelect.assert(value);
+
+        step = Typelect.default(step, 1);
+        isAdverse = Typelect.default(isAdverse, false);
+
+        for (var i = 0; i < value.length; i += step)
+    }
+}
+*******************new kind in JavaScript*************************
+Sabora = [
     ['Separator'],
     ['Link'],
     ['Bracket'],
@@ -15,7 +31,7 @@
     ['Bracket', 'Link', 'Separator']
 ]
 
-********************************************
+*******************new kind in JavaScript*************************
 var extent = function (params) {
             'use strict';
 
