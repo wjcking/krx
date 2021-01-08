@@ -55,7 +55,7 @@ let Cryteck = {
 
         //step = Typelect.default(step, 1);
         //isAdverse = Typelect.default(isAdverse, false);
- 
+    }
 }
 
 /*
