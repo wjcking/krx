@@ -70,7 +70,7 @@
     <Content Include="analytical\asnic\ketstring.html" />
     <Content Include="analytical\asnic\ketstruct.html" />
     <Content Include="analytical\func\adverse.html" />
-    <Content Include="analytical\analytical.html" />
+    <Content Include="analytical\index.html" />
     <Content Include="analytical\func\flex.html" />
     <Content Include="analytical\asnical.html" />
     <Content Include="analytical\file.html" />
