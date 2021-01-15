@@ -1,4 +1,44 @@
-﻿////String.prototype.extent = {
+﻿
+ fos.leon-start.html.line:102s
+        Maticals:Flat.Isoc:Geo.Metric
+        
+        sed:start-end
+            rt.rd
+            kt.kd
+            kr.rk 
+        mid: middle-repeat
+            an in
+        Leon.Sumit.Axis
+            Sequalet
+        //正方形 矩形 
+        RANT RINT RAND RIND RINK RANK
+        Rant Rint Rand Rind Rink Rank
+        rant rint rand rind rink rank
+        //莱昂 人类 洛克梅根 函数
+        Ruler
+            Rank Kran
+
+            Ranic.Action:Ket:Kan Kin Kit an in a i
+            Ranic Ran Rai ra r a
+
+            Nick Nike Nake Nice 
+            Nic ni ic n i c
+            Rinck Rink Ranic
+
+            Kink Kik knk Kin ric rik ri r i
+            Kanic Kinc Kic kc.ck k c
+
+            
+        Result
+        local.fos
+            KINR(KinR KanR) Kinr kanr
+        eof
+        //三角形
+        KANT KINT KAND KIND KINK
+        Kant Kint Kand Kind Kink
+        kant kint kand kind kink
+    eof
+////String.prototype.extent = {
 ////    index: 0,
 ////    start =0,
 ////    end =0,
