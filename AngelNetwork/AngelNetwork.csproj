@@ -100,7 +100,7 @@
     <Content Include="analytical\asnic\basic.html" />
     <Content Include="analytical\plate\hypertext.html" />
     <Content Include="analytical\screenable.html" />
-    <Content Include="analytical\asnic\leostart.html" />
+    <Content Include="analytical\asnic\leon-start.html" />
     <Content Include="analytical\TextFile1.txt" />
     <Content Include="content\dist\css\bootstrap-theme.css" />
     <Content Include="content\dist\css\bootstrap-theme.min.css" />
@@ -128,7 +128,7 @@
     <Content Include="index.html" />
     <Content Include="models\ket-struct.js" />
     <Content Include="models\ket-utility.js" />
-    <Content Include="models\leonic.js" />
+    <Content Include="models\leon-caret.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
