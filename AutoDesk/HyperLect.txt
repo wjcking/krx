@@ -42,7 +42,7 @@ Rockmega.Readme.FrequentBack
 Covid
 
 Create 
-Delete 
+Delete(Display~Kontrol?.Refresh~O~Kovered.?Maynot.Remove)
 Retrieve:Get
   Display  
 Search:Input
