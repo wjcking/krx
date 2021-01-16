@@ -6,7 +6,7 @@ const type_object = "object";const object_default = null;
 const type_function = "function"; const function_default = undefined;
 
 const type_undefined = "undefined ";
-//好似编译器的基础 Cyber Separator Connector Bracket
+//编译器的基础 Cyber Separator Connector Bracket
 const sot = "sot"; const cot = "cot"; const bot = "bot";
 /*each space usual special customs*/
 //Separator
