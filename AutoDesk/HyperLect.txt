@@ -33,8 +33,29 @@ Utility.Renliy.Instruct.Kountable
 Rockmega.Readme.FrequentBack
 
 // Lasset
-    //cassette
-    //kassette
-    //kessat
-    //kasset
-    //kassat
+//cassette
+//kassette
+//kessat
+//kasset
+//kassat
+
+Covid
+
+Create 
+Delete 
+Retrieve:Get
+  Display  
+Search:Input
+Modify:Set  
+  Kontrol(Keyboard~Mouse~RenlyHand.Microphone)Retrieve-O-Search
+  Retrieve-O-Search(Keyboard~Mouse~RenlyHand.Microphone)Controlled
+
+  Change.Control.
+  Update.Time
+  Aipset.?Snic
+  Aupsack.?Snical
+Entertain
+  
+add remove change search 
+increase decrease change search
+entertain
