@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AutoDesk
 {
+    using Kit;
     class Program
     {
         /// <summary>
@@ -81,14 +82,11 @@ namespace AutoDesk
             dingNeo = new DingNew();
             for (int i = 0; i < 12; i++)
             {
-
                 DingNew.Pirnt();
                 dingNeo.PrintN();
                 Console.WriteLine();
-            }
-            // s.Se = 127;
-            //R r =null;
-            //           r.Ra();
+            } 
+            Chs.Lin
             Console.Read();
         }
     }
