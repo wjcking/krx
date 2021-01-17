@@ -48,6 +48,7 @@
     <Compile Include="Hypert.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -55,7 +56,7 @@
   <ItemGroup>
     <Content Include="flex-mytric.txt" />
     <Content Include="%24Lasset.txt" />
-    <Content Include="HyperLect.txt" />
+    <Content Include="TyperLect.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

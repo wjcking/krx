@@ -39,23 +39,3 @@ Rockmega.Readme.FrequentBack
 //kasset
 //kassat
 
-Covid
-
-Create 
-Delete(Display~Kontrol?.Refresh~O~Kovered.?Maynot.Remove)
-Retrieve:Get
-  Display  
-Search:Input
-Modify:Set  
-  Kontrol(Keyboard~Mouse~RenlyHand.Microphone)Retrieve-O-Search
-  Retrieve-O-Search(Keyboard~Mouse~RenlyHand.Microphone)Controlled
-
-  Change.Control.
-  Update.Time
-  Aipset.?Snic
-  Aupsack.?Snical
-Entertain
-  
-add remove change search 
-increase decrease change search
-entertain

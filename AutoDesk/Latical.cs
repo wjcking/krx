@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AutoDesk
 {
+
     /// <summary>
     /// Parameters.AbbrPrefix.Pa
     /// Parameters.AbbrPrefix.Ra
@@ -17,14 +18,15 @@ namespace AutoDesk
         /// <summary>
         /// 
         /// </summary>
-        public static readonly Kovert Covert = new Kovert();
+        public static readonly Kovert Covert;
         /// <summary>
         /// 传值 输入
         /// </summary>
         public const int Integer = 1;
+
         static Latical()
         {
-
+Covert = new Kovert();
         }
     }
 }
