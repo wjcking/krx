@@ -1,6 +1,6 @@
 ﻿namespace AngelLayout
 {
-    partial class Mdi
+    partial class Midow
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mdi));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Midow));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.MenuMain = new System.Windows.Forms.ToolStripMenuItem();
             this.tsm_new = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,9 +52,10 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.menuStrip.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -69,7 +70,7 @@
             this.帮助HToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(800, 25);
+            this.menuStrip.Size = new System.Drawing.Size(790, 25);
             this.menuStrip.TabIndex = 37;
             this.menuStrip.Text = "menuStrip";
             // 
@@ -202,9 +203,9 @@
             // 
             // statusStrip1
             // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 534);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(790, 22);
             this.statusStrip1.TabIndex = 39;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -214,7 +215,7 @@
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 25);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(790, 25);
             this.toolStrip1.TabIndex = 40;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -230,19 +231,37 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.textBox1.BackColor = System.Drawing.Color.SeaShell;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(0, 50);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(800, 378);
+            this.textBox1.Size = new System.Drawing.Size(790, 484);
             this.textBox1.TabIndex = 41;
-            this.textBox1.Text = resources.GetString("textBox1.Text");
             this.textBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseMove);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(651, 130);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(109, 21);
+            this.textBox2.TabIndex = 45;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.SlateBlue;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label3.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label3.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label3.Location = new System.Drawing.Point(651, 97);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(112, 17);
+            this.label3.TabIndex = 44;
+            this.label3.Text = "R2.ColorRibbon";
             // 
             // label1
             // 
@@ -250,9 +269,9 @@
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label1.Location = new System.Drawing.Point(512, 274);
+            this.label1.Location = new System.Drawing.Point(651, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(251, 61);
+            this.label1.Size = new System.Drawing.Size(110, 18);
             this.label1.TabIndex = 42;
             this.label1.Text = "R1.ColorRibbon";
             // 
@@ -262,29 +281,18 @@
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label2.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label2.Location = new System.Drawing.Point(651, 230);
+            this.label2.Location = new System.Drawing.Point(295, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 17);
+            this.label2.Size = new System.Drawing.Size(468, 345);
             this.label2.TabIndex = 43;
             this.label2.Text = "R1.ColorRibbon";
             // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.SlateBlue;
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label3.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label3.Location = new System.Drawing.Point(651, 345);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 17);
-            this.label3.TabIndex = 44;
-            this.label3.Text = "R2.ColorRibbon";
-            // 
-            // Mdi
+            // Midow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(790, 556);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -293,7 +301,7 @@
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
-            this.Name = "Mdi";
+            this.Name = "Midow";
             this.Text = "[Asnick]wjcking";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
@@ -328,9 +336,10 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripMenuItem tsm_new;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

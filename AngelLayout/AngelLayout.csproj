@@ -80,12 +80,13 @@
       <DependentUpon>AsnicForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Lumia.cs" />
-    <Compile Include="Mdi.cs">
+    <Compile Include="Midow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mdi.Designer.cs">
-      <DependentUpon>Mdi.cs</DependentUpon>
+    <Compile Include="Midow.Designer.cs">
+      <DependentUpon>Midow.cs</DependentUpon>
     </Compile>
+    <Compile Include="MouseKeyboard.cs" />
     <Compile Include="Pixels.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,8 +105,8 @@
     <EmbeddedResource Include="AsnicForm.resx">
       <DependentUpon>AsnicForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mdi.resx">
-      <DependentUpon>Mdi.cs</DependentUpon>
+    <EmbeddedResource Include="Midow.resx">
+      <DependentUpon>Midow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -137,6 +138,12 @@
   <ItemGroup>
     <Content Include="symboltics.html" />
     <Content Include="TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoDesk\AutoDesk.csproj">
+      <Project>{2f4affa2-4af6-44cc-b49c-6a150a0b5cc1}</Project>
+      <Name>AutoDesk</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

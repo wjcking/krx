@@ -36,13 +36,16 @@ namespace AutoDesk
             Value = value;
       //      Value = Value.ToCharArray();
         }
-       public string[] GetCharArray(string spliter)
+       public string[] GetStringArray(string spliter)
         {
             return Value.Split(spliter.ToCharArray());
+        }  public char[] GetCharArray(string spliter)
+        {
+            return Value.ToCharArray();
         }
         public void Print()
         {
-            var sot = GetCharArray(" ");
+            var sot = GetStringArray(" ");
             foreach (var v in sot)
             {
 
