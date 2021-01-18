@@ -1,16 +1,19 @@
-﻿
-using System;
-using System.Runtime.InteropServices;
-
+﻿using System;
+using System.Collections.Generic;
 namespace AutoDesk
 {
-    /*
-    *   uitlity
-    *    logical(+-* I)
-     */
-    public class Hyper : Kovert
+    /// <summary>
+    /// Mytric:String.Hypert.String:Object.?Mytrik
+    /// 编译器的基础
+    ///     Cybers:Separator Connector Bracket
+    ///     sot cot bot 
+    ///    generic.programming.algorithm par war
+    /// 增删取改查 因特尔(O)坦恩  Cybert?.Autility
+    /// </summary>
+    public struct Cyper 
     {
-        public string Value { get; set; }
+
+        public string Stake { get; set; }
         public bool Bool { get; set; }     // 布尔值 True 或 False False
         public byte Byte { get; set; }      //8 位无符号整数	0 到 255	0
         public char Char { get; set; }     //16 位 Unicode 字符 U +0000 到 U +ffff	'\0'
@@ -24,15 +27,16 @@ namespace AutoDesk
         public uint Uint { get; set; }      //32 位无符号整数类型	0 到 4,294,967,295	0
         public ulong Ulong { get; set; }         //64 位无符号整数类型	0 到 18,446,744,073,709,551,615	0
         public ushort Ushort { get; set; }              //16 位无符号整数类型	0 到 65,535	0
+      
+        public string[] GetStringArray(string spliter)
+        {
+            return Stake.Split(spliter.ToCharArray());
+        }
+        public char[] GetCharArray(string spliter)
+        {
+            return Stake.ToCharArray();
+        }
 
-        
     }
-    ////   StructLayoutAttribute  
+}      
 
-    //const type_boolean = "boolean"; const boolean_default = true;
-    //const type_number = "number"; const number_default = 0;
-    //const type_string = "string"; const string_empty = "";
-    //const type_object = "object"; const object_default = null;
-    //const type_function = "function"; const function_default = undefined;
-
-}

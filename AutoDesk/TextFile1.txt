@@ -1,0 +1,37 @@
+﻿cypers
+
+/public Cyper(bool value) { Bool = value; }
+        //public Cyper(byte value) { }
+        //public Cyper(char vaue) { }
+        //public Cyper(decimal vaue) { }
+        //public Cyper(double value) { }
+        //public Cyper(float value) { }
+        //public Cyper(int value) { }
+        //public Cyper(long value) { }
+        //public Cyper(sbyte value) { }
+        //public Cyper(short vaue) { }
+        //public Cyper(uint value) { }
+        //public Cyper(ulong value) { }
+        //public Cyper(ushort value) { }
+//    ['split', 'slice', 'indexOf', 'lastIndexOf',  'fromCharCode', 'replace', 'charAt', 'toUpperCase', 'toLowerCase', 'concat', 'length'],
+//    ['disrepeat', 'sum', 'firstUpper']
+//      sot~sod~soc~sok
+//      cot~cok~Kot 
+//      sob~bos~osb
+//      bot~bod~boc~bok
+//Covid.Renliy.Hardsoft  
+//Create(Add, New, Insert)
+//Delete(Display~Kontrol?.Refresh~O~Kovered.? Maynot.Remove)
+//Retrieve:Get
+//Colid.Hard(Memory
+//Modify:Set
+//Search:Input
+//  Kontrol(Keyboard~Mouse~RenlyHand.Microphone)Retrieve-O-Search
+//  Retrieve-O-Search(Keyboard~Mouse~RenlyHand.Microphone)Controlled 
+//Enter-O-tain
+// Display
+//  Change.Control.
+//  Update.Time
+//  Aipset.? Snic
+//  Aupsack.? Snical
+// System.U

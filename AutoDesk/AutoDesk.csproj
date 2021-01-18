@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cybert.cs" />
+    <Compile Include="Cyper.cs" />
     <Compile Include="Kovert.cs" />
-    <Compile Include="Hypert.cs" />
+    <Compile Include="Hyper.cs" />
     <Compile Include="Lasik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -59,6 +59,7 @@
     <Content Include="flex-mytric.txt" />
     <Content Include="space-utlitze.txt" />
     <Content Include="asc-ii.txt" />
+    <Content Include="TextFile1.txt" />
     <Content Include="TyperLect.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
