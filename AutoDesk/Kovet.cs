@@ -2,7 +2,7 @@ using System;
 
 namespace AutoDesk
 { 
-    public  struct Kovert
+    public  struct Kovet
     {
         /// <summary>
         /// To json "\r\n", "\\r\\n"

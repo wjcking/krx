@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cyper.cs" />
-    <Compile Include="Kovert.cs" />
+    <Compile Include="Kovet.cs" />
     <Compile Include="Hyper.cs" />
     <Compile Include="Lasik.cs" />
     <Compile Include="Program.cs" />
