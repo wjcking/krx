@@ -20,6 +20,9 @@ namespace AutoDesk
         //public Cyper(string value) { this.Value = value; }
         public string Value { get; set; }
         //string Stake { get; set; }
+
+
+
         public Hyper Hyper { get; set; }
         public string[] GetStringArray(string spliter)
         {

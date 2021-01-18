@@ -19,7 +19,7 @@ namespace AutoDesk
     //显示器分辨率1920 1080，并且可伸缩性
     //镶起来 然后凯美瑞
     public struct Frank
-    {
+    {           
         //只能是边框  凯美瑞 上下左右边框游走 角钉 或游走滚动
         //public Cybert DockLeft;
         //public Cybert DockRight;
