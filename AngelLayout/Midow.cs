@@ -28,7 +28,7 @@ namespace AngelLayout
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            var cybert = new Cybert(textBox1.Text);
+            var cybert = new Cyper(textBox1.Text);
             var strings = cybert.GetCharArray(textBox2.Text);
             var appender = new System.Text.StringBuilder(); 
             foreach (var s in strings)

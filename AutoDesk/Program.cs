@@ -29,9 +29,20 @@ namespace AutoDesk
 
             //new Cybert(true).Print();
             //new Cybert(false).Print();
-           var cybert = new Cybert("Milf Nude Photo Longmint Tranny MoviesSearch Search Search Search Recent ...A Foreign Affair international dating service meet Russian women Latin women ");
+           var cybert = new Cyper("Milf Nude Photo Longmint Tranny MoviesSearch Search Search Search Recent ...A Foreign Affair international dating service meet Russian women Latin women ");
             cybert.Print();
+         
+            var b = 0b0010_0100;
+
+            var f = 0x1f;
+            //var axr = new char[35];
+            //axr[byte1] = byte1;
+            //axr[0x1F] = axr;
+
+           Console.WriteLine(b.GetType().Name); 
+           //  Console.WriteLine(axr[0x1F]);
             Console.Read();
         }
+
     }
 }

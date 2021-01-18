@@ -43,11 +43,10 @@ struct DingNew
 
 
 }
-struct Ding
-{
-    public static readonly object O = "o";
-    public static void Pirnt() { Console.Write(String.Format("Ding", "")); }
-}
+
+/*
+* 浅显分析数据存放多一些
+*/
 struct New
 {
     public int Eidix;
@@ -60,6 +59,14 @@ struct New
     {
         Console.Write(string.Format("New{0}", Eidix++));
     }
+}
+/*
+ * 直接执行算法多
+ */
+struct Ding
+{
+    public static readonly object O = "o";
+    public static void Pirnt() { Console.Write(String.Format("Ding", "")); }
 }
 
 //+, -, !, ~, ++, --	这些一元运算符只有一个操作数，且可以被重载。

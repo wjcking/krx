@@ -8,59 +8,45 @@ namespace AutoDesk
     ///     Cybers:Separator Connector Bracket
     ///     sot cot bot 
     ///    generic.programming.algorithm par war
-    /// 增删取改查 因特尔(O)坦恩 
+    /// 增删取改查 因特尔(O)坦恩  Cybert?.Autility
     /// </summary>
-    public class Cybert : Hypert
+    public class Cyper : Hyper
     {
-        public string Value { get; set; }
-        public Cybert(bool value) { Bool = value; }
-        public Cybert(byte value) { }
-        public Cybert(char vaue) { }
-        public Cybert(decimal vaue) { }
-        public Cybert(double value) { }
-        public Cybert(float value) { }
-        public Cybert(int value) { }
-        public Cybert(long value) { }
-        public Cybert(sbyte value) { }
-        public Cybert(short vaue) { }
-        public Cybert(uint value) { }
-        public Cybert(ulong value) { }
-        public Cybert(ushort value) { }
-        public Cybert(object value)
+        public Cyper(bool value) { Bool = value; }
+        public Cyper(byte value) { }
+        public Cyper(char vaue) { }
+        public Cyper(decimal vaue) { }
+        public Cyper(double value) { }
+        public Cyper(float value) { }
+        public Cyper(int value) { }
+        public Cyper(long value) { }
+        public Cyper(sbyte value) { }
+        public Cyper(short vaue) { }
+        public Cyper(uint value) { }
+        public Cyper(ulong value) { }
+        public Cyper(ushort value) { }
+   
+        public Cyper(string value)
+        {
+            Value = value;
+            //      Value = Value.ToCharArray();
+        }     public Cyper(object value)
         {
 
         }
-         overide
-        public Cybert(string value)
-        {
-            Value = value;
-      //      Value = Value.ToCharArray();
-        }
-       public string[] GetStringArray(string spliter)
+        public string[] GetStringArray(string spliter)
         {
             return Value.Split(spliter.ToCharArray());
-        }  public char[] GetCharArray(string spliter)
+        }
+        public char[] GetCharArray(string spliter)
         {
             return Value.ToCharArray();
         }
-        public void Print()
-        {
-            var sot = GetStringArray(" ");
-            foreach (var v in sot)
-            {
 
-                Console.Write(v + "|");
-            }
-     //       Console.Write(Bool);
-            //foreach (var v in Value)
-            //{
-            //    Console.Write(v+"|");
-            //}
-        }
     }
 }
-        //    ['split', 'slice', 'indexOf', 'lastIndexOf',  'fromCharCode', 'replace', 'charAt', 'toUpperCase', 'toLowerCase', 'concat', 'length'],
-        //    ['disrepeat', 'sum', 'firstUpper']
+//    ['split', 'slice', 'indexOf', 'lastIndexOf',  'fromCharCode', 'replace', 'charAt', 'toUpperCase', 'toLowerCase', 'concat', 'length'],
+//    ['disrepeat', 'sum', 'firstUpper']
 //      sot~sod~soc~sok
 //      cot~cok~Kot 
 //      sob~bos~osb

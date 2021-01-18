@@ -46,18 +46,19 @@
     <Compile Include="Cybert.cs" />
     <Compile Include="Kovert.cs" />
     <Compile Include="Hypert.cs" />
+    <Compile Include="Lasik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Raket.cs" />
     <Compile Include="Rastal.cs" />
-    <Compile Include="RastalMenuItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="flex-mytric.txt" />
-    <Content Include="%24Lasset.txt" />
+    <Content Include="space-utlitze.txt" />
+    <Content Include="asc-ii.txt" />
     <Content Include="TyperLect.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
