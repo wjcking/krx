@@ -20,7 +20,7 @@ using System.Threading.Tasks;
 ///6. struct轻量级，class重量级。
 ///7. 当涉及数组操作时，struct效率高，涉及collection操作时，class效率高
 /// </summary>
-struct DingNew
+struct DineNew
 {    //ding extrame
     //readonly
     //const
@@ -28,7 +28,7 @@ struct DingNew
     //New^ding(多个好似 复制多个）
     public int Eidix;
 
-    public DingNew(String s)
+    public DineNew(String s)
     {
         Eidix = 1;  //eidix
     }
