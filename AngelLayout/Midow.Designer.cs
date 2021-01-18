@@ -277,15 +277,18 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.SeaGreen;
+            this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label2.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label2.Location = new System.Drawing.Point(295, 176);
+            this.label2.Font = new System.Drawing.Font("黑体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(295, 167);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(468, 345);
+            this.label2.Size = new System.Drawing.Size(468, 367);
             this.label2.TabIndex = 43;
             this.label2.Text = "R1.ColorRibbon";
+            this.label2.Paint += new System.Windows.Forms.PaintEventHandler(this.label2_Paint);
+            this.label2.Validating += new System.ComponentModel.CancelEventHandler(this.label2_Validating);
             // 
             // Midow
             // 
