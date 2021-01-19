@@ -72,6 +72,13 @@
     </Compile>
     <Compile Include="Asnick.cs" />
     <Compile Include="BrowserRegister.cs" />
+    <Compile Include="Komad.cs" />
+    <Compile Include="Komet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Komet.Designer.cs">
+      <DependentUpon>Komet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Languages.cs" />
     <Compile Include="AsnicForm.cs">
       <SubType>Form</SubType>
@@ -104,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AsnicForm.resx">
       <DependentUpon>AsnicForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Komet.resx">
+      <DependentUpon>Komet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Midow.resx">
       <DependentUpon>Midow.cs</DependentUpon>
