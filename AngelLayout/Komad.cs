@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace AngelLayout
@@ -35,22 +36,31 @@ namespace AngelLayout
 
             return output;
         }
-        public static string Batch(string fileName = null, string args = null)
+
+        public static   string Batch(string fileName = null, string args = null)
         {
             var process = new Process();
             process.StartInfo.WorkingDirectory = WorkFolder;
-            process.StartInfo.FileName = WorkFolder + "\\"+ fileName;
-    process.StartInfo.Arguments = args;// string.Format("10");//this is argument
+            process.StartInfo.FileName = WorkFolder + "\\" + fileName;
+            process.StartInfo.Arguments = args;// string.Format("10");//this is argument
             process.StartInfo.CreateNoWindow = true;
             process.StartInfo.RedirectStandardInput = true;  // 接受来自调用程序的输入信息
             process.StartInfo.RedirectStandardOutput = true;  //输出信息
             process.StartInfo.RedirectStandardError = true;  // 输出错误
             process.StartInfo.UseShellExecute = false;       //是否使用操作系统shell启动                 
-                 
-       //      process.StandardInput.WriteLine(args + "&exit");  //向cmd窗口发送输入信息，如果批处理，需要这里做循环输入
-           //       process.StandardInput.AutoFlush = true;
+
+            //      process.StandardInput.WriteLine(args + "&exit");  //向cmd窗口发送输入信息，如果批处理，需要这里做循环输入
+            //       process.StandardInput.AutoFlush = true;
+            //System.Threading.ThreadPool.i
+            //  var thread = new System.Threading.Thread( new System.Threading.ThreadStart(process.Start)); 
             process.Start();
-            process.WaitForExit();
+                process.WaitForExit();
+            //ThreadPool.QueueUserWorkItem(new WaitCallback(t =>
+            //{
+              
+            //}));
+         
+            
             string output = process.StandardOutput.ReadToEnd();  //获取输出信息
             return output;
         }

@@ -80,11 +80,11 @@
       <DependentUpon>Komet.cs</DependentUpon>
     </Compile>
     <Compile Include="Languages.cs" />
-    <Compile Include="AsnicForm.cs">
+    <Compile Include="Wrabber.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AsnicForm.Designer.cs">
-      <DependentUpon>AsnicForm.cs</DependentUpon>
+    <Compile Include="Wrabber.Designer.cs">
+      <DependentUpon>Wrabber.cs</DependentUpon>
     </Compile>
     <Compile Include="Lumia.cs" />
     <Compile Include="Midow.cs">
@@ -106,11 +106,11 @@
     <EmbeddedResource Include="AddInfo.resx">
       <DependentUpon>AddInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AsnicForm.en.resx">
-      <DependentUpon>AsnicForm.cs</DependentUpon>
+    <EmbeddedResource Include="Wrabber.en.resx">
+      <DependentUpon>Wrabber.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AsnicForm.resx">
-      <DependentUpon>AsnicForm.cs</DependentUpon>
+    <EmbeddedResource Include="Wrabber.resx">
+      <DependentUpon>Wrabber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Komet.resx">
       <DependentUpon>Komet.cs</DependentUpon>

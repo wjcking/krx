@@ -1,6 +1,6 @@
 ﻿namespace AngelLayout
 {
-    partial class AsnicForm
+    partial class Wrabber
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AsnicForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Wrabber));
             this.angelView = new AngelLayout.AngelView(this.components);
             this.SuspendLayout();
             // 
@@ -40,13 +40,13 @@
             this.angelView.ScrollBarsEnabled = false;
             this.angelView.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.angelView_Navigated);
             // 
-            // AsnicForm
+            // Wrabber
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.angelView);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "AsnicForm";
+            this.Name = "Wrabber";
             this.ShowIcon = false;
             this.ResumeLayout(false);
 

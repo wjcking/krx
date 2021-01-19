@@ -1,6 +1,7 @@
 ﻿using AutoDesk;
 using System;
 using System.Drawing;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 namespace AngelLayout
 {
@@ -10,6 +11,7 @@ namespace AngelLayout
         {
             InitializeComponent();
             DoubleBuffered = true;
+            //dataGridView1.DataSource = this.dataGridView1;
             //tableLayoutPanel1.dou
             //var symbolics = new Symbolics();
             //symbolics.MdiParent = this;
@@ -40,22 +42,28 @@ namespace AngelLayout
             //label1.ForeColor = Pixels.GetColor(e.X, e.Y, this);
             //label1.Text = Pixels.GetColor(e.X, e.Y, this).ToString();
         }
+   //     [ DllImport("User32.dll", CharSet = CharSet.Auto)]
+   //     public static extern int ReleaseDC(IntPtr hWnd, IntPtr hDC);
 
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = Komad.Run(toolStripTextBox1.Text);
-            //var cybert = new Cyper(textBox1.Text);
-            //var strings = cybert.GetCharArray(textBox2.Text);
-            //var appender = new System.Text.StringBuilder(); 
-            //foreach (var s in strings)
-            //{
-            //   appender.Append(s + "~");
-            ////textBox1.AppendText(s + "~");   // 
-            ////    System.Threading.Thread.Sleep(10);
-            //}
-            ////  label2.Text  = appender.ToString();
-            //label2.Refresh();
-        }
+   //     [DllImport("User32.dll")]
+   //     private static extern IntPtr GetWindowDC(IntPtr hWnd);
+
+   //     protected override void WndProc(ref Message m)
+   //     {
+   //         base.WndProc(ref m);
+   //         const int WM_NCPAINT = 0x85;
+   ////      if (m.Msg == WM_NCPAINT)
+   //     //    {
+   //             IntPtr hdc = GetWindowDC(m.HWnd);
+   //             if ((int)hdc != 0)
+   //             {
+   //                 Graphics g = Graphics.FromHdc(hdc);
+   //                 g.FillRectangle(Brushes.Green, new Rectangle(0, 0, 4800, 23));
+   //                 g.Flush();
+   //                 ReleaseDC(m.HWnd, hdc);
+   //             }
+   //    //     }
+   //     }
 
         private void label2_Paint(object sender, PaintEventArgs e)
         {
@@ -102,9 +110,22 @@ namespace AngelLayout
                 textBox1.Text = Komad.Batch("file-search.bat", this.toolStripTextBox1.Text);
         }
 
-        private void toolStripTextBox1_Click(object sender, EventArgs e)
-        {
+ 
 
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = Komad.Run(toolStripTextBox1.Text);
+            //var cybert = new Cyper(textBox1.Text);
+            //var strings = cybert.GetCharArray(textBox2.Text);
+            //var appender = new System.Text.StringBuilder(); 
+            //foreach (var s in strings)
+            //{
+            //   appender.Append(s + "~");
+            ////textBox1.AppendText(s + "~");   // 
+            ////    System.Threading.Thread.Sleep(10);
+            //}
+            ////  label2.Text  = appender.ToString();
+            //label2.Refresh();
         }
     }
 }

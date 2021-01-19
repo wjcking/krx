@@ -3,9 +3,9 @@
 namespace AngelLayout
 {
     [System.Runtime.InteropServices.ComVisible(true)]
-    public partial class AsnicForm : Form
+    public partial class Wrabber : Form
     {
-        public AsnicForm()
+        public Wrabber()
         {
             InitializeComponent();
             Languages.Set("en-US");
