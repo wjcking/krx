@@ -30,7 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.listBox3 = new System.Windows.Forms.ListBox();
-            this.ketub1 = new AngelLayout.Ketub();
             this.SuspendLayout();
             // 
             // label1
@@ -80,33 +79,17 @@
             this.listBox3.Size = new System.Drawing.Size(48, 322);
             this.listBox3.TabIndex = 57;
             // 
-            // ketub1
-            // 
-            this.ketub1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ketub1.CustomAutoSize = true;
-            this.ketub1.EmptyTextTip = "asd rewq rtew";
-            this.ketub1.EmptyTextTipColor = System.Drawing.Color.DarkGreen;
-            this.ketub1.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.ketub1.Location = new System.Drawing.Point(86, 62);
-            this.ketub1.Multiline = true;
-            this.ketub1.Name = "ketub1";
-            this.ketub1.Radius = 1;
-            this.ketub1.Size = new System.Drawing.Size(526, 331);
-            this.ketub1.TabIndex = 59;
-            // 
             // Komet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(694, 504);
-            this.Controls.Add(this.ketub1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox3);
             this.Name = "Komet";
             this.Load += new System.EventHandler(this.Komet_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -114,6 +97,5 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBox3;
-        private Ketub ketub1;
     }
 }

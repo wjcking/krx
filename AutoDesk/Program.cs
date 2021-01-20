@@ -35,7 +35,7 @@ namespace AutoDesk
             c.Value = "v";
                var b = 0b0010_0100;
 
-            var f = 0x1f;
+          //  var f = 0x1f;
             //var axr = new char[35];
             //axr[byte1] = byte1;
             //axr[0x1F] = axr;

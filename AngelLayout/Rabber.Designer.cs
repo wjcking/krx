@@ -56,7 +56,7 @@
         }
 
         #endregion
-        private AngelView angelView;
+
         private AngelLayout  .Ketub ketub1;
     }
 }

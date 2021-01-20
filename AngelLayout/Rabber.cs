@@ -25,7 +25,7 @@ namespace AngelLayout
             var objArray = new object[1];
 
              //   System.Threading.Thread.Sleep(100);
-                angelView.Document.InvokeScript("invoke");
+             //   angelView.Document.InvokeScript("invoke");
      
         }
 
