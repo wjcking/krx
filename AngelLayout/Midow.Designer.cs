@@ -78,7 +78,9 @@
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.toolGrid = new System.Windows.Forms.ToolStripButton();
+            this.Rect = new System.Windows.Forms.ToolStripButton();
+            this.Levis = new System.Windows.Forms.ToolStripButton();
             this.menuStrip.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -238,10 +240,13 @@
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Levis,
+            this.toolGrid,
             this.toolStripSeparator1,
             this.toolStripLabel1,
             this.toolStripSeparator2,
-            this.toolStripTextBox1});
+            this.toolStripTextBox1,
+            this.Rect});
             this.toolStrip1.Location = new System.Drawing.Point(0, 25);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(790, 25);
@@ -271,7 +276,6 @@
             this.toolStripTextBox1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(100, 25);
-            this.toolStripTextBox1.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.toolStripTextBox1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.toolStripTextBox1_KeyUp);
             // 
             // label3
@@ -503,13 +507,35 @@
             this.textBox1.Size = new System.Drawing.Size(596, 147);
             this.textBox1.TabIndex = 83;
             // 
-            // listView1
+            // toolGrid
             // 
-            this.listView1.Location = new System.Drawing.Point(26, 234);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(596, 238);
-            this.listView1.TabIndex = 84;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.toolGrid.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolGrid.Image = ((System.Drawing.Image)(resources.GetObject("toolGrid.Image")));
+            this.toolGrid.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolGrid.Name = "toolGrid";
+            this.toolGrid.Size = new System.Drawing.Size(37, 22);
+            this.toolGrid.Text = "Grid";
+            this.toolGrid.Click += new System.EventHandler(this.toolGrid_Click);
+            // 
+            // Rect
+            // 
+            this.Rect.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.Rect.Image = ((System.Drawing.Image)(resources.GetObject("Rect.Image")));
+            this.Rect.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Rect.Name = "Rect";
+            this.Rect.Size = new System.Drawing.Size(37, 22);
+            this.Rect.Text = "Rect";
+            this.Rect.Click += new System.EventHandler(this.Rect_Click);
+            // 
+            // Levis
+            // 
+            this.Levis.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.Levis.Image = ((System.Drawing.Image)(resources.GetObject("Levis.Image")));
+            this.Levis.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Levis.Name = "Levis";
+            this.Levis.Size = new System.Drawing.Size(40, 22);
+            this.Levis.Text = "Levis";
+            this.Levis.Click += new System.EventHandler(this.Levis_Click);
             // 
             // Midow
             // 
@@ -517,7 +543,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(790, 662);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button14);
@@ -611,6 +636,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ToolStripButton toolGrid;
+        private System.Windows.Forms.ToolStripButton Rect;
+        private System.Windows.Forms.ToolStripButton Levis;
     }
 }

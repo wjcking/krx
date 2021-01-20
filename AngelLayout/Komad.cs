@@ -36,7 +36,7 @@ namespace AngelLayout
 
             return output;
         }
-
+        //Snatches FileWatcher
         public static   string Batch(string fileName = null, string args = null)
         {
             var process = new Process();

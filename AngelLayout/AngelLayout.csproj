@@ -72,6 +72,12 @@
     </Compile>
     <Compile Include="Asnick.cs" />
     <Compile Include="BrowserRegister.cs" />
+    <Compile Include="Grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid.Designer.cs">
+      <DependentUpon>Grid.cs</DependentUpon>
+    </Compile>
     <Compile Include="Komad.cs" />
     <Compile Include="Komet.cs">
       <SubType>UserControl</SubType>
@@ -80,6 +86,18 @@
       <DependentUpon>Komet.cs</DependentUpon>
     </Compile>
     <Compile Include="Languages.cs" />
+    <Compile Include="Levis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levis.Designer.cs">
+      <DependentUpon>Levis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rect.Designer.cs">
+      <DependentUpon>Rect.cs</DependentUpon>
+    </Compile>
     <Compile Include="Wrabber.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +123,15 @@
     <Compile Include="Solid.cs" />
     <EmbeddedResource Include="AddInfo.resx">
       <DependentUpon>AddInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid.resx">
+      <DependentUpon>Grid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levis.resx">
+      <DependentUpon>Levis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rect.resx">
+      <DependentUpon>Rect.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Wrabber.en.resx">
       <DependentUpon>Wrabber.cs</DependentUpon>

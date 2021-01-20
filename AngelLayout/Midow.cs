@@ -1,6 +1,7 @@
 ﻿using AutoDesk;
 using System;
 using System.Drawing;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 namespace AngelLayout
@@ -11,6 +12,7 @@ namespace AngelLayout
         {
             InitializeComponent();
             DoubleBuffered = true;
+
             //dataGridView1.DataSource = this.dataGridView1;
             //tableLayoutPanel1.dou
             //var symbolics = new Symbolics();
@@ -22,18 +24,12 @@ namespace AngelLayout
             //main.WindowState = FormWindowState.Maximized;//子窗体
             //main.Show();  
 
-            for (int i = 0; i < 20000; i++)
-            {
-
-                //    checkedListBox1.Items.Add("String" + i.ToString());
-
-                checkedListBox2.Items.Add("String" + i.ToString());
-            }
-            //  label1.doc
-
-
-            //  checkedListBox2.HorizontalScrollbar = false;
-            label2.BringToFront();
+         
+            checkedListBox2.ColumnWidth = 3;
+             label2.BringToFront();
+            
+     
+         
 
             //      Application.AddMessageFilter(this);
         }
@@ -42,28 +38,28 @@ namespace AngelLayout
             //label1.ForeColor = Pixels.GetColor(e.X, e.Y, this);
             //label1.Text = Pixels.GetColor(e.X, e.Y, this).ToString();
         }
-   //     [ DllImport("User32.dll", CharSet = CharSet.Auto)]
-   //     public static extern int ReleaseDC(IntPtr hWnd, IntPtr hDC);
+        //     [ DllImport("User32.dll", CharSet = CharSet.Auto)]
+        //     public static extern int ReleaseDC(IntPtr hWnd, IntPtr hDC);
 
-   //     [DllImport("User32.dll")]
-   //     private static extern IntPtr GetWindowDC(IntPtr hWnd);
+        //     [DllImport("User32.dll")]
+        //     private static extern IntPtr GetWindowDC(IntPtr hWnd);
 
-   //     protected override void WndProc(ref Message m)
-   //     {
-   //         base.WndProc(ref m);
-   //         const int WM_NCPAINT = 0x85;
-   ////      if (m.Msg == WM_NCPAINT)
-   //     //    {
-   //             IntPtr hdc = GetWindowDC(m.HWnd);
-   //             if ((int)hdc != 0)
-   //             {
-   //                 Graphics g = Graphics.FromHdc(hdc);
-   //                 g.FillRectangle(Brushes.Green, new Rectangle(0, 0, 4800, 23));
-   //                 g.Flush();
-   //                 ReleaseDC(m.HWnd, hdc);
-   //             }
-   //    //     }
-   //     }
+        //     protected override void WndProc(ref Message m)
+        //     {
+        //         base.WndProc(ref m);
+        //         const int WM_NCPAINT = 0x85;
+        ////      if (m.Msg == WM_NCPAINT)
+        //     //    {
+        //             IntPtr hdc = GetWindowDC(m.HWnd);
+        //             if ((int)hdc != 0)
+        //             {
+        //                 Graphics g = Graphics.FromHdc(hdc);
+        //                 g.FillRectangle(Brushes.Green, new Rectangle(0, 0, 4800, 23));
+        //                 g.Flush();
+        //                 ReleaseDC(m.HWnd, hdc);
+        //             }
+        //    //     }
+        //     }
 
         private void label2_Paint(object sender, PaintEventArgs e)
         {
@@ -110,11 +106,12 @@ namespace AngelLayout
                 textBox1.Text = Komad.Batch("file-search.bat", this.toolStripTextBox1.Text);
         }
 
- 
+
 
         private void toolStripLabel1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = Komad.Run(toolStripTextBox1.Text);
+          //  textBox1.Text = Komad.Batch(toolStripTextBox1.Text);
+
             //var cybert = new Cyper(textBox1.Text);
             //var strings = cybert.GetCharArray(textBox2.Text);
             //var appender = new System.Text.StringBuilder(); 
@@ -126,6 +123,22 @@ namespace AngelLayout
             //}
             ////  label2.Text  = appender.ToString();
             //label2.Refresh();
+        }
+
+        private void toolGrid_Click(object sender, EventArgs e)
+        {
+            new Grid().Show();
+        }
+
+        private void Levis_Click(object sender, EventArgs e)
+        {
+            new Levis().Show();
+        }
+
+        private void Rect_Click(object sender, EventArgs e)
+        {
+
+            new Rect().Show();
         }
     }
 }
