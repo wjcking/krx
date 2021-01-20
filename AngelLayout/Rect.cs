@@ -15,7 +15,7 @@ namespace AngelLayout
         public Rect()
         {
             InitializeComponent();
-            Draw();
+     //       Draw();
         }
         public void Draw()
         {
@@ -23,7 +23,7 @@ namespace AngelLayout
             //创建绘图对象Graphics
             Graphics graphics = Graphics.FromImage(image);
             //清除画布，背景颜色为红色
-            graphics.Clear(Color.Violet);
+            graphics.Clear(Color.Silver);
             //通过循环画出横线
             for (int i = 0; i < 130; i++)
             {
@@ -32,7 +32,7 @@ namespace AngelLayout
             //通过循环画出竖线
             for (int i = 0; i < 120; i++)
             {
-                graphics.DrawLine(new Pen(Brushes.Yellow, 1), i * 20, 0, i * 20, 600);
+                graphics.DrawLine(new Pen(Brushes.Black, 1), i * 20, 0, i * 20, 600);
             }
 
             this.BackgroundImage = image;
@@ -44,6 +44,18 @@ namespace AngelLayout
         private void Rect_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawRectangle(new Pen(Color.Red), 10, 20, 45,45);
+            //e.ClipRectangle.Inflate(50, 50);
+  
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -12,6 +12,7 @@ namespace AngelLayout
         {
             InitializeComponent();
             DoubleBuffered = true;
+            
 
             //dataGridView1.DataSource = this.dataGridView1;
             //tableLayoutPanel1.dou
