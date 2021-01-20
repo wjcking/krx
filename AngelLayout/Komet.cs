@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace AngelLayout
 {
-    public partial class Komet : UserControl
+    public partial class Komet : Form
     {
         public Komet()
         {
@@ -18,14 +18,14 @@ namespace AngelLayout
             
         }
 
-        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        private void Komet_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void ketub1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

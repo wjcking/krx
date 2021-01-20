@@ -337,7 +337,7 @@ namespace AngelLayout
                 }
             }
 
-            private int _radius = 12;
+            private int _radius = 1;
             [Description("获取或设置圆角弧度")]
             public int Radius
             {

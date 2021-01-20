@@ -82,7 +82,7 @@
     <Compile Include="Ketub.cs" />
     <Compile Include="Komad.cs" />
     <Compile Include="Komet.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Komet.Designer.cs">
       <DependentUpon>Komet.cs</DependentUpon>
@@ -129,14 +129,14 @@
     <EmbeddedResource Include="Grid.resx">
       <DependentUpon>Grid.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Komet.resx">
+      <DependentUpon>Komet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Levis.resx">
       <DependentUpon>Levis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rect.resx">
       <DependentUpon>Rect.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Komet.resx">
-      <DependentUpon>Komet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Midow.resx">
       <DependentUpon>Midow.cs</DependentUpon>

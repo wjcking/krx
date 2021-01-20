@@ -9,9 +9,9 @@ namespace AngelLayout
         {
             InitializeComponent();
             Languages.Set("en-US");
-            angelView.ObjectForScripting = this;
-            angelView.Navigate(@"http://192.168.0.102:1000/asnic/template/ketnew.html"); 
-            angelView.DocumentCompleted += AngelView_DocumentCompleted;
+            //angelView.ObjectForScripting = this;
+            //angelView.Navigate(@"http://192.168.0.102:1000/asnic/template/ketnew.html"); 
+            //angelView.DocumentCompleted += AngelView_DocumentCompleted;
        
         }
 

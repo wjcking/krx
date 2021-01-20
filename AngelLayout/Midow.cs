@@ -56,45 +56,7 @@ namespace AngelLayout
         //             }
         //    //     }
         //     }
-
-        private void label2_Paint(object sender, PaintEventArgs e)
-        {
-            //          try
-            //          {
-            //              //取得这个绘图对象Graphics
-            //              Graphics g = e.Graphics;
-            //              //绘制底色
-            //              Brush b = new SolidBrush(BackColor);
-
-            //              g.FillRectangle(b, e.ClipRectangle);
-
-            //              //绘制第一段文本
-            //              //Brush bRed = new SolidBrush(Color.Red);                                  //头两个字符用红色绘制
-            //              //g.DrawString(textBox1.Text.Substring(0, 2), this.Font, bRed, e.ClipRectangle);    //在失效区域内绘制
-
-            //              SizeF size1 = g.MeasureString(Text.Substring(0, 2), this.Font);          //计算头两个字符绘制后的大小
-            //              Rectangle rect2 = e.ClipRectangle;                        //计算绘制完头两个字符后的失效区域
-            //rect2.X = (int)(e.ClipRectangle.Left + size1.Width);
-            //              //rect2.Width = (int)(e.ClipRectangle.Width - size1.Width);
-
-            //              var myPen = new Pen(Color.White, 1);
-            //              g.DrawRectangle(myPen, rect2.X, 0, this.Font.Size, this.Font.Size);
-
-
-
-            //              //Brush bGreen = new SolidBrush(Color.Green);                               //绘制后面的字符，用绿色
-            //              //g.DrawString(textBox1.Text.Substring(2), this.Font, bGreen, rect2);
-            //          }
-            //          catch(Exception y)
-            //          {
-            //              label1.Text = y.Message;
-            //          }
-        }
-
-        private void label2_Validating(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-
-        }
+         
 
         private void toolStripTextBox1_KeyUp(object sender, KeyEventArgs e)
         {
@@ -126,20 +88,16 @@ namespace AngelLayout
             new Rect().Show();
         }
 
-<<<<<<< HEAD
-        private void Ketub_Click(object sender, EventArgs e)
-        {
-            new Rabber().Show();
-=======
-        private void button1_Click(object sender, EventArgs e)
+
+ 
+        private void Midow_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void Midow_Load(object sender, EventArgs e)
+        private void Rabber_Click(object sender, EventArgs e)
         {
-
->>>>>>> 847b19089b35421c0f025454acc6e7e26ca9f144
+            new Komet().Show();
         }
     }
 }
