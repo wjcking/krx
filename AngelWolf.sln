@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngelLayout", "AngelLayout\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Konsole", "Konsole\Konsole.vcxproj", "{A39E6314-DA15-43EA-9F5E-629D0FBA21B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marks", "Marks\Marks.csproj", "{940A0404-1E81-449A-BC32-8933630C4269}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +141,26 @@ Global
 		{A39E6314-DA15-43EA-9F5E-629D0FBA21B3}.Release|x64.Build.0 = Release|x64
 		{A39E6314-DA15-43EA-9F5E-629D0FBA21B3}.Release|x86.ActiveCfg = Release|Win32
 		{A39E6314-DA15-43EA-9F5E-629D0FBA21B3}.Release|x86.Build.0 = Release|Win32
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|ARM.Build.0 = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|x64.Build.0 = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Debug|x86.Build.0 = Debug|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|ARM.ActiveCfg = Release|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|ARM.Build.0 = Release|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|ARM64.Build.0 = Release|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|x64.ActiveCfg = Release|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|x64.Build.0 = Release|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|x86.ActiveCfg = Release|Any CPU
+		{940A0404-1E81-449A-BC32-8933630C4269}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
