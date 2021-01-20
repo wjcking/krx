@@ -78,6 +78,7 @@
     <Compile Include="Grid.Designer.cs">
       <DependentUpon>Grid.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ketub.cs" />
     <Compile Include="Komad.cs" />
     <Compile Include="Komet.cs">
       <SubType>UserControl</SubType>
@@ -98,12 +99,6 @@
     <Compile Include="Rect.Designer.cs">
       <DependentUpon>Rect.cs</DependentUpon>
     </Compile>
-    <Compile Include="Wrabber.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wrabber.Designer.cs">
-      <DependentUpon>Wrabber.cs</DependentUpon>
-    </Compile>
     <Compile Include="Lumia.cs" />
     <Compile Include="Midow.cs">
       <SubType>Form</SubType>
@@ -121,6 +116,12 @@
       <DependentUpon>R.resx</DependentUpon>
     </Compile>
     <Compile Include="Solid.cs" />
+    <Compile Include="Rabber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rabber.Designer.cs">
+      <DependentUpon>Rabber.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddInfo.resx">
       <DependentUpon>AddInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,12 +133,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rect.resx">
       <DependentUpon>Rect.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wrabber.en.resx">
-      <DependentUpon>Wrabber.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wrabber.resx">
-      <DependentUpon>Wrabber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Komet.resx">
       <DependentUpon>Komet.cs</DependentUpon>
@@ -157,6 +152,12 @@
     <EmbeddedResource Include="R.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>R.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rabber.en.resx">
+      <DependentUpon>Rabber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rabber.resx">
+      <DependentUpon>Rabber.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

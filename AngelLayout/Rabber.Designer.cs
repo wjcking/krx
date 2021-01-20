@@ -1,6 +1,6 @@
 ﻿namespace AngelLayout
 {
-    partial class Wrabber
+    partial class Rabber
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,32 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Wrabber));
-            this.angelView = new AngelLayout.AngelView(this.components);
+            this.ketub1 = new  AngelLayout.Ketub();
             this.SuspendLayout();
             // 
-            // angelView
+            // ketub1
             // 
-            resources.ApplyResources(this.angelView, "angelView");
-            this.angelView.Name = "angelView";
-            this.angelView.ScrollBarsEnabled = false;
-            this.angelView.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.angelView_Navigated);
+            this.ketub1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ketub1.CustomAutoSize = true;
+            this.ketub1.EmptyTextTip = null;
+            this.ketub1.EmptyTextTipColor = System.Drawing.Color.DarkGray;
+            this.ketub1.Font = new System.Drawing.Font("微软雅黑", 9F);
+            this.ketub1.Location = new System.Drawing.Point(37, 25);
+            this.ketub1.Multiline = true;
+            this.ketub1.Name = "ketub1";
+            this.ketub1.Radius = 12;
+            this.ketub1.Size = new System.Drawing.Size(483, 382);
+            this.ketub1.TabIndex = 0;
             // 
-            // Wrabber
+            // Rabber
             // 
-            resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.angelView);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Wrabber";
-            this.ShowIcon = false;
+            this.ClientSize = new System.Drawing.Size(559, 457);
+            this.Controls.Add(this.ketub1);
+            this.Name = "Rabber";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
         private AngelView angelView;
+        private AngelLayout  .Ketub ketub1;
     }
 }
 

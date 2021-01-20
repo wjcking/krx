@@ -141,5 +141,10 @@ namespace AngelLayout
 
             new Rect().Show();
         }
+
+        private void Ketub_Click(object sender, EventArgs e)
+        {
+            new Rabber().Show();
+        }
     }
 }
