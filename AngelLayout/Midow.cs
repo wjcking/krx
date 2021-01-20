@@ -25,14 +25,9 @@ namespace AngelLayout
             //main.WindowState = FormWindowState.Maximized;//子窗体
             //main.Show();  
 
-         
-            checkedListBox2.ColumnWidth = 3;
-             label2.BringToFront();
-            
-     
-         
 
-            //      Application.AddMessageFilter(this);
+        //    label2.BringToFront();
+        //      Application.AddMessageFilter(this);
         }
         private void textBox1_MouseMove(object sender, MouseEventArgs e)
         {
@@ -103,8 +98,8 @@ namespace AngelLayout
 
         private void toolStripTextBox1_KeyUp(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-                textBox1.Text = Komad.Batch("file-search.bat", this.toolStripTextBox1.Text);
+            //if (e.KeyCode == Keys.Enter)
+            //    textBox1.Text = Komad.Batch("file-search.bat", this.toolStripTextBox1.Text);
         }
 
 
@@ -113,17 +108,6 @@ namespace AngelLayout
         {
           //  textBox1.Text = Komad.Batch(toolStripTextBox1.Text);
 
-            //var cybert = new Cyper(textBox1.Text);
-            //var strings = cybert.GetCharArray(textBox2.Text);
-            //var appender = new System.Text.StringBuilder(); 
-            //foreach (var s in strings)
-            //{
-            //   appender.Append(s + "~");
-            ////textBox1.AppendText(s + "~");   // 
-            ////    System.Threading.Thread.Sleep(10);
-            //}
-            ////  label2.Text  = appender.ToString();
-            //label2.Refresh();
         }
 
         private void toolGrid_Click(object sender, EventArgs e)
@@ -142,9 +126,20 @@ namespace AngelLayout
             new Rect().Show();
         }
 
+<<<<<<< HEAD
         private void Ketub_Click(object sender, EventArgs e)
         {
             new Rabber().Show();
+=======
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Midow_Load(object sender, EventArgs e)
+        {
+
+>>>>>>> 847b19089b35421c0f025454acc6e7e26ca9f144
         }
     }
 }
