@@ -99,5 +99,10 @@ namespace AngelLayout
         {
             new Komet().Show();
         }
+
+        private void Karet_Click(object sender, EventArgs e)
+        {
+    new Karet().Show();
+        }
     }
 }

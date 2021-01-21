@@ -52,6 +52,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FastColoredTextBox">
+      <HintPath>..\packages\FastColoredTextBox.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -61,13 +64,16 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="TabStrip">
+      <HintPath>..\packages\TabStrip.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddInfo.cs">
+    <Compile Include="Karet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddInfo.Designer.cs">
-      <DependentUpon>AddInfo.cs</DependentUpon>
+    <Compile Include="Karet.Designer.cs">
+      <DependentUpon>Karet.cs</DependentUpon>
     </Compile>
     <Compile Include="AngelView.cs">
       <SubType>Component</SubType>
@@ -133,8 +139,8 @@
     <Compile Include="Rabber.Designer.cs">
       <DependentUpon>Rabber.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddInfo.resx">
-      <DependentUpon>AddInfo.cs</DependentUpon>
+    <EmbeddedResource Include="Karet.resx">
+      <DependentUpon>Karet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

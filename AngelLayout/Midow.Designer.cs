@@ -73,6 +73,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.Karet = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,7 +86,8 @@
             this.Rabber,
             this.Grid,
             this.Levis,
-            this.Rect});
+            this.Rect,
+            this.Karet});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(47, 685);
@@ -572,6 +574,16 @@
             this.label1.Text = "Powerful sample. It shows syntax highlighting and many features.";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
+            // Karet
+            // 
+            this.Karet.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.Karet.Image = ((System.Drawing.Image)(resources.GetObject("Karet.Image")));
+            this.Karet.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Karet.Name = "Karet";
+            this.Karet.Size = new System.Drawing.Size(44, 18);
+            this.Karet.Text = "Karet";
+            this.Karet.Click += new System.EventHandler(this.Karet_Click);
+            // 
             // Midow
             // 
             this.ClientSize = new System.Drawing.Size(901, 685);
@@ -670,5 +682,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripButton Karet;
     }
 }

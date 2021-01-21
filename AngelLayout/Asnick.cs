@@ -8,7 +8,7 @@ namespace AngelLayout
 {
     public class Asnick
     {
-        private string text;
-        public Asnick(string text) => this.text = text;     
+        //private string text;
+        //public Asnick(string text) => this.text = text;     
     }
 }
