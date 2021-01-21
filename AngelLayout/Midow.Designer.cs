@@ -34,6 +34,7 @@
             this.Grid = new System.Windows.Forms.ToolStripButton();
             this.Levis = new System.Windows.Forms.ToolStripButton();
             this.Rect = new System.Windows.Forms.ToolStripButton();
+            this.Karet = new System.Windows.Forms.ToolStripButton();
             this.label39 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
@@ -73,7 +74,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.Karet = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,6 +135,16 @@
             this.Rect.Size = new System.Drawing.Size(44, 18);
             this.Rect.Text = "Rect";
             // 
+            // Karet
+            // 
+            this.Karet.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.Karet.Image = ((System.Drawing.Image)(resources.GetObject("Karet.Image")));
+            this.Karet.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Karet.Name = "Karet";
+            this.Karet.Size = new System.Drawing.Size(44, 18);
+            this.Karet.Text = "Karet";
+            this.Karet.Click += new System.EventHandler(this.Karet_Click);
+            // 
             // label39
             // 
             this.label39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -150,7 +160,7 @@
             // 
             this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label38.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label38.Location = new System.Drawing.Point(637, 504);
+            this.label38.Location = new System.Drawing.Point(774, 342);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(131, 60);
             this.label38.TabIndex = 153;
@@ -205,7 +215,7 @@
             // 
             this.label33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label33.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label33.Location = new System.Drawing.Point(173, 369);
+            this.label33.Location = new System.Drawing.Point(319, 423);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(150, 76);
             this.label33.TabIndex = 143;
@@ -217,7 +227,7 @@
             // 
             this.label32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label32.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label32.Location = new System.Drawing.Point(319, 200);
+            this.label32.Location = new System.Drawing.Point(319, 235);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(150, 76);
             this.label32.TabIndex = 141;
@@ -329,7 +339,7 @@
             // 
             this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label22.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label22.Location = new System.Drawing.Point(155, 258);
+            this.label22.Location = new System.Drawing.Point(168, 235);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(150, 62);
             this.label22.TabIndex = 121;
@@ -373,7 +383,7 @@
             // 
             this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label18.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label18.Location = new System.Drawing.Point(492, 423);
+            this.label18.Location = new System.Drawing.Point(481, 368);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(150, 62);
             this.label18.TabIndex = 113;
@@ -451,7 +461,7 @@
             // 
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label11.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label11.Location = new System.Drawing.Point(735, 204);
+            this.label11.Location = new System.Drawing.Point(481, 437);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(150, 72);
             this.label11.TabIndex = 99;
@@ -462,7 +472,7 @@
             // 
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label10.Location = new System.Drawing.Point(195, 510);
+            this.label10.Location = new System.Drawing.Point(168, 330);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(150, 79);
             this.label10.TabIndex = 97;
@@ -486,7 +496,7 @@
             // 
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label8.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label8.Location = new System.Drawing.Point(330, 9);
+            this.label8.Location = new System.Drawing.Point(319, 80);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(150, 76);
             this.label8.TabIndex = 93;
@@ -498,7 +508,7 @@
             // 
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label7.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(453, 114);
+            this.label7.Location = new System.Drawing.Point(482, 199);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(150, 76);
             this.label7.TabIndex = 91;
@@ -521,7 +531,7 @@
             // 
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label5.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(158, 11);
+            this.label5.Location = new System.Drawing.Point(168, 421);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(147, 78);
             this.label5.TabIndex = 87;
@@ -533,7 +543,7 @@
             // 
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(12, 185);
+            this.label4.Location = new System.Drawing.Point(122, 57);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(150, 90);
             this.label4.TabIndex = 85;
@@ -545,7 +555,7 @@
             // 
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(12, 151);
+            this.label3.Location = new System.Drawing.Point(319, 161);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(150, 66);
             this.label3.TabIndex = 83;
@@ -556,7 +566,7 @@
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(195, 73);
+            this.label2.Location = new System.Drawing.Point(481, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(150, 66);
             this.label2.TabIndex = 81;
@@ -573,16 +583,6 @@
             this.label1.TabIndex = 79;
             this.label1.Text = "Powerful sample. It shows syntax highlighting and many features.";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // Karet
-            // 
-            this.Karet.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.Karet.Image = ((System.Drawing.Image)(resources.GetObject("Karet.Image")));
-            this.Karet.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.Karet.Name = "Karet";
-            this.Karet.Size = new System.Drawing.Size(44, 18);
-            this.Karet.Text = "Karet";
-            this.Karet.Click += new System.EventHandler(this.Karet_Click);
             // 
             // Midow
             // 

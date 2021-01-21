@@ -10,7 +10,7 @@ namespace AngelLayout
         public Karet()
         {
             InitializeComponent();
-            fastColoredTextBox1.Language = Language.Custom;
+
         }
 
         private void fastColoredTextBox1_Load(object sender, System.EventArgs e)

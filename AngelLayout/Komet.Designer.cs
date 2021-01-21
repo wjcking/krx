@@ -34,7 +34,7 @@
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(606, 15);
+            this.label1.Location = new System.Drawing.Point(613, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 322);
             this.label1.TabIndex = 58;
@@ -74,7 +74,7 @@
             "R",
             "W",
             "R"});
-            this.listBox3.Location = new System.Drawing.Point(7, 71);
+            this.listBox3.Location = new System.Drawing.Point(50, 49);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(48, 322);
             this.listBox3.TabIndex = 57;
