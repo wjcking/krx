@@ -77,10 +77,7 @@ namespace AngelLayout
             new Grid().Show();
         }
 
-        private void Levis_Click(object sender, EventArgs e)
-        {
-            new Levis().Show();
-        }
+
 
         private void Rect_Click(object sender, EventArgs e)
         {
@@ -103,6 +100,11 @@ namespace AngelLayout
         private void Karet_Click(object sender, EventArgs e)
         {
     new Karet().Show();
+        }
+
+        private void Levis_Click_1(object sender, EventArgs e)
+        {
+     new Levis().Show();
         }
     }
 }

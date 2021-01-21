@@ -124,6 +124,7 @@
             this.Levis.Name = "Levis";
             this.Levis.Size = new System.Drawing.Size(44, 18);
             this.Levis.Text = "Levis";
+            this.Levis.Click += new System.EventHandler(this.Levis_Click_1);
             // 
             // Rect
             // 
