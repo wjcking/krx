@@ -40,13 +40,13 @@
             this.textBox1.Location = new System.Drawing.Point(44, 38);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(379, 317);
+            this.textBox1.Size = new System.Drawing.Size(648, 600);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
             // Karet
             // 
-            this.ClientSize = new System.Drawing.Size(570, 444);
+            this.ClientSize = new System.Drawing.Size(735, 682);
             this.Controls.Add(this.textBox1);
             this.Name = "Karet";
             this.ResumeLayout(false);
