@@ -6,35 +6,35 @@
 </head>
 <body>
 <pre>
-Covid
-    Renliy.Touchable.Canseen
-    Anyuser.Persection:kmfpcsvm*Comsek:Bodypart
-        Keyboard
-        Mouse 
-        Touch.Screen
-        PenHolder.Stylus.Screen
-        Camera
-        Screen.Display
-        Voice
-        Microphone
-    Anyuser
-    Advent
-        Mainboard.interface
-            inner
-        Cpu
-        Memory
-        Hardisk        
-        Video
-        Audio
-    Utility.Anyuser
-        Wireless
-        Bluetooth
-        Cd-disk
-        Mainboard.interface.Outter
-            usb
-            ps2 
-            lpt      
-    #Summary.Persection:Advent-O-Anyuser
+*Device:Comsek:Bodypart
+    keb:Keyboard(hand)
+    mos:Mouse(hand)
+    cam:Camera(Eye,Face,Body)
+    scn:Screen.Display.FingerTouch(Eye Finger.Touch,Hand.Scan)
+    vos:Voice(Ear)
+    mic:Microphone(Mouth)
+    pad:touchpad(Hand,Finger)
+    pen:PenHolder.Stylus.Screen(Hand,Finger)    
+    
+    med:Mainboard
+    inf:interface:inner-aon-outter   
+        pci 
+        com
+        usb
+        ps2 
+        lpt
+    cpu:Cpu
+    mem:Memory
+    hdk:Hardisk        
+    vdo:Video
+    ado:Audio
+    
+    wif:Wireless
+    blt:Bluetooth
+  
+    dsk:Cd-disk 
+
+#Summary.Persection:DCT:Advent-O-Anyuser
             Inner
                 Software.Hardware.Drive
             Outter                
@@ -43,15 +43,21 @@ Covid
                 Hardware.Camera.Software
             Interface
                 Software.Hardware.Plug.Count
-Pixel 
-    Computer Celly 
-    Common Size 1920 1080 
-    
-    Utility.Covid.Display
-    Utility.Renliy.Caerer
-    Advent
+Pixel
+    EyeVision.Autmost
+    Anaytical.DataCollect
+        dct.dvs.user.celly.inf.usb-type-c 
+        dct.dev.outter.hard.scn.lcd
+    dct.dev.outter.hard.scn.crt
+    dct.dev.outter.hard.mbd.bios
+    dct.dev.inner.hard.mbd.inf.pci
+    dct.dev.outter.hard.mbd.inf.usb
+
+    dct.dev.hand.mos.soft.drive
+    dct.user.hand.mos.soft.pointer(moving,click)
+    Utility.Renliy.Caerer 
         Business,Industry Automation,
-    Anyuser
+ 
 
 Watch
 </pre>

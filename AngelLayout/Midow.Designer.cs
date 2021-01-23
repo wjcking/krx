@@ -60,8 +60,6 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -295,7 +293,7 @@
             // 
             this.label26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label26.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label26.Location = new System.Drawing.Point(501, 35);
+            this.label26.Location = new System.Drawing.Point(577, 607);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(131, 59);
             this.label26.TabIndex = 129;
@@ -361,11 +359,7 @@
             // 
             this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label20.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-<<<<<<< HEAD
-            this.label20.Location = new System.Drawing.Point(39, 130);
-=======
-            this.label20.Location = new System.Drawing.Point(12, 395);
->>>>>>> cd3455b9cc5217a00ef124881ea96bed0afab55c
+            this.label20.Location = new System.Drawing.Point(163, 134);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(150, 62);
             this.label20.TabIndex = 117;
@@ -426,33 +420,6 @@
             this.label15.TabIndex = 107;
             this.label15.Text = "AutoIndent sample";
             this.label15.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label14
-            // 
-            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label14.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label14.Location = new System.Drawing.Point(245, 206);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(150, 76);
-            this.label14.TabIndex = 105;
-            this.label14.Text = "Autocomplete sample 2.\r\nThis example demonstrates more flexible variant of Autoco" +
-    "mpleteMenu using.";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label13
-            // 
-            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label13.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-<<<<<<< HEAD
-            this.label13.Location = new System.Drawing.Point(739, 165);
-=======
-            this.label13.Location = new System.Drawing.Point(12, 283);
->>>>>>> cd3455b9cc5217a00ef124881ea96bed0afab55c
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(150, 62);
-            this.label13.TabIndex = 103;
-            this.label13.Text = "Example of image drawing";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label12
             // 
@@ -551,7 +518,7 @@
             // 
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(93, 20);
+            this.label4.Location = new System.Drawing.Point(171, 214);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(150, 90);
             this.label4.TabIndex = 85;
@@ -620,8 +587,6 @@
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -676,8 +641,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
