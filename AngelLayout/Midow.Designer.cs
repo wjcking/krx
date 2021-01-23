@@ -250,7 +250,7 @@
             // 
             this.label30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label30.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label30.Location = new System.Drawing.Point(637, 258);
+            this.label30.Location = new System.Drawing.Point(681, 244);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(131, 60);
             this.label30.TabIndex = 137;
@@ -261,7 +261,7 @@
             // 
             this.label29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label29.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label29.Location = new System.Drawing.Point(637, 212);
+            this.label29.Location = new System.Drawing.Point(681, 148);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(131, 70);
             this.label29.TabIndex = 135;
@@ -272,7 +272,7 @@
             // 
             this.label28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label28.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label28.Location = new System.Drawing.Point(637, 161);
+            this.label28.Location = new System.Drawing.Point(681, 50);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(131, 83);
             this.label28.TabIndex = 133;
@@ -284,7 +284,7 @@
             // 
             this.label27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label27.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label27.Location = new System.Drawing.Point(637, 113);
+            this.label27.Location = new System.Drawing.Point(482, 281);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(131, 83);
             this.label27.TabIndex = 131;
@@ -296,7 +296,7 @@
             // 
             this.label26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label26.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label26.Location = new System.Drawing.Point(637, 80);
+            this.label26.Location = new System.Drawing.Point(501, 35);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(131, 59);
             this.label26.TabIndex = 129;
@@ -307,7 +307,7 @@
             // 
             this.label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label25.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label25.Location = new System.Drawing.Point(503, 9);
+            this.label25.Location = new System.Drawing.Point(408, 569);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(150, 67);
             this.label25.TabIndex = 127;
@@ -318,7 +318,7 @@
             // 
             this.label24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label24.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label24.Location = new System.Drawing.Point(12, 474);
+            this.label24.Location = new System.Drawing.Point(12, 447);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(150, 62);
             this.label24.TabIndex = 125;
@@ -329,7 +329,7 @@
             // 
             this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label23.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label23.Location = new System.Drawing.Point(12, 437);
+            this.label23.Location = new System.Drawing.Point(12, 368);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(150, 62);
             this.label23.TabIndex = 123;
@@ -340,7 +340,7 @@
             // 
             this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label22.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label22.Location = new System.Drawing.Point(168, 235);
+            this.label22.Location = new System.Drawing.Point(730, 507);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(150, 62);
             this.label22.TabIndex = 121;
@@ -362,7 +362,7 @@
             // 
             this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label20.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label20.Location = new System.Drawing.Point(12, 147);
+            this.label20.Location = new System.Drawing.Point(39, 130);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(150, 62);
             this.label20.TabIndex = 117;
@@ -428,7 +428,7 @@
             // 
             this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label14.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label14.Location = new System.Drawing.Point(482, 283);
+            this.label14.Location = new System.Drawing.Point(245, 206);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(150, 76);
             this.label14.TabIndex = 105;
@@ -440,7 +440,7 @@
             // 
             this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label13.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label13.Location = new System.Drawing.Point(711, 235);
+            this.label13.Location = new System.Drawing.Point(739, 165);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(150, 62);
             this.label13.TabIndex = 103;
@@ -532,7 +532,7 @@
             // 
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label5.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(168, 421);
+            this.label5.Location = new System.Drawing.Point(171, 447);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(147, 78);
             this.label5.TabIndex = 87;
@@ -544,7 +544,7 @@
             // 
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(122, 57);
+            this.label4.Location = new System.Drawing.Point(93, 20);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(150, 90);
             this.label4.TabIndex = 85;
@@ -578,7 +578,7 @@
             // 
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(158, 147);
+            this.label1.Location = new System.Drawing.Point(163, 549);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 70);
             this.label1.TabIndex = 79;
