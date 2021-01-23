@@ -124,7 +124,6 @@
             this.Levis.Name = "Levis";
             this.Levis.Size = new System.Drawing.Size(44, 18);
             this.Levis.Text = "Levis";
-            this.Levis.Click += new System.EventHandler(this.Levis_Click_1);
             // 
             // Rect
             // 
@@ -362,7 +361,11 @@
             // 
             this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label20.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+<<<<<<< HEAD
             this.label20.Location = new System.Drawing.Point(39, 130);
+=======
+            this.label20.Location = new System.Drawing.Point(12, 395);
+>>>>>>> cd3455b9cc5217a00ef124881ea96bed0afab55c
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(150, 62);
             this.label20.TabIndex = 117;
@@ -373,7 +376,7 @@
             // 
             this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label19.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label19.Location = new System.Drawing.Point(23, 297);
+            this.label19.Location = new System.Drawing.Point(12, 357);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(150, 62);
             this.label19.TabIndex = 115;
@@ -395,7 +398,7 @@
             // 
             this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label17.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label17.Location = new System.Drawing.Point(39, 220);
+            this.label17.Location = new System.Drawing.Point(12, 321);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(150, 62);
             this.label17.TabIndex = 111;
@@ -440,7 +443,11 @@
             // 
             this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label13.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+<<<<<<< HEAD
             this.label13.Location = new System.Drawing.Point(739, 165);
+=======
+            this.label13.Location = new System.Drawing.Point(12, 283);
+>>>>>>> cd3455b9cc5217a00ef124881ea96bed0afab55c
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(150, 62);
             this.label13.TabIndex = 103;
@@ -451,7 +458,7 @@
             // 
             this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label12.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label12.Location = new System.Drawing.Point(289, 9);
+            this.label12.Location = new System.Drawing.Point(12, 249);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(150, 62);
             this.label12.TabIndex = 101;

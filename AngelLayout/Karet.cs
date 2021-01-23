@@ -1,4 +1,4 @@
-﻿//using FastColoredTextBoxNS;
+﻿
 using System.Drawing;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
@@ -17,12 +17,6 @@ namespace AngelLayout
         {
 
         }
-
-        private void fastColoredTextBox1_TextChanging(object sender, FastColoredTextBoxNS.TextChangingEventArgs e)
-        {
-      
-        }
-
         //EllipseStyle ellipseStyle = new EllipseStyle();
         //class EllipseStyle : Style
         //{
