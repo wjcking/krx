@@ -70,7 +70,7 @@
     <Content Include="analytical\anyiket.html" />
     <Content Include="analytical\asnic\ketstring.html" />
     <Content Include="analytical\asnic\ketstruct.html" />
-    <Content Include="analytical\func\adverse.html" />
+    <Content Include="analytical\language\adverse.html" />
     <Content Include="analytical\advent.html" />
     <Content Include="analytical\func\flex.html" />
     <Content Include="analytical\asnical.html" />
@@ -79,6 +79,7 @@
     <Content Include="analytical\interface\flex.css" />
     <Content Include="analytical\interface\flex.html" />
     <Content Include="analytical\interface\kof.html" />
+    <Content Include="analytical\language\formsize.html" />
     <Content Include="analytical\Leonic\c.html" />
     <Content Include="analytical\Leonic\ctr.html" />
     <Content Include="analytical\Leonic\r.html" />
