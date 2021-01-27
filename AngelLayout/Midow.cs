@@ -104,5 +104,15 @@ namespace AngelLayout
         {
     new Karet().Show();
         }
+
+        private void Curl_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+          textBox2.Text =  Komad.Batch("curl.exe",textBox1.Text);
+        }
     }
 }

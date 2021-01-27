@@ -15,11 +15,12 @@ namespace AngelLayout
         {
             WorkFolder = string.IsNullOrEmpty(WorkFolder) ? Environment.CurrentDirectory : WorkFolder;
         }
-        public static string Run(string input)
+        public static string Run(string input,string args)
         {
 
             Process process = new Process();
             process.StartInfo.FileName = "cmd.exe";  //设置要启动的应用程序
+            process.StartInfo.Arguments = args;
             process.StartInfo.UseShellExecute = false;  //是否使用操作系统shell启动
             process.StartInfo.RedirectStandardInput = true;  // 接受来自调用程序的输入信息
             process.StartInfo.RedirectStandardOutput = true;  //输出信息
@@ -36,6 +37,7 @@ namespace AngelLayout
 
             return output;
         }
+
         //Snatches FileWatcher
         public static   string Batch(string fileName = null, string args = null)
         {
@@ -54,15 +56,34 @@ namespace AngelLayout
             //System.Threading.ThreadPool.i
             //  var thread = new System.Threading.Thread( new System.Threading.ThreadStart(process.Start)); 
             process.Start();
-                process.WaitForExit();
+            //process.WaitForExit();
             //ThreadPool.QueueUserWorkItem(new WaitCallback(t =>
             //{
-              
+
             //}));
-         
-            
-            string output = process.StandardOutput.ReadToEnd();  //获取输出信息
+
+
+            string output = String.Empty;
+            try
+            {
+                output =process.StandardOutput.ReadToEnd();  //获取输出信息
+            }
+            catch
+            {
+                process.ErrorDataReceived += delegate (object sender, DataReceivedEventArgs e)
+                {
+                    output = e.Data;
+                };
+            }
+            finally
+            {
+
+            process.WaitForExit();
+            }
+
             return output;
         }
+
+     
     }
 }

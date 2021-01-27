@@ -35,43 +35,13 @@
             this.Levis = new System.Windows.Forms.ToolStripButton();
             this.Rect = new System.Windows.Forms.ToolStripButton();
             this.Karet = new System.Windows.Forms.ToolStripButton();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.Curl = new System.Windows.Forms.ToolStripButton();
             this.label29 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,7 +55,8 @@
             this.Grid,
             this.Levis,
             this.Rect,
-            this.Karet});
+            this.Karet,
+            this.Curl});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(47, 685);
@@ -143,335 +114,32 @@
             this.Karet.Text = "Karet";
             this.Karet.Click += new System.EventHandler(this.Karet_Click);
             // 
-            // label39
+            // Curl
             // 
-            this.label39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label39.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label39.Location = new System.Drawing.Point(639, 542);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(131, 65);
-            this.label39.TabIndex = 155;
-            this.label39.Text = "Custom TextSource with supporting of line filtering.";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label38
-            // 
-            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label38.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label38.Location = new System.Drawing.Point(774, 342);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(131, 60);
-            this.label38.TabIndex = 153;
-            this.label38.Text = "AutoIndentChars sample.";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label37
-            // 
-            this.label37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label37.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label37.Location = new System.Drawing.Point(637, 465);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(131, 60);
-            this.label37.TabIndex = 151;
-            this.label37.Text = "Custom wordwrap sample.";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label36
-            // 
-            this.label36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label36.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label36.Location = new System.Drawing.Point(637, 425);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(131, 60);
-            this.label36.TabIndex = 149;
-            this.label36.Text = "Custom scrollbars sample.";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label35
-            // 
-            this.label35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label35.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label35.Location = new System.Drawing.Point(637, 385);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(131, 60);
-            this.label35.TabIndex = 147;
-            this.label35.Text = "DiffMerge sample.";
-            this.label35.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label34
-            // 
-            this.label34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label34.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label34.Location = new System.Drawing.Point(637, 342);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(131, 60);
-            this.label34.TabIndex = 145;
-            this.label34.Text = "Document map sample.";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label33
-            // 
-            this.label33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label33.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label33.Location = new System.Drawing.Point(319, 423);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(150, 76);
-            this.label33.TabIndex = 143;
-            this.label33.Text = "Autocomplete sample 4.\r\nHow to make intellisense menu with predefined list of cla" +
-    "sses and methods.";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label32
-            // 
-            this.label32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label32.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label32.Location = new System.Drawing.Point(319, 235);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(150, 76);
-            this.label32.TabIndex = 141;
-            this.label32.Text = "Autocomplete sample 3.\r\n How to make dynamic autocomplete menu.";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label31
-            // 
-            this.label31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label31.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label31.Location = new System.Drawing.Point(637, 304);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(131, 60);
-            this.label31.TabIndex = 139;
-            this.label31.Text = "Ruler sample.";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label30
-            // 
-            this.label30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label30.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label30.Location = new System.Drawing.Point(681, 244);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(131, 60);
-            this.label30.TabIndex = 137;
-            this.label30.Text = "How to use OpenType fonts.";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Curl.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.Curl.Image = ((System.Drawing.Image)(resources.GetObject("Curl.Image")));
+            this.Curl.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Curl.Name = "Curl";
+            this.Curl.Size = new System.Drawing.Size(44, 18);
+            this.Curl.Text = "Curl";
+            this.Curl.Click += new System.EventHandler(this.Curl_Click);
             // 
             // label29
             // 
             this.label29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label29.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label29.Location = new System.Drawing.Point(681, 148);
+            this.label29.Location = new System.Drawing.Point(558, 587);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(131, 70);
             this.label29.TabIndex = 135;
             this.label29.Text = "This sample shows how to use macros for hard formatting of the code.";
             this.label29.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // label28
-            // 
-            this.label28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label28.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label28.Location = new System.Drawing.Point(681, 50);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(131, 83);
-            this.label28.TabIndex = 133;
-            this.label28.Text = "Predefined styles sample. Here we create large text with predefined styles, hyper" +
-    "links and tooltips...";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label27
-            // 
-            this.label27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label27.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label27.Location = new System.Drawing.Point(482, 281);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(131, 83);
-            this.label27.TabIndex = 131;
-            this.label27.Text = "ReadOnly blocks sample. Are you needed readonly blocks of text? Yep, we can do it" +
-    "...";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label26
-            // 
-            this.label26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label26.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label26.Location = new System.Drawing.Point(577, 607);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(131, 59);
-            this.label26.TabIndex = 129;
-            this.label26.Text = "Hints sample";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label25
-            // 
-            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label25.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label25.Location = new System.Drawing.Point(408, 569);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(150, 67);
-            this.label25.TabIndex = 127;
-            this.label25.Text = "Custom TextSource sample. This example shows how to display very large string\r\n";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label24
-            // 
-            this.label24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label24.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label24.Location = new System.Drawing.Point(12, 447);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(150, 62);
-            this.label24.TabIndex = 125;
-            this.label24.Text = "Hyperlink sample";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label23
-            // 
-            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label23.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label23.Location = new System.Drawing.Point(12, 368);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(150, 62);
-            this.label23.TabIndex = 123;
-            this.label23.Text = "Bilingual highlighter sample";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label22
-            // 
-            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label22.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label22.Location = new System.Drawing.Point(730, 507);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(150, 62);
-            this.label22.TabIndex = 121;
-            this.label22.Text = "Custom code folding sample.";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label21
-            // 
-            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label21.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label21.Location = new System.Drawing.Point(319, 549);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(150, 59);
-            this.label21.TabIndex = 119;
-            this.label21.Text = "Console sample";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label20
-            // 
-            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label20.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label20.Location = new System.Drawing.Point(163, 134);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(150, 62);
-            this.label20.TabIndex = 117;
-            this.label20.Text = "Lazy loading sample.";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label19
-            // 
-            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label19.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label19.Location = new System.Drawing.Point(12, 357);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(150, 62);
-            this.label19.TabIndex = 115;
-            this.label19.Text = "Split sample. This example shows how to make split-screen mode.";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label18
-            // 
-            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label18.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label18.Location = new System.Drawing.Point(481, 368);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(150, 62);
-            this.label18.TabIndex = 113;
-            this.label18.Text = "Tooltip sample.";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label17
-            // 
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label17.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label17.Location = new System.Drawing.Point(12, 321);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(150, 62);
-            this.label17.TabIndex = 111;
-            this.label17.Text = "Logger sample. It shows how to add text with predefined style.";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label16
-            // 
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label16.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label16.Location = new System.Drawing.Point(319, 510);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(150, 59);
-            this.label16.TabIndex = 109;
-            this.label16.Text = "Bookmarks sample";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label15
-            // 
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label15.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label15.Location = new System.Drawing.Point(482, 530);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(150, 59);
-            this.label15.TabIndex = 107;
-            this.label15.Text = "AutoIndent sample";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label12
-            // 
-            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label12.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label12.Location = new System.Drawing.Point(12, 249);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(150, 62);
-            this.label12.TabIndex = 101;
-            this.label12.Text = "Powerfull C# source file editor";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label11
-            // 
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label11.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label11.Location = new System.Drawing.Point(481, 437);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(150, 72);
-            this.label11.TabIndex = 99;
-            this.label11.Text = "This example supports IME entering mode and rendering of wide characters.";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label10
-            // 
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label10.Location = new System.Drawing.Point(168, 330);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(150, 79);
-            this.label10.TabIndex = 97;
-            this.label10.Text = "Syntax highlighting by XML description file. This example shows how to use XML fi" +
-    "le for description of syntax highlighting.";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label9
-            // 
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label9.Location = new System.Drawing.Point(319, 316);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(150, 93);
-            this.label9.TabIndex = 95;
-            this.label9.Text = "Dynamic syntax highlighting. This example finds the functions declared in the pro" +
-    "gram and dynamically highlights all of their entry into the code of LISP.";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
             // label8
             // 
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label8.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label8.Location = new System.Drawing.Point(319, 80);
+            this.label8.Location = new System.Drawing.Point(726, 587);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(150, 76);
             this.label8.TabIndex = 93;
@@ -479,126 +147,57 @@
     "ionality.";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // label7
-            // 
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(482, 199);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(150, 76);
-            this.label7.TabIndex = 91;
-            this.label7.Text = "Simplest code folding sample. This example shows how to make simplest code foldin" +
-    "g.";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label6
-            // 
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(12, 516);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(150, 62);
-            this.label6.TabIndex = 89;
-            this.label6.Text = "Joke sample :)";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label5
-            // 
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(171, 447);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(147, 78);
-            this.label5.TabIndex = 87;
-            this.label5.Text = "Simplest custom syntax highlighting sample. It shows how to make custom syntax hi" +
-    "ghlighting.";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label4
-            // 
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(171, 214);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 90);
-            this.label4.TabIndex = 85;
-            this.label4.Text = "VisibleRangeChangedDelayed usage sample. This example shows how to highlight synt" +
-    "ax for extremally large text by VisibleRangeChangedDelayed event.";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
             // label3
             // 
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(319, 161);
+            this.label3.Location = new System.Drawing.Point(65, 597);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(150, 66);
             this.label3.TabIndex = 83;
             this.label3.Text = "Custom style sample. This example shows how to create own custom style.";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // label2
+            // textBox1
             // 
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(481, 130);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 66);
-            this.label2.TabIndex = 81;
-            this.label2.Text = "Marker sample. It shows how to make marker tool.";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.textBox1.Location = new System.Drawing.Point(65, 58);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(793, 21);
+            this.textBox1.TabIndex = 156;
+            this.textBox1.Text = "curl ";
             // 
-            // label1
+            // textBox2
             // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(163, 549);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 70);
-            this.label1.TabIndex = 79;
-            this.label1.Text = "Powerful sample. It shows syntax highlighting and many features.";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Location = new System.Drawing.Point(65, 116);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox2.Size = new System.Drawing.Size(811, 426);
+            this.textBox2.TabIndex = 157;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(783, 85);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 158;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Midow
             // 
             this.ClientSize = new System.Drawing.Size(901, 685);
-            this.Controls.Add(this.label39);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label30);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label29);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.toolStrip1);
             this.Name = "Midow";
             this.Load += new System.EventHandler(this.Midow_Load);
@@ -616,43 +215,13 @@
         private System.Windows.Forms.ToolStripButton Grid;
         private System.Windows.Forms.ToolStripButton Levis;
         private System.Windows.Forms.ToolStripButton Rect;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripButton Karet;
+        private System.Windows.Forms.ToolStripButton Curl;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button1;
     }
 }
