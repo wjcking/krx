@@ -46,7 +46,7 @@ cpp asm #define
 asm #def cpp
 
 
-cxp.il.net 
+cxp.mil.net//IL = mil
 	cpu.timer.mem
 	  tree lr rl root time 7 12 24 365 object
 	vdo.gpu
@@ -57,4 +57,4 @@ cxp.il.net
 	
 	gdi
 	gui 
-jav.jvm:mid-lang
+jav.jvm:mil
