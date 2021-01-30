@@ -42,6 +42,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.ShapeF = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,10 +57,11 @@
             this.Levis,
             this.Rect,
             this.Karet,
-            this.Curl});
+            this.Curl,
+            this.ShapeF});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(47, 685);
+            this.toolStrip1.Size = new System.Drawing.Size(54, 685);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -70,7 +72,7 @@
             this.Rabber.Image = ((System.Drawing.Image)(resources.GetObject("Rabber.Image")));
             this.Rabber.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Rabber.Name = "Rabber";
-            this.Rabber.Size = new System.Drawing.Size(44, 18);
+            this.Rabber.Size = new System.Drawing.Size(51, 18);
             this.Rabber.Text = "Komet";
             this.Rabber.Click += new System.EventHandler(this.Rabber_Click);
             // 
@@ -81,7 +83,7 @@
             this.Grid.Image = ((System.Drawing.Image)(resources.GetObject("Grid.Image")));
             this.Grid.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Grid.Name = "Grid";
-            this.Grid.Size = new System.Drawing.Size(44, 18);
+            this.Grid.Size = new System.Drawing.Size(51, 18);
             this.Grid.Text = "Grid";
             // 
             // Levis
@@ -91,7 +93,7 @@
             this.Levis.Image = ((System.Drawing.Image)(resources.GetObject("Levis.Image")));
             this.Levis.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Levis.Name = "Levis";
-            this.Levis.Size = new System.Drawing.Size(44, 18);
+            this.Levis.Size = new System.Drawing.Size(51, 18);
             this.Levis.Text = "Levis";
             // 
             // Rect
@@ -101,7 +103,7 @@
             this.Rect.Image = ((System.Drawing.Image)(resources.GetObject("Rect.Image")));
             this.Rect.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Rect.Name = "Rect";
-            this.Rect.Size = new System.Drawing.Size(44, 18);
+            this.Rect.Size = new System.Drawing.Size(51, 18);
             this.Rect.Text = "Rect";
             // 
             // Karet
@@ -110,7 +112,7 @@
             this.Karet.Image = ((System.Drawing.Image)(resources.GetObject("Karet.Image")));
             this.Karet.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Karet.Name = "Karet";
-            this.Karet.Size = new System.Drawing.Size(44, 18);
+            this.Karet.Size = new System.Drawing.Size(51, 18);
             this.Karet.Text = "Karet";
             this.Karet.Click += new System.EventHandler(this.Karet_Click);
             // 
@@ -120,7 +122,7 @@
             this.Curl.Image = ((System.Drawing.Image)(resources.GetObject("Curl.Image")));
             this.Curl.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Curl.Name = "Curl";
-            this.Curl.Size = new System.Drawing.Size(44, 18);
+            this.Curl.Size = new System.Drawing.Size(51, 18);
             this.Curl.Text = "Curl";
             this.Curl.Click += new System.EventHandler(this.Curl_Click);
             // 
@@ -189,6 +191,16 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // ShapeF
+            // 
+            this.ShapeF.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.ShapeF.Image = ((System.Drawing.Image)(resources.GetObject("ShapeF.Image")));
+            this.ShapeF.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ShapeF.Name = "ShapeF";
+            this.ShapeF.Size = new System.Drawing.Size(51, 18);
+            this.ShapeF.Text = "ShapeF";
+            this.ShapeF.Click += new System.EventHandler(this.ShapeF_Click);
+            // 
             // Midow
             // 
             this.ClientSize = new System.Drawing.Size(901, 685);
@@ -223,5 +235,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripButton ShapeF;
     }
 }

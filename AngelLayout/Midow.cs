@@ -12,7 +12,7 @@ namespace AngelLayout
         {
             InitializeComponent();
             DoubleBuffered = true;
-            
+
 
             //dataGridView1.DataSource = this.dataGridView1;
             //tableLayoutPanel1.dou
@@ -26,9 +26,25 @@ namespace AngelLayout
             //main.Show();  
 
 
-        //    label2.BringToFront();
-        //      Application.AddMessageFilter(this);
+            //    label2.BringToFront();
+            //      Application.AddMessageFilter(this);
         }
+        #region 无边框拖动效果
+        [DllImport("user32.dll")]//拖动无窗体的控件
+        public static extern bool ReleaseCapture();
+        [DllImport("user32.dll")]
+        public static extern bool SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
+        public const int WM_SYSCOMMAND = 0x0112;
+        public const int SC_MOVE = 0xF010;
+        public const int HTCAPTION = 0x0002;
+
+        private void Start_MouseDown(object sender, MouseEventArgs e)
+        {
+            //拖动窗体
+            ReleaseCapture();
+            SendMessage(this.Handle, WM_SYSCOMMAND, SC_MOVE + HTCAPTION, 0);
+        }
+        #endregion
         private void textBox1_MouseMove(object sender, MouseEventArgs e)
         {
             //label1.ForeColor = Pixels.GetColor(e.X, e.Y, this);
@@ -56,7 +72,7 @@ namespace AngelLayout
         //             }
         //    //     }
         //     }
-         
+
 
         private void toolStripTextBox1_KeyUp(object sender, KeyEventArgs e)
         {
@@ -68,7 +84,7 @@ namespace AngelLayout
 
         private void toolStripLabel1_Click(object sender, EventArgs e)
         {
-          //  textBox1.Text = Komad.Batch(toolStripTextBox1.Text);
+            //  textBox1.Text = Komad.Batch(toolStripTextBox1.Text);
 
         }
 
@@ -89,7 +105,7 @@ namespace AngelLayout
         }
 
 
- 
+
         private void Midow_Load(object sender, EventArgs e)
         {
 
@@ -102,7 +118,7 @@ namespace AngelLayout
 
         private void Karet_Click(object sender, EventArgs e)
         {
-    new Karet().Show();
+            new Karet().Show();
         }
 
         private void Curl_Click(object sender, EventArgs e)
@@ -112,7 +128,13 @@ namespace AngelLayout
         private void button1_Click(object sender, EventArgs e)
         {
 
-          textBox2.Text =  Komad.Batch("curl.exe",textBox1.Text);
+            textBox2.Text = Komad.Batch("curl.exe", textBox1.Text);
+        }
+
+        private void ShapeF_Click(object sender, EventArgs e)
+        {
+            new FormShape().Show();
+
         }
     }
 }

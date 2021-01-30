@@ -36,10 +36,9 @@
             // 
             this.propertyGrid1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.propertyGrid1.Location = new System.Drawing.Point(29, 43);
-            this.propertyGrid1.Margin = new System.Windows.Forms.Padding(6);
+            this.propertyGrid1.Location = new System.Drawing.Point(14, 22);
             this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.Size = new System.Drawing.Size(415, 1214);
+            this.propertyGrid1.Size = new System.Drawing.Size(208, 488);
             this.propertyGrid1.TabIndex = 2;
             // 
             // checkedListBox2
@@ -48,20 +47,20 @@
             this.checkedListBox2.CheckOnClick = true;
             this.checkedListBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Location = new System.Drawing.Point(456, 43);
-            this.checkedListBox2.Margin = new System.Windows.Forms.Padding(6);
+            this.checkedListBox2.Location = new System.Drawing.Point(228, 22);
             this.checkedListBox2.MultiColumn = true;
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(1143, 1204);
+            this.checkedListBox2.Size = new System.Drawing.Size(574, 596);
             this.checkedListBox2.TabIndex = 66;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1614, 1310);
+            this.ClientSize = new System.Drawing.Size(807, 522);
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.propertyGrid1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

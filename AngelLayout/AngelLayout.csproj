@@ -70,6 +70,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormShape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShape.Designer.cs">
+      <DependentUpon>FormShape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BitmapRegion.cs" />
     <Compile Include="Karet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +147,9 @@
     <Compile Include="Rabber.Designer.cs">
       <DependentUpon>Rabber.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormShape.resx">
+      <DependentUpon>FormShape.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Karet.resx">
       <DependentUpon>Karet.cs</DependentUpon>
     </EmbeddedResource>

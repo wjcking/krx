@@ -39,3 +39,22 @@ Rockmega.Readme.FrequentBack
 //kasset
 //kassat
 
+cpp asm #define
+  gdi
+  gui
+ 
+asm #def cpp
+
+
+cxp.il.net 
+	cpu.timer.mem
+	  tree lr rl root time 7 12 24 365 object
+	vdo.gpu
+	gdi+
+	gui+
+	dll.import
+	type
+	
+	gdi
+	gui 
+jav.jvm:mid-lang
