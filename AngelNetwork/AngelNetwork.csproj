@@ -131,7 +131,6 @@
     <Content Include="models\ket-struct.js" />
     <Content Include="models\ket-utility.js" />
     <Content Include="models\leon-caret.js" />
-    <Content Include="dct-pixar-med.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -56,6 +56,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dct-pixar-med.html" />
     <Content Include="flex-mytric.txt" />
     <Content Include="space-utlitze.txt" />
     <Content Include="asc-ii.txt" />

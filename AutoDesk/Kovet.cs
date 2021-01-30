@@ -1,8 +1,8 @@
 using System;
 
 namespace AutoDesk
-{ 
-    public  struct Kovet
+{
+    public struct Kovet
     {
         /// <summary>
         /// To json "\r\n", "\\r\\n"
@@ -37,7 +37,7 @@ namespace AutoDesk
             return ToString(value, String.Empty);
         }
 
-        public  Boolean ToBoolean(object objBoolean, Boolean defaultValue)
+        public Boolean ToBoolean(object objBoolean, Boolean defaultValue)
         {
             if (objBoolean == null)
                 return defaultValue;
@@ -52,12 +52,12 @@ namespace AutoDesk
             }
         }
 
-        public  Boolean ToBoolean(object objBoolean)
+        public Boolean ToBoolean(object objBoolean)
         {
             return ToBoolean(objBoolean, false);
         }
 
-        public  Byte ToByte(object objByte, Byte defaultValue)
+        public Byte ToByte(object objByte, Byte defaultValue)
         {
             if (objByte == null)
                 return defaultValue;
@@ -72,12 +72,12 @@ namespace AutoDesk
             }
         }
 
-        public  Byte ToByte(object objByte)
+        public Byte ToByte(object objByte)
         {
             return ToByte(objByte, 0);
         }
 
-        public  Int16 ToInt16(Object objInt16, Int16 defaultValue)
+        public Int16 ToInt16(Object objInt16, Int16 defaultValue)
         {
             if (objInt16 == null)
                 return defaultValue;
@@ -92,12 +92,12 @@ namespace AutoDesk
             }
         }
 
-        public  Int16 ToInt16(Object objInt16)
+        public Int16 ToInt16(Object objInt16)
         {
             return ToInt16(objInt16, 0);
         }
 
-        public  Int32 ToInt32(Object objInt32, Int32 defaultValue)
+        public Int32 ToInt32(Object objInt32, Int32 defaultValue)
         {
             if (objInt32 == null)
                 return defaultValue;
@@ -112,12 +112,12 @@ namespace AutoDesk
             }
         }
 
-        public  Int32 ToInt32(Object objInt32)
+        public Int32 ToInt32(Object objInt32)
         {
             return ToInt32(objInt32, 0);
         }
 
-        public  Int64 ToInt64(Object objInt64, Int64 defaultValue)
+        public Int64 ToInt64(Object objInt64, Int64 defaultValue)
         {
             if (objInt64 == null)
                 return defaultValue;
@@ -132,12 +132,12 @@ namespace AutoDesk
             }
         }
 
-        public  Int64 ToInt64(Object objInt64)
+        public Int64 ToInt64(Object objInt64)
         {
             return ToInt64(objInt64, 0);
         }
 
-        public  Decimal ToDecimal(object objDecimal, Decimal defaultValue)
+        public Decimal ToDecimal(object objDecimal, Decimal defaultValue)
         {
             if (objDecimal == null)
                 return defaultValue;
@@ -152,12 +152,12 @@ namespace AutoDesk
             }
         }
 
-        public  Decimal ToDecimal(object objDecimal)
+        public Decimal ToDecimal(object objDecimal)
         {
             return ToDecimal(objDecimal, 0.00M);
         }
 
-        public  DateTime ToDateTime(object objDateTime, DateTime defaultValue)
+        public DateTime ToDateTime(object objDateTime, DateTime defaultValue)
         {
             if (objDateTime == null)
                 return defaultValue;
@@ -172,20 +172,20 @@ namespace AutoDesk
             }
         }
 
-        public  DateTime ToDateTime(object objDateTime)
+        public DateTime ToDateTime(object objDateTime)
         {
             return ToDateTime(objDateTime, DateTime.Now);
         }
-        public  string  ToTimeString(object objDateTime)
+        public string ToTimeString(object objDateTime)
         {
             return ToDateTime(objDateTime, DateTime.Now).ToString("yyyy-MM-dd HH:mm:ss:fff");
         }
-        public  String FormatCurrency(Object objDecimal, Decimal defaultValue)
+        public String FormatCurrency(Object objDecimal, Decimal defaultValue)
         {
             return ToDecimal(objDecimal, defaultValue).ToString("F");
         }
 
-        public  String FormatCurrency(Object objDecimal)
+        public String FormatCurrency(Object objDecimal)
         {
             return ToDecimal(objDecimal).ToString("C");
         }

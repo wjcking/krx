@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ketub1 = new  AngelLayout.Ketub();
+            this.ketub1 = new AngelLayout.Ketub();
             this.SuspendLayout();
             // 
             // ketub1
@@ -38,7 +38,7 @@
             this.ketub1.EmptyTextTip = null;
             this.ketub1.EmptyTextTipColor = System.Drawing.Color.DarkGray;
             this.ketub1.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.ketub1.Location = new System.Drawing.Point(37, 25);
+            this.ketub1.Location = new System.Drawing.Point(21, 21);
             this.ketub1.Multiline = true;
             this.ketub1.Name = "ketub1";
             this.ketub1.Radius = 12;
