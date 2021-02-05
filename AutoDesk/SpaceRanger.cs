@@ -44,7 +44,7 @@ namespace UnitTest.AutoDesk
             /// <returns>确定指定的 System.Object [实例]是否是相同的[实例</returns> 
             /// </summary>
             //[NonVersionableAttribute]
-            [ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
+           // [ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
             //public static bool ReferenceEquals(Object objA, Object objB) { }
 
             //public virtual bool Equals(Object obj) { }
