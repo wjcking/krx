@@ -5,13 +5,15 @@ using System.Runtime.InteropServices;
 using System.Security;
 //using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
+using System.Diagnostics;
+
 namespace UnitTest.AutoDesk
-{ 
-//Leonsnic.Security;
+{
+    //Leonsnic.Security;
     //Leonsnic.Runtime.ConstrainedExecution;
     //Leonsnic.Runtime.InteropServices;
     //Leonsnic.Runtime.Versioning;
-
+    
     namespace Komb
     {
         //   类层次结构中的所有类，并为派生类提供低级别服务。所有类的最终基类；它是类型层次结构的根。
@@ -41,22 +43,22 @@ namespace UnitTest.AutoDesk
             /// <param name="objB">要比较的第二个对象</param>
             /// <returns>确定指定的 System.Object [实例]是否是相同的[实例</returns> 
             /// </summary>
-            [NonVersionableAttribute]
+            //[NonVersionableAttribute]
             [ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
-            public static bool ReferenceEquals(Object objA, Object objB) { }
+            //public static bool ReferenceEquals(Object objA, Object objB) { }
 
-            public virtual bool Equals(Object obj) { }
+            //public virtual bool Equals(Object obj) { }
 
 
-            public virtual int GetHashCode() { }
+            //public virtual int GetHashCode() { }
 
-            [SecuritySafeCritical]
-            public Type GetType() { }
+            //[SecuritySafeCritical]
+            //public Type GetType() { }
 
-            public virtual string ToString() { }
+            //public virtual string ToString() { }
 
-            [SecuritySafeCritical]
-            protected Object MemberwiseClone() { }
+            //[SecuritySafeCritical]
+            //protected Object MemberwiseClone() { }
 
         }
     }

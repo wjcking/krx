@@ -4,14 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoDesk
-{
-    //class Rastal
-    //{
-
-
-    //}
-
     //阿拉伯 刻画数字
     namespace Kit
     {
@@ -23,7 +15,11 @@ namespace AutoDesk
 
         //public enum  { }
     }
-    //已经使用命名；并且人类戒指
+public struct Sts
+{
+
+}
+    //已经使用命名；并且人类戒指 Forbiden
     namespace Ait
     {
         //mouth month
@@ -37,6 +33,15 @@ namespace AutoDesk
             Sun, Mon, Tue, Wed, Szd, Fri, Sat
         }
     }
+namespace AutoDesk
+{
+    using Kit;
+    //class Rastal
+    //{
+
+    
+    //}
+
     /* not classified by human using numbers */
     //namespace Day
     //{

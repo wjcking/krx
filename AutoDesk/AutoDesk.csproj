@@ -58,7 +58,7 @@
   <ItemGroup>
     <Content Include="dct-pixar-med.html" />
     <Content Include="flex-mytric.txt" />
-    <Content Include="space-utlitze.txt" />
+    <Compile Include="SpaceRanger.cs" />
     <Content Include="asc-ii.txt" />
     <Content Include="TextFile1.txt" />
     <Content Include="TyperLect.txt" />

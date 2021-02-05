@@ -52,7 +52,15 @@ namespace AutoDesk
     {
 
     }
+ 
 
+    /// <summary>
+    /// 显式派生自Object
+    /// </summary>
+    class Object : System.Object
+    {
+
+    }
     //public struct Lasik
     //{
     //    //       Bin Oct Dec Hex abk dek
