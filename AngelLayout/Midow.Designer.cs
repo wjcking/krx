@@ -36,13 +36,13 @@
             this.Rect = new System.Windows.Forms.ToolStripButton();
             this.Karet = new System.Windows.Forms.ToolStripButton();
             this.Curl = new System.Windows.Forms.ToolStripButton();
-            this.label29 = new System.Windows.Forms.Label();
+            this.ShapeF = new System.Windows.Forms.ToolStripButton();
+            this.label = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.ShapeF = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -126,16 +126,26 @@
             this.Curl.Text = "Curl";
             this.Curl.Click += new System.EventHandler(this.Curl_Click);
             // 
-            // label29
+            // ShapeF
             // 
-            this.label29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label29.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label29.Location = new System.Drawing.Point(558, 587);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(131, 70);
-            this.label29.TabIndex = 135;
-            this.label29.Text = "This sample shows how to use macros for hard formatting of the code.";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.ShapeF.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.ShapeF.Image = ((System.Drawing.Image)(resources.GetObject("ShapeF.Image")));
+            this.ShapeF.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ShapeF.Name = "ShapeF";
+            this.ShapeF.Size = new System.Drawing.Size(51, 18);
+            this.ShapeF.Text = "ShapeF";
+            this.ShapeF.Click += new System.EventHandler(this.ShapeF_Click);
+            // 
+            // label
+            // 
+            this.label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label.Location = new System.Drawing.Point(65, 545);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(259, 118);
+            this.label.TabIndex = 135;
+            this.label.Text = "This sample shows how to use macros for hard formatting of the code.";
+            this.label.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label8
             // 
@@ -153,9 +163,9 @@
             // 
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(65, 597);
+            this.label3.Location = new System.Drawing.Point(444, 565);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(150, 66);
+            this.label3.Size = new System.Drawing.Size(265, 98);
             this.label3.TabIndex = 83;
             this.label3.Text = "Custom style sample. This example shows how to create own custom style.";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -191,23 +201,13 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // ShapeF
-            // 
-            this.ShapeF.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.ShapeF.Image = ((System.Drawing.Image)(resources.GetObject("ShapeF.Image")));
-            this.ShapeF.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ShapeF.Name = "ShapeF";
-            this.ShapeF.Size = new System.Drawing.Size(51, 18);
-            this.ShapeF.Text = "ShapeF";
-            this.ShapeF.Click += new System.EventHandler(this.ShapeF_Click);
-            // 
             // Midow
             // 
             this.ClientSize = new System.Drawing.Size(901, 685);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.toolStrip1);
@@ -227,7 +227,7 @@
         private System.Windows.Forms.ToolStripButton Grid;
         private System.Windows.Forms.ToolStripButton Levis;
         private System.Windows.Forms.ToolStripButton Rect;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ToolStripButton Karet;

@@ -1,4 +1,5 @@
 ﻿
+using JoyKeys.Voluntary;
 using System;
 using System.Drawing;
 using System.Reflection;
@@ -13,7 +14,10 @@ namespace AngelLayout
             InitializeComponent();
             DoubleBuffered = true;
 
-
+            JoystickAPI.JOYINFOEX infoEx = new JoystickAPI.JOYINFOEX();
+            infoEx.dwSize = Marshal.SizeOf(typeof(JoystickAPI.JOYINFOEX));
+            infoEx.dwFlags = (int)JoystickAPI.JOY_RETURNBUTTONS;
+         int result = JoystickAPI.joyGetPosEx(JoystickAPI.JOYSTICKID1, ref infoEx);
             //dataGridView1.DataSource = this.dataGridView1;
             //tableLayoutPanel1.dou
             //var symbolics = new Symbolics();
