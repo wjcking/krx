@@ -27,7 +27,7 @@ namespace AutoDesk
             //Console.WriteLine(c.Value); Console.WriteLine(axr[0x1F]);
             //nod nod;
             //nod.One = 1;
-            var ndf = nod.neo();
+            ket ndf = null;
             Console.WriteLine(ndf.eht);
             Console.Read();
         }
