@@ -37,7 +37,10 @@ public struct ket
        cbq, cbr, cbs, cbt,
        cbu, cbv, cbw, cbx,
        cby, cbz;
+    //Connector cot 
+    public char cnt, cnr, ace, cma, duo, con, com, dsh, spt;
 
+    //Bracket bot  HandFirst.Left()Right
     public static implicit operator ket(Type t)
     {
         ket n = null;
@@ -45,23 +48,42 @@ public struct ket
         n.one = '1'; n.two = '2'; n.thr = '3';
         n.fou = '4'; n.fiv = '5'; n.six = '6';
         n.sev = '7'; n.eht = '8'; n.nin = '9';
+
+        n.csa = 'a'; n.csb = 'b'; n.csc = 'c'; n.csd = 'd';
+        n.cse = 'e'; n.csf = 'f'; n.csg = 'g'; n.csh = 'h';
+        n.csi = 'i'; n.csj = 'j'; n.csk = 'k'; n.csl = 'l';
+        n.csm = 'm'; n.csn = 'n'; n.cso = 'o'; n.csp = 'p';
+        n.csq = 'q'; n.csr = 'r'; n.css = 's'; n.cst = 't';
+        n.csu = 'u'; n.csv = 'v'; n.csw = 'w'; n.csx = 'x';
+        n.csy = 'y'; n.csz = 'z';
+
+        n.cba = 'A'; n.cbb = 'B'; n.cbc = 'C'; n.cbd = 'D';
+        n.cbe = 'E'; n.cbf = 'F'; n.cbg = 'G'; n.cbh = 'H';
+        n.cbi = 'I'; n.cbj = 'J'; n.cbk = 'K'; n.cbl = 'L';
+        n.cbm = 'M'; n.cbn = 'N'; n.cbo = 'O'; n.cbp = 'P';
+        n.cbq = 'Q'; n.cbr = 'R'; n.cbs = 'S'; n.cbt = 'T';
+        n.cbu = 'U'; n.cbv = 'V'; n.cbw = 'W'; n.cbx = 'X';
+        n.cby = 'Y'; n.cbz = 'Z';
+        //Connector cot 
+        n.cnt = '-';
+        n.cnr = '~';
+        ////separator sot
+        n.ace = ' ';
+        n.cma = ',';
+        n.duo = '.';
+        n.con = ':';
+        n.com = ';';
+        n.dsh = '/';
+        n.spt = '|';
         return n;
     }
-    ////separator sot
-    //public char ace = ' ';//(space) 空格
-    //public char kma = ',';//	逗号
-    //public char dst = '.';//	句号
-    //public char con = ':';//	冒号
-    //public char com = ';';//	分号
-    //public char dsh = '/';//	斜杠
-    //public char spt = '|';//	垂线
 
 
-    ////Connector cot 
-    //public char cnt = '-';//	减号/破折号
-    //public char cnr = '~';// 波浪号
+
+
+
     //Bracket bot  HandFirst.Left()Right
-  
+
     //public char lsm = '(';
     //public char rsm = ')';
     //public char lmd = '[';
