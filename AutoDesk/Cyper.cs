@@ -24,6 +24,7 @@ namespace AutoDesk
 
 
         public Hyper Hyper { get; set; }
+
         public string[] GetStringArray(string spliter)
         {
             return Value.Split(spliter.ToCharArray());

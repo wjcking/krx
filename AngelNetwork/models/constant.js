@@ -22,7 +22,6 @@ const ptr = "->";
 const lsm = '('; const rsm = ')'; const lmd = '['; const rmd = ']';
 const lbr = '{'; const rbr = '}'; const qta = '\"';
 
-
 const func_name = 0; const func_params = 1; const func_returns = 2;
 const split = "split"; const first = "first"; const last = "last"; const upper = "toUpperCase";
 const rep = "replaceAll";

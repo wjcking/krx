@@ -18,8 +18,12 @@ namespace AutoDesk
             value = value.Replace("\n", "\\n");
             value = value.Replace("\r\n", "\\r\\n");
             return value;
+        } 
+        public String ToString(object value)
+        {
+            return ToString(value, String.Empty);
         }
-        public String ToString(Object value, String defaultValue)
+        public  String ToString(object value, String defaultValue)
         {
             try
             {
@@ -32,10 +36,6 @@ namespace AutoDesk
             }
         }
 
-        public String ToString(Object value)
-        {
-            return ToString(value, String.Empty);
-        }
 
         public Boolean ToBoolean(object objBoolean, Boolean defaultValue)
         {
@@ -77,7 +77,7 @@ namespace AutoDesk
             return ToByte(objByte, 0);
         }
 
-        public Int16 ToInt16(Object objInt16, Int16 defaultValue)
+        public Int16 ToInt16(object objInt16, Int16 defaultValue)
         {
             if (objInt16 == null)
                 return defaultValue;
@@ -92,12 +92,12 @@ namespace AutoDesk
             }
         }
 
-        public Int16 ToInt16(Object objInt16)
+        public Int16 ToInt16(object objInt16)
         {
             return ToInt16(objInt16, 0);
         }
 
-        public Int32 ToInt32(Object objInt32, Int32 defaultValue)
+        public Int32 ToInt32(object objInt32, Int32 defaultValue)
         {
             if (objInt32 == null)
                 return defaultValue;
@@ -112,12 +112,12 @@ namespace AutoDesk
             }
         }
 
-        public Int32 ToInt32(Object objInt32)
+        public Int32 ToInt32(object objInt32)
         {
             return ToInt32(objInt32, 0);
         }
 
-        public Int64 ToInt64(Object objInt64, Int64 defaultValue)
+        public Int64 ToInt64(object objInt64, Int64 defaultValue)
         {
             if (objInt64 == null)
                 return defaultValue;
@@ -132,7 +132,7 @@ namespace AutoDesk
             }
         }
 
-        public Int64 ToInt64(Object objInt64)
+        public Int64 ToInt64(object objInt64)
         {
             return ToInt64(objInt64, 0);
         }
@@ -180,12 +180,12 @@ namespace AutoDesk
         {
             return ToDateTime(objDateTime, DateTime.Now).ToString("yyyy-MM-dd HH:mm:ss:fff");
         }
-        public String FormatCurrency(Object objDecimal, Decimal defaultValue)
+        public String FormatCurrency(object objDecimal, Decimal defaultValue)
         {
             return ToDecimal(objDecimal, defaultValue).ToString("F");
         }
 
-        public String FormatCurrency(Object objDecimal)
+        public String FormatCurrency(object objDecimal)
         {
             return ToDecimal(objDecimal).ToString("C");
         }
