@@ -4,9 +4,8 @@ using System;
 using System.CodeDom.Compiler;
 
 public struct kodye
-    {
-    //  new Codedom().Execute();
-    //        Console.ForegroundColor = ConsoleColor.Yellow;
+{
+
     public static void pile()
     {
         CSharpCodeProvider p = new CSharpCodeProvider();
@@ -58,5 +57,4 @@ public struct kodye
         Console.WriteLine("Press Enter key to exit...");
         Console.Read();
     }
-    }
- 
+}

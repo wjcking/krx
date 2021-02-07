@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2F4AFFA2-4AF6-44CC-B49C-6A150A0B5CC1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AutoDesk</RootNamespace>
-    <AssemblyName>AutoDesk</AssemblyName>
+    <RootNamespace>kater</RootNamespace>
+    <AssemblyName>kater</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,12 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Binary.cs" />
-    <Compile Include="Codedom.cs" />
     <Compile Include="Cyper.cs" />
     <Compile Include="Hyper.cs" />
     <Compile Include="Kater\Nox.cs" />
     <Compile Include="Kater\Hex.cs" />
     <Compile Include="Kater\Kot.cs" />
+    <Compile Include="kodye.cs" />
     <Compile Include="Kovet.cs" />
     <Compile Include="Lasik.cs" />
     <Compile Include="Program.cs" />

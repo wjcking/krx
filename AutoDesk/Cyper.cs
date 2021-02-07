@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace AutoDesk
-{
+ 
     /// <summary>
     /// Mytric:String.Hypert.String:Object.?Mytrik
     /// 编译器的基础
@@ -13,7 +12,7 @@ namespace AutoDesk
     public struct Cyper
     {
         public string Avalon;
-        public Hyper Hyper;
+        public hyb hyper;
 
         public string[] GetStringArray(string sot)
         {
@@ -25,5 +24,4 @@ namespace AutoDesk
             return Avalon.ToCharArray();
         }
     }
-}
-
+ 
