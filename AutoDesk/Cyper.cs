@@ -9,19 +9,19 @@ using System.Collections.Generic;
     ///    generic.programming.algorithm par war
     /// 增删取改查 因特尔(O)坦恩  Cybert?.Autility
     /// </summary>
-    public struct Cyper
+    public struct cyper
     {
-        public string Avalon;
+        public string kiz;
         public hyb hyper;
 
         public string[] GetStringArray(string sot)
         {
-            return Avalon.Split(sot.ToCharArray());
+            return kiz.Split(sot.ToCharArray());
         }
 
         public char[] GetCharArray()
         {
-            return Avalon.ToCharArray();
+            return kiz.ToCharArray();
         }
     }
  

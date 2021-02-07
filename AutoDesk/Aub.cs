@@ -7,7 +7,7 @@ AttributeTargets.Field |
 AttributeTargets.Method |
 AttributeTargets.Property,
 AllowMultiple = true)]
-
+//只有类才可以派生 ，放在结构体上面
 public class  tin : System.Attribute
 {
  
@@ -18,4 +18,5 @@ public class  tin : System.Attribute
      * [aub] [aup] [cup] [cub]
      * class1:class2:class3:class4:objant
      */
+
 }
