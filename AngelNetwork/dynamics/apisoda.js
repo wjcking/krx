@@ -1,4 +1,5 @@
-﻿//','As','a','basic','interpret','Kits
+﻿/*
+ * //','As','a','basic','interpret','Kits
 Utilities = [
     '获取每一个文字 each one 为什么要获取每一个文字 从基层开始 并且统计',
     '应为习惯',
@@ -84,4 +85,4 @@ End
 //分割所有文字并且替换掉"税收 collect tax”等字眼
 //取出每一个 用
 //https://www.jb51.net/softs/702908.html
-
+*/

@@ -2,14 +2,14 @@ using System;
 
 namespace AutoDesk
 {
-    public struct Kovet
+    public struct Kovert
     {
         /// <summary>
         /// To json "\r\n", "\\r\\n"
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
-        public string Translate(string value)
+        public string translate(string value)
         {
             if (string.IsNullOrEmpty(value))
                 return String.Empty;
@@ -19,11 +19,11 @@ namespace AutoDesk
             value = value.Replace("\r\n", "\\r\\n");
             return value;
         } 
-        public String ToString(object value)
+        public String covert(object value)
         {
-            return ToString(value, String.Empty);
+            return covert(value, String.Empty);
         }
-        public  String ToString(object value, String defaultValue)
+        public  String covert(object value, String defaultValue)
         {
             try
             {
@@ -37,7 +37,7 @@ namespace AutoDesk
         }
 
 
-        public Boolean ToBoolean(object objBoolean, Boolean defaultValue)
+        public Boolean toboolean(object objBoolean, Boolean defaultValue)
         {
             if (objBoolean == null)
                 return defaultValue;
@@ -52,9 +52,9 @@ namespace AutoDesk
             }
         }
 
-        public Boolean ToBoolean(object objBoolean)
+        public Boolean toboolean(object objBoolean)
         {
-            return ToBoolean(objBoolean, false);
+            return toboolean(objBoolean, false);
         }
 
         public Byte ToByte(object objByte, Byte defaultValue)

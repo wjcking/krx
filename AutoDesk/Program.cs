@@ -12,8 +12,8 @@ namespace AutoDesk
 
         static void Main(string[] args)
         {
-            //   Console.BackgroundColor = ConsoleColor.Magenta;
-            //Console.ForegroundColor = ConsoleColor.Yellow;
+              Console.BackgroundColor = ConsoleColor.Green;
+             Console.ForegroundColor = ConsoleColor.Red;
             //var c = new Cyper();
             //c.Value = "v";
             //var b = 0b0010_0100;
@@ -27,10 +27,10 @@ namespace AutoDesk
             //Console.WriteLine(c.Value); Console.WriteLine(axr[0x1F]);
             //nod nod;
             //nod.One = 1;
-          ket ndf = null;
-            //   var ndf = ket.neo();
-            Console.WriteLine( (byte)ndf.udr);
-            Console.WriteLine( (byte)'=');
+            ket ndf = null;
+
+            Console.WriteLine((byte)'=');
+
             Console.Read();
         }
 

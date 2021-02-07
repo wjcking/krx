@@ -11,7 +11,6 @@ namespace AutoDesk
     */
     public struct Hyper
     {
-
         public bool Bool { get; set; }     // 布尔值 True 或 False False
         public byte Byte { get; set; }      //8 位无符号整数	0 到 255	0
         public char Char { get; set; }     //16 位 Unicode 字符 U +0000 到 U +ffff	'\0'

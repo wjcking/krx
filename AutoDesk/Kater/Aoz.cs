@@ -1,46 +1,11 @@
-﻿using System;
-
-public struct ket
+﻿
+using System;
+//Dct.Mbd.Mem.Cache ?
+//Dnk:Ding~New-Ker Value~New-Static
+public struct aoz
 {
-    public string
-        zeo,
-        one, two, thr,
-        fou, fiv, six,
-        sev, eht, nin,
-
-        csa, csb, csc, csd,
-        cse, csf, csg, csh,
-        csi, csj, csk, csl,
-        csm, csn, cso, csp,
-        csq, csr, css, cst,
-        csu, csv, csw, csx,
-        csy, csz,
-
-        cba, cbb, cbc, cbd,
-        cbe, cbf, cbg, cbh,
-        cbi, cbj, cbk, cbl,
-        cbm, cbn, cbo, cbp,
-        cbq, cbr, cbs, cbt,
-        cbu, cbv, cbw, cbx,
-        cby, cbz,
-
-        ace,/*space each*/
-            /* Connector cot Bracket bot  HandFirst.Left()Right */
-        cnt, cnr, cma,
-        duo, con, com, dsh, spt,
-
-        lsm, lmd, lbr, lkt, qod,
-        rsm, rmd, rbr, rkt, qos,
-        //operator + is the only one similar to paper write, algorith   c++ 
-        cpp,
-        //special
-        alm, cxp, dor, per,
-        and, sqt, sdr, eqt,
-        qst, atr, dsa, art,
-        udr;
-
-    public static implicit operator ket(Type value)
-    { 
+    static ket ket()
+    {
         ket n = new ket();
         //  ket n = null;//如果是值类型 可以
         n.zeo = "0";
@@ -91,4 +56,20 @@ public struct ket
 
         return n;
     }
+    public static implicit operator aoz(Type value)
+    { 
+        switch(value.Name)
+        {
+            case "ket":  aoz.ket(); break;
+            case "ket2": aoz.ket(); break;
+            case "ket3": aoz.ket(); break;
+            case "ket4": aoz.ket(); break;
+            case "ket5": aoz.ket(); break;
+            case "ket6": aoz.ket(); break;
+            case "ket7": aoz.ket(); break;
+            case "ket8": aoz.ket(); break;
+        }
+        return value;
+    }
 }
+

@@ -12,28 +12,18 @@ namespace AutoDesk
     /// </summary>
     public struct Cyper
     {
-        //public explicit void Cyper(string value)
-        //{
+        public string Avalon;
+        public Hyper Hyper;
 
-        //}
-        //public Cyper() {}
-        //public Cyper(string value) { this.Value = value; }
-        public string Value { get; set; }
-        //string Stake { get; set; }
-
-
-
-        public Hyper Hyper { get; set; }
-
-        public string[] GetStringArray(string spliter)
+        public string[] GetStringArray(string sot)
         {
-            return Value.Split(spliter.ToCharArray());
-        }
-        public char[] GetCharArray(string spliter)
-        {
-            return Value.ToCharArray();
+            return Avalon.Split(sot.ToCharArray());
         }
 
+        public char[] GetCharArray()
+        {
+            return Avalon.ToCharArray();
+        }
     }
 }
 
