@@ -1,38 +1,65 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.CSharp;
+using System;
+using System.CodeDom.Compiler;
 
 namespace AutoDesk
 {
 
     class Program
     {
-
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-              Console.BackgroundColor = ConsoleColor.Green;
-             Console.ForegroundColor = ConsoleColor.Red;
-            //var c = new Cyper();
-            //c.Value = "v";
-            //var b = 0b0010_0100;
+            //  new Codedom().Execute();
+            //        Console.ForegroundColor = ConsoleColor.Yellow;
 
-            ////  var f = 0x1f;
-            ////var axr = new char[35];
-            ////axr[byte1] = byte1;
-            ////axr[0x1F] = axr;
+            CSharpCodeProvider p = new CSharpCodeProvider();
 
-            //Console.WriteLine(b.GetType().Name);
-            //Console.WriteLine(c.Value); Console.WriteLine(axr[0x1F]);
-            //nod nod;
-            //nod.One = 1;
-            ket ndf = null;
+            // 设置编译参数
+            CompilerParameters options = new CompilerParameters();
 
-            Console.WriteLine((byte)'=');
+            //加入引用的程序集
+            options.ReferencedAssemblies.Add("System.dll");
+            //options.ReferencedAssemblies.Add("System.Windows.Forms.dll");
+            //options.ReferencedAssemblies.Add("System.Drawing.dll");
+         //   options.ReferencedAssemblies.Add("System.IO.Directory");
 
+            options.GenerateExecutable = true;                  //是否生成可执行文件，否则就是内存中
+                                                                // CompilerOptions 参考地址:https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/compiler-options/addmodule-compiler-option
+        //    options.CompilerOptions = "-t:winexe";              //非控制台应用程序
+        //    options.CompilerOptions += " -win32icon:index.ico"; //设置图标
+            options.OutputAssembly = "Evaluator.exe";          //输出exe的名称
+            options.MainClass = "Evaluator.Program";          //主运行类
+          
+            //循环加入资源文件,貌似不支持文件夹,因此多个文件可以自己压缩为zip再加入
+            //foreach (var file in this.listBox1.Items)
+            //{
+            //    options.EmbeddedResources.Add(file.ToString());
+            //}
+
+            // 开始编译
+            string[] files = new string[]
+            {
+                    Environment.CurrentDirectory+"\\utc.txt",
+                    Environment.CurrentDirectory+"\\Evaluator.cs",
+            };
+            CompilerResults cr = p.CompileAssemblyFromFile(options, files);
+
+            // 显示编译信息
+            if (cr.Errors.Count == 0)
+            {
+                Console.WriteLine("{0} compiled ok!", cr.CompiledAssembly.Location);
+                Console.WriteLine("成功");  
+            }
+            else
+            {
+                Console.WriteLine("Complie Error:");
+                foreach (CompilerError error in cr.Errors)
+                    Console.WriteLine("  {0}", error);
+                Console.WriteLine("失败");
+            }
+
+            Console.WriteLine("Press Enter key to exit...");
             Console.Read();
         }
-
     }
 }

@@ -23,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,9 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Binary.cs" />
+    <Compile Include="Codedom.cs" />
     <Compile Include="Cyper.cs" />
     <Compile Include="Hyper.cs" />
-    <Compile Include="Kater\Aoz.cs" />
+    <Compile Include="Kater\Nox.cs" />
     <Compile Include="Kater\Hex.cs" />
     <Compile Include="Kater\Kot.cs" />
     <Compile Include="Kovet.cs" />

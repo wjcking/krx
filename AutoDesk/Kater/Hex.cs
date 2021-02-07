@@ -5,4 +5,11 @@ using System.Text;
 
 struct Hex
 {
+    public void hex()
+    {
+        unsafe
+        {
+            //int* p;
+        }
+    }
 }

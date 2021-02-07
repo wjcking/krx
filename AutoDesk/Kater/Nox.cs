@@ -2,7 +2,7 @@
 using System;
 //Dct.Mbd.Mem.Cache ?
 //Dnk:Ding~New-Ker Value~New-Static
-public struct aoz
+public struct nox
 {
     static ket ket()
     {
@@ -56,18 +56,19 @@ public struct aoz
 
         return n;
     }
-    public static implicit operator aoz(Type value)
-    { 
-        switch(value.Name)
+    public static implicit operator nox(Type value)
+    {
+        nox.ket().ace.GetHashCode();
+        switch (value.Name)
         {
-            case "ket":  aoz.ket(); break;
-            case "ket2": aoz.ket(); break;
-            case "ket3": aoz.ket(); break;
-            case "ket4": aoz.ket(); break;
-            case "ket5": aoz.ket(); break;
-            case "ket6": aoz.ket(); break;
-            case "ket7": aoz.ket(); break;
-            case "ket8": aoz.ket(); break;
+            case "ket":  nox.ket(); nox.ket(); break;
+            case "ket2": nox.ket(); break;
+            case "ket3": nox.ket(); break;
+            case "ket4": nox.ket(); break;
+            case "ket5": nox.ket(); break;
+            case "ket6": nox.ket(); break;
+            case "ket7": nox.ket(); break;
+            case "ket8": nox.ket(); break;
         }
         return value;
     }

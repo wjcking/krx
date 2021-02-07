@@ -3,14 +3,13 @@ using System.CodeDom;
 using System.CodeDom.Compiler;
 using System.IO;
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTest
-{
-    [TestClass]
+
+   // [TestClass]
     public class Codedom
     {
-        [TestMethod]
+     //   [TestMethod]
         public void Execute()
         {
             //c#
@@ -128,6 +127,7 @@ namespace UnitTest
                 IndentedTextWriter tw = new IndentedTextWriter(new StreamWriter(sourceFile, false), "");
                 // 利用生成器生成源代码
                 provider.GenerateCodeFromCompileUnit(compileunit, tw, new CodeGeneratorOptions());
+   
                 // 关闭文件输出流
                 tw.Close();
             }
@@ -156,5 +156,4 @@ namespace UnitTest
             }
         }
     }
-}
 
