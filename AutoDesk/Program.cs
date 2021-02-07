@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AutoDesk
 {
-    using Kit;
+
     class Program
     {
 
@@ -27,8 +27,10 @@ namespace AutoDesk
             //Console.WriteLine(c.Value); Console.WriteLine(axr[0x1F]);
             //nod nod;
             //nod.One = 1;
-            ket ndf = null;
-            Console.WriteLine(ndf.eht);
+          ket ndf = null;
+            //   var ndf = ket.neo();
+            Console.WriteLine( (byte)ndf.udr);
+            Console.WriteLine( (byte)'=');
             Console.Read();
         }
 

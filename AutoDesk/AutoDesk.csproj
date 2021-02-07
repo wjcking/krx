@@ -43,13 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Binary.cs" />
     <Compile Include="Cyper.cs" />
     <Compile Include="Hyper.cs" />
+    <Compile Include="Kater\Hex.cs" />
     <Compile Include="Kovet.cs" />
     <Compile Include="Lasik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Nox.cs" />
+    <Compile Include="Kater\Ket.cs" />
     <Compile Include="Rastek.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +64,9 @@
     <Content Include="asc-ii.txt" />
     <Content Include="TextFile1.txt" />
     <Content Include="TyperLect.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Original\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
