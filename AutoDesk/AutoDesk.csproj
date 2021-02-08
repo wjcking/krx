@@ -65,10 +65,10 @@
   <ItemGroup>
     <Content Include="dct-pixar-med.html" />
     <Content Include="flex-mytric.txt" />
-    <Content Include="SpaceRanger.txt" />
+    <Content Include="space-ranger.txt" />
     <Content Include="asc-ii.txt" />
     <Content Include="TextFile1.txt" />
-    <Content Include="TyperLect.txt" />
+    <Content Include="type-lect.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Original\" />
