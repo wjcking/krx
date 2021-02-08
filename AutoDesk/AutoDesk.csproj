@@ -46,17 +46,17 @@
   <ItemGroup>
     <Compile Include="Binary.cs" />
     <Compile Include="Cyper.cs" />
-    <Compile Include="Hyper.cs" />
+    <Compile Include="hyb.cs" />
     <Compile Include="Kater\Nox.cs" />
-    <Compile Include="Kater\Hex.cs" />
+    <Compile Include="Kater\hex.cs" />
     <Compile Include="Kater\Kot.cs" />
     <Compile Include="kodye.cs" />
-    <Compile Include="Kovet.cs" />
-    <Compile Include="Lasik.cs" />
+    <Compile Include="kovert.cs" />
+    <Compile Include="lasik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Kater\Ket.cs" />
-    <Compile Include="Rastek.cs" />
+    <Compile Include="rastek.cs" />
     <Compile Include="Aub.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,5 @@
-﻿using Microsoft.CSharp;
+﻿
+using Microsoft.CSharp;
 using System;
 using System.CodeDom.Compiler;
 
@@ -12,12 +13,22 @@ namespace AutoDesk
             hyb a = new hyb();
             a.ket = '+';
             Console.ForegroundColor = ConsoleColor.Yellow;
-
-            Console.Write("阿文" + a.ket);
+ 
+            atb.func();
             Console.Read();
             /*
              * auto test
              */
         }
+    }
+}
+public struct atb
+{
+
+    [System.Diagnostics.Conditional("fok")]
+    public static void func()
+    {
+        Console.Write("defined fok");
+        Console.Write("defined fok");
     }
 }

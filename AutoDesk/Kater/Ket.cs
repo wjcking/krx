@@ -1,44 +1,9 @@
 ﻿using System;
 
+
+
 public struct ket
 {
-    public string
-        zeo,
-        one, two, thr,
-        fou, fiv, six,
-        sev, eht, nin,
-
-        csa, csb, csc, csd,
-        cse, csf, csg, csh,
-        csi, csj, csk, csl,
-        csm, csn, cso, csp,
-        csq, csr, css, cst,
-        csu, csv, csw, csx,
-        csy, csz,
-
-        cba, cbb, cbc, cbd,
-        cbe, cbf, cbg, cbh,
-        cbi, cbj, cbk, cbl,
-        cbm, cbn, cbo, cbp,
-        cbq, cbr, cbs, cbt,
-        cbu, cbv, cbw, cbx,
-        cby, cbz,
-
-        ace,/*space each*/
-            /* Connector cot Bracket bot  HandFirst.Left()Right */
-        cnt, cnr, cma,
-        duo, con, com, dsh, spt,
-
-        lsm, lmd, lbr, lkt, qod,
-        rsm, rmd, rbr, rkt, qos,
-        //operator + is the only one similar to paper write, algorith   c++ 
-        cpp,
-        //special
-        alm, cxp, dor, per,
-        and, sqt, sdr, eqt,
-        qst, atr, dsa, art,
-        udr;
-
     public static implicit operator ket(Type value)
     { 
         ket n = new ket();
@@ -91,4 +56,42 @@ public struct ket
 
         return n;
     }
+
+    public string
+        zeo,
+        one, two, thr,
+        fou, fiv, six,
+        sev, eht, nin,
+
+        csa, csb, csc, csd,
+        cse, csf, csg, csh,
+        csi, csj, csk, csl,
+        csm, csn, cso, csp,
+        csq, csr, css, cst,
+        csu, csv, csw, csx,
+        csy, csz,
+
+        cba, cbb, cbc, cbd,
+        cbe, cbf, cbg, cbh,
+        cbi, cbj, cbk, cbl,
+        cbm, cbn, cbo, cbp,
+        cbq, cbr, cbs, cbt,
+        cbu, cbv, cbw, cbx,
+        cby, cbz,
+
+        ace,/*space each*/
+            /* Connector cot Bracket bot  HandFirst.Left()Right */
+        cnt, cnr, cma,
+        duo, con, com, dsh, spt,
+
+        lsm, lmd, lbr, lkt, qod,
+        rsm, rmd, rbr, rkt, qos,
+        //operator + is the only one similar to paper write, algorith   c++ 
+        cpp,
+        //special
+        alm, cxp, dor, per,
+        and, sqt, sdr, eqt,
+        qst, atr, dsa, art,
+        udr;
+
 }

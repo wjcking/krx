@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 //阿拉伯 刻画数字
-namespace Kit
+namespace kit
 {
     public enum En { Zr, On, To, Sr, Fo, Fv, Sx, Sv, Et, Ni, Tn }
     public enum Chs { Lin, Yi, Er, San, Si, Wu, Liu, Qi, Ba, Jiu }
@@ -32,7 +32,7 @@ namespace Ait
 }
 namespace AutoDesk
 {
-    using Kit;
+    using kit;
 
     /* not classified by human using numbers */
     namespace Day

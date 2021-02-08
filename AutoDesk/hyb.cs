@@ -3,7 +3,7 @@
 
 public struct hyb
 {
-    public bool boe { get; set; }
+    public bool tfs { get; set; }
     public byte bit { get; set; }
     public char ket { get; set; }
     public decimal dec { get; set; }

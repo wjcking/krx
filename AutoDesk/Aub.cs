@@ -1,7 +1,9 @@
 ﻿
+#define fok
 using System;
+using System.Diagnostics;
 
-[AttributeUsage(AttributeTargets.Class |
+[AttributeUsage(AttributeTargets.Struct |
 AttributeTargets.Constructor |
 AttributeTargets.Field |
 AttributeTargets.Method |
