@@ -4,11 +4,7 @@
 #define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
 #define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
 #define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
-using Microsoft.CSharp;
-using System;
-using System.CodeDom.Compiler;
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace AutoDesk

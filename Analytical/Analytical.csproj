@@ -67,8 +67,8 @@
     <Content Include="analytical\interface\kraft\kraft6.jpg" />
     <Content Include="analytical\interface\kraft\kraft7.jpg" />
     <Content Include="analytical\interface\landscape.html" />
-    <Content Include="analytical\interface\russia.html" />
-    <Content Include="analytical\interface\turk.html" />
+    <Content Include="analytical\language\russia.html" />
+    <Content Include="analytical\language\turk.html" />
     <Content Include="analytical\jquery.cookie.js" />
     <Content Include="analytical\language\adverse.html" />
     <Content Include="analytical\language\formsize.html" />

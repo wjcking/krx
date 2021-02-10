@@ -11,17 +11,17 @@ using System.Collections.Generic;
 /// </summary>
 public struct cyber
 {
-    public string kiz;
-    public hyb hyper;
+    //public string kiz;
+    //public hyb hyper;
 
-    public string[] GetStringArray(string sot)
-    {
-        return kiz.Split(sot.ToCharArray());
-    }
+    //public static string[] GetStringArray(string value, string sot)
+    //{
+    //    return value.Split(sot.ToCharArray());
+    //}
 
-    public char[] GetCharArray()
-    {
-        return kiz.ToCharArray();
-    }
+    //public static char[] GetCharArray()
+    //{
+    //    return value.ToCharArray();
+    //}
 }
 

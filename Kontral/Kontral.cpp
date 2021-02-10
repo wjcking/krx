@@ -19,6 +19,8 @@ int main(int argc, char **argv)
 	int at=1;
 	//auto tsd = (char*)"0123456789";
 	//cout << tsd[2]<<":"<< sizeof(tsd)<< endl;
+	//w_char wt;
+	//wt ="°¡ÊÇ·Ö";
 	cout<<at<<endl;
   	system("pause");
 	return 0;
