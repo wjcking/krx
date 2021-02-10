@@ -56,7 +56,8 @@ namespace AutoDesk
         /// <summary>
         /// GetCharArray GetStringArray
         /// </summary>
-        public cyper[] LineArray;
+       
+
         //Kaset as functions
         //Line;
         // Pine; 

@@ -9,7 +9,7 @@ using System.Collections.Generic;
     ///    generic.programming.algorithm par war
     /// 增删取改查 因特尔(O)坦恩  Cybert?.Autility
     /// </summary>
-    public struct cyper
+public struct cyber
     {
         public string kiz;
         public hyb hyper;

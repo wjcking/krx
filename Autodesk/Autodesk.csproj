@@ -41,146 +41,145 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Handy\Aub.cs" />
-    <Compile Include="Handy\AutoTest.cs" />
-    <Compile Include="Handy\Binary.cs" />
-    <Compile Include="Handy\Codedom.cs" />
-    <Compile Include="Handy\Cyper.cs" />
-    <Compile Include="Handy\fungate.cs" />
-    <Compile Include="Handy\Generic.cs" />
-    <Compile Include="Handy\hyb.cs" />
-    <Compile Include="Handy\kodye.cs" />
-    <Compile Include="Handy\kovert.cs" />
-    <Compile Include="Handy\lasik.cs" />
-    <Compile Include="Handy\Latical.cs" />
-    <Compile Include="Lonist\AngelView.cs">
+    <Compile Include="handy\aub.cs" />
+    <Compile Include="handy\auto.cs" />
+    <Compile Include="handy\binary.cs" />
+    <Compile Include="handy\cyber.cs" />
+    <Compile Include="handy\fungate.cs" />
+    <Compile Include="handy\Generic.cs" />
+    <Compile Include="handy\hyb.cs" />
+    <Compile Include="handy\kodye.cs" />
+    <Compile Include="handy\kovert.cs" />
+    <Compile Include="handy\lasik.cs" />
+    <Compile Include="handy\Latical.cs" />
+    <Compile Include="lonist\AngelView.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Lonist\AngelView.Designer.cs">
+    <Compile Include="lonist\AngelView.Designer.cs">
       <DependentUpon>AngelView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\Asnick.cs" />
-    <Compile Include="Lonist\BitmapRegion.cs" />
-    <Compile Include="Lonist\BrowserRegister.cs" />
-    <Compile Include="Lonist\Form1.cs">
+    <Compile Include="lonist\Asnick.cs" />
+    <Compile Include="lonist\BitmapRegion.cs" />
+    <Compile Include="lonist\BrowserRegister.cs" />
+    <Compile Include="lonist\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\Form1.Designer.cs">
+    <Compile Include="lonist\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\FormShape.cs">
+    <Compile Include="lonist\FormShape.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\FormShape.Designer.cs">
+    <Compile Include="lonist\FormShape.Designer.cs">
       <DependentUpon>FormShape.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\Grid.cs">
+    <Compile Include="lonist\Grid.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\Grid.Designer.cs">
+    <Compile Include="lonist\Grid.Designer.cs">
       <DependentUpon>Grid.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\HandleOffset\Joystick.cs" />
-    <Compile Include="Lonist\HandleOffset\JoystickAPI.cs" />
-    <Compile Include="Lonist\HandleOffset\JoystickEventArgs.cs" />
-    <Compile Include="Lonist\Karet.cs">
+    <Compile Include="lonist\HandleOffset\Joystick.cs" />
+    <Compile Include="lonist\HandleOffset\JoystickAPI.cs" />
+    <Compile Include="lonist\HandleOffset\JoystickEventArgs.cs" />
+    <Compile Include="lonist\Karet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\Karet.Designer.cs">
+    <Compile Include="lonist\Karet.Designer.cs">
       <DependentUpon>Karet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\Ketub.cs">
+    <Compile Include="lonist\Ketub.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Lonist\Komad.cs" />
-    <Compile Include="Lonist\Komet.cs">
+    <Compile Include="lonist\Komad.cs" />
+    <Compile Include="lonist\Komet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\Komet.Designer.cs">
+    <Compile Include="lonist\Komet.Designer.cs">
       <DependentUpon>Komet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\Languages.cs" />
-    <Compile Include="Lonist\Levis.cs">
+    <Compile Include="lonist\Languages.cs" />
+    <Compile Include="lonist\Levis.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\Levis.Designer.cs">
+    <Compile Include="lonist\Levis.Designer.cs">
       <DependentUpon>Levis.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\Lumia.cs" />
-    <Compile Include="Lonist\Midow.cs">
+    <Compile Include="lonist\Lumia.cs" />
+    <Compile Include="lonist\Midow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\Midow.Designer.cs">
+    <Compile Include="lonist\Midow.Designer.cs">
       <DependentUpon>Midow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\MouseKeyboard.cs" />
-    <Compile Include="Lonist\Pixels.cs" />
-    <Compile Include="Lonist\R.Designer.cs" />
-    <Compile Include="Lonist\Rabber.cs">
+    <Compile Include="lonist\MouseKeyboard.cs" />
+    <Compile Include="lonist\Pixels.cs" />
+    <Compile Include="lonist\R.Designer.cs" />
+    <Compile Include="lonist\Rabber.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\Rabber.Designer.cs">
+    <Compile Include="lonist\Rabber.Designer.cs">
       <DependentUpon>Rabber.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\Rect.cs">
+    <Compile Include="lonist\Rect.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\Rect.Designer.cs">
+    <Compile Include="lonist\Rect.Designer.cs">
       <DependentUpon>Rect.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lonist\Solid.cs" />
-    <Compile Include="Lonist\Symbolics.cs">
+    <Compile Include="lonist\Solid.cs" />
+    <Compile Include="lonist\Symbolics.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lonist\Symbolics.Designer.cs">
+    <Compile Include="lonist\Symbolics.Designer.cs">
       <DependentUpon>Symbolics.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Lonist\Form1.resx">
+    <EmbeddedResource Include="lonist\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\FormShape.resx">
+    <EmbeddedResource Include="lonist\FormShape.resx">
       <DependentUpon>FormShape.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\Grid.resx">
+    <EmbeddedResource Include="lonist\Grid.resx">
       <DependentUpon>Grid.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\Karet.resx">
+    <EmbeddedResource Include="lonist\Karet.resx">
       <DependentUpon>Karet.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\Komet.resx">
+    <EmbeddedResource Include="lonist\Komet.resx">
       <DependentUpon>Komet.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\Levis.resx">
+    <EmbeddedResource Include="lonist\Levis.resx">
       <DependentUpon>Levis.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\Midow.resx">
+    <EmbeddedResource Include="lonist\Midow.resx">
       <DependentUpon>Midow.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\R.resx">
+    <EmbeddedResource Include="lonist\R.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\Rabber.en.resx">
+    <EmbeddedResource Include="lonist\Rabber.en.resx">
       <DependentUpon>Rabber.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\Rabber.resx">
+    <EmbeddedResource Include="lonist\Rabber.resx">
       <DependentUpon>Rabber.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\Rect.resx">
+    <EmbeddedResource Include="lonist\Rect.resx">
       <DependentUpon>Rect.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lonist\Symbolics.resx">
+    <EmbeddedResource Include="lonist\Symbolics.resx">
       <DependentUpon>Symbolics.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -202,15 +201,15 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Handy\rastek.cs" />
+    <Compile Include="handy\rastek.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="dynamicals\LinqBridge.dll" />
-    <Content Include="Lonist\Icon\color-layers.ico" />
-    <Content Include="Lonist\Icon\diagram.ico" />
-    <Content Include="Lonist\Icon\flip.ico" />
-    <Content Include="Lonist\symboltics.html" />
-    <Content Include="Lonist\TextFile1.txt" />
+    <Content Include="lonist\Icon\color-layers.ico" />
+    <Content Include="lonist\Icon\diagram.ico" />
+    <Content Include="lonist\Icon\flip.ico" />
+    <Content Include="lonist\symboltics.html" />
+    <Content Include="lonist\TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
