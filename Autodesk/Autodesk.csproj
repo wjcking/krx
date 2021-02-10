@@ -45,13 +45,12 @@
     <Compile Include="handy\auto.cs" />
     <Compile Include="handy\binary.cs" />
     <Compile Include="handy\cyber.cs" />
-    <Compile Include="handy\fungate.cs" />
-    <Compile Include="handy\Generic.cs" />
+    <Compile Include="handy\fangus.cs" />
+    <Compile Include="handy\generic.cs" />
     <Compile Include="handy\hyb.cs" />
     <Compile Include="handy\kodye.cs" />
     <Compile Include="handy\kovert.cs" />
     <Compile Include="handy\lasik.cs" />
-    <Compile Include="handy\Latical.cs" />
     <Compile Include="lonist\AngelView.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -79,9 +78,9 @@
     <Compile Include="lonist\Grid.Designer.cs">
       <DependentUpon>Grid.cs</DependentUpon>
     </Compile>
-    <Compile Include="lonist\HandleOffset\Joystick.cs" />
-    <Compile Include="lonist\HandleOffset\JoystickAPI.cs" />
-    <Compile Include="lonist\HandleOffset\JoystickEventArgs.cs" />
+    <Compile Include="lonist\handy\Joystick.cs" />
+    <Compile Include="lonist\handy\JoystickAPI.cs" />
+    <Compile Include="lonist\handy\JoystickEventArgs.cs" />
     <Compile Include="lonist\Karet.cs">
       <SubType>Form</SubType>
     </Compile>

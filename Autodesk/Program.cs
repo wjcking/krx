@@ -1,5 +1,8 @@
 ﻿#define fok
-
+#define fok
+#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
+#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
+#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
 #define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
 using Microsoft.CSharp;
 using System;
@@ -53,9 +56,9 @@ public struct atb
     {
         object condet = null;
 
-        object variant = null;
-        object range = null;
-        object opera = null;
+        //object variant = null;
+        //object range = null;
+        //object opera = null;
 
         do
         {
