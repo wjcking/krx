@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B2A318BD-CE60-4634-AE60-171BF8902972}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Autodesk</RootNamespace>
+    <AssemblyName>Autodesk</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Handy\Aub.cs" />
+    <Compile Include="Handy\AutoTest.cs" />
+    <Compile Include="Handy\Binary.cs" />
+    <Compile Include="Handy\Codedom.cs" />
+    <Compile Include="Handy\Cyper.cs" />
+    <Compile Include="Handy\fungate.cs" />
+    <Compile Include="Handy\Generic.cs" />
+    <Compile Include="Handy\hyb.cs" />
+    <Compile Include="Handy\kodye.cs" />
+    <Compile Include="Handy\kovert.cs" />
+    <Compile Include="Handy\lasik.cs" />
+    <Compile Include="Handy\Latical.cs" />
+    <Compile Include="Lonist\AngelView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lonist\AngelView.Designer.cs">
+      <DependentUpon>AngelView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\Asnick.cs" />
+    <Compile Include="Lonist\BitmapRegion.cs" />
+    <Compile Include="Lonist\BrowserRegister.cs" />
+    <Compile Include="Lonist\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\FormShape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\FormShape.Designer.cs">
+      <DependentUpon>FormShape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\Grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\Grid.Designer.cs">
+      <DependentUpon>Grid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\HandleOffset\Joystick.cs" />
+    <Compile Include="Lonist\HandleOffset\JoystickAPI.cs" />
+    <Compile Include="Lonist\HandleOffset\JoystickEventArgs.cs" />
+    <Compile Include="Lonist\Karet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\Karet.Designer.cs">
+      <DependentUpon>Karet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\Ketub.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lonist\Komad.cs" />
+    <Compile Include="Lonist\Komet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\Komet.Designer.cs">
+      <DependentUpon>Komet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\Languages.cs" />
+    <Compile Include="Lonist\Levis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\Levis.Designer.cs">
+      <DependentUpon>Levis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\Lumia.cs" />
+    <Compile Include="Lonist\Midow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\Midow.Designer.cs">
+      <DependentUpon>Midow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\MouseKeyboard.cs" />
+    <Compile Include="Lonist\Pixels.cs" />
+    <Compile Include="Lonist\R.Designer.cs" />
+    <Compile Include="Lonist\Rabber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\Rabber.Designer.cs">
+      <DependentUpon>Rabber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\Rect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\Rect.Designer.cs">
+      <DependentUpon>Rect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lonist\Solid.cs" />
+    <Compile Include="Lonist\Symbolics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lonist\Symbolics.Designer.cs">
+      <DependentUpon>Symbolics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Lonist\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\FormShape.resx">
+      <DependentUpon>FormShape.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\Grid.resx">
+      <DependentUpon>Grid.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\Karet.resx">
+      <DependentUpon>Karet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\Komet.resx">
+      <DependentUpon>Komet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\Levis.resx">
+      <DependentUpon>Levis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\Midow.resx">
+      <DependentUpon>Midow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\R.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\Rabber.en.resx">
+      <DependentUpon>Rabber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\Rabber.resx">
+      <DependentUpon>Rabber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\Rect.resx">
+      <DependentUpon>Rect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lonist\Symbolics.resx">
+      <DependentUpon>Symbolics.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Handy\rastek.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dynamicals\LinqBridge.dll" />
+    <Content Include="Lonist\Icon\color-layers.ico" />
+    <Content Include="Lonist\Icon\diagram.ico" />
+    <Content Include="Lonist\Icon\flip.ico" />
+    <Content Include="Lonist\symboltics.html" />
+    <Content Include="Lonist\TextFile1.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

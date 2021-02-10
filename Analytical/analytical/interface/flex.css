@@ -1,0 +1,48 @@
+﻿body {
+    margin:0px;
+
+  background-color: whitesmoke;
+    font-size: 14px;
+    font-family: Arial 'Microsoft YaHei';
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background: #cecece;
+    min-height: 50px;
+}
+
+div {
+    margin: 0px;
+}
+
+footer {
+    background: #cecece;
+    min-height: 10px;
+}
+
+.blue {
+    background-color: #2980B9;
+    color: #FFFFFF
+}
+
+
+.cothree {
+    background-color: #D35400;
+    color: #FFFFFF
+}
+
+.redeight {
+    background-color: #870000;
+    color: #FFFFFF
+}
+
+.yellow {
+    background-color: #F39C12;
+    color: #FFFFFF
+}
