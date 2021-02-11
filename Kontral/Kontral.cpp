@@ -1,8 +1,8 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "rebiz.h"
 #include <string>
 #include <iostream>
-
+ 
 //#include <conio.h>
 //#include <tchar.h>
 //#include <stdio.h>
@@ -15,14 +15,16 @@ int main(int argc, char **argv)
 	//char* a[] = { "hello world", "liitdar" };
 	//char** b = a;
 	auto at=1;
-	ls53c2zl='��';
-	ls8003zl='��';
+	ls53c2zl=L'五';
+	ls8003zl='ھ';
 	//auto tsd = (char*)"0123456789";
 	//cout << tsd[2]<<":"<< sizeof(tsd)<< endl;
 	//w_char wt;
-	//wt ="���Ƿ�";
-	cout<<at<<endl;
-	cout<<(wchar_t)ls53c2zl<<endl;
+	//wt ="啊是分";
+	wcout<<"АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"<<endl;
+ wcout.imbue(locale("chs"));
+   wcout << ls8003zl << " -> " << sizeof(ls8003zl) << endl;
+    wcout << ls53c2zl << " -> " << sizeof(ls53c2zl) << endl;
   	system("pause");
 	return 0;
 } 
