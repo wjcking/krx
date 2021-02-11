@@ -115,7 +115,6 @@
     <Content Include="controllers\ket-array.js" />
     <Content Include="controllers\object-extend.js" />
     <Content Include="controllers\string-extend.js" />
-    <Content Include="Default.aspx" />
     <Content Include="dynamics\apisoda.js" />
     <Content Include="index.html" />
     <Content Include="models\constant.js" />
@@ -126,13 +125,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <SubType>ASPXCodeBehind</SubType>
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
