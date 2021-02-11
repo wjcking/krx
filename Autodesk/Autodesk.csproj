@@ -66,12 +66,17 @@
     <Compile Include="handy\auto.cs" />
     <Compile Include="handy\binary.cs" />
     <Compile Include="handy\cyber.cs" />
+    <Compile Include="desk\cybert.cs" />
     <Compile Include="handy\fangus.cs" />
     <Compile Include="handy\generic.cs" />
     <Compile Include="handy\hyb.cs" />
     <Compile Include="handy\kodye.cs" />
     <Compile Include="handy\kovert.cs" />
     <Compile Include="handy\lasik.cs" />
+    <Compile Include="Kater\hex.cs" />
+    <Compile Include="Kater\Ket.cs" />
+    <Compile Include="Kater\Kot.cs" />
+    <Compile Include="Kater\Nox.cs" />
     <Compile Include="lonist\AngelView.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -225,7 +230,9 @@
     <Compile Include="handy\rastek.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dct-pixar-med.html" />
     <Content Include="dynamicals\LinqBridge.dll" />
+    <Content Include="handy\TextFile1.txt" />
     <Content Include="lonist\Icon\color-layers.ico" />
     <Content Include="lonist\Icon\diagram.ico" />
     <Content Include="lonist\Icon\flip.ico" />
@@ -249,6 +256,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

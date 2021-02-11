@@ -6,7 +6,8 @@
 #define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
 using System.ComponentModel;
 using System.Windows.Forms;
-
+using System.IO;
+using System;
 namespace AutoDesk
 {
 
@@ -28,6 +29,10 @@ namespace AutoDesk
             /*
              * auto test
              */
+            var text = File.ReadAllText(@"D:\Repository\Autodesk\handy\TextFile1.txt"); 
+            for(int i=0;i<text.Length;i++)
+            Console.Write("Nod"+i.ToString()+"ket"+text[i]+" ");
+            Console.Read();
         }
     }
 }
