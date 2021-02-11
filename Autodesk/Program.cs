@@ -14,10 +14,11 @@ namespace AutoDesk
     {
         public static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AngelLayout.Midow());
-            AngelLayout.BrowserRegister.SetWebBrowserFeatures(11);
+            string ls53c2zl, ls8003zl,    ls606fzl, ls7f5112zl, ls67085zl, ls65e5zl, ls62a5zl, ls9053zl, ls636ezl,  ls8054zl, ls793ezl, ls7f8ezl;
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new AngelLayout.Midow());
+            //AngelLayout.BrowserRegister.SetWebBrowserFeatures(11);
             //hyb a = new hyb();
             //a.ket = '+';
             //Console.ForegroundColor = ConsoleColor.Yellow;
