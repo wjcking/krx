@@ -95,7 +95,7 @@
     <Content Include="asnic\rastera\rast.html" />
     <Content Include="asnic\rastera\redemption.html" />
     <Content Include="asnic\rastera\scratch.html" />
-    <Content Include="asnic\rastera\slept-off.htm" />
+    <Content Include="asnic\rastera\slept-off.html" />
     <Content Include="asnic\rastera\solid.html" />
     <Content Include="asnic\rastera\transcolor.html" />
     <Content Include="asnic\rastera\vesaid.html" />
