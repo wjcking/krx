@@ -87,7 +87,7 @@
     <Content Include="analytical\Leonic\rt.html" />
     <Content Include="analytical\Leonic\t.html" />
     <Content Include="analytical\Leonic\trikon.html" />
-    <Content Include="analytical\localstorage.html" />
+    <Content Include="analytical\language\maya.html" />
     <Content Include="analytical\Metric.js" />
     <Content Include="analytical\plate\hypertext.html" />
     <Content Include="analytical\screenable.html" />
@@ -130,7 +130,6 @@
   <ItemGroup>
     <None Include="analytical\asnic\debug.log" />
     <None Include="analytical\FileSaver.min.js.map" />
-    <None Include="analytical\Leonic\debug.log" />
     <None Include="analytical\localstring.map" />
     <None Include="content\dist\css\bootstrap-theme.css.map" />
     <None Include="content\dist\css\bootstrap-theme.min.css.map" />
