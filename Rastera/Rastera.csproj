@@ -109,7 +109,7 @@
     <Content Include="asnic\revenge\sneakwing.html" />
     <Content Include="asnic\revenge\trace.html" />
     <Content Include="asnic\serenity\serenity.html" />
-    <Content Include="asnic\serial\persvision.html" />
+    <Content Include="asnic\serial\persivision.html" />
     <Content Include="asnic\serial\source.html" />
     <Content Include="asnic\template\anti-docx.html" />
     <Content Include="asnic\template\format.html" />
