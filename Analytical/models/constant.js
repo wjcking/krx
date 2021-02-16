@@ -28,3 +28,6 @@ const rep = "replaceAll";
 
 //logical kount number svg sum max min
 const count= "count"
+
+
+const brk = "<br /> ";
