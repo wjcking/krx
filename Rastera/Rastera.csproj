@@ -90,7 +90,7 @@
     <Content Include="asnic\rastera\heuristic.html" />
     <Content Include="asnic\rastera\intel.html" />
     <Content Include="asnic\rastera\ketself.html" />
-    <Content Include="asnic\rastera\kin-group.html" />
+    <Content Include="asnic\rastera\kine-group.html" />
     <Content Include="asnic\rastera\matrix.html" />
     <Content Include="asnic\rastera\rast.html" />
     <Content Include="asnic\rastera\redemption.html" />
@@ -172,7 +172,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="asnic\rastera\debug.log" />
     <Content Include="asnic\serenity\web.config" />
     <None Include="content\jquery\jquery-3.5.1.min.map" />
   </ItemGroup>
