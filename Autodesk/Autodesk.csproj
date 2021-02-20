@@ -73,6 +73,7 @@
     <Compile Include="handy\kodye.cs" />
     <Compile Include="handy\kovert.cs" />
     <Compile Include="handy\lasik.cs" />
+    <Compile Include="handy\rotate.cs" />
     <Compile Include="Kater\hex.cs" />
     <Compile Include="Kater\Ket.cs" />
     <Compile Include="Kater\Kot.cs" />
