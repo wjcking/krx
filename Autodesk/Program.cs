@@ -13,6 +13,16 @@ namespace AutoDesk
 
     class Program
     {
+        public static bool lins()
+        {
+            return 1 > 0;
+        }
+        public static void condit(string s,string s2,int i)
+        {
+            Console.WriteLine(s);
+            Console.WriteLine(s2);
+            Console.WriteLine(i);
+        }
         public static void Main(string[] args)
         {
             string ls53c2zl, ls8003zl,    ls606fzl, ls7f5112zl, ls67085zl, ls65e5zl, ls62a5zl, ls9053zl, ls636ezl,  ls8054zl, ls793ezl, ls7f8ezl;
@@ -29,10 +39,17 @@ namespace AutoDesk
             /*
              * auto test
              */
-            var text = File.ReadAllText(@"D:\Repository\Autodesk\handy\TextFile1.txt"); 
-            for(int i=0;i<text.Length;i++)
-            Console.Write("Nod"+i.ToString()+"ket"+text[i]+" ");
-            Console.Read();
+            //var text = File.ReadAllText(@"D:\Repository\Autodesk\handy\TextFile1.txt"); 
+            //for(int i=0;i<text.Length;i++)
+            //Console.Write("Nod"+i.ToString()+"ket"+text[i]+" ");
+            //Console.Read();
+           //var rotate = new rotate();
+           // rotate.wile (lins, condit);
+            var loop = new loop();
+            loop.counter = 0;
+            loop.length = 300;
+            loop.four(Console.Write);
+            loop.four(Console.Write);
         }
     }
 }

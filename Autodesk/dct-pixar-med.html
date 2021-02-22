@@ -6,7 +6,7 @@
 </head>
 <body>
   <pre>
-*Device:Comsek:Bodypart //dct
+*Device:Comsek:Bodypart //Dc I Bt
     kdb:Keyboard(hand)
     mos:Mouse(hand)
     cam:Camera(Eye,Face,Body)
@@ -21,10 +21,12 @@
         pci 
         com
         usb
+        type-A,B,C
         ps2 
         lpt
         hdmi
         vga
+        jump //line
     cpu:Cpu
     mem:Memory
     hdk:Hardisk        
@@ -119,6 +121,8 @@ Pixel-Array
 *struct S:A {};
 *struct Q { }; 
 */
+
+
 asm.tbc
   cpp  #define
     gdi
@@ -133,7 +137,6 @@ asm.tbc
 	  gui+
 	  dll.import
 	  type
-	
 	  gdi+
 	  gui+ 
   end
@@ -191,7 +194,11 @@ Algorith.KolorTimer
     color.acquire
   loop
     do.while.for
-  
+  thread
+    for while do into a list then compile
+    unlike list each by each
+    delegate fuc action 
+    thread communication
   ///summary.dct.hdk.xml
   void nothing();
   [attribute("ding")]
