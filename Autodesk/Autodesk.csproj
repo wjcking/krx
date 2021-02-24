@@ -62,6 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assembly.cs" />
     <Compile Include="handy\aub.cs" />
     <Compile Include="handy\auto.cs" />
     <Compile Include="handy\binary.cs" />
@@ -160,7 +161,7 @@
     <Compile Include="lonist\Symbolics.Designer.cs">
       <DependentUpon>Symbolics.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="lonist\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

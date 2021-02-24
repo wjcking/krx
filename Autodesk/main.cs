@@ -1,17 +1,19 @@
-﻿#define fok
+﻿
+#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
+#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
+#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
+#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
+
 #define fok
-#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
-#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
-#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
-#define oneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDasoneAtwoAthrAfivAsixAhubBasfDas
+#define fok
 using System.ComponentModel;
 using System.Windows.Forms;
 using System.IO;
 using System;
-namespace AutoDesk
-{
+//namespace AutoDesk
+//{
 
-    class Program
+    struct Inn
     {
         public static bool lins()
         {
@@ -23,7 +25,8 @@ namespace AutoDesk
             Console.WriteLine(s2);
             Console.WriteLine(i);
         }
-        public static void Main(string[] args)
+        //重载签名错误
+        public static void Main(string[] abc卍adef)
         {
             string ls53c2zl, ls8003zl,    ls606fzl, ls7f5112zl, ls67085zl, ls65e5zl, ls62a5zl, ls9053zl, ls636ezl,  ls8054zl, ls793ezl, ls7f8ezl;
             //Application.EnableVisualStyles();
@@ -52,7 +55,7 @@ namespace AutoDesk
             loop.four(Console.Write);
         }
     }
-}
+//}
 [Description("value only")]
 enum Lser
 {
