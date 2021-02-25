@@ -14,15 +14,19 @@ int main(int argc, char **argv)
 {
 	//char* a[] = { "hello world", "liitdar" };
 	//char** b = a;
+	// L'哀' unicode编码  没有L是ascii编码
 	auto at=1;
+	ket ket1 = '是';
+	 cout<<ket1<<endl;
 	ls53c2zl=L'五';
 	ls8003zl='ھ';
 	//auto tsd = (char*)"0123456789";
 	//cout << tsd[2]<<":"<< sizeof(tsd)<< endl;
 	//w_char wt;
-	//wt ="啊是分";
+	//wt ="啊是分";	
 	wcout<<"АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"<<endl;
 	wcout.imbue(locale("chs"));
+
 	wcout << ls8003zl << " -> " << sizeof(ls8003zl) << endl;
 	wcout << ls53c2zl << " -> " << sizeof(ls53c2zl) << endl;
 	system("pause");
