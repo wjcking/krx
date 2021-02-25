@@ -1,8 +1,7 @@
 #pragma once 
 #include <string>
 using namespace std;
-// string ls53c2zl, ls8003zl,    ls606fzl, ls7f5112zl, ls67085zl, ls65e5zl, ls62a5zl, ls9053zl, ls636ezl,  ls8054zl, ls793ezl, ls7f8ezl,
-//ls1zl, ls2zl,    ls3fzl, ls4zl, ls5zl, ls6zl, ls7zl, ls8zl, ls9ezl,  ls10zl, ls11ezl, ls12ezl;
+
 typedef wchar_t ket;
 
 ket
