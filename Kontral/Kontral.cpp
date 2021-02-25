@@ -22,9 +22,9 @@ int main(int argc, char **argv)
 	//w_char wt;
 	//wt ="啊是分";
 	wcout<<"АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"<<endl;
- wcout.imbue(locale("chs"));
-   wcout << ls8003zl << " -> " << sizeof(ls8003zl) << endl;
-    wcout << ls53c2zl << " -> " << sizeof(ls53c2zl) << endl;
-  	system("pause");
+	wcout.imbue(locale("chs"));
+	wcout << ls8003zl << " -> " << sizeof(ls8003zl) << endl;
+	wcout << ls53c2zl << " -> " << sizeof(ls53c2zl) << endl;
+	system("pause");
 	return 0;
 } 
