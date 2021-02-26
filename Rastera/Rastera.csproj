@@ -50,6 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="asnic\access-term\creal.html" />
+    <Content Include="asnic\access-term\kazidor.html" />
+    <Content Include="asnic\access-term\mime.html" />
+    <Content Include="asnic\access-term\phrase.html" />
+    <Content Include="asnic\access-term\possess.html" />
     <Content Include="asnic\access-term\term.html" />
     <Content Include="asnic\alfred.html" />
     <Content Include="asnic\analytical\exsaiz-term.html" />

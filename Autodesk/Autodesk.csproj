@@ -232,7 +232,7 @@
     <Compile Include="handy\rastek.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dct-pixar-med.html" />
+    <Content Include="comsek.html" />
     <Content Include="dynamicals\LinqBridge.dll" />
     <Content Include="handy\TextFile1.txt" />
     <Content Include="lonist\Icon\color-layers.ico" />
