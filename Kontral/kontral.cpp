@@ -2,7 +2,7 @@
 #include "rebiz.h"
 #include <string>
 #include <iostream>
- 
+
 //#include <conio.h>
 //#include <tchar.h>
 //#include <stdio.h>
@@ -29,6 +29,10 @@ int main(int argc, char **argv)
 
 	wcout << ls8003zl << " -> " << sizeof(ls8003zl) << endl;
 	wcout << ls53c2zl << " -> " << sizeof(ls53c2zl) << endl;
+
+
+    return 0;
+
 	system("pause");
 	return 0;
 } 

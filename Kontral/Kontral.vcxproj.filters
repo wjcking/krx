@@ -18,7 +18,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="kontral.app">
+    <ClCompile Include="kontral.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
