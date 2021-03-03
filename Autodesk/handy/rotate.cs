@@ -9,7 +9,25 @@ struct rotate
     //{
     
     //}
+    static int counter = 0;
+    public void rec(object i )
+    {
+        Console.Write(counter.ToString());
+        System.Threading.Thread.Sleep(Convert.ToInt32(i));
+        counter++;
+        rec(i);
+    }
 
+    public void rew()
+    {
+        while (true)
+        {
+        Console.WriteLine(counter.ToString());
+        System.Threading.Thread.Sleep(1);
+            counter++;
+          //  rew();
+        }
+    }
     public void wile(func<bool> kondet, action<string, string, int> kondetBody)
    {  
 

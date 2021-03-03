@@ -67,13 +67,13 @@
     <Content Include="analytical\interface\flex.css" />
     <Content Include="analytical\interface\flex.html" />
     <Content Include="analytical\interface\kof.html" />
-    <Content Include="analytical\interface\kraft\kraft1.jpg" />
-    <Content Include="analytical\interface\kraft\kraft2.jpg" />
-    <Content Include="analytical\interface\kraft\kraft3.jpg" />
-    <Content Include="analytical\interface\kraft\kraft4.jpg" />
-    <Content Include="analytical\interface\kraft\kraft5.jpg" />
-    <Content Include="analytical\interface\kraft\kraft6.jpg" />
-    <Content Include="analytical\interface\kraft\kraft7.jpg" />
+    <Content Include="analytical\language\kraft\kraft1.jpg" />
+    <Content Include="analytical\language\kraft\kraft2.jpg" />
+    <Content Include="analytical\language\kraft\kraft3.jpg" />
+    <Content Include="analytical\language\kraft\kraft4.jpg" />
+    <Content Include="analytical\language\kraft\kraft5.jpg" />
+    <Content Include="analytical\language\kraft\kraft6.jpg" />
+    <Content Include="analytical\language\kraft\kraft7.jpg" />
     <Content Include="analytical\interface\landscape.html" />
     <Content Include="analytical\language\russia.html" />
     <Content Include="analytical\language\turk.html" />
@@ -169,7 +169,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>58003</DevelopmentServerPort>
+          <DevelopmentServerPort>59077</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
