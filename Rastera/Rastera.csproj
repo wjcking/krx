@@ -89,6 +89,7 @@
     <Content Include="asnic\quest\quest6.html" />
     <Content Include="asnic\quest\vivo-requires.html" />
     <Content Include="asnic\rastera\atonement.html" />
+    <Content Include="asnic\rastera\developer.html" />
     <Content Include="asnic\rastera\ever-vegent.html" />
     <Content Include="asnic\rastera\health.html" />
     <Content Include="asnic\rastera\heuristic.html" />
