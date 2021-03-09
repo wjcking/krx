@@ -56,8 +56,6 @@
     <Content Include="asnic\access-term\possess.html" />
     <Content Include="asnic\access-term\term.html" />
     <Content Include="asnic\alfred.html" />
-    <Content Include="asnic\analytical\exsaiz-term.html" />
-    <Content Include="asnic\analytical\requires.html" />
     <Content Include="asnic\arrange-beauty\civilize.html" />
     <Content Include="asnic\arrange-beauty\lifeform.html" />
     <Content Include="asnic\arrange-beauty\mfs.html" />

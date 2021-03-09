@@ -232,9 +232,12 @@
     <Compile Include="handy\rastek.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="comsek.html" />
+    <Content Include="analytical\requires.html" />
+    <Content Include="analytical\comsek.html" />
+    <Content Include="analytical\delyix.html" />
     <Content Include="dynamicals\LinqBridge.dll" />
     <Content Include="handy\TextFile1.txt" />
+    <Content Include="analytical\isoc.html" />
     <Content Include="lonist\Icon\color-layers.ico" />
     <Content Include="lonist\Icon\diagram.ico" />
     <Content Include="lonist\Icon\flip.ico" />
