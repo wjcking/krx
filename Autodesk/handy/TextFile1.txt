@@ -5,54 +5,30 @@
 左小青，曾是国家体操运动员，多次获得过国家比赛冠军。她因为跟随父亲的一个朋友去《阳光灿烂的日子》拍摄剧组玩耍，结果被姜文邀请客串电影中的一个走起路来有点八字脚的女孩，从此走红。2004年，因在都市情感剧《中国式离婚》中，饰演娟子一角而被观众所熟知。而这个人物是陈道明大力引荐的，也多亏了陈道明的火眼金睛，才让左小青红了起来。当年左小青和陈道明被传出绯闻时，已经有家室了，妻子是一名大学教授，育有一女。
 
 There are moments in life when you miss someone so much that you just want to pick them
-from your dreams and hug them for real! Dream what you want to dream;
+    from your dreams and hug them for real! Dream what you want to dream;
 go where you want to go; be what you want to be, because you have only one
-life and one chance to do all the things you want to do. test for print 
+    life and one chance to do all the things you want to do. test for print 
 
 　May you have enough happiness to make you sweet,enough 
-trials to make you strong, enough sorrow to keep you 
-human,enough hope to make you happy? Always put yourself in others’shoes.If you feel that it hurts you,it probably hurts the other person, too.
+    trials to make you strong, enough sorrow to keep you 
+    human,enough hope to make you happy? Always put yourself in others’shoes.If you feel that it hurts you,it probably hurts the other person, too.
 
 　The happiest of people don’t necessarily have the best 
-of everything;they just make the most of everything
-that comes along their way.Happiness lies for those who
-cry, those who hurt, those who have searched, and those who have tried,for only they can appreciate the importance of people
-articalful intellgient
-stealball advnture
+    of everything;they just make the most of everything
+    that comes along their way.Happiness lies for those who
+        cry, those who hurt, those who have searched, and those who have tried,for only they can appreciate the importance of people
+        articalful intellgient
+          stealball advnture
 
 who have touched their lives.Love begins with a smile, grows 
-with a kiss and ends with a tear.The brightest future
-will always be based on a forgotten past, you can’t go on well in lifeuntil you let go of your past failures and heartaches.
+            with a kiss and ends with a tear.The brightest future
+            will always be based on a forgotten past, you can’t go on well in lifeuntil you let go of your past failures and heartaches.
 
 
 Please send this message to those people who mean something to you,
 to those who have touched your life in one way or another, to those who 
-make you smile when you really need it, to those that
-make you see the brighter side of things when you are really down,
+            make you smile when you really need it, to those that
+            make you see the brighter side of things when you are really down,
 to those who you want to let them know that you appreciate their friendship.
-And if you don’t, don’t worry, nothing bad will happen to you, you will just miss
-out on the opportunity to brighten someone’s day with this message.
-/* 只从上往下 下不上
-*  C struct
-*  C++ 
-* 上下都可以 
-*  C#
-* Java
-* Script a();
-* function b() { alert("b") }
-* function a() {  b();  } 
-
-*interface I { }
-*interface P:I{ }
-*interface N:P,I{ }
-*//*/中间类 
-*static class Sim{ };
-*class Amid{ };
-*//end
-*class A{ }
-*class B:A { }
-*class C:A { }
-*//不能派生类
-*struct S:A {};
-*struct Q { }; 
-*/
+           And if you don’t, don’t worry, nothing bad will happen to you, you will just miss
+           out on the opportunity to brighten someone’s day with this message.
