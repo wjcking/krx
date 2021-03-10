@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.Threading;
 namespace AngelLayout
 {
     public partial class Midow : Form
@@ -29,9 +30,37 @@ namespace AngelLayout
             //main.WindowState = FormWindowState.Maximized;//子窗体
             //main.Show();  
 
-
+         var rotate = new rotate();
             //    label2.BringToFront();
             //      Application.AddMessageFilter(this);
+         var t1 = new Thread(new ParameterizedThreadStart(rotate.rec));
+         t1.Start(1);
+
+         //var t2 = new Thread(new ParameterizedThreadStart(rotate.rec));
+         //t2.Start(1);
+         //Invoke(  delegate {refresh();});
+
+         DoubleBuffered = true;
+        }
+
+        void refresh()
+        {
+            try
+            {
+                textBox2.Text = rotate.counter.ToString();
+             //   textBox3.Text = rotate.counter.ToString();
+                //Thread.Sleep(1);
+              //  Application.DoEvents();
+                refresh();
+            }
+            catch (Exception e)
+            {
+                label.Text = e.Message;
+            }
+            finally
+            {
+              //  Invoke(new EventHandler(delegate { refresh(); }));
+            }
         }
         #region 无边框拖动效果
         [DllImport("user32.dll")]//拖动无窗体的控件
@@ -112,7 +141,7 @@ namespace AngelLayout
 
         private void Midow_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void Rabber_Click(object sender, EventArgs e)
@@ -139,6 +168,16 @@ namespace AngelLayout
         {
             new FormShape().Show();
 
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Midow_Shown(object sender, EventArgs e)
+        {
+            Invoke(new EventHandler(delegate { refresh(); }));
         }
     }
 }
