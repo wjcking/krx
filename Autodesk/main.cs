@@ -16,12 +16,12 @@ using System.Threading;
 
     struct Inn
     { //重载签名错误
-        public static void Main(string[] abc卍adef)
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AngelLayout.Midow());
-        }
+        //public static void Main(string[] abc卍adef)
+        //{
+        //    Application.EnableVisualStyles();
+        //    Application.SetCompatibleTextRenderingDefault(false);
+        //    Application.Run(new AngelLayout.Midow());
+        //}
         public static bool lins()
         {
             return 1 > 0;
@@ -32,13 +32,8 @@ using System.Threading;
             Console.WriteLine(s2);
             Console.WriteLine(i);
         }
-        //static rotate rotate = new rotate();
-        public static void reckon(string[] abc卍adef)
-        {
-
-        }
         //重载签名错误
-        public static void Main1(string[] abc卍adef)
+        public static void Main(string[] abc卍adef)
         {
             //string ls53c2zl, ls8003zl, ls606fzl, ls7f5112zl, ls67085zl, ls65e5zl, ls62a5zl, ls9053zl, ls636ezl, ls8054zl, ls793ezl, ls7f8ezl;
 
@@ -56,21 +51,18 @@ using System.Threading;
             ////for(int i=0;i<text.Length;i++)
             ////Console.Write("Nod"+i.ToString()+"ket"+text[i]+" ");
             ////Console.Read();
-           // var  rotate = new rotate();
+            var rotate = new rotate();
             //// rotate.wile (lins, condit);
           ////  var loop = new loop();
             //loop.counter = 0;
             //loop.length = 300;
             //loop.four(Console.Write);
             //loop.four(Console.Write);
-            //var t1 = new Thread(new ParameterizedThreadStart(rotate.rec));
-            //t1.Start(111);
+            var t1 = new Thread(new ParameterizedThreadStart(rotate.rec));
+            t1.Start(111);
 
-            //var t2 = new Thread(new ParameterizedThreadStart(rotate.rec));
-            //t2.Start(333);
-            
-
-
+            var t2 = new Thread(new ParameterizedThreadStart(rotate.rec));
+            t2.Start(333);
        //   rotate.rec();
            //   rotate.rew();
         }
