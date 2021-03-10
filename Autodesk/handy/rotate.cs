@@ -9,12 +9,12 @@ struct rotate
     //{
     
     //}
-    static int counter = 0;
+    public static int counter = 0;
     public void rec(object i )
     {
-        Console.Write(counter.ToString());
-        System.Threading.Thread.Sleep(Convert.ToInt32(i));
-        counter++;
+      //  Console.Write(counter.ToString());
+         System.Threading.Thread.Sleep(1);//Convert.ToInt32(i));
+     //   counter++;
         rec(i);
     }
 
