@@ -51,18 +51,18 @@ using System.Threading;
             ////for(int i=0;i<text.Length;i++)
             ////Console.Write("Nod"+i.ToString()+"ket"+text[i]+" ");
             ////Console.Read();
-            var rotate = new rotate();
+         //   var rotate = new rotate();
             //// rotate.wile (lins, condit);
           ////  var loop = new loop();
             //loop.counter = 0;
             //loop.length = 300;
             //loop.four(Console.Write);
             //loop.four(Console.Write);
-            var t1 = new Thread(new ParameterizedThreadStart(rotate.rec));
-            t1.Start(111);
-
-            var t2 = new Thread(new ParameterizedThreadStart(rotate.rec));
-            t2.Start(333);
+            //var t1 = new Thread(new ThreadStart();
+            //t1.Start(111);
+            // ThreadPool.QueueUserWorkItem(new WaitCallback(testFun))
+            //var t2 = new Thread(new ThreadStart(rotate.rec));
+            //t2.Start(333);
        //   rotate.rec();
            //   rotate.rew();
         }
