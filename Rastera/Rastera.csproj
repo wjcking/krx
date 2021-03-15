@@ -76,7 +76,7 @@
     <Content Include="asnic\os\elos.html" />
     <Content Include="asnic\os\gapoles.html" />
     <Content Include="asnic\os\odinmetric.html" />
-    <Content Include="asnic\quest\fragment.html" />
+    <Content Include="asnic\rastera\fragment.html" />
     <Content Include="asnic\quest\index.html" />
     <Content Include="asnic\quest\keyword.html" />
     <Content Include="asnic\quest\quest1.html" />
