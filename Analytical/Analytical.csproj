@@ -55,7 +55,7 @@
     <Content Include="analytical\asnic\basic.html" />
     <Content Include="analytical\asnic\ketstring.html" />
     <Content Include="analytical\asnic\ketstruct.html" />
-    <Content Include="analytical\asnic\leon-start.html" />
+    <Content Include="analytical\asnic\leonic.html" />
     <Content Include="analytical\copy.html" />
     <Content Include="analytical\cybers.html" />
     <Content Include="analytical\file.html" />

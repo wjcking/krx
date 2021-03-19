@@ -76,7 +76,7 @@
             "R"});
             this.listBox3.Location = new System.Drawing.Point(27, 49);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(185, 322);
+            this.listBox3.Size = new System.Drawing.Size(154, 392);
             this.listBox3.TabIndex = 57;
             // 
             // Komet

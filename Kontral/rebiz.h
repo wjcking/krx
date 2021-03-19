@@ -1,7 +1,8 @@
 ﻿#pragma once 
 #include <string>
 using namespace std;
-
+#define origon {
+#define source } 
 typedef wchar_t ket;
 
 ket

@@ -57,6 +57,9 @@ public struct ket
         return n;
     }
 
+    
+    //1 use different language express
+    //2 put them into an array
     public string
         zeo,
         one, two, thr,
@@ -93,5 +96,8 @@ public struct ket
         and, sqt, sdr, eqt,
         qst, atr, dsa, art,
         udr;
-
+    //public string[] katery = new string[4]
+    //{
+    //   "abc","efd","阿萨法","阿萨德"
+    //};
 }
