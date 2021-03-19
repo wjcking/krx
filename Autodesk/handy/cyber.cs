@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 /// <summary>
 /// Mytric:String.Hypert.String:Object.?Mytrik
-/// 编译器的基础
+/// 字符处理基础
 ///     Cybers:Separator Connector Bracket
 ///     sot cot bot 
 ///    generic.programming.algorithm par war
