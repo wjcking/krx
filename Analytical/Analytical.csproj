@@ -130,7 +130,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="analytical\asnic\debug.log" />
     <None Include="analytical\FileSaver.min.js.map" />
     <None Include="analytical\localstring.map" />
     <None Include="content\dist\css\bootstrap-theme.css.map" />
