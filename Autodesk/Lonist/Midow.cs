@@ -132,13 +132,22 @@ namespace AngelLayout
         private void button1_Click(object sender, EventArgs e)
         {
 
-            textBox2.Text = Komad.Batch("curl.exe", textBox1.Text);
+            textBox2.Text = Komad.Batch("curl.exe", textBox.Text);
         }
 
         private void ShapeF_Click(object sender, EventArgs e)
         {
             new FormShape().Show();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            cybert cyb = new cybert();
+            cyb.orginal = textBox1.Text;
+
+            textBox2.Text = cyb.each_ranket();
+            textBox3.Text = cyb.each_eidix();
+            textBox4.Text = cyb.each_hexet();
         }
     }
 }

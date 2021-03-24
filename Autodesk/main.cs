@@ -16,12 +16,12 @@ using System.Threading;
 
     struct Inn
     { //重载签名错误
-        //public static void Main(string[] abc卍adef)
-        //{
-        //    Application.EnableVisualStyles();
-        //    Application.SetCompatibleTextRenderingDefault(false);
-        //    Application.Run(new AngelLayout.Midow());
-        //}
+        public static void Main(string[] abc_adef)
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new AngelLayout.Midow());
+        }
         public static bool lins()
         {
             return 1 > 0;
@@ -33,7 +33,7 @@ using System.Threading;
             Console.WriteLine(i);
         }
         //重载签名错误
-        public static void Main(string[] abc卍adef)
+        public static void Main0(string[] abc卍adef)
         {
             //string ls53c2zl, ls8003zl, ls606fzl, ls7f5112zl, ls67085zl, ls65e5zl, ls62a5zl, ls9053zl, ls636ezl, ls8054zl, ls793ezl, ls7f8ezl;
 
