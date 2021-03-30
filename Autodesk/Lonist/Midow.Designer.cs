@@ -167,9 +167,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(935, 39);
+            this.button1.Location = new System.Drawing.Point(935, 31);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(113, 31);
             this.button1.TabIndex = 158;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -228,7 +228,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(993, 784);
+            this.tabPage2.Size = new System.Drawing.Size(958, 784);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -241,7 +241,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox2.Size = new System.Drawing.Size(987, 778);
+            this.textBox2.Size = new System.Drawing.Size(952, 778);
             this.textBox2.TabIndex = 159;
             // 
             // tabPage3
@@ -274,7 +274,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(993, 784);
+            this.tabPage4.Size = new System.Drawing.Size(958, 784);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -288,7 +288,7 @@
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox4.Size = new System.Drawing.Size(987, 778);
+            this.textBox4.Size = new System.Drawing.Size(952, 778);
             this.textBox4.TabIndex = 159;
             // 
             // tabPage5
@@ -297,7 +297,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 4);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(993, 784);
+            this.tabPage5.Size = new System.Drawing.Size(958, 784);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -310,7 +310,7 @@
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox5.Size = new System.Drawing.Size(987, 778);
+            this.textBox5.Size = new System.Drawing.Size(952, 778);
             this.textBox5.TabIndex = 159;
             // 
             // tabPage6
@@ -319,7 +319,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(993, 784);
+            this.tabPage6.Size = new System.Drawing.Size(958, 784);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -332,7 +332,7 @@
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox6.Size = new System.Drawing.Size(987, 778);
+            this.textBox6.Size = new System.Drawing.Size(952, 778);
             this.textBox6.TabIndex = 159;
             // 
             // tabPage7

@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assembly.cs" />
+    <Compile Include="desk\shapeable.cs" />
     <Compile Include="handy\aub.cs" />
     <Compile Include="handy\auto.cs" />
     <Compile Include="handy\binary.cs" />

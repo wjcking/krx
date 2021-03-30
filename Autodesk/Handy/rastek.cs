@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 
 using System.Text;
+[ Flags ]  
+enum  Styles {  
+ShowBorder = 1,         //是否显示边框 
+ShowCaption = 2,        //是否显示标题 
+ShowToolbox = 4         //是否显示工具箱 
+} 
 
 //阿拉伯 刻画数字
 namespace kit

@@ -112,7 +112,10 @@ namespace AngelLayout
 
         private void Midow_Load(object sender, EventArgs e)
         {
-
+            instant itt = new instant();
+            itt.eydix = 0;
+            itt.issaic.record();
+            textBox1.Text = itt.issaic.isakes.ToString();
         }
 
         private void Rabber_Click(object sender, EventArgs e)
@@ -132,7 +135,7 @@ namespace AngelLayout
         private void button1_Click(object sender, EventArgs e)
         {
 
-            textBox2.Text = Komad.Batch("curl.exe", textBox.Text);
+            textBox1.Text = Komad.Batch("curl.exe", textBox.Text);
         }
 
         private void ShapeF_Click(object sender, EventArgs e)

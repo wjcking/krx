@@ -60,15 +60,10 @@ public struct cybert
     //screen_width = 2880 / 16,
     //screen_height = 1920 / 16;
     public string orginal { get; set; }
-
-  public string each_eidix()
-  {    ushort
-            pixel_width = 2880,
-            pixel_height = 1920,
+    public const ushort
             font_size = 26;
-      //  ushort
-      //screen_width = 2880 /  76 ,
-      //screen_height = 1920 / 76 ;
+  public string each_eidix()
+  {    
         StringBuilder ranket = new StringBuilder();
         for (int i = 0; i < orginal.Length; i++)
         {
@@ -83,8 +78,6 @@ public struct cybert
             }
           // 
             ranket.Append(ace);
-        //    string enter = (i+1) % font_size == 0 ? (ent.ToString() + rtn.ToString()) : string.Empty;
-           // ranket.Append(enter);
         }
         return ranket.ToString(); 
   }
@@ -92,8 +85,6 @@ public struct cybert
     public string each_ranket()
     {
         ushort
-            pixel_width = 2880,
-            pixel_height = 1920,
             font_size = 26;
       //  ushort
       //screen_width = 2880 /  76 ,
@@ -119,10 +110,6 @@ public struct cybert
     //     // get { return this.number == index ? this : new kot() { number = -1 }; }
   public string each_hexet()
     {
-        ushort
-            pixel_width = 2880,
-            pixel_height = 1920,
-            font_size = 26;
 //Encoding.Unicode.GetBytes("啊")
 //{byte[2]}
 //    [0]: 74

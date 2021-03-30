@@ -1,5 +1,34 @@
 ﻿
-#define fok
+#define Procedure
+    #define  Rect_Start
+
+    #define  Rect_Start
+    #define  leonic0end1
+    #define  Rect_Start
+    #define  Ionic_Start
+    #define  Rect_Start3
+    #define  Rect_Start5
+    #define  Rect_Start6
+    #define  Rect_Start
+    #define  Rect_Start6
+
+#define Rect_End
+
+#define Jvm_Anayticla
+    #define  Rect_Start
+
+    #define  Rect_Start
+    #define  leonic0end1
+    #define  Rect_Start
+    #define  Ionic_Start
+    #define  Rect_Start3
+    #define  Rect_Start5
+    #define  Rect_Start6
+    #define  Rect_Start
+    #define  Rect_Start6
+
+#define Duote_End
+
 using System;
 using System.Diagnostics;
 
