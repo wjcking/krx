@@ -3,13 +3,12 @@
 #include <string>
 #include <iostream>
 
-//#include <conio.h>
+ #include <conio.h>
 //#include <tchar.h>
-//#include <stdio.h>
-
+//#include <stdio.h> 
 //#include <boost/filesystem.hpp>
 using namespace std;
- 
+
 int main(int argc, char **argv)
 {
 	//char* a[] = { "hello world", "liitdar" };
@@ -30,7 +29,14 @@ int main(int argc, char **argv)
 	wcout << ls8003zl << " -> " << sizeof(ls8003zl) << endl;
 	wcout << ls53c2zl << " -> " << sizeof(ls53c2zl) << endl;
 	 
-
+	 int ch;
+    while (1){
+        if (_kbhit()){//如果有按键按下，则_kbhit()函数返回真
+            ch = _getch();//使用_getch()函数获取按下的键值
+            cout << ch;
+            if (ch == 27){ break; }//当按下ESC时循环，ESC键的键值时27.
+        }
+	}
 	system("pause");
 
 	return 0;

@@ -47,7 +47,22 @@ public class  tin : System.Attribute
      * cxp.rect.vertical= klass1:klass2:klass3:klass4:tin
      * #Object survanlince transform
      * [aub] [aup] [cup] [cub]
-     * class1:class2:class3:class4:objant
+     * class1:class2:class3:class4:Axis
      */
+public tin()
+{
+    var axis = 0;
+    switch (1)
+	{
+        case 1: break;
+        case 2: break;
+        case 3: break;
+        case 4: break;
+
+		default :  break;
+	}
+
+  
+}
 
 }

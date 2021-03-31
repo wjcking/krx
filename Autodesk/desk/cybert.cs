@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-public struct cybert
+struct cybert
 {
     public const char
     zeo = '0',
@@ -102,22 +102,20 @@ public struct cybert
     ////  public int asc { get { return (int)value; } }
 
 
-    ////  public string bin { get { return convert.tostring(((byte)ascii), 2); } }
+    ////   string bin { get { return convert.tostring(((byte)ascii), 2); } }
     //  // 5 = the max of chinese byte
-    //  public int  maxlen { get { return 5 - asc.ToString().Length; } }
-    //  public kot this[int index]
-    //  {
-    //     // get { return this.number == index ? this : new kot() { number = -1 }; }
+    //  int  maxlen { get { return 5 - asc.ToString().Length; } }
+
   public string each_hexet()
     {
-//Encoding.Unicode.GetBytes("啊")
-//{byte[2]}
-//    [0]: 74
-//    [1]: 85
-//Encoding.Unicode.GetBytes("د")
-//{byte[2]}
-//    [0]: 47
-//    [1]: 6
+        //Encoding.Unicode.GetBytes("啊")
+        //{byte[2]}
+        //    [0]: 74
+        //    [1]: 85
+        //Encoding.Unicode.GetBytes("د")
+        //{byte[2]}
+        //    [0]: 47
+        //    [1]: 6
         StringBuilder ranket = new StringBuilder();
         for (int i = 0; i < orginal.Length; i++)
         {

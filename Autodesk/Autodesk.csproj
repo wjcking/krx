@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assembly.cs" />
+    <Compile Include="desk\kodinate.cs" />
+    <Compile Include="desk\pixels.cs" />
     <Compile Include="desk\shapeable.cs" />
     <Compile Include="handy\aub.cs" />
     <Compile Include="handy\auto.cs" />
@@ -237,6 +239,7 @@
     <Content Include="analytical\comsek.html" />
     <Content Include="analytical\delyix.html" />
     <Content Include="analytical\vivo-requires.html" />
+    <Content Include="desk\pixels.html" />
     <Content Include="dynamicals\LinqBridge.dll" />
     <Content Include="handy\TextFile1.txt" />
     <Content Include="analytical\isoc.html" />
