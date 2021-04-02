@@ -52,20 +52,16 @@
   <ItemGroup>
     <Content Include="analytical\absock.html" />
     <Content Include="analytical\advent.html" />
-    <Content Include="analytical\anyiket.html" />
-    <Content Include="analytical\asnical.html" />
+    <Content Include="analytical\cybert.html" />
     <Content Include="analytical\asnic\basic.html" />
+    <Content Include="analytical\asnic\celly.html" />
     <Content Include="analytical\asnic\ketstring.html" />
     <Content Include="analytical\asnic\ketstruct.html" />
     <Content Include="analytical\asnic\leonic.html" />
-    <Content Include="analytical\copy.html" />
-    <Content Include="analytical\cybers.html" />
-    <Content Include="analytical\file.html" />
-    <Content Include="analytical\FileSaver.js" />
-    <Content Include="analytical\FileSaver.min.js" />
     <Content Include="analytical\func\flex.html" />
     <Content Include="analytical\func\permutation.html" />
     <Content Include="analytical\func\t-span.html" />
+    <Content Include="analytical\funknic\fundematic.js" />
     <Content Include="analytical\interface\flex.css" />
     <Content Include="analytical\interface\flex.html" />
     <Content Include="analytical\interface\kof.html" />
@@ -79,7 +75,6 @@
     <Content Include="analytical\interface\landscape.html" />
     <Content Include="analytical\language\russia.html" />
     <Content Include="analytical\language\turk.html" />
-    <Content Include="analytical\jquery.cookie.js" />
     <Content Include="analytical\language\adverse.html" />
     <Content Include="analytical\language\formsize.html" />
     <Content Include="analytical\Leonic\c.html" />
@@ -89,13 +84,9 @@
     <Content Include="analytical\Leonic\rt.html" />
     <Content Include="analytical\Leonic\t.html" />
     <Content Include="analytical\Leonic\trikon.html" />
-    <Content Include="analytical\language\maya.html" />
-    <Content Include="analytical\Metric.js" />
-    <Content Include="analytical\plate\hypertext.html" />
-    <Content Include="analytical\screenable.html" />
-    <Content Include="analytical\storager.js" />
-    <Content Include="analytical\storager.min.js" />
-    <Content Include="analytical\TextFile1.txt" />
+    <Content Include="analytical\language\ipad.html" />
+    <Content Include="analytical\funknic\hypertext.html" />
+    <Content Include="analytical\priority.html" />
     <Content Include="content\dist\css\bootstrap-theme.css" />
     <Content Include="content\dist\css\bootstrap-theme.min.css" />
     <Content Include="content\dist\css\bootstrap.css" />
@@ -130,8 +121,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="analytical\FileSaver.min.js.map" />
-    <None Include="analytical\localstring.map" />
     <None Include="content\dist\css\bootstrap-theme.css.map" />
     <None Include="content\dist\css\bootstrap-theme.min.css.map" />
     <None Include="content\dist\css\bootstrap.css.map" />
@@ -170,7 +159,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>59077</DevelopmentServerPort>
+          <DevelopmentServerPort>20131</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

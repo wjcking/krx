@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kontral", "Kontral\Kontral.vcxproj", "{5520ACEA-2756-4F9E-948B-4D792789C63D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytical", "Analytical\Analytical.csproj", "{80C0A3C6-CAB6-4A79-9C35-9AED232E73D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytick", "Analytical\Analytick.csproj", "{80C0A3C6-CAB6-4A79-9C35-9AED232E73D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autodesk", "Autodesk\Autodesk.csproj", "{B2A318BD-CE60-4634-AE60-171BF8902972}"
 EndProject
