@@ -61,10 +61,7 @@
     <Content Include="analytical\func\flex.html" />
     <Content Include="analytical\func\permutation.html" />
     <Content Include="analytical\func\t-span.html" />
-    <Content Include="analytical\funknic\fundematic.js" />
-    <Content Include="analytical\interface\flex.css" />
-    <Content Include="analytical\interface\flex.html" />
-    <Content Include="analytical\interface\kof.html" />
+    <Content Include="analytical\fond\fundematic.js" />
     <Content Include="analytical\language\kraft\kraft1.jpg" />
     <Content Include="analytical\language\kraft\kraft2.jpg" />
     <Content Include="analytical\language\kraft\kraft3.jpg" />
@@ -72,7 +69,6 @@
     <Content Include="analytical\language\kraft\kraft5.jpg" />
     <Content Include="analytical\language\kraft\kraft6.jpg" />
     <Content Include="analytical\language\kraft\kraft7.jpg" />
-    <Content Include="analytical\interface\landscape.html" />
     <Content Include="analytical\language\russia.html" />
     <Content Include="analytical\language\turk.html" />
     <Content Include="analytical\language\adverse.html" />
@@ -85,7 +81,7 @@
     <Content Include="analytical\Leonic\t.html" />
     <Content Include="analytical\Leonic\trikon.html" />
     <Content Include="analytical\language\ipad.html" />
-    <Content Include="analytical\funknic\hypertext.html" />
+    <Content Include="analytical\fond\hypertext.html" />
     <Content Include="analytical\priority.html" />
     <Content Include="content\dist\css\bootstrap-theme.css" />
     <Content Include="content\dist\css\bootstrap-theme.min.css" />
