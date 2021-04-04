@@ -8,7 +8,10 @@
 //#include <stdio.h> 
 //#include <boost/filesystem.hpp>
 using namespace std;
-
+void standot()
+{
+	printf("stand-out");
+}
 int main(int argc, char **argv)
 {
 	//char* a[] = { "hello world", "liitdar" };
@@ -29,6 +32,7 @@ int main(int argc, char **argv)
 	wcout << ls8003zl << " -> " << sizeof(ls8003zl) << endl;
 	wcout << ls53c2zl << " -> " << sizeof(ls53c2zl) << endl;
 	 
+	standot();
 	 int ch;
     while (1){
         if (_kbhit()){//如果有按键按下，则_kbhit()函数返回真

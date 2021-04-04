@@ -61,7 +61,7 @@
     <Content Include="analytical\func\flex.html" />
     <Content Include="analytical\func\permutation.html" />
     <Content Include="analytical\func\t-span.html" />
-    <Content Include="analytical\fond\fundematic.js" />
+    <Content Include="gist\fundematic.js" />
     <Content Include="analytical\language\kraft\kraft1.jpg" />
     <Content Include="analytical\language\kraft\kraft2.jpg" />
     <Content Include="analytical\language\kraft\kraft3.jpg" />
@@ -81,7 +81,7 @@
     <Content Include="analytical\Leonic\t.html" />
     <Content Include="analytical\Leonic\trikon.html" />
     <Content Include="analytical\language\ipad.html" />
-    <Content Include="analytical\fond\hypertext.html" />
+    <Content Include="gist\hypertext.html" />
     <Content Include="analytical\priority.html" />
     <Content Include="content\dist\css\bootstrap-theme.css" />
     <Content Include="content\dist\css\bootstrap-theme.min.css" />
