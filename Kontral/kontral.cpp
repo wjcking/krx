@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 	//char** b = a;
 	// L'哀' unicode编码  没有L是ascii编码
 	auto at=1;
-	ket ket1 = '是';
+	karact ket1 = '是';
 	 cout<<ket1<<endl;
 	ls53c2zl=L'五';
 	ls8003zl='ھ';

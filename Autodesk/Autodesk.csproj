@@ -63,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assembly.cs" />
-    <Compile Include="desk\kodinate.cs" />
+    <Compile Include="desk\kodye.cs" />
     <Compile Include="desk\pixels.cs" />
     <Compile Include="desk\shapeable.cs" />
     <Compile Include="handy\aub.cs" />

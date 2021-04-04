@@ -76,7 +76,7 @@ struct cybert
                 case rtn: ranket.Append("\\n");  ranket.Append(Environment.NewLine); break;
                 default:ranket.Append(orginal[i]); break;
             }
-          // 
+            
             ranket.Append(ace);
         }
         return ranket.ToString(); 
