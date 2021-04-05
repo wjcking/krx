@@ -61,7 +61,9 @@
     <Content Include="analytical\func\flex.html" />
     <Content Include="analytical\func\permutation.html" />
     <Content Include="analytical\func\t-span.html" />
-    <Content Include="gist\fundematic.js" />
+    <Content Include="gist\fundametal.js" />
+    <Content Include="gist\style.css" />
+    <Content Include="gist\textarea.js" />
     <Content Include="analytical\language\kraft\kraft1.jpg" />
     <Content Include="analytical\language\kraft\kraft2.jpg" />
     <Content Include="analytical\language\kraft\kraft3.jpg" />
