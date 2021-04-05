@@ -32,7 +32,7 @@ struct cybert
     duo = '.', dsh = '/',
     spt = '|',
 
-    lsm = '(', lmd = '[', lbr = '{', lkt = '<', qod = ' ',
+    lsm = '(', lmd = '[', lbr = '{', lkt = '<',
     rsm = ')', rmd = ']', rbr = '}', rkt = '>', qos = '`',
         //计算机运算符号和现实纸张相符的只有+
     cpp = '+',
@@ -40,7 +40,6 @@ struct cybert
     alm = '!', per = '%',
     cxp = '#', and = '&',
     dor = '$',
-    sqt = '\'',
 
     sdr = '*',
     eqt = '=',
@@ -49,8 +48,15 @@ struct cybert
     dsa = '\\',
     art = '^',
     udr = '_';
-    public const char
-        ent = '\r', rtn = '\n';
+    public const char 
+    //转义序列
+    eslt = '\n',  //换行(LF) ，010 
+    esnt = '\r',  //回车(CR) ，将当前位置移到本行开头 013
+    estb = '\t',       //水平制表(HT)  009
+    esds = '\\',  //代表一个反斜线字符''\'   092
+    essq = '\'',  //代表一个单引号（撇号）字符 039
+    esqo = '\"',  //代表一个双引号字符 034 
+    esno = '\0'; //空字符(NUL) 000
 
     //public ushort
     //pixel_width = 2880,
@@ -62,8 +68,8 @@ struct cybert
     public string orginal { get; set; }
     public const ushort
             font_size = 26;
-  public string each_eidix()
-  {    
+    public string each_eidix()
+    {
         StringBuilder ranket = new StringBuilder();
         for (int i = 0; i < orginal.Length; i++)
         {
@@ -72,29 +78,29 @@ struct cybert
             ranket.Append(cnr);
             switch (orginal[i])
             {
-                case ent: ranket.Append("\\r"); break;
-                case rtn: ranket.Append("\\n");  ranket.Append(Environment.NewLine); break;
-                default:ranket.Append(orginal[i]); break;
+                case eslt: ranket.Append("\\r"); break;
+                case esnt: ranket.Append("\\n"); ranket.Append(Environment.NewLine); break;
+                default: ranket.Append(orginal[i]); break;
             }
-            
+
             ranket.Append(ace);
         }
-        return ranket.ToString(); 
-  }
+        return ranket.ToString();
+    }
 
     public string each_ranket()
     {
         ushort
             font_size = 26;
-      //  ushort
-      //screen_width = 2880 /  76 ,
-      //screen_height = 1920 / 76 ;
+        //  ushort
+        //screen_width = 2880 /  76 ,
+        //screen_height = 1920 / 76 ;
         StringBuilder ranket = new StringBuilder();
         for (int i = 0; i < orginal.Length; i++)
         {
             ranket.Append(orginal[i]);
             ranket.Append(ace);
-            string enter = (i+1) % font_size == 0 ? (ent.ToString() + rtn.ToString()) : string.Empty;
+            string enter = (i + 1) % font_size == 0 ? (eslt.ToString() + esnt.ToString()) : string.Empty;
             ranket.Append(enter);
         }
         return ranket.ToString();
@@ -106,7 +112,7 @@ struct cybert
     //  // 5 = the max of chinese byte
     //  int  maxlen { get { return 5 - asc.ToString().Length; } }
 
-  public string each_hexet()
+    public string each_hexet()
     {
         //Encoding.Unicode.GetBytes("啊")
         //{byte[2]}
@@ -119,45 +125,45 @@ struct cybert
         StringBuilder ranket = new StringBuilder();
         for (int i = 0; i < orginal.Length; i++)
         {
-           //ranket.AppendFormat("{0:x}", (byte[])orginal[i]);
+            //ranket.AppendFormat("{0:x}", (byte[])orginal[i]);
             ranket.AppendFormat("{0:x}", (byte)orginal[i]);
             ranket.Append(ace);
-            string enter = (i+1) % font_size == 0 ? (ent.ToString() + rtn.ToString()) : string.Empty;
+            string enter = (i + 1) % font_size == 0 ? (eslt.ToString() + esnt.ToString()) : string.Empty;
             ranket.Append(enter);
         }
         return ranket.ToString();
     }
     //0 1010100 asdffdas
     //1 0110101 houeor 
-  public string hex_chs(string character)
-  {
-      string coding = "";
+    public string hex_chs(string character)
+    {
+        string coding = "";
 
-      for (int i = 0; i < character.Length; i++)
-      {
-          byte[] bytes = System.Text.Encoding.Unicode.GetBytes(character.Substring(i, 1));
+        for (int i = 0; i < character.Length; i++)
+        {
+            byte[] bytes = System.Text.Encoding.Unicode.GetBytes(character.Substring(i, 1));
 
-          //取出二进制编码内容 
-          string lowCode = System.Convert.ToString(bytes[0], 16);
+            //取出二进制编码内容 
+            string lowCode = System.Convert.ToString(bytes[0], 16);
 
-          //取出低字节编码内容（两位16进制） 
-          if (lowCode.Length == 1)
-          {
-              lowCode = "0" + lowCode;
-          }
+            //取出低字节编码内容（两位16进制） 
+            if (lowCode.Length == 1)
+            {
+                lowCode = "0" + lowCode;
+            }
 
-          string hightCode = System.Convert.ToString(bytes[1], 16);
+            string hightCode = System.Convert.ToString(bytes[1], 16);
 
-          //取出高字节编码内容（两位16进制） 
-          if (hightCode.Length == 1)
-          {
-              hightCode = "0" + hightCode;
-          }
+            //取出高字节编码内容（两位16进制） 
+            if (hightCode.Length == 1)
+            {
+                hightCode = "0" + hightCode;
+            }
 
-          coding += (hightCode + lowCode);
+            coding += (hightCode + lowCode);
 
-      }
+        }
 
-      return coding;
-  }
+        return coding;
+    }
 }

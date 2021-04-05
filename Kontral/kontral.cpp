@@ -20,8 +20,8 @@ int main(int argc, char **argv)
 	auto at=1;
 	karact ket1 = '是';
 	 cout<<ket1<<endl;
-	ls53c2zl=L'五';
-	ls8003zl='ھ';
+	//ls53c2zl=L'五';
+	//ls8003zl='ھ';
 	//auto tsd = (char*)"0123456789";
 	//cout << tsd[2]<<":"<< sizeof(tsd)<< endl;
 	//w_char wt;
@@ -29,8 +29,8 @@ int main(int argc, char **argv)
 	wcout<<"АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"<<endl;
 	wcout.imbue(locale("chs"));
 
-	wcout << ls8003zl << " -> " << sizeof(ls8003zl) << endl;
-	wcout << ls53c2zl << " -> " << sizeof(ls53c2zl) << endl;
+	//wcout << ls8003zl << " -> " << sizeof(ls8003zl) << endl;
+	//wcout << ls53c2zl << " -> " << sizeof(ls53c2zl) << endl;
 	 
 	standot();
 	 int ch;
