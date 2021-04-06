@@ -70,6 +70,7 @@ struct cybert
             font_size = 26;
     public string each_eidix()
     {
+
         StringBuilder ranket = new StringBuilder();
         for (int i = 0; i < orginal.Length; i++)
         {

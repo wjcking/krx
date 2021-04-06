@@ -108,6 +108,8 @@
     <Content Include="controllers\string-extend.js" />
     <Content Include="dynamics\apisoda.js" />
     <Content Include="index.html" />
+    <Content Include="intellisense\erick.htm" />
+    <Content Include="intellisense\intelly.htm" />
     <Content Include="models\constant.js" />
     <Content Include="models\ket-struct.js" />
     <Content Include="models\ket-utility.js" />
