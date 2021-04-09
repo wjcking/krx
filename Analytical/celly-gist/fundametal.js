@@ -1,2 +1,2 @@
 ﻿//document.body.setAttribute("innerHTML", "fds");
-document.body.innerHTML = "body";
+//document.body.innerHTML = "body";
