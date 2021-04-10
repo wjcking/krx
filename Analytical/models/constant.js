@@ -10,7 +10,11 @@ const type_undefined = "undefined ";
 const sot = "sot"; const cot = "cot"; const bot = "bot";
 /*each space usual special customs*/
 //Separator
-const ace = ' '; const kma = ','; const spt = '|'; const tab = '\t';
+const ace = ' '; const kma = ','; const spt = '|'; 
+    //转义序列
+ const estb = '\t';
+  const  eslt = '\n',  //换行(LF) ，010 
+  const  esnt = '\r',  //回车(CR) ，将当前位置移到本行开头 013
 //Connector
 //  usual special
 const act = '^'; const lnk = '-'; const dst = '.'; const dot = dst;
