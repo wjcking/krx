@@ -76,6 +76,10 @@
     <Content Include="asnic\os\elos.html" />
     <Content Include="asnic\os\gapoles.html" />
     <Content Include="asnic\os\odinmetric.html" />
+    <Content Include="asnic\rastera\chorno-kater\geographic.htm" />
+    <Content Include="asnic\rastera\chorno-kater\isodek.html" />
+    <Content Include="asnic\rastera\chorno-kater\karacter.htm" />
+    <Content Include="asnic\rastera\chorno-kater\seymen-karet.html" />
     <Content Include="asnic\rastera\fragment.html" />
     <Content Include="asnic\quest\index.html" />
     <Content Include="asnic\quest\keyword.html" />
@@ -85,25 +89,25 @@
     <Content Include="asnic\quest\quest4.html" />
     <Content Include="asnic\quest\quest5.html" />
     <Content Include="asnic\quest\quest6.html" />
-    <Content Include="asnic\rastera\atonement.html" />
+    <Content Include="asnic\rastera\rast\atonement.html" />
     <Content Include="asnic\rastera\developer.html" />
-    <Content Include="asnic\rastera\ever-vegent.html" />
-    <Content Include="asnic\rastera\health.html" />
+    <Content Include="asnic\revenge\ever-vegent.html" />
+    <Content Include="asnic\rastera\health\health.html" />
     <Content Include="asnic\rastera\heuristic.html" />
     <Content Include="asnic\rastera\intel.html" />
     <Content Include="asnic\rastera\ketself.html" />
-    <Content Include="asnic\rastera\kine-group.html" />
+    <Content Include="asnic\rastera\kinect-globe\kine-group.html" />
     <Content Include="asnic\rastera\matrix.html" />
     <Content Include="asnic\rastera\rast.html" />
-    <Content Include="asnic\rastera\redemption.html" />
+    <Content Include="asnic\rastera\rast\redemption.html" />
     <Content Include="asnic\rastera\scratch.html" />
-    <Content Include="asnic\rastera\slept-offsive.html" />
-    <Content Include="asnic\rastera\slepting.html" />
-    <Content Include="asnic\rastera\solid.html" />
-    <Content Include="asnic\rastera\transcolor.html" />
-    <Content Include="asnic\rastera\vesaid.html" />
-    <Content Include="asnic\rastera\word.html" />
-    <Content Include="asnic\rastera\workgroup.html" />
+    <Content Include="asnic\rastera\health\slept-offsive.html" />
+    <Content Include="asnic\rastera\health\slepting.html" />
+    <Content Include="asnic\rastera\maticals\solid.html" />
+    <Content Include="asnic\rastera\maticals\transcolor.html" />
+    <Content Include="asnic\rastera\maticals\vesaid.html" />
+    <Content Include="asnic\rastera\kinect-globe\word.html" />
+    <Content Include="asnic\rastera\kinect-globe\workgroup.html" />
     <Content Include="asnic\revenge\if.html" />
     <Content Include="asnic\revenge\Kause.html" />
     <Content Include="asnic\revenge\playweight.html" />
@@ -178,6 +182,7 @@
     <Content Include="asnic\serenity\web.config" />
     <None Include="content\jquery\jquery-3.5.1.min.map" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
