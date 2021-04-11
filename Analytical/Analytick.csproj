@@ -83,7 +83,7 @@
     <Content Include="analytical\Leonic\fond-tryic.html" />
     <Content Include="analytical\Leonic\tryic.html" />
     <Content Include="analytical\Leonic\trikon.html" />
-    <Content Include="analytical\language\ipad.html" />
+    <Content Include="celly-gist\ipad.html" />
     <Content Include="celly-gist\hypertext.html" />
     <Content Include="analytical\priority.html" />
     <Content Include="content\dist\css\bootstrap-theme.css" />
