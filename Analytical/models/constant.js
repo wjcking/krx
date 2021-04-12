@@ -12,9 +12,9 @@ const sot = "sot"; const cot = "cot"; const bot = "bot";
 //Separator
 const ace = ' '; const kma = ','; const spt = '|'; 
     //转义序列
- const estb = '\t';
-  const  eslt = '\n',  //换行(LF) ，010 
-  const  esnt = '\r',  //回车(CR) ，将当前位置移到本行开头 013
+const estab = '\t';
+const  esent = '\n';  //换行(LF) ，010 
+const  esrnt = '\r';  //回车(CR) ，将当前位置移到本行开头 013
 //Connector
 //  usual special
 const act = '^'; const lnk = '-'; const dst = '.'; const dot = dst;
@@ -31,7 +31,7 @@ const split = "split"; const first = "first"; const last = "last"; const upper =
 const rep = "replaceAll";
 
 //logical kount number svg sum max min
-const count= "count"
+const count= "count";
 
 
 const brk = "<br /> ";
