@@ -27,18 +27,19 @@ textarea.onkeydown = function (event) {
     //support tab on textarea
     //tab was pressed;
     if (event.keyCode == 9) {
+        var careted = textarea.caret() + estab.length;
         var front = textarea.value.substring(0, textarea.caret());
         var end = textarea.value.substring(textarea.caret(), textarea.value.length);
         textarea.value = front + estab + end;
-        var careted = textarea.caret() + estab.length;
         textarea.caret(careted);
         /*tab key will blur this textarea*/
         return false;
     }
     if (event.keyCode == 13) {
         //        var cursorPos = textarea.caret;
-        //        var curentLine = textarea.value.substr(0, selectionStart).split("\n").pop();
-        //        var indent = curentLine.match(/^\s*/)[0];
+             var curentLine = textarea.value.substr(0, textarea.caret()).split(esrnt).pop();
+     
+        //   var indent = curentLine.match(/^\s*/)[0];
         //        //    curentLine = curentLine + tabSpace; 
         //        var value = textarea.value;
         //        var textBefore = value.substring(cursorPos);
@@ -46,6 +47,10 @@ textarea.onkeydown = function (event) {
 
         //    //    value = textBefore + indent + textAfter;
         //        console.log("textBefore:"+textBefore);
-        //        console.log("textAfter:" + textAfter);}
+        //        console.log("textAfter:" + textAfter); 
+        //     console.log("indent:" + indent)
     }
 };
+
+textarea.onkeydown = function (event) {
+}

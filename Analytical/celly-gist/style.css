@@ -1,10 +1,10 @@
 ﻿body
 {
+    tab-size: 1;
     background-color: #00FF33;
 }
 textarea
 {
-   
     overflow-x: hidden;
     overflow-y: auto;
     resize: none;
