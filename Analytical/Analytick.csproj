@@ -130,7 +130,6 @@
     <None Include="content\dist\fonts\glyphicons-halflings-regular.ttf" />
     <None Include="content\dist\fonts\glyphicons-halflings-regular.woff" />
     <None Include="content\dist\fonts\glyphicons-halflings-regular.woff2" />
-    <None Include="content\jquery\jquery-3.5.1.min.map" />
     <Content Include="handlers\get.ashx" />
     <Content Include="handlers\layout.ashx" />
     <Content Include="handlers\set.ashx" />
