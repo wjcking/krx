@@ -17,6 +17,7 @@
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -80,7 +81,7 @@
     <Content Include="asnic\rastera\chorno-kater\isodek.html" />
     <Content Include="asnic\rastera\chorno-kater\karacter.htm" />
     <Content Include="asnic\rastera\chorno-kater\persuadesion.html" />
-    <Content Include="asnic\rastera\chorno-kater\seymen-karet.html" />
+    <Content Include="asnic\rastera\chorno-kater\symantec.html" />
     <Content Include="asnic\rastera\fragment.html" />
     <Content Include="asnic\quest\index.html" />
     <Content Include="asnic\quest\keyword.html" />
@@ -96,10 +97,10 @@
     <Content Include="asnic\rastera\health\health.html" />
     <Content Include="asnic\rastera\heuristic.html" />
     <Content Include="asnic\rastera\intel.html" />
-    <Content Include="asnic\rastera\ketself.html" />
+    <Content Include="asnic\rastera\rast\ketself.html" />
     <Content Include="asnic\rastera\kinect-globe\kine-group.html" />
     <Content Include="asnic\rastera\matrix.html" />
-    <Content Include="asnic\rastera\rast.html" />
+    <Content Include="asnic\rastera\rast\rast.html" />
     <Content Include="asnic\rastera\rast\redemption.html" />
     <Content Include="asnic\rastera\scratch.html" />
     <Content Include="asnic\rastera\health\slept-offsive.html" />
@@ -116,6 +117,7 @@
     <Content Include="asnic\revenge\ritual.html" />
     <Content Include="asnic\revenge\sneakwing.html" />
     <Content Include="asnic\revenge\trace.html" />
+    <Content Include="asnic\serenity\perspective.html" />
     <Content Include="asnic\serenity\serenity.html" />
     <Content Include="asnic\serial\persivision.html" />
     <Content Include="asnic\serial\source.html" />
