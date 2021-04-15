@@ -79,6 +79,7 @@
     <Content Include="asnic\rastera\chorno-kater\geographic.htm" />
     <Content Include="asnic\rastera\chorno-kater\isodek.html" />
     <Content Include="asnic\rastera\chorno-kater\karacter.htm" />
+    <Content Include="asnic\rastera\chorno-kater\persuadesion.html" />
     <Content Include="asnic\rastera\chorno-kater\seymen-karet.html" />
     <Content Include="asnic\rastera\fragment.html" />
     <Content Include="asnic\quest\index.html" />
