@@ -35,10 +35,14 @@ textarea.onkeydown = function (event) {
         /*tab key will blur this textarea*/
         return false;
     }
+
+};
+
+textarea.onkeyup = function (event) {
     if (event.keyCode == 13) {
         //        var cursorPos = textarea.caret;
-             var curentLine = textarea.value.substr(0, textarea.caret()).split(esrnt).pop();
-     
+        //  var curentLine = textarea.value.substr(0, textarea.caret()).split(esrnt).pop();
+    
         //   var indent = curentLine.match(/^\s*/)[0];
         //        //    curentLine = curentLine + tabSpace; 
         //        var value = textarea.value;
@@ -51,6 +55,3 @@ textarea.onkeydown = function (event) {
         //     console.log("indent:" + indent)
     }
 };
-
-textarea.onkeydown = function (event) {
-}
