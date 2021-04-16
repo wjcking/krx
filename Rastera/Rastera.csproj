@@ -90,7 +90,6 @@
     <Content Include="asnic\quest\quest3.html" />
     <Content Include="asnic\quest\quest4.html" />
     <Content Include="asnic\quest\quest5.html" />
-    <Content Include="asnic\quest\quest6.html" />
     <Content Include="asnic\rastera\rast\atonement.html" />
     <Content Include="asnic\rastera\developer.html" />
     <Content Include="asnic\revenge\ever-vegent.html" />
