@@ -79,8 +79,8 @@ struct cybert
             ranket.Append(cnr);
             switch (orginal[i])
             {
-                case eslt: ranket.Append("\\r"); break;
-                case esnt: ranket.Append("\\n"); ranket.Append(Environment.NewLine); break;
+                case esrnt: ranket.Append("\\r"); break;
+                case esent: ranket.Append("\\n"); ranket.Append(Environment.NewLine); break;
                 default: ranket.Append(orginal[i]); break;
             }
 
@@ -101,7 +101,7 @@ struct cybert
         {
             ranket.Append(orginal[i]);
             ranket.Append(ace);
-            string enter = (i + 1) % font_size == 0 ? (eslt.ToString() + esnt.ToString()) : string.Empty;
+            string enter = (i + 1) % font_size == 0 ? (esrnt.ToString() + esent.ToString()) : string.Empty;
             ranket.Append(enter);
         }
         return ranket.ToString();
@@ -129,7 +129,7 @@ struct cybert
             //ranket.AppendFormat("{0:x}", (byte[])orginal[i]);
             ranket.AppendFormat("{0:x}", (byte)orginal[i]);
             ranket.Append(ace);
-            string enter = (i + 1) % font_size == 0 ? (eslt.ToString() + esnt.ToString()) : string.Empty;
+            string enter = (i + 1) % font_size == 0 ? (esrnt.ToString() + esent.ToString()) : string.Empty;
             ranket.Append(enter);
         }
         return ranket.ToString();
