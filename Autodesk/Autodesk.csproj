@@ -240,6 +240,7 @@
     <Content Include="analytical\delyix.html" />
     <Content Include="analytical\vivo-requires.html" />
     <Content Include="desk\ayric-pixel.html" />
+    <Content Include="desk\erick.htm" />
     <Content Include="desk\ionic-fond.html" />
     <Content Include="dynamicals\LinqBridge.dll" />
     <Content Include="handy\TextFile1.txt" />
