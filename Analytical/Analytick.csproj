@@ -51,6 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="absock\absock.html" />
+    <Content Include="absock\ayric-pixel.html" />
+    <Content Include="absock\erick.html" />
+    <Content Include="absock\ionic-fond.html" />
     <Content Include="asnic\advent.html" />
     <Content Include="absock\cybert.html" />
     <Content Include="asnic\basic.html" />
@@ -85,7 +88,7 @@
     <Content Include="maticals\trikon.html" />
     <Content Include="celly-gist\ipad.html" />
     <Content Include="celly-gist\hypertext.html" />
-    <Content Include="absock\priority.html" />
+    <Content Include="priority.html" />
     <Content Include="content\dist\css\bootstrap-theme.css" />
     <Content Include="content\dist\css\bootstrap-theme.min.css" />
     <Content Include="content\dist\css\bootstrap.css" />
@@ -109,8 +112,8 @@
     <Content Include="controllers\string-extend.js" />
     <Content Include="dynamics\apisoda.js" />
     <Content Include="asnic\fonkarea.html" />
-    <Content Include="intellisense\erick.htm" />
-    <Content Include="intellisense\intelly.htm" />
+    <Content Include="intellisense\erick.html" />
+    <Content Include="intellisense\intelly.html" />
     <Content Include="models\constant.js" />
     <Content Include="models\ket-struct.js" />
     <Content Include="models\ket-utility.js" />
@@ -135,7 +138,6 @@
     <Content Include="handlers\set.ashx" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="views\sites\" />
     <Folder Include="views\timeline\" />
   </ItemGroup>
