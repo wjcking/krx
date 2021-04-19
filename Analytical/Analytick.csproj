@@ -135,7 +135,6 @@
     <Content Include="handlers\set.ashx" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="views\sites\" />
     <Folder Include="views\timeline\" />
   </ItemGroup>
