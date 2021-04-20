@@ -13,25 +13,31 @@ namespace AngelLayout
         {
             InitializeComponent();
             DoubleBuffered = true;
-
             JoystickAPI.JOYINFOEX infoEx = new JoystickAPI.JOYINFOEX();
             infoEx.dwSize = Marshal.SizeOf(typeof(JoystickAPI.JOYINFOEX));
             infoEx.dwFlags = (int)JoystickAPI.JOY_RETURNBUTTONS;
-         int result = JoystickAPI.joyGetPosEx(JoystickAPI.JOYSTICKID1, ref infoEx);
-            //dataGridView1.DataSource = this.dataGridView1;
-            //tableLayoutPanel1.dou
-            //var symbolics = new Symbolics();
-            //symbolics.MdiParent = this;
-            //symbolics.Show();
+            int result = JoystickAPI.joyGetPosEx(JoystickAPI.JOYSTICKID1, ref infoEx);
 
-            //var main = new AsnicForm();
-            //main.MdiParent = this;//子窗体的父窗体是当前窗体
-            //main.WindowState = FormWindowState.Maximized;//子窗体
-            //main.Show();  
+            //textBox1.AppendText(ayric_utiliz.screenQheight.ToString());
+            //textBox1.AppendText(Environment.NewLine);
+            //textBox1.AppendText(ayric_utiliz.screenQwidth.ToString());
+            textBox1.AppendText(PrimaryScreen.DpiX.ToString());
+            textBox1.AppendText(Environment.NewLine);
+            textBox1.AppendText(PrimaryScreen.DpiY.ToString());
 
 
-            //    label2.BringToFront();
-            //      Application.AddMessageFilter(this);
+            textBox1.AppendText(Environment.NewLine);
+
+            textBox1.AppendText(PrimaryScreen.ScaleX.ToString());
+            textBox1.AppendText(Environment.NewLine);
+            textBox1.AppendText(PrimaryScreen.ScaleY.ToString());
+
+
+            textBox1.AppendText(Environment.NewLine);
+
+            textBox1.AppendText(PrimaryScreen.DESKTOP.Height.ToString());
+            textBox1.AppendText(Environment.NewLine);
+            textBox1.AppendText(PrimaryScreen.DESKTOP.Width.ToString());
         }
         #region 无边框拖动效果
         [DllImport("user32.dll")]//拖动无窗体的控件
@@ -54,30 +60,9 @@ namespace AngelLayout
             //label1.ForeColor = Pixels.GetColor(e.X, e.Y, this);
             //label1.Text = Pixels.GetColor(e.X, e.Y, this).ToString();
         }
-        //     [ DllImport("User32.dll", CharSet = CharSet.Auto)]
-        //     public static extern int ReleaseDC(IntPtr hWnd, IntPtr hDC);
 
-        //     [DllImport("User32.dll")]
-        //     private static extern IntPtr GetWindowDC(IntPtr hWnd);
 
-        //     protected override void WndProc(ref Message m)
-        //     {
-        //         base.WndProc(ref m);
-        //         const int WM_NCPAINT = 0x85;
-        ////      if (m.Msg == WM_NCPAINT)
-        //     //    {
-        //             IntPtr hdc = GetWindowDC(m.HWnd);
-        //             if ((int)hdc != 0)
-        //             {
-        //                 Graphics g = Graphics.FromHdc(hdc);
-        //                 g.FillRectangle(Brushes.Green, new Rectangle(0, 0, 4800, 23));
-        //                 g.Flush();
-        //                 ReleaseDC(m.HWnd, hdc);
-        //             }
-        //    //     }
-        //     }
 
-        
         private void toolStripTextBox1_KeyUp(object sender, KeyEventArgs e)
         {
             //if (e.KeyCode == Keys.Enter)
@@ -112,10 +97,10 @@ namespace AngelLayout
 
         private void Midow_Load(object sender, EventArgs e)
         {
-            instant itt = new instant();
-            itt.eydix = 0;
-            itt.issaic.record();
-            textBox1.Text = itt.issaic.isakes.ToString();
+            //instant itt = new instant();
+            //itt.eydix = 0;
+            //itt.issaic.record();
+            //textBox1.Text = itt.issaic.isakes.ToString();
         }
 
         private void Rabber_Click(object sender, EventArgs e)

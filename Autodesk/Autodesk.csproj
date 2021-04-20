@@ -63,8 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assembly.cs" />
+    <Compile Include="desk\ayric_utiliz.cs" />
     <Compile Include="desk\kodye.cs" />
-    <Compile Include="desk\pixels.cs" />
+    <Compile Include="desk\erick.cs" />
     <Compile Include="desk\shapeable.cs" />
     <Compile Include="handy\aub.cs" />
     <Compile Include="handy\auto.cs" />
