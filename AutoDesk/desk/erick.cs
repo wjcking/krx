@@ -9,11 +9,11 @@ using System.Text;
  *   Rows Cols    
  *   
  * Type.First VariantName  VariantNames[]
- *   Type.Single Type.Ryber Type.Array
+ *   Type.Single Type.Ryber ?Type.Array
  *   Type:String Type.Anothers
  *   TypeKolor.System.Single 
  *   TypeKolor.User.Single 
- *      TypeKolor.Style
+ *      TypeKolor.Mutiple.Style
  *          Random
  * TypeEydix.SingleCaret MutipleCaret
  * 
