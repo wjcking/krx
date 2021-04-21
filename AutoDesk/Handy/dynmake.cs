@@ -3,7 +3,7 @@ using Microsoft.CSharp;
 using System;
 using System.CodeDom.Compiler;
 
-public struct kodye
+public struct dynmake
 {
 
     public static void pile()

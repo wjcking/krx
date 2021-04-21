@@ -21,7 +21,6 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5520ACEA-2756-4F9E-948B-4D792789C63D}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{5520ACEA-2756-4F9E-948B-4D792789C63D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{5520ACEA-2756-4F9E-948B-4D792789C63D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{5520ACEA-2756-4F9E-948B-4D792789C63D}.Debug|Win32.ActiveCfg = Debug|Win32
 		{5520ACEA-2756-4F9E-948B-4D792789C63D}.Debug|Win32.Build.0 = Debug|Win32
 		{5520ACEA-2756-4F9E-948B-4D792789C63D}.Release|Any CPU.ActiveCfg = Release|Win32

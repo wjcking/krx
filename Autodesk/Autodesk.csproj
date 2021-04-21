@@ -75,7 +75,7 @@
     <Compile Include="handy\fangus.cs" />
     <Compile Include="handy\generic.cs" />
     <Compile Include="handy\hyb.cs" />
-    <Compile Include="handy\kodye.cs" />
+    <Compile Include="handy\dynmake.cs" />
     <Compile Include="handy\kovert.cs" />
     <Compile Include="handy\lasik.cs" />
     <Compile Include="handy\rotate.cs" />

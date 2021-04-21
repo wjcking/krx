@@ -66,8 +66,7 @@ struct cybert
     //screen_width = 2880 / 16,
     //screen_height = 1920 / 16;
     public string orginal { get; set; }
-    public const ushort
-            font_size = 26;
+    public const ushort   font_size = 26;
     public string each_eidix()
     {
 
@@ -134,7 +133,7 @@ struct cybert
         }
         return ranket.ToString();
     }
-    //0 1010100 asdffdas
+    //0 1010100 yirtgh
     //1 0110101 houeor 
     public string hex_chs(string character)
     {

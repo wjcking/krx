@@ -21,23 +21,41 @@ namespace AngelLayout
             //textBox1.AppendText(ayric_utiliz.screenQheight.ToString());
             //textBox1.AppendText(Environment.NewLine);
             //textBox1.AppendText(ayric_utiliz.screenQwidth.ToString());
-            textBox1.AppendText(PrimaryScreen.DpiX.ToString());
+            textBox1.AppendText(aryic_screen.dpix.ToString());
             textBox1.AppendText(Environment.NewLine);
-            textBox1.AppendText(PrimaryScreen.DpiY.ToString());
-
-
-            textBox1.AppendText(Environment.NewLine);
-
-            textBox1.AppendText(PrimaryScreen.ScaleX.ToString());
-            textBox1.AppendText(Environment.NewLine);
-            textBox1.AppendText(PrimaryScreen.ScaleY.ToString());
+            textBox1.AppendText(aryic_screen.dpiy.ToString());
 
 
             textBox1.AppendText(Environment.NewLine);
 
-            textBox1.AppendText(PrimaryScreen.DESKTOP.Height.ToString());
+            textBox1.AppendText(aryic_screen.scalex.ToString());
             textBox1.AppendText(Environment.NewLine);
-            textBox1.AppendText(PrimaryScreen.DESKTOP.Width.ToString());
+            textBox1.AppendText(aryic_screen.scaley.ToString());
+
+
+            textBox1.AppendText(Environment.NewLine);
+
+            textBox1.AppendText(aryic_screen.desktop.Height.ToString());
+            textBox1.AppendText(Environment.NewLine);
+            textBox1.AppendText(aryic_screen.desktop.Width.ToString());
+
+            textBox1.AppendText(Environment.NewLine);
+
+            textBox1.AppendText(aryic_screen.work_area.Height.ToString());
+            textBox1.AppendText(Environment.NewLine);
+            textBox1.AppendText(aryic_screen.work_area.Width.ToString());
+
+            textBox1.AppendText(Environment.NewLine);
+            textBox1.AppendText(aryic_screen.bound_height.ToString());
+            textBox1.AppendText(Environment.NewLine);
+            textBox1.AppendText(aryic_screen.bound_width.ToString());
+
+            textBox1.AppendText(Environment.NewLine);
+            textBox1.AppendText(  System.Drawing.SystemFonts.DefaultFont.Name);
+            textBox1.AppendText(Environment.NewLine);
+            textBox1.AppendText(System.Drawing.SystemFonts.DefaultFont.Size.ToString());
+   
+
         }
         #region 无边框拖动效果
         [DllImport("user32.dll")]//拖动无窗体的控件
