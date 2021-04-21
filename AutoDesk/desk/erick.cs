@@ -32,7 +32,7 @@ struct eydix_struct
         eydix_screen4;
 }
 /*
- * 1   dynamical 32727 255 switch
+ * 1   dynamical 32727 255 switch each.screen sheet
  */
 struct eydix_dynamic
 {
