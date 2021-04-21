@@ -8,10 +8,21 @@ using System.Text;
  *   Vector List
  *   Rows Cols    
  *   
- * Type.First
- *   Type.Ryber Type.Single Type.Array
+ * Type.First VariantName  VariantNames[]
+ *   Type.Single Type.Ryber Type.Array
  *   Type:String Type.Anothers
- *   TypeKolor.System.Single TypeKolor.Single TypeKolor.Random
+ *   TypeKolor.System.Single 
+ *   TypeKolor.User.Single 
+ *      TypeKolor.Style
+ *          Random
+ * TypeEydix.SingleCaret MutipleCaret
+ * 
+ * Type.Single.String1 Type.Single.String1  Type.Single.String1  Type.Single.String1 
+ *  Type.Single.bool1  
+ *  Type.Single.Float1 
+ *  Type.Single.Short1 
+ * 
+ * Type.Single.String1 Type.Single.bool1  Type.Single.Float1  Type.Single.Short1 
  */
 class  caret 
 {
