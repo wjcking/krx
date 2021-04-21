@@ -1,30 +1,75 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-class karect
+
+/*
+ * 命名与磁性
+ *   Noun:
+ *   Vector List
+ *   Rows Cols    
+ *   
+ * Type.First
+ *   Type.Ryber Type.Single Type.Array
+ *   Type:String Type.Anothers
+ *   TypeKolor.System.Single TypeKolor.Single TypeKolor.Random
+ */
+class  caret 
+{
+    //angle top left   angle top left 
+    Type atl, atr;
+    Type[] line;
+    Type[] bine;
+    Type[] pine;
+    Type[] born;
+    Type aml, amr;
+
+    Type atl, atr;
+    Type
+        line1,line2,line3,line4;
+    Type
+        bine1, bine2, bine3, bine4;
+    Type
+        pine1, pine2, pine3,pine4;
+    Type
+        born1, born2, born3, born4;
+    Type aml, amr;
+
+    Type atl, atr;
+    Type[]
+        rows1, rows2, rows3, rows4;
+    Type[]
+        bine1, bine2, bine3, bine4;
+    Type[]
+        pine1, pine2, pine3, pine4;
+    Type[]
+        born1, born2, born3, born4;
+    Type aml, amr;
+}
+/*
+ * 分辨率 2880 1080 175% 字体倍数 测试 A 正 包括回车换行
+ *  中文 最多 行 98 列 148
+ *  英文 最多 行 136 列 148 
+ * 
+ */
+class karact
 {
     string[,] karact_screen1;//= new string[255, 255];
     string[,] karact_screen2;//= new string[255, 255];
     string[,] karact_screen3;//= new string[255, 255];
     string[,] karact_screen4;//= new string[255, 255];
 }
-
 /*array index matric artfod erick archtecture
   1 dynamical prefix suffix 
      type fonk kind rank indexet
   2 orginal structed 
 3 build each or combine above
- 
- * 
- * 1 Struct Packed erick_eydix[]
- * 
+  1 Struct Packed erick_eydix[]
 */
-struct eydix_struct
+struct karact_eydix_struct
 {
     short
-        preditor_width,            // preditor_width , = Byte.MaxValue,
-        preditor_height;            // preditor_width , = Byte.MaxValue,
-
+           preditor_width,            // preditor_width , = Byte.MaxValue,
+           preditor_height;            // preditor_width , = Byte.MaxValue,
     short[,]
         eydix_screen1,
         eydix_screen2,
@@ -34,43 +79,11 @@ struct eydix_struct
 /*
  * 1   dynamical 32727 255 switch each.screen sheet
  */
-struct eydix_dynamic
+struct karact_eydix_dynamic
 {
     short[,]
      eydix_screen1;
-    // eydix_screen2,
-    // eydix_screen3,
-    // eydix_screen4,
-        
-    // eydix_screen1,
-    // eydix_screen2,
-    // eydix_screen3,
-    // eydix_screen4,
-        
-    // eydix_screen1,
-    // eydix_screen2,
-    // eydix_screen3,
-    // eydix_screen4,
-        
-    // eydix_screen1,
-    // eydix_screen2,
-    // eydix_screen3,
-    // eydix_screen4,
-        
-    // eydix_screen1,
-    // eydix_screen2,
-    // eydix_screen3,
-    // eydix_screen4,
-        
-    // eydix_screen1,
-    // eydix_screen2,
-    // eydix_screen3,
-    // eydix_screen4,
-        
-    // eydix_screen1,
-    // eydix_screen2,
-    // eydix_screen3,
-    // eydix_screen4;
+    // eydix_screen2.....NX, 
 }
 // prefix suffix  
 class eric
