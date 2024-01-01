@@ -1,4 +1,5 @@
-﻿trf
+﻿tfs //lank\ltlr\lnt_ch\
+trf
   //kls_w.rzh_lg
   //trs.ats_m
   sad.gzh.chf^s
@@ -33,4 +34,4 @@
     gm_wo
     unds_a^th
   nmk^a:nr.nk.nk^a
-trh:mch_r.th
+tlf:mch_r.th
