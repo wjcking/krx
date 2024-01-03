@@ -27,7 +27,7 @@ kdks:mrk:ats.mts_ch_d
   ats_m.mrk
   axs
   abs_r.slnk.bpqd_aeo.lsk_c
-    lad.nk:hzk_dao^r //plant_e
+    ld.nk:hzk_dao^r //plant_e
     wst_ch:vprz //bl_y.aztk
   abt_oi:irs.b  
 lchs
@@ -38,7 +38,7 @@ lchs
 */
 ilks.lnd_ena
 atms.blskn
-  ptk^ao
+  ptk^a
   pskf:utl
   psh_aeu
   //sunlask
@@ -51,7 +51,7 @@ jlt_a
   itl^s^r:ilks_a.hdz
 mrk_a //lnk^sm
 
-//lad_an
+//ld_an
 ltl:ank_on:mel
-k:ark:lad_an
+k:ark:land
 k:alk:lank
