@@ -36,8 +36,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.0747123"
-     inkscape:cx="774.16067"
-     inkscape:cy="436.8611"
+     inkscape:cx="481.98946"
+     inkscape:cy="411.7381"
      inkscape:window-width="1858"
      inkscape:window-height="1057"
      inkscape:window-x="54"
@@ -350,48 +350,33 @@
          id="tspan1383"
          sodipodi:role="line"> </tspan></text>
     <path
-       inkscape:original-d="m 162.48151,92.596016 c 1.4e-4,0.297042 1.4e-4,0.593987 0,0.890834"
-       inkscape:path-effect="#path-effect12523"
        id="path12507"
        d="M 162.48151,92.596016 V 93.48685"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.119682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(1.9098241,0,0,1.9098241,-128.28217,-109.3762)" />
     <path
-       inkscape:original-d="m 162.06112,96.035107 c -0.23751,0.887083 -0.47516,1.77402 -0.71296,2.660811"
-       inkscape:path-effect="#path-effect12527"
        id="path12509"
        d="m 162.06112,96.035107 -0.71296,2.660811"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.146842px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(1.9098241,0,0,1.9098241,-128.28217,-109.3762)" />
     <path
-       inkscape:original-d="m 162.90984,95.994469 c 0.2375,0.887082 0.47516,1.774019 0.71296,2.66081"
-       inkscape:path-effect="#path-effect12531"
        id="path12511"
        d="m 162.90984,95.994469 0.71296,2.66081"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.146842px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(1.9098241,0,0,1.9098241,-128.28217,-109.3762)" />
     <path
-       inkscape:original-d="m 164.18373,94.028904 c -1.14345,2.25e-4 -2.28678,2.23e-4 -3.42998,0"
-       inkscape:path-effect="#path-effect12535"
        id="path12513"
        d="m 164.18373,94.028904 h -3.42998"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.18284px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(2.2014706,0,0,1.9098241,-175.6946,-109.52926)" />
-    <circle
-       r="1.8499767"
-       cy="65.764565"
-       cx="182.02892"
+    <path
        id="circle12515"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.382809;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-    <rect
-       ry="1.3537511"
-       rx="1.3537511"
-       y="68.929398"
-       x="180.67517"
-       height="5.4150043"
-       width="2.7075021"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.382809"
+       d="m 183.87889,65.764565 a 1.8499767,1.8499767 0 0 1 -1.84997,1.849976 1.8499767,1.8499767 0 0 1 -1.84998,-1.849976 1.8499767,1.8499767 0 0 1 1.84998,-1.849977 1.8499767,1.8499767 0 0 1 1.84997,1.849977 z" />
+    <path
        id="rect12517"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.423975;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.423975"
+       d="m 182.02892,68.929398 c 0.74998,0 1.35375,0.603773 1.35375,1.353751 v 2.707502 c 0,0.749978 -0.60377,1.353751 -1.35375,1.353751 -0.74998,0 -1.35375,-0.603773 -1.35375,-1.353751 v -2.707502 c 0,-0.749978 0.60377,-1.353751 1.35375,-1.353751 z" />
     <text
        id="text12587"
        y="20.11072"
@@ -583,16 +568,11 @@
          style="stroke-width:0.743146"
          x="183.64595"
          y="-4.3204498">N</tspan></text>
-    <rect
-       ry="6.5262313"
-       rx="6.5262313"
-       y="103.37553"
-       x="-78.403831"
-       height="25.394058"
-       width="25.394058"
+    <path
        id="rect1002"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.664;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       transform="rotate(-45)" />
+       style="fill:none;stroke:#000000;stroke-width:0.664"
+       transform="rotate(-45)"
+       d="m -71.8776,103.37553 h 12.341595 c 3.615533,0 6.526232,2.9107 6.526232,6.52623 v 12.34159 c 0,3.61554 -2.910699,6.52623 -6.526232,6.52623 H -71.8776 c -3.615532,0 -6.526231,-2.91069 -6.526231,-6.52623 v -12.34159 c 0,-3.61553 2.910699,-6.52623 6.526231,-6.52623 z" />
     <text
        xml:space="preserve"
        style="font-size:11.9413px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.74633"
