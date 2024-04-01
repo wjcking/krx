@@ -1,8 +1,15 @@
-﻿//ITL.ISK
+﻿/*
+*ITL.ISK
+*
+*/
 ltl^i
-//SRD.ZIP
-//LANK.ZIP
+
+/*
+*SRD.ZIP
+*MST.LANK.ZIP
+*/
 tsk
+ktn:TXT.SVG
 
 序列
 时间 甘狠 不 性格7t ast.k
