@@ -11,6 +11,11 @@ ltl^i
 tsk
 ktn:TXT.SVG
 
+tld //thailand:vrsk
+bls^y.trf //Indonesia Papua New Guinea
+tls^w //Timor-Leste
+tsl //tasmania 
+
 序列
 时间 甘狠 不 性格7t ast.k
 亿年后的重逢与融合 
