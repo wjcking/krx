@@ -11,8 +11,12 @@ ltl^i
 tsk
 ktn:TXT.SVG
 
-tld //thailand:vrsk
-bls^y.trf //Indonesia Papua New Guinea
+//thailand:vrsk^d
+tld 
+//Pengerang Singapore
+//Zamboanga Pilipinas
+//Indonesia New Guinea Papua
+bls^y.trf
 tls^w //Timor-Leste
 tsl //tasmania 
 
