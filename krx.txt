@@ -13,8 +13,15 @@ ktn:TXT.SVG
 
 //thailand:vrsk^d
 tld 
-//Pengerang Singapore
-//Zamboanga Pilipinas
+//Melaka Singapore.Pengerang MALAYSIA
+//	钱氏中医
+//	Ocean View Hotel Pengerang
+//	https://www.youtube.com/watch?v=oXiEpC9kj0o
+//	Lotus Desaru Beach Resort & Spa - Johor
+//	KMR Asura tl^i dwf^ar
+//	
+//	SUASANA PUSAT KOTA JOHOR JB SENTRAL
+//Zamboanga Philippines
 //Indonesia New Guinea Papua
 bls^y.trf
 tls^w //Timor-Leste
