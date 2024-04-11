@@ -11,24 +11,13 @@ ltl^i
 tsk
 ktn:TXT.SVG
 
-/*
-*VũngTàu
-
-*thailand
-*Melaka Singapore.Pengerang MALAYSIA
-*	钱氏中医
-*	Ocean View Hotel Pengerang
-*	https://www.youtube.com/watch?v=oXiEpC9kj0o
-*	Lotus Desaru Beach Resort & Spa - Johor
-*	KMR Asura tl^i dwf^ar
-*	
-*	SUASANA PUSAT KOTA JOHOR JB SENTRAL
-*Zamboanga Philippines
-*Timor-Leste
-*tasmania 
-*/
 vst
 tld:vrsk^d
 bls^y.trf
 tls^w 
-tsl 
+tsl
+
+kls^w:krs
+tlk^rp
+gsk
+aks^ao
