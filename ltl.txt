@@ -1,6 +1,5 @@
 ﻿itl:isk
-//LANK.ZIP
-tsk
+
 //email
 wjcking@hotmail.com, intellyer20010101
   POP3: outlook.office365.com Port: 995 Encryption method: TLS
@@ -36,12 +35,22 @@ brt.rf.gd
 MySql: sql202.epizy.com Port:3306
 WebsiteIP:185.27.134.179
 
-//hzh.dsk
+//https://gitee.com/intellyer
+//http://cpanel.byethost22.com/
+//http://www.bertis.byethost22.com
+
+//HZH.DSK
 https://infini-cloud.net/en/
 intellyer
 20010101
 ReferralCode:SC9YQ
 
-//https://gitee.com/intellyer
-//http://cpanel.byethost22.com/
-//http://www.bertis.byethost22.com
+
+//LANK_MST.ZIP
+kst
+//LANK_MST//LANK.ZIP
+//KST//PTH.ZIP
+tsk
+
+//HZH.DSK:APPLE E:
+LAND_LWTS.ZIP7Z
