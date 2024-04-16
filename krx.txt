@@ -11,12 +11,13 @@ tsk
 ktn:TXT.SVG
 
 vst
-tld:vrsk^d
-bls^y.trf
-tls^w 
-tsl
+tld:rsk^vd
+	bls^y.trf
+	tls^w 
+tsl:tsk
 
-kls^w:krs
-tlk^rp
-gsk
-aks^ao
+kls^w
+	tlk^rp
+	aks^ao
+	gsk
+krs

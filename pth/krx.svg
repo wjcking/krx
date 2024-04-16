@@ -16,6 +16,23 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="copy_rotate"
+       starting_point="0,0"
+       origin="8.7947747,152.88393"
+       id="path-effect10"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       method="kaleidoskope"
+       num_copies="6"
+       starting_angle="0"
+       rotation_angle="60"
+       gap="0.04"
+       copies_to_360="true"
+       mirror_copies="false"
+       split_items="false"
+       link_styles="false" />
     <rect
        x="843.94679"
        y="513.62583"
@@ -287,8 +304,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0747123"
-     inkscape:cx="-331.71668"
-     inkscape:cy="390.33702"
+     inkscape:cx="1391.5352"
+     inkscape:cy="504.78626"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -486,35 +503,6 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#000000;stroke:#000000;stroke-width:0.425752;stroke-dasharray:none"
          x="261.29187"
          y="62.992245">C</tspan></text>
-    <g
-       style="fill:none;stroke-width:0.685344;stroke-dasharray:none"
-       id="g1761"
-       transform="matrix(0.21440343,0.84128587,-0.84128587,0.21440343,629.68635,-688.14682)">
-      <g
-         style="fill:none;stroke-width:0.685344;stroke-dasharray:none"
-         id="g1536">
-        <path
-           id="path913-9-5-1"
-           style="fill:none;stroke:#000000;stroke-width:0.685344;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
-           transform="scale(1,-1)"
-           d="m 865.65935,-587.6087 a 16.024765,16.024765 0 0 1 -16.02477,16.02476 16.024765,16.024765 0 0 1 -16.02476,-16.02476 16.024765,16.024765 0 0 1 16.02476,-16.02477 16.024765,16.024765 0 0 1 16.02477,16.02477 z" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path8536-1-4-0-1"
-           d="m 857.90307,587.6087 a 8.2685024,8.2685024 0 0 1 -8.26849,8.26852 8.2685024,8.2685024 0 0 1 -8.26849,-8.26852 8.2685024,8.2685024 0 0 1 8.26849,-8.26851 8.2685024,8.2685024 0 0 1 8.26849,8.26851 z"
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.685344;stroke-linecap:round;stroke-miterlimit:3.89655;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-        <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.685344;stroke-linecap:round;stroke-miterlimit:3.89655;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-           d="m 853.37089,587.6087 a 3.7363149,3.7363149 0 0 1 -3.73631,3.73632 3.7363149,3.7363149 0 0 1 -3.73631,-3.73632 3.7363149,3.7363149 0 0 1 3.73631,-3.73632 3.7363149,3.7363149 0 0 1 3.73631,3.73632 z"
-           id="path8536-1-4-0"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path8536-1-4-0-5"
-           d="m 850.83653,587.6087 a 1.2019538,1.2019538 0 0 1 -1.20195,1.20196 1.2019538,1.2019538 0 0 1 -1.20195,-1.20196 1.2019538,1.2019538 0 0 1 1.20195,-1.20195 1.2019538,1.2019538 0 0 1 1.20195,1.20195 z"
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.685344;stroke-linecap:round;stroke-miterlimit:3.89655;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-      </g>
-    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.59118px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.100082;stroke-dasharray:none"
@@ -544,18 +532,18 @@
     <text
        xml:space="preserve"
        style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-       x="31.071184"
-       y="39.752636"
+       x="30.705029"
+       y="36.114964"
        id="text2"
-       transform="matrix(1.1184904,0.23550817,-0.18026093,0.85610664,0,0)"><tspan
+       transform="matrix(1.1184904,0.23550817,-0.18026093,0.85610665,0,0)"><tspan
          sodipodi:role="line"
          style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="31.071184"
-         y="39.752636"
+         x="30.705029"
+         y="36.114964"
          id="tspan10">VŨNGTÀU</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="M 26.069126,43.79252 81.632339,56.101774"
+       d="M 26.315316,40.592051 81.878529,52.901305"
        id="path12" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -563,11 +551,11 @@
        id="path13" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="M 22.895661,80.750288 H 76.811249"
+       d="M 23.388041,84.196947 H 77.303629"
        id="path14" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="M 26.028069,106.09269 77.1255,88.889695"
+       d="M 26.274259,114.21696 77.37169,97.013962"
        id="path15" />
     <text
        xml:space="preserve"
@@ -628,14 +616,14 @@
     <text
        xml:space="preserve"
        style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-       x="20.668888"
-       y="89.275558"
+       x="21.099661"
+       y="93.215141"
        id="text62"
        transform="scale(1.1430157,0.87487863)"><tspan
          sodipodi:role="line"
          style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="20.668888"
-         y="89.275558"
+         x="21.099661"
+         y="93.215141"
          id="tspan63">TIMOR-LESTE </tspan></text>
     <text
        xml:space="preserve"
@@ -643,7 +631,7 @@
        x="20.453503"
        y="130.92259"
        id="text65"
-       transform="matrix(1.0864269,-0.35519205,0.27186847,0.83156488,-33.352753,-3.0190743)"><tspan
+       transform="matrix(1.0864269,-0.35519205,0.27186847,0.83156488,-33.106563,5.105193)"><tspan
          style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
          x="20.453503"
          y="130.92259"
@@ -685,11 +673,11 @@
          y="130.92259"
          id="tspan75">&#10;</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.717899;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.618;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 253.71556,149.30046 189.00499,119.53332"
        id="path78" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.923998;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.624;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 196.81454,102.62953 78.63427,30.58527"
        id="path79" />
     <text
