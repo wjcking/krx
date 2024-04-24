@@ -10,10 +10,10 @@ ltl^i
 tsk
 ktn:TXT.SVG
 
-vst
+vst:kld
 tld:rsk^vd
-	bls^y.trf
 	tls^w 
+	bls^y.trf
 tsl:tsk
 
 kls^w
