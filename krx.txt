@@ -18,6 +18,6 @@ tsl:tsk
 
 kls^wo
 	tlk^rp
-	aks^ao
+	aks^ao //AUX^KS
 	gsk
 krs

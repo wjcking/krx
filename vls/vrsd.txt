@@ -1,9 +1,12 @@
 ﻿vrsk.vrsd
 krls
 	klsdn.glsdn.blsgn
-	klst.flkrs
-	snlus.slnsz^jxs_g:sls^sh
-	sls_ae^c.args
+	klst.frsk^c
+	
+	sls^sh
+		slnsz.jzs
+	snlus
+	
 	vls^u
 		ulxs.txv
 		tls.lyx
