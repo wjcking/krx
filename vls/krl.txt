@@ -9,9 +9,9 @@
 *	赛德海洋检测
 *	赛德声像语言分析
 *特瑞丝科技
-*特力丝研发
 *		维今时代
 *德利丝娱乐
+*特力丝研发
 */
 环境:观测
 	语言 声像 异像 
@@ -20,13 +20,15 @@
 	路斯克
 		康科特
 		康杰特
-		
-		助理
+		//Application
+		//Business Clerk
+		//Liaison Staff 
+		应用:中力
 			咨讯 顾问
 			会计^快记 
 			 
-			研发
-		经纪:经理
+			研发 //工程师
+		经理:经纪
 	克瑞尔
 检测
 
@@ -34,6 +36,9 @@ srt.kst:rkb
 	kbt.kzt.jkb
 	lsk
 	krl
+		pls
+		blz.klk
+		kls.trf^d
 	drs
 	tsl
 trs
