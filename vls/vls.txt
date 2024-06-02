@@ -14,7 +14,7 @@ ftn.fld.hdl
 //rtl.sit.krt.rkb
 //rks:lvs lch lck
 //rks.tls^rl.rck
-tls^r.vrsd
+tls^r.rck^vd
 rbk
 txc:kkd_an
 
