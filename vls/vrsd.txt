@@ -4,7 +4,7 @@ krls
 	klst.frsk^c
 	
 	sls^sh
-		slnsz.jzs
+		slnsz^gl.jzs
 	snlus
 	
 	vls^u
