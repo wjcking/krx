@@ -1,10 +1,7 @@
-﻿jxs.jls
-
-j.n.ltbs
-	jsn.atk
-	jns
-	nzs_gj
-s
+﻿jsn.atk
+jns
+nzs_gj
+//jls
 
 //are^gzh^s
 //adv_w^c
@@ -17,13 +14,13 @@ jsn
 
 jxk.lck.ibts
 	//jk^a
-	//jsk_al
+	//jsk_al.pls
 	jd//krls.sls.lnt
-	//jkb.an
+	//jkb.ang.pls
 	//hjb.a.en
 	
 jkx
 
-//jls^a lsk_bja lxa_y.luk
+//jls^a
 
 jzs.nts

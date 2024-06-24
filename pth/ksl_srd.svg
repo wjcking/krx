@@ -19,6 +19,11 @@
     <inkscape:path-effect
        lpeversion="1"
        is_visible="true"
+       id="path-effect3"
+       effect="spiro" />
+    <inkscape:path-effect
+       lpeversion="1"
+       is_visible="true"
        id="path-effect31"
        effect="spiro" />
     <inkscape:path-effect
@@ -297,18 +302,18 @@
      borderlayer="false"
      showborder="true"
      inkscape:pagecheckerboard="false"
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="-7"
-     inkscape:window-height="1048"
-     inkscape:window-width="927"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="54"
+     inkscape:window-height="1057"
+     inkscape:window-width="1858"
      showgrid="false"
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="613.18736"
-     inkscape:cx="669.4815"
-     inkscape:zoom="1.0747123"
+     inkscape:cy="390.65772"
+     inkscape:cx="573.56777"
+     inkscape:zoom="3.0397454"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -718,26 +723,30 @@
     <text
        xml:space="preserve"
        style="font-size:7.43769px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.163733;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
-       x="106.23333"
-       y="50.923668"
+       x="101.30953"
+       y="53.040337"
        id="text34"><tspan
          sodipodi:role="line"
          id="tspan34"
          style="stroke-width:0.163733;stroke-dasharray:none"
-         x="106.23333"
-         y="50.923668">KSL</tspan></text>
-    <path
-       id="path1007"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.667189;stroke-miterlimit:5.5;stroke-dasharray:4.00313, 0.667189;stroke-dashoffset:0"
-       inkscape:transform-center-x="3.0045212e-05"
-       inkscape:transform-center-y="-2.7011507"
-       d="m 123.17996,71.881417 h -18.71412 l 9.35707,-16.206915 z" />
-    <path
-       id="path34"
-       style="fill:#f2f2f2;stroke:#000000;stroke-width:0.395;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-dashoffset:0"
-       inkscape:transform-center-x="8.3795705e-06"
-       inkscape:transform-center-y="-0.790773"
-       d="m 122.40105,71.624939 h -5.47864 l 2.73932,-4.744642 z" />
+         x="101.30953"
+         y="53.040337">KSL^C</tspan></text>
+    <g
+       id="g1"
+       transform="matrix(1,0,0,-1,0.24618992,128.52685)">
+      <path
+         id="path1007"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.667189;stroke-miterlimit:5.5;stroke-dasharray:4.00313, 0.667189;stroke-dashoffset:0"
+         inkscape:transform-center-x="3.0045212e-05"
+         inkscape:transform-center-y="-2.7011507"
+         d="m 123.17996,71.881417 h -18.71412 l 9.35707,-16.206915 z" />
+      <path
+         id="path34"
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:0.395;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-dashoffset:0"
+         inkscape:transform-center-x="8.3795705e-06"
+         inkscape:transform-center-y="-0.790773"
+         d="m 122.40105,71.624939 h -5.47864 l 2.73932,-4.744642 z" />
+    </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.713;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-opacity:1"
        d="m 222.49102,134.69705 7.61098,3.98834 -0.16953,8.90666 -7.7568,3.67084 -7.61151,-3.96339 0.16955,-8.90666 z"
@@ -960,16 +969,16 @@
        style="fill:none;stroke:#000000;stroke-width:0.58;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#008000;stroke:#008000;stroke-width:0.163733;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
-       x="46.603115"
-       y="183.07286"
+       style="font-size:6.73669px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#008000;stroke:#008000;stroke-width:0.173704;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
+       x="47.867855"
+       y="182.81953"
        id="text57"
        transform="rotate(-44.197237)"><tspan
          sodipodi:role="line"
          id="tspan57"
-         style="font-size:6.35px;fill:#008000;stroke:#008000;stroke-width:0.163733;stroke-dasharray:none"
-         x="46.603115"
-         y="183.07286">DWF</tspan></text>
+         style="font-size:6.73669px;fill:#008000;stroke:#008000;stroke-width:0.173704;stroke-dasharray:none"
+         x="47.867855"
+         y="182.81953">TXH</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff;stroke:#0000ff;stroke-width:0.163733;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
@@ -990,5 +999,24 @@
        id="path1"
        d="m 222.31226,151.26171 0.043,-16.56477"
        style="fill:#999999;fill-opacity:1;stroke:#808080;stroke-width:0.594;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.782, 0.594;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ff0000;stroke:#ff0000;stroke-width:0.163733;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
+       x="187.65739"
+       y="-36.552223"
+       id="text2"
+       transform="rotate(45.388443)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-size:6.35px;fill:#ff0000;stroke:#ff0000;stroke-width:0.163733;stroke-dasharray:none"
+         x="187.65739"
+         y="-36.552223">DWF</tspan></text>
+    <path
+       inkscape:original-d="m 288.8551,42.764134 c 2.6e-4,7.640431 2.6e-4,15.280598 0,22.920502"
+       inkscape:path-effect="#path-effect3"
+       id="path2"
+       d="M 288.8551,42.764134 V 65.684636"
+       style="fill:none;stroke:#000000;stroke-width:0.798237;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.52707232,-0.52707232,0.52707232,0.52707232,-16.09277,234.75776)" />
   </g>
 </svg>
