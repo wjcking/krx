@@ -311,7 +311,7 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="390.65772"
+     inkscape:cy="390.98669"
      inkscape:cx="573.56777"
      inkscape:zoom="3.0397454"
      inkscape:pageshadow="2"
@@ -982,14 +982,14 @@
     <text
        xml:space="preserve"
        style="font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff;stroke:#0000ff;stroke-width:0.163733;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
-       x="190.87039"
+       x="189.37369"
        y="-64.610939"
        id="text58"
        transform="rotate(45)"><tspan
          sodipodi:role="line"
          id="tspan58"
          style="font-size:6.35px;fill:#0000ff;stroke:#0000ff;stroke-width:0.163733;stroke-dasharray:none"
-         x="190.87039"
+         x="189.37369"
          y="-64.610939">HRS</tspan></text>
     <path
        id="path58"
@@ -1016,7 +1016,7 @@
        inkscape:path-effect="#path-effect3"
        id="path2"
        d="M 288.8551,42.764134 V 65.684636"
-       style="fill:none;stroke:#000000;stroke-width:0.798237;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="matrix(0.52707232,-0.52707232,0.52707232,0.52707232,-16.09277,234.75776)" />
+       style="fill:#000000;stroke:#000000;stroke-width:0.63510276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.43532916,-0.43532916,0.43532916,0.43532916,13.162872,215.9738)" />
   </g>
 </svg>

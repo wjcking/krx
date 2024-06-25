@@ -18,7 +18,7 @@ tld:rsk^vd
 tsl:tsk
 
 kls^wo
-	tlk^rp
+	tlk^rp:skt
 	aks^ao //AUX^KS
 	gsk
 krs
