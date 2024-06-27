@@ -1,26 +1,20 @@
-﻿jsn.atk
-jns
-nzs_gj
-//jls
-
-//are^gzh^s
-//adv_w^c
+﻿jsn:jts
+//ATK
+//ARE^GZH^S
+//ADWC^K
 //are.jsk
-//ate
-ltz
-	ak.r:hlx^n
-	at.s:i
-jsn
+//ltz
 
-jxk.lck.ibts
-	//jk^a
-	//jsk_al.pls
-	jd//krls.sls.lnt
-	//jkb.ang.pls
-	//hjb.a.en
-	
+//jls
+jxk
+	jk^a
+	jsk^l.pls
+	jkb.ang.pls
+	jd
 jkx
 
-//jls^a
 
-jzs.nts
+jzs
+	jns^g:nez^z:sls//lck.ibts
+nts
+
