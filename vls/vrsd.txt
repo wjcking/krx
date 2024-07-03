@@ -24,6 +24,6 @@ kldr
 vbs:vts^b
 knm
 	//khm
-	kax.eou
+	kix.eou
 klm
 

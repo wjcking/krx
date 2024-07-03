@@ -9,7 +9,7 @@
 jxk
 	jk^a
 	jsk^l.pls
-	jkb.ang.pls
+	jkb_ang.pls
 	jd
 jkx
 
