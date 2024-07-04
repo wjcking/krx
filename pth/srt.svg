@@ -35,9 +35,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.16969"
-     inkscape:cx="561.25984"
-     inkscape:cy="397.11378"
+     inkscape:zoom="1.6541914"
+     inkscape:cx="595.45709"
+     inkscape:cy="389.01182"
      inkscape:window-width="2160"
      inkscape:window-height="1334"
      inkscape:window-x="-11"
@@ -319,35 +319,37 @@
     </g>
     <text
        id="text2380"
-       y="66.156212"
-       x="20.084913"
-       style="font-size:5.79537px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.434653"
-       xml:space="preserve"><tspan
-         style="fill:#000000;stroke-width:0.434653"
-         y="66.156212"
-         x="20.084913"
+       y="69.303886"
+       x="19.852934"
+       style="font-size:5.58137px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.418604"
+       xml:space="preserve"
+       transform="scale(1.0383394,0.9630762)"><tspan
+         style="fill:#000000;stroke-width:0.418604"
+         y="69.303886"
+         x="19.852934"
          id="tspan2378"
          sodipodi:role="line">ISK</tspan></text>
     <text
        id="text10705"
-       y="49.919662"
-       x="243.80098"
-       style="font-size:5.52212px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.41416"
-       xml:space="preserve"><tspan
-         style="fill:#000000;stroke-width:0.41416"
-         y="49.919662"
-         x="243.80098"
+       y="51.583767"
+       x="224.90601"
+       style="font-size:5.09415px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.382062"
+       xml:space="preserve"
+       transform="scale(1.0840128,0.92249834)"><tspan
+         style="fill:#000000;stroke-width:0.382062"
+         y="51.583767"
+         x="224.90601"
          sodipodi:role="line"
          id="tspan11155">VSD</tspan><tspan
          id="tspan10701"
-         style="fill:#000000;stroke-width:0.41416"
-         y="56.822311"
-         x="243.80098"
+         style="fill:#000000;stroke-width:0.382062"
+         y="57.95145"
+         x="224.90601"
          sodipodi:role="line" /><tspan
          id="tspan10703"
-         style="fill:#000000;stroke-width:0.41416"
-         y="63.724964"
-         x="243.80098"
+         style="fill:#000000;stroke-width:0.382062"
+         y="64.319138"
+         x="224.90601"
          sodipodi:role="line" /></text>
     <path
        id="rect12467"
@@ -388,14 +390,14 @@
     </g>
     <text
        id="text1385"
-       y="37.764805"
-       x="31.338724"
-       style="font-size:3.21703px;line-height:1.25;font-family:sans-serif;fill:#ffffff;stroke-width:0.241277"
+       y="40.036289"
+       x="29.577621"
+       style="font-size:3.03625px;line-height:1.25;font-family:sans-serif;fill:#ffffff;stroke-width:0.227718"
        xml:space="preserve"
-       transform="scale(0.9890069,1.0111153)"><tspan
-         style="fill:#ffffff;stroke-width:0.241277"
-         y="37.764805"
-         x="31.338724"
+       transform="scale(1.0478941,0.95429492)"><tspan
+         style="fill:#ffffff;stroke-width:0.227718"
+         y="40.036289"
+         x="29.577621"
          id="tspan1383"
          sodipodi:role="line"> </tspan></text>
     <path
@@ -506,14 +508,15 @@
          id="tspan12595" /></text>
     <text
        id="text12601"
-       y="38.384674"
-       x="35.426773"
-       style="font-size:5.87351px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.440514"
-       xml:space="preserve"><tspan
+       y="40.670162"
+       x="33.43594"
+       style="font-size:5.54345px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.415759"
+       xml:space="preserve"
+       transform="scale(1.0595418,0.94380423)"><tspan
          id="tspan12599"
-         style="fill:#000000;stroke-width:0.440514"
-         y="38.384674"
-         x="35.426773"
+         style="fill:#000000;stroke-width:0.415759"
+         y="40.670162"
+         x="33.43594"
          sodipodi:role="line">RFT</tspan></text>
     <text
        xml:space="preserve"
@@ -562,25 +565,27 @@
          y="34.282322">A</tspan></text>
     <text
        id="text1097"
-       y="38.111206"
-       x="20.17082"
-       style="font-size:5.56491px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.417369"
-       xml:space="preserve"><tspan
+       y="40.412064"
+       x="19.037306"
+       style="font-size:5.25219px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.393915"
+       xml:space="preserve"
+       transform="scale(1.0595418,0.94380423)"><tspan
          id="tspan1095"
-         style="fill:#000000;stroke-width:0.417369"
-         y="38.111206"
-         x="20.17082"
+         style="fill:#000000;stroke-width:0.393915"
+         y="40.412064"
+         x="19.037306"
          sodipodi:role="line"
          rotate="0 0 0 0">SRD</tspan></text>
     <text
        id="text2301"
-       y="56.80014"
-       x="243.8432"
-       style="font-size:5.56491px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.417369"
-       xml:space="preserve"><tspan
-         style="fill:#000000;stroke-width:0.417369"
-         y="56.80014"
-         x="243.8432"
+       y="57.930996"
+       x="224.94495"
+       style="font-size:5.13362px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.385022"
+       xml:space="preserve"
+       transform="scale(1.0840128,0.92249834)"><tspan
+         style="fill:#000000;stroke-width:0.385022"
+         y="57.930996"
+         x="224.94495"
          sodipodi:role="line"
          rotate="0 0 0 0 0 0 0 0 0 0"
          id="tspan1">KLDR</tspan></text>
@@ -684,16 +689,16 @@
          y="48.14373">A</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10.3003px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#ff0000;stroke-width:0.643774"
-       x="235.22028"
-       y="42.89027"
+       style="font-size:9.50201px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#ff0000;stroke-width:0.59388"
+       x="216.99031"
+       y="45.284046"
        id="text2"
-       transform="scale(1.0334144,0.96766603)"><tspan
+       transform="scale(1.1202344,0.8926703)"><tspan
          sodipodi:role="line"
          id="tspan2"
-         style="fill:#ff0000;stroke-width:0.643774"
-         x="235.22028"
-         y="42.89027">T</tspan></text>
+         style="fill:#ff0000;stroke-width:0.59388"
+         x="216.99031"
+         y="45.284046">T</tspan></text>
     <path
        id="path12"
        style="fill:#ffffff;stroke:#1a1a1a;stroke-width:0.643;stroke-dasharray:none"
@@ -772,27 +777,6 @@
          y="51.34306" /></text>
     <text
        xml:space="preserve"
-       style="font-size:8.46667px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';fill:#000000;stroke:#ff5555;stroke-width:0.125;stroke-dasharray:none;paint-order:fill markers stroke"
-       x="303.07254"
-       y="71.800232"
-       id="text18"><tspan
-         sodipodi:role="line"
-         id="tspan18"
-         style="stroke:#000000;stroke-width:0.125;stroke-dasharray:none"
-         x="303.07254"
-         y="71.800232">时间 甘狠 恨 不</tspan><tspan
-         sodipodi:role="line"
-         style="stroke:#000000;stroke-width:0.125;stroke-dasharray:none"
-         x="303.07254"
-         y="82.498795"
-         id="tspan19">亿年后的星际重逢与融合 </tspan><tspan
-         sodipodi:role="line"
-         style="stroke:#000000;stroke-width:0.125;stroke-dasharray:none"
-         x="303.07254"
-         y="93.197365"
-         id="tspan20">洛克梅根 CFS</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-size:8.46667px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';fill:#ececec;stroke:#000000;stroke-width:0.125;stroke-dasharray:none;paint-order:fill markers stroke"
        x="39.666912"
        y="60.140156"
@@ -811,13 +795,14 @@
          style="stroke-width:0.125" /></text>
     <text
        id="text23"
-       y="66.476105"
-       x="33.212555"
-       style="font-size:5.79537px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.434653"
-       xml:space="preserve"><tspan
-         style="fill:#000000;stroke-width:0.434653"
-         y="66.476105"
-         x="33.212555"
+       y="69.39637"
+       x="33.516098"
+       style="font-size:5.50366px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.412776"
+       xml:space="preserve"
+       transform="scale(1.0383395,0.96307619)"><tspan
+         style="fill:#000000;stroke-width:0.412776"
+         y="69.39637"
+         x="33.516098"
          id="tspan23"
          sodipodi:role="line">VZS</tspan></text>
     <text
@@ -843,28 +828,28 @@
          sodipodi:role="line" /></text>
     <text
        xml:space="preserve"
-       style="font-size:10.3003px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#0000ff;stroke-width:0.643774"
-       x="248.48668"
-       y="42.89027"
+       style="font-size:9.50201px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#0000ff;stroke-width:0.59388"
+       x="229.22855"
+       y="45.284046"
        id="text24"
-       transform="scale(1.0334144,0.96766603)"><tspan
+       transform="scale(1.1202344,0.8926703)"><tspan
          sodipodi:role="line"
          id="tspan24"
-         style="fill:#0000ff;stroke-width:0.643774"
-         x="248.48668"
-         y="42.89027">X</tspan></text>
+         style="fill:#0000ff;stroke-width:0.59388"
+         x="229.22855"
+         y="45.284046">X</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10.3003px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.643774"
-       x="241.86369"
-       y="42.89027"
+       style="font-size:9.50201px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.59388"
+       x="223.11885"
+       y="45.284046"
        id="text25"
-       transform="scale(1.0334144,0.96766603)"><tspan
+       transform="scale(1.1202344,0.8926703)"><tspan
          sodipodi:role="line"
          id="tspan25"
-         style="stroke-width:0.643774"
-         x="241.86369"
-         y="42.89027">R</tspan></text>
+         style="stroke-width:0.59388"
+         x="223.11885"
+         y="45.284046">R</tspan></text>
     <text
        id="text29"
        y="158.14659"
