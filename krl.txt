@@ -1,8 +1,8 @@
-﻿ats.brs
+﻿srt
 
 trs:tls
-rxs
 lks
+rxs
 	
 krs:klz^r
  //kbt:pd.ftn
