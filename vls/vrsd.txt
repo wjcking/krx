@@ -17,11 +17,11 @@ krls
 kldr
 
 
-//atv.una^sh
-//georgia
-//greek:glck.kld:hlk_en.skr_eou
-//laos.burma.cambodia.myanmar.miadian
-//thailand
+//ATV.UNA^SH
+//GEORGIA
+//GREEK:GLCK.KLD:HLK_EN.SKR_EOU
+//LAOS.BURMA.CAMBODIA.MYANMAR.MIADIAN
+//THAILAND
 vbs:vts^b
 knm
 	//khm
