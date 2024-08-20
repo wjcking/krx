@@ -13,7 +13,7 @@ krls
 		tls.lyx
 		kmtx
 		txq.jsn^a
-	lck
+	lsk
 kldr
 
 
