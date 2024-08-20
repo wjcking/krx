@@ -1,24 +1,25 @@
-﻿VŨNGTÀU DA NANG Phu Quoc
-Nakhon Sawan THAILAND
-MELAKA SINGAPORE.PENGERANG MALAYSIA
-ZAMBOANGA CEBU CITY PHILIPPINES
-TIMOR-LESTE DILI 
-TASMANIA 
-Singapore.Pengerang MALAYSIA
-Mingalar
-MYSORE HDL
-
+﻿/*
+*VŨNGTÀU DA NANG Phu Quoc
+*Nakhon Sawan THAILAND
+*MELAKA SINGAPORE.PENGERANG MALAYSIA
+*ZAMBOANGA CEBU CITY PHILIPPINES
+*TIMOR-LESTE DILI 
+*TASMANIA 
+*Singapore.Pengerang MALAYSIA
+*Mingalar
+*MYSORE HDL
+*/
 //KRIT
 ast^k 
 kltx:kbt
-klc
+klz
 klt
 kast:kmt
 kez:mhwt
 //TIBET HIMALAY BHUTAN
 tbk
 ksh^mr
-xzn^an
+xzn_ang
 xzn.jsn
 bdn^w
 nbr

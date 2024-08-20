@@ -16,5 +16,5 @@ ftn.fld.hdl
 //rks.tls^rl.rck
 tls^r.rck^vd
 rbk
-txk:kkd_an
+txk:kkd
 
