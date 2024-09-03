@@ -7,7 +7,7 @@
 
 //jls
 jxk
-	jk^a
+	//jk^a
 	jsk^l.pls
 	jkb_ang.pls
 	jd

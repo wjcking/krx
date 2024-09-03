@@ -1,6 +1,6 @@
 ﻿vrsk.vrsd
 krls
-	KLSDN.GLSDN.BLSGN
+	KLSDN.GLSDN.BLSGN^J
 	KLST.FRSK^C
 	
 	sls^sh
