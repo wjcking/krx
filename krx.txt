@@ -19,6 +19,8 @@ tsl:tsk
 
 krs
 	tlk^rp:skt
-	aks^ao //AUX^KS
+	//AUX^KS
+	//AOSZH^W LIYA
+	aks^ao 
 	gsk
 kls^wo
