@@ -7,10 +7,10 @@
 
 //jls
 jxk
-	jsk^l.pls
+	jsk^ln.pls
 	jkb_ang.pls
-	jk^a
 	jd
+	jk^a
 jkx
 
 jzs
