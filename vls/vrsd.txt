@@ -4,8 +4,8 @@ krls
 	KLST.FRSK^C
 	
 	sls^sh
-		//SLNSZ^GL.JZS
-		//SNLUS
+		SLNSZ^GL.JZS
+		SNLUS
 	nlu^s 
 	
 	vls^u
