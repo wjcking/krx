@@ -36,12 +36,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.16969"
-     inkscape:cx="489.8734"
-     inkscape:cy="383.43494"
-     inkscape:window-width="2160"
-     inkscape:window-height="1334"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cx="417.63202"
+     inkscape:cy="403.95318"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -259,27 +259,27 @@
        id="path1071" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.392412;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-       d="m 211.03106,96.756341 2.27002,9.347339 h 7.93601 l 2.28851,-9.347339 z"
+       d="m 211.56023,96.756341 2.27002,9.347339 h 7.93601 l 2.28851,-9.347339 z"
        id="path34220" />
     <text
        id="text24080-5"
-       y="-212.5036"
+       y="-213.02695"
        x="99.84182"
        style="font-size:6.80363px;line-height:1.25;font-family:sans-serif;stroke-width:0.510272"
        xml:space="preserve"
        transform="matrix(0,0.9890069,-1.0111153,0,0,0)"><tspan
          style="stroke-width:0.510272"
-         y="-212.5036"
+         y="-213.02695"
          x="99.84182"
          id="tspan24078-8"
          sodipodi:role="line">H</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.389315px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-       d="m 211.11231,96.969598 2.25193,-9.273016 h 7.87285 l 2.27032,9.273016 z"
+       d="m 211.64148,96.969598 2.25193,-9.273016 h 7.87285 l 2.27032,9.273016 z"
        id="path314" />
     <g
        id="g34774"
-       transform="matrix(2.7759493,0,0,2.7759493,-195.20382,-456.44169)">
+       transform="matrix(2.8435735,0,0,2.1285161,-205.25781,-336.87721)">
       <path
          id="rect7"
          style="stroke:#1a1a1a;stroke-width:0.166193;paint-order:fill markers stroke"
@@ -395,13 +395,13 @@
          sodipodi:role="line">TRF</tspan></text>
     <text
        id="text35510"
-       y="217.39442"
+       y="217.91777"
        x="91.130409"
        style="font-size:6.80363px;line-height:1.25;font-family:sans-serif;stroke-width:0.510272"
        xml:space="preserve"
        transform="matrix(0,0.9890069,1.0111153,0,0,0)"><tspan
          style="stroke-width:0.510272"
-         y="217.39442"
+         y="217.91777"
          x="91.130409"
          id="tspan35508"
          sodipodi:role="line">L</tspan></text>

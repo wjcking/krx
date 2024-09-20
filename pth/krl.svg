@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.2757015"
-     inkscape:cx="380.57492"
-     inkscape:cy="355.49068"
+     inkscape:zoom="0.89708895"
+     inkscape:cx="561.25984"
+     inkscape:cy="397.39649"
      inkscape:window-width="1858"
      inkscape:window-height="1057"
      inkscape:window-x="54"
@@ -46,13 +46,13 @@
        style="fill:none;stroke:#000000;stroke-width:0.54041;stroke-dasharray:2.16165, 2.16165;stroke-dashoffset:0"
        d="M 121.91856,71.777659 A 49.776506,49.776506 0 0 1 72.142047,121.55417 49.776506,49.776506 0 0 1 22.365541,71.777659 49.776506,49.776506 0 0 1 72.142047,22.001153 49.776506,49.776506 0 0 1 121.91856,71.777659 Z" />
     <circle
-       style="fill:#aad400;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
        id="circle16374"
        cx="119.41631"
        cy="97.393936"
        r="8.4133167" />
     <circle
-       style="fill:#aad400;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
        id="circle14896"
        cx="125.64304"
        cy="64.826263"
@@ -101,7 +101,7 @@
          id="tspan3138">视研</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ffff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path1371"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -125,10 +125,10 @@
          id="tspan12333"
          style="stroke-width:0.391045"
          x="64.288673"
-         y="81.097099">中</tspan></text>
+         y="81.097099">时</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path13869"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -142,20 +142,9 @@
        inkscape:randomized="0"
        d="m 63.260293,479.80014 2e-6,-73.60028 L 127,369.39973 l 63.73971,36.80013 0,73.60028 L 127,516.60027 Z"
        transform="matrix(0.11690422,0,0,0.11690422,61.080734,39.302343)" />
-    <text
-       xml:space="preserve"
-       style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
-       x="71.740112"
-       y="94.003365"
-       id="text13873"><tspan
-         sodipodi:role="line"
-         id="tspan13871"
-         style="stroke-width:0.391045"
-         x="71.740112"
-         y="94.003365">中</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#b3ff80;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path13875"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -169,20 +158,9 @@
        inkscape:randomized="0"
        d="m 63.260293,479.80014 2e-6,-73.60028 L 127,369.39973 l 63.73971,36.80013 0,73.60028 L 127,516.60027 Z"
        transform="matrix(0.11690422,0,0,0.11690422,46.177854,39.302343)" />
-    <text
-       xml:space="preserve"
-       style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
-       x="56.837231"
-       y="94.003365"
-       id="text13879"><tspan
-         sodipodi:role="line"
-         id="tspan13877"
-         style="stroke-width:0.391045"
-         x="56.837231"
-         y="94.003365">誉</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ffff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path13881"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -199,18 +177,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;line-height:1.25;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.391045"
-       x="94.094429"
-       y="-75.679497"
+       x="56.554626"
+       y="-88.331032"
        id="text13885"
        transform="scale(1,-1)"><tspan
          sodipodi:role="line"
          id="tspan13883"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.391045"
-         x="94.094429"
-         y="-75.679497">研</tspan></text>
+         x="56.554626"
+         y="-88.331032">研</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path13887"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -238,7 +216,7 @@
          y="68.190842">诚</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#b3ff80;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path13893"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -256,17 +234,18 @@
     <text
        xml:space="preserve"
        style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
-       x="71.740112"
+       x="-80.04171"
        y="68.190842"
-       id="text13897"><tspan
+       id="text13897"
+       transform="scale(-1,1)"><tspan
          sodipodi:role="line"
          id="tspan13895"
          style="stroke-width:0.391045"
-         x="71.740112"
+         x="-80.04171"
          y="68.190842">信</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path13899"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -280,17 +259,6 @@
        inkscape:randomized="0"
        d="m 63.260293,479.80014 2e-6,-73.60028 L 127,369.39973 l 63.73971,36.80013 0,73.60028 L 127,516.60027 Z"
        transform="matrix(0.11690422,0,0,0.11690422,68.532183,26.396071)" />
-    <text
-       xml:space="preserve"
-       style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
-       x="79.191536"
-       y="81.097099"
-       id="text13903"><tspan
-         sodipodi:role="line"
-         id="tspan13901"
-         style="stroke-width:0.391045"
-         x="79.191536"
-         y="81.097099">昱</tspan></text>
     <path
        sodipodi:type="star"
        style="fill:#b3ff80;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -310,7 +278,7 @@
        inkscape:transform-center-y="-1.4173342e-06" />
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path27496"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -340,7 +308,7 @@
          y="-62.463634">视</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path28720"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -358,17 +326,18 @@
     <text
        xml:space="preserve"
        style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
-       x="86.64299"
+       x="-94.985321"
        y="68.190842"
-       id="text28724"><tspan
+       id="text28724"
+       transform="scale(-1,1)"><tspan
          sodipodi:role="line"
          id="tspan28722"
          style="stroke-width:0.391045"
-         x="86.64299"
+         x="-94.985321"
          y="68.190842">恒</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path28726"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -383,20 +352,9 @@
        d="m 63.260293,479.80014 2e-6,-73.60028 L 127,369.39973 l 63.73971,36.80013 0,73.60028 L 127,516.60027 Z"
        transform="matrix(0.11690422,0,0,0.11690422,31.274972,13.48979)"
        inkscape:transform-center-y="-1.5290786e-06" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;line-height:1.25;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.391045"
-       x="41.934353"
-       y="68.190842"
-       id="text28730"><tspan
-         sodipodi:role="line"
-         id="tspan28728"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.391045"
-         x="41.934353"
-         y="68.190842">晨</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#b3ff80;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path30858"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -413,17 +371,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;line-height:1.25;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.391045"
-       x="49.385799"
+       x="-57.719982"
        y="81.097099"
-       id="text30862"><tspan
+       id="text30862"
+       transform="scale(-1,1)"><tspan
          sodipodi:role="line"
          id="tspan30860"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.391045"
-         x="49.385799"
+         x="-57.719982"
          y="81.097099">威</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#b3ff80;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path32212"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -438,20 +397,9 @@
        d="m 63.260293,479.80014 2e-6,-73.60028 L 127,369.39973 l 63.73971,36.80013 0,73.60028 L 127,516.60027 Z"
        transform="matrix(0.11690422,0,0,0.11690422,53.629294,0.58351799)"
        inkscape:transform-center-y="-1.4173342e-06" />
-    <text
-       xml:space="preserve"
-       style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
-       x="64.288681"
-       y="55.284565"
-       id="text32216"><tspan
-         sodipodi:role="line"
-         id="tspan32214"
-         style="stroke-width:0.391045"
-         x="64.288681"
-         y="55.284565">瑞</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path32218"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -479,7 +427,7 @@
          y="55.284565">诚</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path33244"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -494,21 +442,9 @@
        d="m 63.260293,479.80014 2e-6,-73.60028 L 127,369.39973 l 63.73971,36.80013 0,73.60028 L 127,516.60027 Z"
        transform="matrix(0.11690422,0,0,0.11690422,38.726413,0.58351599)"
        inkscape:transform-center-y="-1.0843988e-06" />
-    <text
-       xml:space="preserve"
-       style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
-       x="-57.719982"
-       y="55.284565"
-       id="text33248"
-       transform="scale(-1,1)"><tspan
-         sodipodi:role="line"
-         id="tspan33246"
-         style="stroke-width:0.391045"
-         x="-57.719982"
-         y="55.284565">光</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path164"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -535,7 +471,7 @@
          y="81.097099">今</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#ccff00;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="path170"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -553,172 +489,173 @@
     <text
        xml:space="preserve"
        style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
-       x="41.934353"
-       y="94.003365"
+       x="93.99231"
+       y="80.937019"
        id="text174"><tspan
          sodipodi:role="line"
          id="tspan172"
          style="stroke-width:0.391045"
-         x="41.934353"
-         y="94.003365">维</tspan></text>
+         x="93.99231"
+         y="80.937019">维</tspan></text>
     <circle
-       style="fill:#aad400;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
        id="path4729"
        cx="72.155434"
        cy="19.869745"
        r="8.4133167" />
     <circle
-       style="fill:#aad400;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
        id="circle7076"
        cx="107.45911"
        cy="34.131866"
        r="8.4133167" />
     <text
        xml:space="preserve"
-       style="font-size:7.54224px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.353541"
-       x="119.4714"
-       y="68.026024"
+       style="font-size:7.54224px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke:#000000;stroke-width:0.07;stroke-dasharray:none"
+       x="119.56435"
+       y="68.267761"
        id="text7080"
        transform="scale(1.0070646,0.99298496)"><tspan
          sodipodi:role="line"
          id="tspan7078"
-         style="stroke-width:0.353541"
-         x="119.4714"
-         y="68.026024">SH</tspan></text>
+         style="stroke:#000000;stroke-width:0.07;stroke-dasharray:none"
+         x="119.56435"
+         y="68.267761">SH</tspan></text>
     <path
        id="circle8162"
-       style="fill:#aad400;stroke:#000000;stroke-width:0.180931;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;fill-opacity:1"
        d="m 43.968605,32.023954 a 8.4133164,8.4133164 0 0 1 -8.413317,8.413316 8.4133164,8.4133164 0 0 1 -8.413316,-8.413316 8.4133164,8.4133164 0 0 1 8.413316,-8.413316 8.4133164,8.4133164 0 0 1 8.413317,8.413316 z" />
     <text
        xml:space="preserve"
-       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.395542"
+       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
        x="31.383558"
        y="35.091461"
        id="text6730"><tspan
          sodipodi:role="line"
          id="tspan6728"
-         style="stroke-width:0.395542"
+         style="stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
          x="31.383558"
          y="35.091461">W</tspan></text>
     <circle
-       style="fill:#aad400;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
        id="circle9344"
        cx="18.747419"
        cy="67.437973"
        r="8.4133167" />
     <text
        xml:space="preserve"
-       style="font-size:7.4017px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.346955"
+       style="font-size:7.4017px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
        x="13.077476"
        y="71.928413"
        id="text9348"
        transform="scale(1.0266872,0.9740065)"><tspan
          sodipodi:role="line"
          id="tspan9346"
-         style="stroke-width:0.346955"
+         style="stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
          x="13.077476"
          y="71.928413">ZH</tspan></text>
     <circle
-       style="fill:#aad400;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
        id="circle11318"
        cx="57.21899"
        cy="120.47578"
        r="8.4133167" />
     <text
        xml:space="preserve"
-       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.395542"
+       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.07;fill:#000000;fill-opacity:1;stroke-dasharray:none;stroke:#000000"
        x="67.983696"
        y="22.937254"
        id="text11322"><tspan
          sodipodi:role="line"
          id="tspan11320"
-         style="stroke-width:0.395542"
+         style="stroke-width:0.07;fill:#000000;fill-opacity:1;stroke-dasharray:none;stroke:#000000"
          x="67.983696"
          y="22.937254">W</tspan></text>
     <circle
-       style="fill:#aad400;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
        id="circle12418"
        cx="27.316034"
        cy="102.60838"
        r="8.4133167" />
     <text
        xml:space="preserve"
-       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.395542"
+       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
        x="104.29478"
        y="37.199375"
        id="text12422"><tspan
          sodipodi:role="line"
          id="tspan12420"
-         style="stroke-width:0.395542"
+         style="stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
          x="104.29478"
          y="37.199375">N</tspan></text>
     <circle
-       style="fill:#aad400;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
        id="circle13228"
        cx="92.819389"
        cy="120.01037"
        r="8.4133167" />
     <text
        xml:space="preserve"
-       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.395542"
+       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
        x="24.551363"
        y="105.67588"
        id="text13232"><tspan
          sodipodi:role="line"
          id="tspan13230"
-         style="stroke-width:0.395542"
+         style="stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
          x="24.551363"
          y="105.67588">L</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.395542"
+       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
        x="115.24458"
        y="100.46143"
        id="text14900"><tspan
          sodipodi:role="line"
          id="tspan14898"
-         style="stroke-width:0.395542"
+         style="stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
          x="115.24458"
          y="100.46143">W</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.395542"
+       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
        x="54.623241"
        y="123.54328"
        id="text16378"><tspan
          sodipodi:role="line"
          id="tspan16376"
-         style="stroke-width:0.395542"
+         style="stroke-width:0.07;stroke:#000000;stroke-dasharray:none"
          x="54.623241"
          y="123.54328">Y</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path83921"
-       style="fill:#aad400;fill-rule:evenodd;stroke:#333333;stroke-width:0.160053;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
-       d="m 160.84975,26.582817 c 0.80495,0 1.53815,0.307232 2.08889,0.810728 l 2.78548,-1.594304 c -0.18397,-0.353858 -0.28807,-0.755869 -0.28807,-1.182302 0,-0.493506 0.13934,-0.9544 0.38076,-1.345679 l -2.67706,-3.344167 c -0.23651,0.123776 -0.50571,0.193904 -0.7913,0.193904 -0.57795,0 -1.08895,-0.287018 -1.39828,-0.726127 l -4.57484,1.293086 c 0.0398,0.177809 0.0608,0.362694 0.0608,0.55239 0,0.477315 -0.13252,0.9235 -0.36307,1.304001 l 3.41619,4.352778 c 0.41066,-0.201259 0.87234,-0.314308 1.36047,-0.314308 z m 2.65858,1.507897 c 0.27835,0.464548 0.43835,1.00801 0.43835,1.588894 0,1.710313 -1.38661,3.096882 -3.09693,3.096882 -1.71016,0 -3.09678,-1.386569 -3.09678,-3.096882 0,-0.750689 0.26726,-1.439163 0.71175,-1.975177 l -3.33802,-4.252865 c -0.35955,0.197466 -0.77244,0.309822 -1.21158,0.309822 -1.39222,0 -2.52086,-1.128647 -2.52086,-2.521042 0,-1.392212 1.12864,-2.520859 2.52086,-2.520859 0.88427,0 1.66196,0.455344 2.11194,1.144142 l 4.61857,-1.305573 c -0.005,-0.04825 -0.007,-0.09705 -0.007,-0.146313 0,-0.943944 0.76521,-1.709156 1.70911,-1.709156 0.94407,0 1.70929,0.765212 1.70929,1.709156 0,0.335264 -0.0969,0.647953 -0.26357,0.911936 l 2.62198,3.275339 c 0.43679,-0.344052 0.98798,-0.549242 1.58709,-0.549242 1.41778,0 2.56716,1.149368 2.56716,2.567159 0,1.41779 -1.14938,2.567205 -2.56716,2.567205 -0.6683,0 -1.27672,-0.255286 -1.73354,-0.67381 z" />
+       style="fill:#67daff;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 157.75531,27.326762 c 0.77003,0 1.4714,0.293901 1.99825,0.775549 l 2.66461,-1.525122 c -0.17599,-0.338504 -0.27557,-0.723071 -0.27557,-1.130999 0,-0.472091 0.1333,-0.912986 0.36424,-1.287286 l -2.5609,-3.199054 c -0.22625,0.118404 -0.48376,0.18549 -0.75696,0.18549 -0.55288,0 -1.0417,-0.274564 -1.3376,-0.694618 l -4.37633,1.236975 c 0.0381,0.170093 0.0581,0.346955 0.0581,0.52842 0,0.456602 -0.12678,0.883427 -0.34733,1.247417 l 3.26796,4.163898 c 0.39284,-0.192526 0.83448,-0.30067 1.30143,-0.30067 z m 2.54322,1.442466 c 0.26628,0.44439 0.41933,0.96427 0.41933,1.519947 0,1.636098 -1.32644,2.9625 -2.96255,2.9625 -1.63595,0 -2.9624,-1.326402 -2.9624,-2.9625 0,-0.718115 0.25566,-1.376714 0.68086,-1.889468 l -3.19317,-4.068321 c -0.34395,0.188897 -0.73892,0.296378 -1.15901,0.296378 -1.3318,0 -2.41146,-1.079672 -2.41146,-2.411647 0,-1.3318 1.07966,-2.411472 2.41146,-2.411472 0.84591,0 1.58985,0.435586 2.0203,1.094494 l 4.41816,-1.24892 c -0.005,-0.04615 -0.007,-0.09284 -0.007,-0.139964 0,-0.902983 0.732,-1.634991 1.63495,-1.634991 0.9031,0 1.63512,0.732008 1.63512,1.634991 0,0.320716 -0.0927,0.619837 -0.25214,0.872364 l 2.50821,3.133213 c 0.41783,-0.329122 0.9451,-0.525408 1.51822,-0.525408 1.35626,0 2.45576,1.099493 2.45576,2.455762 0,1.356268 -1.0995,2.455807 -2.45576,2.455807 -0.63931,0 -1.22132,-0.244209 -1.65832,-0.644572 z" />
     <text
        xml:space="preserve"
-       style="font-size:7.90161px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#1a1a1a;stroke-width:0.370387"
-       x="173.84244"
-       y="24.913347"
-       id="text9989"><tspan
+       style="font-size:7.15724px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#1a1a1a;stroke-width:0.335495"
+       x="154.27751"
+       y="27.999947"
+       id="text9989"
+       transform="scale(1.1040021,0.90579538)"><tspan
          sodipodi:role="line"
          id="tspan9987"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';fill:#1a1a1a;stroke-width:0.370387"
-         x="173.84244"
-         y="24.913347">维今时代</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';fill:#1a1a1a;stroke-width:0.335495"
+         x="154.27751"
+         y="27.999947">维今时代</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:4.17191px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#333333;stroke-width:0.195558"
-       x="180.61597"
-       y="29.445419"
+       style="font-size:3.77889px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#333333;stroke-width:0.177136"
+       x="160.28581"
+       y="31.896715"
        id="text14881"
-       transform="scale(0.96165284,1.0398763)"><tspan
+       transform="scale(1.0616668,0.94191512)"><tspan
          sodipodi:role="line"
          id="tspan14879"
-         style="fill:#333333;stroke-width:0.195558"
-         x="180.61597"
-         y="29.445419">WJCKING:IWXH</tspan></text>
+         style="fill:#333333;stroke-width:0.177136"
+         x="160.28581"
+         y="31.896715">WJCKING:IWXH</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.505;stroke-dasharray:1.515, 0.505"
@@ -730,15 +667,15 @@
          style="stroke-width:0.505" /></text>
     <text
        xml:space="preserve"
-       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.395542"
+       style="font-size:8.43823px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke:#000000;stroke-width:0.07;stroke-dasharray:none"
        x="88.647659"
-       y="123.07789"
+       y="123.0779"
        id="text8166"><tspan
          sodipodi:role="line"
          id="tspan8164"
-         style="stroke-width:0.395542"
+         style="stroke:#000000;stroke-width:0.07;stroke-dasharray:none"
          x="88.647659"
-         y="123.07789">W</tspan></text>
+         y="123.0779">W</tspan></text>
     <path
        style="fill:#666666;stroke:#666666;stroke-width:0.37959;stroke-dasharray:none;stroke-dashoffset:0"
        d="M 143.36992,8.5248149 V 142.29926"
@@ -783,14 +720,13 @@
     <text
        xml:space="preserve"
        style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
-       x="-102.45243"
+       x="94.199715"
        y="55.219147"
-       id="text19"
-       transform="scale(-1,1)"><tspan
+       id="text19"><tspan
          sodipodi:role="line"
          id="tspan19"
          style="stroke-width:0.391045"
-         x="-102.45243"
+         x="94.199715"
          y="55.219147">维</tspan></text>
     <text
        xml:space="preserve"
@@ -801,5 +737,73 @@
          sodipodi:role="line"
          id="tspan2"
          style="stroke-width:0.264583" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
+       x="-57.665466"
+       y="55.284565"
+       id="text32216"
+       transform="scale(-1,1)"><tspan
+         sodipodi:role="line"
+         id="tspan32214"
+         style="stroke-width:0.391045"
+         x="-57.665466"
+         y="55.284565">瑞</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
+       x="-72.793282"
+       y="55.331902"
+       id="text3"
+       transform="scale(-1,1)"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="stroke-width:0.391045"
+         x="-72.793282"
+         y="55.331902">恒</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;line-height:1.25;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.391045"
+       x="78.746666"
+       y="80.898552"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.391045"
+         x="78.746666"
+         y="80.898552">代</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;line-height:1.25;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.391045"
+       x="72.514488"
+       y="94.403595"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.34233px;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.391045"
+         x="72.514488"
+         y="94.403595">斯</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
+       x="42.273937"
+       y="94.163437"
+       id="text13903"><tspan
+         sodipodi:role="line"
+         id="tspan13901"
+         style="stroke-width:0.391045"
+         x="42.273937"
+         y="94.163437">昱</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.34233px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.391045"
+       x="41.675732"
+       y="68.191994"
+       id="text13873"><tspan
+         sodipodi:role="line"
+         id="tspan13871"
+         style="stroke-width:0.391045"
+         x="41.675732"
+         y="68.191994">中</tspan></text>
   </g>
 </svg>
