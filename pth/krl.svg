@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.89708895"
-     inkscape:cx="561.25984"
-     inkscape:cy="397.39649"
+     inkscape:zoom="1.2960248"
+     inkscape:cx="427.07517"
+     inkscape:cy="285.10257"
      inkscape:window-width="1858"
      inkscape:window-height="1057"
      inkscape:window-x="54"
@@ -46,13 +46,13 @@
        style="fill:none;stroke:#000000;stroke-width:0.54041;stroke-dasharray:2.16165, 2.16165;stroke-dashoffset:0"
        d="M 121.91856,71.777659 A 49.776506,49.776506 0 0 1 72.142047,121.55417 49.776506,49.776506 0 0 1 22.365541,71.777659 49.776506,49.776506 0 0 1 72.142047,22.001153 49.776506,49.776506 0 0 1 121.91856,71.777659 Z" />
     <circle
-       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.2;stroke-opacity:1;fill-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle16374"
        cx="119.41631"
        cy="97.393936"
        r="8.4133167" />
     <circle
-       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.2;stroke-opacity:1;fill-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle14896"
        cx="125.64304"
        cy="64.826263"
@@ -498,13 +498,13 @@
          x="93.99231"
          y="80.937019">维</tspan></text>
     <circle
-       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.2;stroke-opacity:1;fill-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4729"
        cx="72.155434"
        cy="19.869745"
        r="8.4133167" />
     <circle
-       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.2;stroke-opacity:1;fill-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle7076"
        cx="107.45911"
        cy="34.131866"
@@ -523,7 +523,7 @@
          y="68.267761">SH</tspan></text>
     <path
        id="circle8162"
-       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.2;fill-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        d="m 43.968605,32.023954 a 8.4133164,8.4133164 0 0 1 -8.413317,8.413316 8.4133164,8.4133164 0 0 1 -8.413316,-8.413316 8.4133164,8.4133164 0 0 1 8.413316,-8.413316 8.4133164,8.4133164 0 0 1 8.413317,8.413316 z" />
     <text
        xml:space="preserve"
@@ -537,7 +537,7 @@
          x="31.383558"
          y="35.091461">W</tspan></text>
     <circle
-       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.2;stroke-opacity:1;fill-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle9344"
        cx="18.747419"
        cy="67.437973"
@@ -555,7 +555,7 @@
          x="13.077476"
          y="71.928413">ZH</tspan></text>
     <circle
-       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.2;stroke-opacity:1;fill-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle11318"
        cx="57.21899"
        cy="120.47578"
@@ -572,7 +572,7 @@
          x="67.983696"
          y="22.937254">W</tspan></text>
     <circle
-       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.2;stroke-opacity:1;fill-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle12418"
        cx="27.316034"
        cy="102.60838"
@@ -589,7 +589,7 @@
          x="104.29478"
          y="37.199375">N</tspan></text>
     <circle
-       style="fill:#67daff;stroke:#000000;stroke-width:0.180931;stroke-opacity:1;fill-opacity:1"
+       style="fill:#67daff;stroke:#000000;stroke-width:0.2;stroke-opacity:1;fill-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle13228"
        cx="92.819389"
        cy="120.01037"

@@ -4,12 +4,12 @@ krls
 	KLST.FRSK^C
 	
 	sls^sh
-		SLNSZ^GL.JZS
+		SLNSZ^GJI.JZS
 		SNLUS
 	nlu^s 
 	
 	vls^u
-		ulxs.txv
+		ULXS.TXV:TRS^U
 		tls.lyx
 		kmtx
 		txq.jsn^a

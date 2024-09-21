@@ -3,6 +3,6 @@
 trs:tls
 rxs
 lks
-	
 krs:klz^r
- //kbt:pd.ftn
+
+kbt:pd.ftn
