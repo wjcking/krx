@@ -40,7 +40,7 @@ srt.kst:rkb
 	lsk
 	
 	//Application
-	//Business Clerk
+	//BUSINESS CLERK
 	//Liaison Staff 
 	krl:kbt
 		pls
