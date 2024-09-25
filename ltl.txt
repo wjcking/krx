@@ -5,11 +5,11 @@ wjcking@hotmail.com, intellyer20010101
   SMTP name: smtp.office365.com Port: 587 Encryption method: STARTTLS
 
 intellyer@outlook.com, wjcking1984328
-intellyer@protonmail.com, intellyer20010101
+//intellyer@protonmail.com, intellyer20010101
 intellyer@eclipso.email intellyer20010101
   POP3-Server: 	mail.eclipso.de (Port: 995, Verbindungssicherheit: SSL)
   SMTP-Server: 	mail.eclipso.de (Port: 587, Verbindungssicherheit: SSL)
-intellyer@protonmail.com
+
 /*
 *intel
 *https://app.infinityfree.net/accounts/epiz_32191325/login

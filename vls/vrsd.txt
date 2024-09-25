@@ -8,12 +8,13 @@ krls
 		SNLUS
 	nlu^s 
 	
-	vls^u
-		ULXS.TXV:TRS^U
-		tls.lyx
-		kmtx
-		txq.jsn^a
-	lsk
+	
+	ULXS:TXV:VLS^U
+		LYX
+		TRS^U
+		
+	TXQ.JSN^NA
+	KMTX
 kldr
 
 
