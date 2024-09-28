@@ -4,5 +4,5 @@ trs:tls
 rxs
 lks
 
-krs:klz^r
+krs:kls
 kbt:pd.ftn

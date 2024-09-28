@@ -303,9 +303,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2757015"
-     inkscape:cx="394.68482"
-     inkscape:cy="257.50539"
+     inkscape:zoom="1.6541915"
+     inkscape:cx="424.67877"
+     inkscape:cy="301.96021"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -693,64 +693,28 @@
          sodipodi:role="line">A</tspan></text>
     <path
        id="path1-4"
-       style="fill:#e9e9e9;stroke:#999999;stroke-width:0.682306;stroke-dasharray:none"
-       inkscape:transform-center-x="0.0791482"
-       inkscape:transform-center-y="3.8118786"
-       d="m 31.345221,33.429843 13.363045,-7.897958 13.521372,7.623748 0.158346,15.5217 L 45.02494,56.57531 31.503568,48.951562 Z" />
+       style="fill:#e9e9e9;stroke:#000000;stroke-width:0.682306;stroke-dasharray:none"
+       inkscape:transform-center-x="3.8118782"
+       inkscape:transform-center-y="-0.0791484"
+       d="M 52.603019,29.296177 60.500977,42.659222 52.877229,56.180594 37.355529,56.33894 29.457552,42.975896 37.0813,29.454524 Z" />
     <text
        xml:space="preserve"
        style="font-size:8.68342px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.407039"
-       x="30.181581"
-       y="49.736748"
+       x="31.972519"
+       y="51.738167"
        id="text2-2"
        transform="scale(1.1346169,0.88135476)"><tspan
          sodipodi:role="line"
          id="tspan2"
          style="fill:#000000;stroke:#000000;stroke-width:0.407039"
-         x="30.181581"
-         y="49.736748">SRD</tspan></text>
+         x="31.972519"
+         y="51.738167">SRD</tspan></text>
     <path
        id="path40"
        style="fill:#f2f2f2;stroke:#4d4d4d;stroke-width:0.4;stroke-dasharray:none"
        inkscape:transform-center-x="0.67075983"
        inkscape:transform-center-y="-1.2196018"
        d="m 163.74742,-14.394209 -2.7832,4.9362305 -5.66649,0.0578 -2.8833,-4.8784305 2.78319,-4.93623 5.66648,-0.0578 z" />
-    <path
-       id="path3-3"
-       style="fill:#e9e9e9;stroke:#999999;stroke-width:0.0713155"
-       inkscape:transform-center-x="-0.043245883"
-       inkscape:transform-center-y="-2.0822898"
-       d="m 238.32305,229.09852 -7.29974,4.31438 -7.38623,-4.16458 -0.0865,-8.47895 7.29974,-4.31437 7.38623,4.16457 z" />
-    <path
-       id="path8-9"
-       style="fill:#e9e9e9;stroke:#999999;stroke-width:0.0713155"
-       inkscape:transform-center-x="-0.043245615"
-       inkscape:transform-center-y="-2.0822812"
-       d="m 246.5345,214.91514 -7.29975,4.31438 -7.38623,-4.16458 -0.0865,-8.47895 7.29974,-4.31437 7.38624,4.16457 z" />
-    <path
-       id="path9"
-       style="fill:#e9e9e9;stroke:#999999;stroke-width:0.0713155"
-       inkscape:transform-center-x="-0.04323942"
-       inkscape:transform-center-y="-2.0822857"
-       d="m 221.90016,229.22294 -7.29974,4.31438 -7.38623,-4.16458 -0.0865,-8.47895 7.29974,-4.31437 7.38623,4.16457 z" />
-    <path
-       id="path10"
-       style="fill:#e9e9e9;stroke:#999999;stroke-width:0.0713155"
-       inkscape:transform-center-x="-0.043249354"
-       inkscape:transform-center-y="-2.0822941"
-       d="m 254.60411,229.19211 -7.29974,4.31438 -7.38624,-4.16458 -0.0865,-8.47895 7.29975,-4.31437 7.38623,4.16457 z" />
-    <path
-       id="path11"
-       style="fill:#cfcfcf;stroke:#666666;stroke-width:0.0713155"
-       inkscape:transform-center-x="-0.043251124"
-       inkscape:transform-center-y="-2.0822889"
-       d="m 246.39267,243.06517 -7.29975,4.31438 -7.38623,-4.16458 -0.0865,-8.47895 7.29974,-4.31437 7.38624,4.16457 z" />
-    <path
-       id="path12-7"
-       style="fill:#e9e9e9;stroke:#999999;stroke-width:0.0713155"
-       inkscape:transform-center-x="-0.043253161"
-       inkscape:transform-center-y="-2.0822909"
-       d="m 229.96978,243.18958 -7.29974,4.31438 -7.38623,-4.16458 -0.0865,-8.47895 7.29974,-4.31437 7.38623,4.16457 z" />
     <text
        xml:space="preserve"
        style="font-size:5.23089px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#000000;stroke-width:0.245198"
@@ -768,12 +732,6 @@
          x="94.393471"
          y="-13.847601"
          id="tspan17">SRT UNIN-LHR</tspan></text>
-    <path
-       id="path27"
-       style="fill:#e9e9e9;fill-opacity:1;stroke:#999999;stroke-width:0.0713156;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:transform-center-x="-0.043236311"
-       inkscape:transform-center-y="-2.0822854"
-       d="m 255.75321,202.26365 -0.0866,-0.049 -7.30008,4.31477 0.0866,8.47888 7.30007,4.11641 z" />
     <text
        xml:space="preserve"
        style="font-size:3.43231px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.160891"
@@ -832,5 +790,17 @@
          x="264.30069"
          y="267.05383"
          id="tspan20">ကော့သောင်</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.4;paint-order:fill markers stroke"
+       id="path8"
+       sodipodi:type="arc"
+       sodipodi:cx="169.75377"
+       sodipodi:cy="-16.938715"
+       sodipodi:rx="7.5527596"
+       sodipodi:ry="7.5527596"
+       sodipodi:start="0"
+       sodipodi:end="1.8325957"
+       sodipodi:arc-type="slice"
+       d="m 177.30653,-16.938715 a 7.5527596,7.5527596 0 0 1 -2.95493,5.992007 7.5527596,7.5527596 0 0 1 -6.55263,1.3033987 l 1.9548,-7.2954057 z" />
   </g>
 </svg>
