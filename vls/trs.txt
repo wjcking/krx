@@ -2,7 +2,7 @@
 
 trs:tls
 rxs
+	krs:kls
 lks
 
-krs:kls
 kbt:pd.ftn
