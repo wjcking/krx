@@ -22,9 +22,9 @@ kldr
 //LAOS.BURMA.CAMBODIA.MYANMAR.MIADIAN
 //THAILAND
 vbs:vts^b
-knm
-	//khm
-	//klm
-kix.eou
+KNAM
+	//KLM
+	//KHM
+KAXO.EOU
 
 
