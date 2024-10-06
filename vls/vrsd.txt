@@ -23,8 +23,9 @@ kldr
 //THAILAND
 vbs:vts^b
 KNAM
-	//KLM
+	//KLM:KLTX.DLES.MCTXST
 	//KHM
+	$KTRZK
 KAXO.EOU
 
 
