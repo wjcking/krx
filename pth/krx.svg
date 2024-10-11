@@ -303,9 +303,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6541915"
-     inkscape:cx="424.67877"
-     inkscape:cy="301.96021"
+     inkscape:zoom="1.3367758"
+     inkscape:cx="506.81648"
+     inkscape:cy="418.54438"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -435,117 +435,6 @@
        d="M -120.46635,-152.53023 H 51.523002 c 32.50831,0 58.679248,29.46189 58.679248,66.058075 v 11.679035 c 0,36.596191 -26.170938,66.0581009 -58.679248,66.0581009 H -120.46635 c -32.50831,0 -58.67927,-29.4619099 -58.67927,-66.0581009 v -11.679035 c 0,-36.596185 26.17096,-66.058075 58.67927,-66.058075 z" />
     <text
        xml:space="preserve"
-       style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-       x="-135.84886"
-       y="-88.37767"
-       id="text2"
-       transform="matrix(1.1184904,0.23550817,-0.18026093,0.85610665,0,0)"><tspan
-         sodipodi:role="line"
-         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="-135.84886"
-         y="-88.37767"
-         id="tspan10">VŨNGTÀU</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m -137.53245,-105.21172 55.56322,12.309254"
-       id="path12" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m -140.70592,-79.332495 h 53.9156"
-       id="path13" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m -140.45972,-61.606824 h 53.91559"
-       id="path14" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m -137.57351,-31.586811 51.09744,-17.202998"
-       id="path15" />
-    <text
-       xml:space="preserve"
-       style="font-size:5.94074px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.18;stroke-dasharray:none"
-       x="-123.30267"
-       y="-93.502357"
-       id="text26"
-       transform="scale(1.1430157,0.87487863)"><tspan
-         sodipodi:role="line"
-         style="font-size:5.94074px;fill:#000000;stroke:#000000;stroke-width:0.18;stroke-dasharray:none"
-         x="-123.30267"
-         y="-93.502357"
-         id="tspan26">ประเทศไทย</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:5.94074px;fill:#000000;stroke:#000000;stroke-width:0.18;stroke-dasharray:none"
-         x="-123.30267"
-         y="-86.076431"
-         id="tspan68"> </tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-       x="1.6267779"
-       y="-78.049049"
-       id="text34"
-       transform="matrix(1.0692038,0.4040893,-0.30929503,0.81838204,0,0)"><tspan
-         sodipodi:role="line"
-         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="1.6267779"
-         y="-78.049049"
-         id="tspan32">ZAMBOANGA PHILIPPINES</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="1.6267779"
-         y="-72.646988"
-         id="tspan34" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-       x="-6.1262994"
-       y="-65.705917"
-       id="text42"
-       transform="matrix(1.0343889,0.48633777,-0.37224906,0.79173434,0,0)"><tspan
-         sodipodi:role="line"
-         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="-6.1262994"
-         y="-65.705917"
-         id="tspan37" /><tspan
-         sodipodi:role="line"
-         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="-6.1262994"
-         y="-60.303852"
-         id="tspan42">MELAKA SINGAPORE</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="-6.1262994"
-         y="-54.901787"
-         id="tspan78">PENGERANG MALAYSIA</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-       x="-122.24725"
-       y="-73.440857"
-       id="text62"
-       transform="scale(1.1430157,0.87487863)"><tspan
-         sodipodi:role="line"
-         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="-122.24725"
-         y="-73.440857"
-         id="tspan63">TIMOR-LESTE </tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:0;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-       x="20.453503"
-       y="130.92259"
-       id="text65"
-       transform="matrix(1.0864269,-0.35519205,0.27186847,0.83156488,-196.95433,-140.69858)"><tspan
-         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="20.453503"
-         y="130.92259"
-         id="tspan64">&#10;</tspan><tspan
-         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
-         x="20.453503"
-         y="136.32466"
-         id="tspan65">TASMANIA </tspan></text>
-    <text
-       xml:space="preserve"
        transform="scale(0.26458333)"
        id="text66"
        style="font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect66);display:inline" />
@@ -561,10 +450,6 @@
          x="-138.07082"
          y="83.366173"
          id="tspan77"> </tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 65.39059,-84.731229 -53.91558,-0.04049"
-       id="path74" />
     <text
        xml:space="preserve"
        style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:0;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
@@ -577,138 +462,185 @@
          y="130.92259"
          id="tspan75">&#10;</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.618;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="M 66.23357,-20.876114 1.5230001,-50.643253"
-       id="path78" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.624;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="M 9.3325501,-67.547043 87.96682,-36.961771"
-       id="path79" />
-    <text
-       xml:space="preserve"
-       style="font-size:9.2207px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.576294"
-       x="16.809546"
-       y="-88.945816"
-       id="text79"><tspan
-         sodipodi:role="line"
-         id="tspan79"
-         style="stroke-width:0.576294"
-         x="16.809546"
-         y="-88.945816">ကော့သောင်</tspan></text>
-    <path
        id="path1831"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.51384;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
        d="m 14.6526,-75.813046 a 54.416268,54.416268 0 0 1 -54.41627,54.416262 54.416268,54.416268 0 0 1 -54.41628,-54.416262 54.416268,54.416268 0 0 1 54.41628,-54.416264 54.416268,54.416268 0 0 1 54.41627,54.416264 z" />
     <path
        id="path30"
-       style="fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.617782;stroke-miterlimit:6.66667;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 174.55376,16.750238 12.32369,12.323721 V 183.75688 H 30.554956 L 19.870812,173.07274 V 16.750238 Z" />
+       style="fill:#f9f9f9;fill-opacity:1;stroke:#000000;stroke-width:0.697148;stroke-miterlimit:6.66667;stroke-dasharray:3.48574, 2.78859;stroke-dashoffset:0"
+       d="m 239.41572,16.789812 17.48813,11.051274 V 166.55271 H 35.071893 L 19.910386,156.97172 V 16.789812 Z"
+       sodipodi:insensitive="true" />
     <path
        id="path2"
-       style="fill:none;stroke:#000000;stroke-width:0.849777;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       inkscape:transform-center-x="-0.59015032"
-       inkscape:transform-center-y="0.55858056"
-       d="m 247.51706,37.318929 -3.15683,17.195039 -3.15684,17.19503 7.01528,-0.0755 7.01531,-0.0755 -3.85847,-17.1195 z" />
+       style="fill:none;stroke:#000000;stroke-width:0.605904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:transform-center-x="-0.42078543"
+       inkscape:transform-center-y="0.39827648"
+       d="m 226.29004,109.57352 -2.25087,12.26033 -2.25088,12.26032 5.00201,-0.0538 5.00202,-0.0538 -2.75115,-12.20646 z" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+       x="-13.320867"
+       y="162.91811"
+       id="text34"
+       transform="matrix(1.0783782,-0.37892658,0.29003518,0.82540427,0,0)"><tspan
+         sodipodi:role="line"
+         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+         x="-13.320867"
+         y="162.91811"
+         id="tspan32">ZAMBOANGA PHILIPPINES</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+         x="-13.320867"
+         y="168.32018"
+         id="tspan34" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+       x="-15.934077"
+       y="172.36972"
+       id="text42"
+       transform="matrix(1.0747607,-0.38906845,0.29779793,0.82263543,0,0)"><tspan
+         sodipodi:role="line"
+         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+         x="-15.934077"
+         y="172.36972"
+         id="tspan37" /><tspan
+         sodipodi:role="line"
+         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+         x="-15.934077"
+         y="177.77179"
+         id="tspan42">MELAKA SINGAPORE</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+         x="-15.934077"
+         y="183.17384"
+         id="tspan78">PENGERANG MALAYSIA</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 246.09747,40.754162 -53.91558,-0.04049"
+       id="path74" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.545404;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 96.609261,137.50707 37.682289,159.39762"
+       id="path78" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.548708;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 32.926568,141.47593 103.15662,117.5537"
+       id="path79" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.2207px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.576294"
+       x="197.51643"
+       y="36.539574"
+       id="text79"><tspan
+         sodipodi:role="line"
+         id="tspan79"
+         style="stroke-width:0.576294"
+         x="197.51643"
+         y="36.539574">ကော့သောင်</tspan></text>
     <path
        id="path3"
-       style="fill:none;stroke:#000000;stroke-width:0.849777;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       inkscape:transform-center-x="-0.59015032"
-       inkscape:transform-center-y="-0.55857927"
-       d="m 247.51706,106.81643 -3.15683,-17.195062 -3.15684,-17.19502 7.01528,0.0755 7.01531,0.0755 -3.85847,17.11951 z" />
+       style="fill:none;stroke:#000000;stroke-width:0.605904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:transform-center-x="-0.42078543"
+       inkscape:transform-center-y="-0.39827341"
+       d="m 226.29004,159.1263 -2.25087,-12.26034 -2.25088,-12.26031 5.00201,0.0538 5.00202,0.0538 -2.75115,12.20647 z" />
     <path
        id="path299"
-       style="fill:none;stroke:#000000;stroke-width:0.849777;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       inkscape:transform-center-x="-0.59014923"
-       inkscape:transform-center-y="0.55857992"
-       d="m 213.46994,72.769298 17.19501,3.15682 17.19505,3.15684 -0.0755,-7.01527 -0.0755,-7.0153 -17.11953,3.85845 z" />
+       style="fill:none;stroke:#000000;stroke-width:0.605904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:transform-center-x="-0.4207854"
+       inkscape:transform-center-y="0.39827384"
+       d="m 202.01392,134.85018 12.26031,2.25086 12.26033,2.25087 -0.0538,-5.00199 -0.0538,-5.00202 -12.20648,2.75114 z" />
     <path
        id="path1"
-       style="fill:none;stroke:#000000;stroke-width:0.849777;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       inkscape:transform-center-x="-0.59014941"
-       inkscape:transform-center-y="-0.55858424"
-       d="m 282.96742,72.769298 -17.19503,3.15682 -17.19504,3.15684 0.0755,-7.01527 0.0755,-7.0153 17.11951,3.85845 z" />
+       style="fill:none;stroke:#000000;stroke-width:0.605904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:transform-center-x="-0.42078472"
+       inkscape:transform-center-y="-0.3982812"
+       d="m 251.56668,134.85018 -12.26032,2.25086 -12.26032,2.25087 0.0538,-5.00199 0.0538,-5.00202 12.20648,2.75114 z" />
     <path
        id="path4"
-       style="fill:none;stroke:#000000;stroke-width:0.849777;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.69955, 1.69955;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       inkscape:transform-center-x="-0.59014437"
-       inkscape:transform-center-y="0.55858228"
-       d="m 272.29363,47.000491 -14.39095,9.926497 -14.39095,9.92652 5.01395,4.90714 5.01398,4.90718 9.37698,-14.83368 z" />
+       style="fill:none;stroke:#000000;stroke-width:0.605904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.2118, 1.2118;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:transform-center-x="-0.42078547"
+       inkscape:transform-center-y="0.39827735"
+       d="m 243.95611,116.47662 -10.26097,7.07775 -10.26096,7.07776 3.57502,3.49886 3.57504,3.4989 6.68593,-10.57664 z" />
     <path
        id="path5"
-       style="fill:none;stroke:#000000;stroke-width:0.849777;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.69955, 1.69955;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       inkscape:transform-center-x="-0.59014389"
-       inkscape:transform-center-y="-0.55858298"
-       d="m 223.15149,96.142628 9.9265,-14.39093 9.9265,-14.39096 4.90716,5.01396 4.90716,5.01396 -14.83366,9.37699 z" />
+       style="fill:none;stroke:#000000;stroke-width:0.605904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.2118, 1.2118;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:transform-center-x="-0.42077693"
+       inkscape:transform-center-y="-0.39827671"
+       d="m 208.91701,151.51572 7.07775,-10.26096 7.07775,-10.26097 3.49888,3.57503 3.49887,3.57503 -10.57662,6.68594 z" />
     <path
        id="path6"
-       style="fill:none;stroke:#000000;stroke-width:0.849777;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.69955, 1.69955;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       inkscape:transform-center-x="-0.59014857"
-       inkscape:transform-center-y="0.55858301"
-       d="m 223.15151,47.000491 9.92648,14.390937 9.9265,14.39096 4.90716,-5.01395 4.90717,-5.01398 -14.83367,-9.37698 z" />
+       style="fill:none;stroke:#000000;stroke-width:0.605904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.2118, 1.2118;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:transform-center-x="-0.42078457"
+       inkscape:transform-center-y="0.39827896"
+       d="m 208.91703,116.47662 7.07773,10.26096 7.07775,10.26098 3.49888,-3.57503 3.49888,-3.57504 -10.57663,-6.68593 z" />
     <path
        id="path7"
-       style="fill:none;stroke:#000000;stroke-width:0.849777;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.69955, 1.69955;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       inkscape:transform-center-x="-0.59014905"
-       inkscape:transform-center-y="-0.55858425"
-       d="m 272.29364,96.142628 -14.39096,-9.9265 -14.39094,-9.92651 5.01396,-4.90715 5.01396,-4.90716 9.37698,14.83366 z" />
+       style="fill:none;stroke:#000000;stroke-width:0.605904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.2118, 1.2118;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:transform-center-x="-0.42078168"
+       inkscape:transform-center-y="-0.39827509"
+       d="m 243.95611,151.51572 -10.26097,-7.07775 -10.26096,-7.07775 3.57503,-3.49887 3.57503,-3.49888 6.68593,10.57662 z" />
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.849777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-opacity:1"
-       d="m 228.43382,73.382716 19.7916,-19.847143 19.84718,19.847143 -19.84718,19.847091 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.605904;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-opacity:1"
+       d="m 212.6834,135.28755 14.11171,-14.15132 14.15134,14.15132 -14.15134,14.15128 z"
        id="path35" />
     <circle
-       cy="73.38269"
-       cx="248.25365"
+       cy="135.28752"
+       cx="226.81514"
        id="circle1025"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.849777;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       r="11.308305" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.605904;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       r="8.062993" />
     <text
        id="text1279"
-       y="72.266785"
-       x="246.55028"
-       style="font-size:4.98362px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.0642127;stroke-dasharray:none;stroke-opacity:1"
+       y="134.49187"
+       x="225.60062"
+       style="font-size:3.5534px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.0457846;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="font-size:4.98362px;fill:#000000;stroke:#000000;stroke-width:0.0642127;stroke-dasharray:none;stroke-opacity:1"
-         y="72.266785"
-         x="246.55028"
+         style="font-size:3.5534px;fill:#000000;stroke:#000000;stroke-width:0.0457846;stroke-dasharray:none;stroke-opacity:1"
+         y="134.49187"
+         x="225.60062"
          id="tspan1277"
          sodipodi:role="line">V</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.625436;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-opacity:1"
-       d="m 248.28714,83.387728 -5.53392,-9.51089 11.00369,-0.0102 z"
+       style="fill:none;stroke:#000000;stroke-width:0.445945;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-opacity:1"
+       d="m 226.83912,142.42128 -3.94577,-6.78141 7.84579,-0.007 z"
        id="path16757" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.718911;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.5;stroke-dasharray:2.15673, 0.718911;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 242.60809,73.387088 5.41927,-9.5767 5.56031,9.4955 z"
+       style="fill:none;stroke:#000000;stroke-width:0.512594;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.5;stroke-dasharray:1.53778, 0.512594;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 222.78987,135.29067 3.86402,-6.82833 3.96458,6.77043 z"
        id="path16759" />
     <text
        id="text8"
-       y="78.695702"
-       x="246.46773"
-       style="font-size:5.22514px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.0673248;stroke-dasharray:none;stroke-opacity:1"
+       y="139.07579"
+       x="225.54175"
+       style="font-size:3.7256px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.0480036;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="font-size:5.22514px;fill:#000000;stroke:#000000;stroke-width:0.0673248;stroke-dasharray:none;stroke-opacity:1"
-         y="78.695702"
-         x="246.46773"
+         style="font-size:3.7256px;fill:#000000;stroke:#000000;stroke-width:0.0480036;stroke-dasharray:none;stroke-opacity:1"
+         y="139.07579"
+         x="225.54175"
          id="tspan8"
          sodipodi:role="line">A</tspan></text>
-    <path
-       id="path1-4"
-       style="fill:#e9e9e9;stroke:#000000;stroke-width:0.682306;stroke-dasharray:none"
-       inkscape:transform-center-x="3.8118782"
-       inkscape:transform-center-y="-0.0791484"
-       d="M 52.603019,29.296177 60.500977,42.659222 52.877229,56.180594 37.355529,56.33894 29.457552,42.975896 37.0813,29.454524 Z" />
-    <text
-       xml:space="preserve"
-       style="font-size:8.68342px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.407039"
-       x="31.972519"
-       y="51.738167"
-       id="text2-2"
-       transform="scale(1.1346169,0.88135476)"><tspan
-         sodipodi:role="line"
-         id="tspan2"
-         style="fill:#000000;stroke:#000000;stroke-width:0.407039"
+    <g
+       id="g1">
+      <path
+         id="path1-4"
+         style="fill:#f9f9f9;stroke:#000000;stroke-width:0.682306;stroke-dasharray:none"
+         inkscape:transform-center-x="3.8118782"
+         inkscape:transform-center-y="-0.0791484"
+         d="M 52.603019,29.296177 60.500977,42.659222 52.877229,56.180594 37.355529,56.33894 29.457552,42.975896 37.0813,29.454524 Z" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.68342px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.407039"
          x="31.972519"
-         y="51.738167">SRD</tspan></text>
+         y="51.738167"
+         id="text2-2"
+         transform="scale(1.1346169,0.88135476)"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="fill:#000000;stroke:#000000;stroke-width:0.407039"
+           x="31.972519"
+           y="51.738167">SRD</tspan></text>
+    </g>
     <path
        id="path40"
        style="fill:#f2f2f2;stroke:#4d4d4d;stroke-width:0.4;stroke-dasharray:none"
@@ -718,19 +650,19 @@
     <text
        xml:space="preserve"
        style="font-size:5.23089px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#000000;stroke-width:0.245198"
-       x="94.393471"
-       y="-20.386206"
+       x="23.079674"
+       y="76.443306"
        id="text17"
        transform="scale(1.1018459,0.90756793)"><tspan
          sodipodi:role="line"
          id="tspan16"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;stroke-width:0.245198"
-         x="94.393471"
-         y="-20.386206" /><tspan
+         x="23.079674"
+         y="76.443306" /><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;stroke-width:0.245198"
-         x="94.393471"
-         y="-13.847601"
+         x="23.079674"
+         y="82.981918"
          id="tspan17">SRT UNIN-LHR</tspan></text>
     <text
        xml:space="preserve"
@@ -744,52 +676,6 @@
          style="fill:#000000;stroke:#000000;stroke-width:0.160891"
          x="135.97015"
          y="-15.018597">TZH</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:6.60774px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.146839;stroke-dasharray:0.293677, 0.293677;paint-order:fill markers stroke"
-       x="264.30069"
-       y="209.23611"
-       id="text3"><tspan
-         sodipodi:role="line"
-         id="tspan3"
-         style="fill:#000000;stroke:#000000;stroke-width:0.146839"
-         x="264.30069"
-         y="209.23611" /><tspan
-         sodipodi:role="line"
-         style="fill:#000000;stroke:#000000;stroke-width:0.146839"
-         x="264.30069"
-         y="217.49579"
-         id="tspan4">VŨNGTÀU</tspan><tspan
-         sodipodi:role="line"
-         style="fill:#000000;stroke:#000000;stroke-width:0.146839"
-         x="264.30069"
-         y="225.75546"
-         id="tspan5">ประเทศไทย </tspan><tspan
-         sodipodi:role="line"
-         style="fill:#000000;stroke:#000000;stroke-width:0.146839"
-         x="264.30069"
-         y="234.01514"
-         id="tspan6">ZAMBOANGA PHILIPPINES</tspan><tspan
-         sodipodi:role="line"
-         style="fill:#000000;stroke:#000000;stroke-width:0.146839"
-         x="264.30069"
-         y="242.27481"
-         id="tspan7">MELAKA SINGAPOREPENGERANG MALAYSIA</tspan><tspan
-         sodipodi:role="line"
-         style="fill:#000000;stroke:#000000;stroke-width:0.146839"
-         x="264.30069"
-         y="250.53448"
-         id="tspan9">TIMOR-LESTE </tspan><tspan
-         sodipodi:role="line"
-         style="fill:#000000;stroke:#000000;stroke-width:0.146839"
-         x="264.30069"
-         y="258.79416"
-         id="tspan19"> TASMANIA </tspan><tspan
-         sodipodi:role="line"
-         style="fill:#000000;stroke:#000000;stroke-width:0.146839"
-         x="264.30069"
-         y="267.05383"
-         id="tspan20">ကော့သောင်</tspan></text>
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.4;paint-order:fill markers stroke"
        id="path8"
@@ -802,5 +688,77 @@
        sodipodi:end="1.8325957"
        sodipodi:arc-type="slice"
        d="m 177.30653,-16.938715 a 7.5527596,7.5527596 0 0 1 -2.95493,5.992007 7.5527596,7.5527596 0 0 1 -6.55263,1.3033987 l 1.9548,-7.2954057 z" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.76447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.175074;stroke-dasharray:none"
+       x="75.918388"
+       y="59.955662"
+       id="text2"
+       transform="matrix(1.1428371,-0.02020766,0.01546719,0.87474186,0,0)"><tspan
+         sodipodi:role="line"
+         style="font-size:5.76447px;fill:#000000;stroke:#000000;stroke-width:0.175074;stroke-dasharray:none"
+         x="75.918388"
+         y="59.955662"
+         id="tspan10">VŨNGTÀU</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.720228;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 86.443621,54.498498 72.543969,-0.5218"
+       id="path12" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.753631;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 86.845041,70.170508 H 158.76089"
+       id="path13" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.753631;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 86.381731,87.876293 H 158.29756"
+       id="path14" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.350531;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 29.320381,130.73838 61.021732,120.06547"
+       id="path15" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.92411px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.240095;stroke-dasharray:none"
+       x="75.709335"
+       y="76.439072"
+       id="text26"
+       transform="scale(1.1430157,0.87487863)"><tspan
+         sodipodi:role="line"
+         style="font-size:7.92411px;fill:#000000;stroke:#000000;stroke-width:0.240095;stroke-dasharray:none"
+         x="75.709335"
+         y="76.439072"
+         id="tspan26">ประเทศไทย</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.92411px;fill:#000000;stroke:#000000;stroke-width:0.240095;stroke-dasharray:none"
+         x="75.709335"
+         y="86.344208"
+         id="tspan68"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.76447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.175074;stroke-dasharray:none"
+       x="76.424454"
+       y="96.411316"
+       id="text62"
+       transform="scale(1.1430157,0.87487863)"><tspan
+         sodipodi:role="line"
+         style="font-size:5.76447px;fill:#000000;stroke:#000000;stroke-width:0.175074;stroke-dasharray:none"
+         x="76.424454"
+         y="96.411316"
+         id="tspan63">TIMOR-LESTE </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.32165px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:0;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+       x="20.453503"
+       y="130.92259"
+       id="text65"
+       transform="matrix(1.2568848,-0.41092089,0.31452402,0.96203555,-38.831519,6.0889257)"><tspan
+         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+         x="20.453503"
+         y="130.92259"
+         id="tspan64">&#10;</tspan><tspan
+         style="font-size:4.32165px;fill:#000000;stroke:#000000;stroke-width:0.131254;stroke-dasharray:none"
+         x="20.453503"
+         y="136.32466"
+         id="tspan65">TASMANIA </tspan></text>
   </g>
 </svg>
