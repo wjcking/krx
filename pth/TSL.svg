@@ -311,9 +311,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="397.96869"
-     inkscape:cx="561.68728"
-     inkscape:zoom="1.16969"
+     inkscape:cy="397.03647"
+     inkscape:cx="561.25984"
+     inkscape:zoom="1.2757015"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -863,17 +863,6 @@
        id="circle1025"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.678414;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-dashoffset:0" />
     <text
-       id="text1279"
-       y="105.84208"
-       x="171.33952"
-       style="font-size:11.2649px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.844872"
-       xml:space="preserve"><tspan
-         style="fill:#000000;stroke-width:0.844872"
-         y="105.84208"
-         x="171.33952"
-         id="tspan1277"
-         sodipodi:role="line">V</tspan></text>
-    <text
        xml:space="preserve"
        style="font-size:7.43769px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.163733;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
        x="75.442215"
@@ -903,14 +892,14 @@
          y="212.5992">TXK</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff;stroke:#0000ff;stroke-width:0.163733;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
+       style="font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#008000;stroke:#008000;stroke-width:0.163733;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
        x="189.37369"
        y="-64.610939"
        id="text58"
        transform="rotate(45)"><tspan
          sodipodi:role="line"
          id="tspan58"
-         style="font-size:6.35px;fill:#0000ff;stroke:#0000ff;stroke-width:0.163733;stroke-dasharray:none"
+         style="font-size:6.35px;fill:#008000;stroke:#008000;stroke-width:0.163733;stroke-dasharray:none"
          x="189.37369"
          y="-64.610939">HRS</tspan></text>
     <path
@@ -924,15 +913,15 @@
     <text
        xml:space="preserve"
        style="font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#d45500;stroke:#d45500;stroke-width:0.163733;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
-       x="187.65739"
-       y="-36.552223"
+       x="188.22314"
+       y="-36.556301"
        id="text2"
        transform="rotate(45.388443)"><tspan
          sodipodi:role="line"
          id="tspan2"
          style="font-size:6.35px;fill:#d45500;stroke:#d45500;stroke-width:0.163733;stroke-dasharray:none"
-         x="187.65739"
-         y="-36.552223">WLS</tspan></text>
+         x="188.22314"
+         y="-36.556301">LWS</tspan></text>
     <path
        inkscape:original-d="m 288.8551,42.764134 c 2.6e-4,7.640431 2.6e-4,15.280598 0,22.920502"
        inkscape:path-effect="#path-effect3"
@@ -942,14 +931,14 @@
        transform="matrix(0.43532916,-0.43532916,0.43532916,0.43532916,12.633705,216.50297)" />
     <text
        xml:space="preserve"
-       style="font-size:6.94284px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#00d400;stroke:#00d400;stroke-width:0.179019;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
+       style="font-size:6.94284px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ff0000;stroke:#ff0000;stroke-width:0.179019;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
        x="45.332352"
        y="183.23836"
        id="text5"
        transform="rotate(-45)"><tspan
          sodipodi:role="line"
          id="tspan5"
-         style="font-size:6.94284px;fill:#00d400;stroke:#00d400;stroke-width:0.179019;stroke-dasharray:none"
+         style="font-size:6.94284px;fill:#ff0000;stroke:#ff0000;stroke-width:0.179019;stroke-dasharray:none"
          x="45.332352"
          y="183.23836">GSK</tspan></text>
     <text
@@ -964,5 +953,9 @@
          style="font-size:6.35px;fill:#ff0000;stroke:#ff0000;stroke-width:0.163733;stroke-dasharray:none"
          x="265.61227"
          y="42.894718">DWF</tspan></text>
+    <path
+       id="rect1"
+       style="stroke-width:0.0988427;paint-order:fill markers stroke"
+       d="m 174.66847,96.712195 h 1.428 v 8.999995 h -1.428 z" />
   </g>
 </svg>
