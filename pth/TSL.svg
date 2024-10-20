@@ -311,8 +311,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="540.47957"
-     inkscape:cx="601.44716"
+     inkscape:cy="380.39288"
+     inkscape:cx="384.88129"
      inkscape:zoom="1.3367758"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -343,7 +343,7 @@
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.750767;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
        id="path1166"
-       d="M 48.966564,52.517254 52.37136,46.639941"
+       d="m -10.213454,56.67371 3.4047957,-5.877313"
        style="fill:none;stroke:#000000;stroke-width:0.632891;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path932"
@@ -377,18 +377,18 @@
     <path
        id="circle1156"
        style="fill:none;stroke:#000000;stroke-width:0.589337"
-       d="m 49.554355,44.635649 a 2.8480519,2.8480519 0 0 1 -2.848051,2.848054 2.8480519,2.8480519 0 0 1 -2.848054,-2.848054 2.8480519,2.8480519 0 0 1 2.848054,-2.848051 2.8480519,2.8480519 0 0 1 2.848051,2.848051 z" />
+       d="m -9.6256633,48.792105 a 2.8480519,2.8480519 0 0 1 -2.8480517,2.848054 2.8480519,2.8480519 0 0 1 -2.848054,-2.848054 2.8480519,2.8480519 0 0 1 2.848054,-2.848051 2.8480519,2.8480519 0 0 1 2.8480517,2.848051 z" />
     <path
        id="path1158"
-       d="m 46.706304,47.226701 v 2.499731"
+       d="m -12.473715,51.383157 v 2.499731"
        style="fill:none;stroke:#000000;stroke-width:0.343764px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        id="path1160"
-       d="m 45.582932,57.338273 -2.096241,7.823281"
+       d="m -13.597087,61.494729 -2.096241,7.823281"
        style="fill:none;stroke:#000000;stroke-width:0.624247;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path1162"
-       d="m 48.078317,57.218788 2.096242,7.82328"
+       d="m -11.101702,61.375244 2.0962427,7.82328"
        style="fill:none;stroke:#000000;stroke-width:0.624247;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
     <circle
        r="5.2641454"
@@ -566,35 +566,35 @@
        id="path1220"
        d="m 218.34627,93.01006 c -0.95501,-0.777062 -2.1865,-1.206938 -3.41763,-1.192986 -1.23112,0.01395 -2.45256,0.471627 -3.38971,1.270132 -0.93715,0.798506 -1.58292,1.931797 -1.79213,3.145096 -0.20922,1.213298 0.0197,2.497417 0.63531,3.563671 0.61561,1.066257 1.61322,1.906567 2.76858,2.332027 1.15535,0.42547 2.4597,0.43286 3.6198,0.0205 1.1601,-0.41234 2.16717,-1.2413 2.79482,-2.300511 0.62764,-1.05921 0.8711,-2.340653 0.67565,-3.556244 -0.0239,-0.148869 -0.0542,-0.296719 -0.0907,-0.443017"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.37;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="matrix(1.3783163,0,0,1.3783163,-311.28922,-78.799042)" />
+       transform="matrix(1.3783163,0,0,1.3783163,-251.18828,-87.309885)" />
     <text
        xml:space="preserve"
        style="font-size:6.67053px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.312681"
-       x="-19.102585"
-       y="57.513687"
+       x="40.998367"
+       y="49.00285"
        id="text7392"><tspan
          sodipodi:role="line"
          id="tspan7390"
          style="stroke-width:0.312681"
-         x="-19.102585"
-         y="57.513687">An</tspan></text>
+         x="40.998367"
+         y="49.00285">An</tspan></text>
     <circle
        r="3.4241514"
-       cy="50.025406"
-       cx="-8.0149641"
+       cy="41.514568"
+       cx="52.085983"
        id="circle9602"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.509977;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
     <text
        xml:space="preserve"
        style="font-size:5.49129px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.257405"
-       x="-9.8918715"
-       y="52.026985"
+       x="50.209076"
+       y="43.516148"
        id="text12868"><tspan
          sodipodi:role="line"
          id="tspan12866"
          style="stroke-width:0.257405"
-         x="-9.8918715"
-         y="52.026985">V</tspan></text>
+         x="50.209076"
+         y="43.516148">V</tspan></text>
     <text
        id="text1137"
        y="21.251398"
@@ -613,16 +613,16 @@
          sodipodi:role="line" /></text>
     <text
        xml:space="preserve"
-       style="font-size:6.5125px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.159765;stroke-dasharray:none;paint-order:fill markers stroke"
-       x="28.500374"
-       y="40.041203"
+       style="font-size:6.27208px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.153867;stroke-dasharray:none;paint-order:fill markers stroke"
+       x="27.762056"
+       y="39.859741"
        id="text1"
        transform="scale(1.1854857,0.84353612)"><tspan
          sodipodi:role="line"
          id="tspan1"
-         style="stroke:#000000;stroke-width:0.159765;stroke-dasharray:none"
-         x="28.500374"
-         y="40.041203">JXS.FKS</tspan></text>
+         style="stroke:#000000;stroke-width:0.153867;stroke-dasharray:none"
+         x="27.762056"
+         y="39.859741">FKS:JXS</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.25482px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.14;stroke-dasharray:none;paint-order:fill markers stroke"
@@ -666,10 +666,10 @@
     <path
        id="rect1168"
        style="fill:none;stroke:#000000;stroke-width:0.652713"
-       d="m 46.706299,57.816228 c 1.154597,0 2.084111,-0.929513 2.084111,-2.084108 v -4.168221 c 0,-1.154595 -0.929514,-2.084106 -2.084111,-2.084106 -1.154596,0 -2.084109,0.929511 -2.084109,2.084106 v 4.168221 c 0,1.154595 0.929513,2.084108 2.084109,2.084108 z" />
+       d="m -12.47372,61.972684 c 1.154597,0 2.084112,-0.929513 2.084112,-2.084108 v -4.168221 c 0,-1.154595 -0.929515,-2.084106 -2.084112,-2.084106 -1.154596,0 -2.084109,0.929511 -2.084109,2.084106 v 4.168221 c 0,1.154595 0.929513,2.084108 2.084109,2.084108 z" />
     <path
        id="path23"
-       d="M 44.430554,52.517254 41.025758,46.639941"
+       d="m -14.749465,56.67371 -3.404796,-5.877313"
        style="fill:none;stroke:#000000;stroke-width:0.632891;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
     <path
        inkscape:original-d="m 288.8551,42.764134 c 2.6e-4,7.640431 2.6e-4,15.280598 0,22.920502"
@@ -688,14 +688,14 @@
     <text
        xml:space="preserve"
        style="font-size:13.2859px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.0784594;stroke-dasharray:none;stroke-dashoffset:0;paint-order:fill markers stroke"
-       x="25.23197"
-       y="181.26428"
+       x="27.975311"
+       y="177.86565"
        id="text32"
        transform="scale(1.2265155,0.81531787)"><tspan
          sodipodi:role="line"
          style="stroke-width:0.0784594;stroke-dasharray:none"
-         x="25.23197"
-         y="181.26428"
+         x="27.975311"
+         y="177.86565"
          id="tspan55">TSL</tspan></text>
     <text
        xml:space="preserve"
@@ -973,5 +973,17 @@
          style="fill:#000000;stroke:#000000;stroke-width:0.159765;stroke-dasharray:none"
          x="26.726025"
          y="88.269447" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.27208px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.153867;stroke-dasharray:none;paint-order:fill markers stroke"
+       x="27.790342"
+       y="76.161018"
+       id="text8"
+       transform="scale(1.1854857,0.84353612)"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="stroke:#000000;stroke-width:0.153867;stroke-dasharray:none"
+         x="27.790342"
+         y="76.161018">ZTS.FST</tspan></text>
   </g>
 </svg>
