@@ -1,9 +1,9 @@
 ﻿srt
 
 trs:tls
-rxs
-	krs:kls
-	rls
-lks
+krs:kls
+	rxs
+	lks
+rls
 
 kbt:pd.ftn
