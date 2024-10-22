@@ -34,20 +34,3 @@
 	
 	//康科特:康杰特
 检测
-
-srt.kst:rkb
-	kbt.kzt.jkb
-	lsk
-	
-	//Application
-	//BUSINESS CLERK
-	//Liaison Staff 
-	krl:kbt
-		pls
-		blz.klk
-		kls.trf^d
-	drs
-	
-	dls
-	tsl
-trs

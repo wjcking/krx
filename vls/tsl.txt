@@ -1,6 +1,6 @@
 ﻿trs
 vts
-	lst //AV
+	lst //ATV
 	lts^d
 	rsk.kst.fsk:skr
 
@@ -9,15 +9,15 @@ vts
 	//地米 切彻 闪但 
 	//米希纶 
 	tri^on:trk 
+	//LSK:LI N~*RI M(IV)W
 	//TIRON TITANIUM
 	//RCK^AWY.ASK.FBK:CO
 	//RFB.RBK^Y
-	//LSK:LI N~*RI M(IV)W
-	txk
+	txh
 
 	//tch.ark.lnt.tas^l
 	//irtzk
-	ktz^l
+	atz.txk
 
 	//水米切木束
 	//hzh.kts.agzhs^w
