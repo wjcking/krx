@@ -15,22 +15,22 @@ intellyer@eclipso.email intellyer20010101
 *https://app.infinityfree.net/accounts/epiz_32191325/login
 *https://filemanager.ai/new/#/c/185.27.134.11/epiz_32191325/eyJ0IjoiZnRwIiwiYyI6eyJwIjoiYWhCSHV2SnA4YiIsImkiOiJcLyJ9fQ==
 */
-InfinityFree Requre:www
-  intellyer@outlook.com
-  enter20010101
-//Panel Ftp Hostname 	
-ftpupload.net
-
+//InfinityFree Requre:www
+//  intellyer@outlook.com
+//  enter20010101
+////Panel Ftp Hostname 	
+//ftpupload.net
+//
 intel.great-site.net
-  Username	epiz_32191325
-  Password:ahBHuvJp8b
-  MySql:  sql305.epizy.com Port:3306
-  WebsiteIP:185.27.134.113
+//  Username	epiz_32191325
+//  Password:ahBHuvJp8b
+//  MySql:  sql305.epizy.com Port:3306
+//  WebsiteIP:185.27.134.113
 brt.rf.gd
-  Username	epiz_32871441
-  Password: lH2KI1fBY3f96h
-MySql: sql202.epizy.com Port:3306
-WebsiteIP:185.27.134.179
+//  Username	epiz_32871441
+//  Password: lH2KI1fBY3f96h
+//MySql: sql202.epizy.com Port:3306
+//WebsiteIP:185.27.134.179
 
 https://infini-cloud.net/en/
 intellyer
