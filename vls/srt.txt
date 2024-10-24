@@ -8,7 +8,7 @@
 *	//ALSAMLADW ALZAMALA DWNANGVL TUNAZAM
 *	//FRIENDLY SHIP FELLOW SHIP
 *	//FRATERNITY ASSOCIATION 
-*	德瑞斯利伊 //联谊
+*	德瑞斯利伊&联谊
 *
 *赛德环境检测
 *	赛德海泱检测
@@ -24,7 +24,7 @@
 	研发 娱乐
 	
 	路丝克
-		英用:中力:职员
+		英用:朱立:职员
 			咨讯:顾问
 			会计^快记 
 			 
